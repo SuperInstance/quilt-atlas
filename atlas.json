@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-28T19:02:57.099Z",
+  "generated_at_utc": "2026-09-28T19:28:14.422Z",
   "account": "SuperInstance",
-  "total_repos": 4848,
+  "total_repos": 4849,
   "pages_fetched": 49,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2502,
+    "other": 2503,
     "fleet": 1555,
     "qthe": 460,
     "quilt": 246,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2502
+      "other": 2503
     },
     "description": {
       "fleet": 1153,
@@ -1928,6 +1928,7 @@
       "provider-abstraction-layer",
       "ptx-bench",
       "ptx-room",
+      "PuddnHead",
       "purplepincher-org-pages",
       "purplepincher-supersite",
       "PX4-Autopilot",
@@ -25066,6 +25067,12 @@
       "",
       "Python"
     ],
+    "PuddnHead": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "purplepincher": [
       "fleet",
       "description",
@@ -33991,11 +33998,57 @@
   },
   "top_motion": [
     {
+      "repo": "MicroMoth-quilt",
+      "workflows": [
+        "build.yml"
+      ],
+      "pushed_at": "2026-09-28T19:21:41Z",
+      "size_kb": 9952
+    },
+    {
+      "repo": "PuddnHead",
+      "workflows": [],
+      "pushed_at": "2026-09-28T19:20:19Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "fleet-seeds",
+      "workflows": [],
+      "pushed_at": "2026-09-28T19:18:17Z",
+      "size_kb": 2646
+    },
+    {
+      "repo": "jev-garden",
+      "workflows": [
+        "garden.yml"
+      ],
+      "pushed_at": "2026-09-28T19:16:07Z",
+      "size_kb": 111
+    },
+    {
+      "repo": "quilt-jepa",
+      "workflows": [],
+      "pushed_at": "2026-09-28T19:14:04Z",
+      "size_kb": 47
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "ci.yml",
+        "landing-page.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml"
+      ],
+      "pushed_at": "2026-09-28T19:07:23Z",
+      "size_kb": 3615764
+    },
+    {
       "repo": "quilt-atlas",
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-09-28T19:01:54Z",
+      "pushed_at": "2026-09-28T19:02:58Z",
       "size_kb": 90
     },
     {
@@ -34015,15 +34068,7 @@
         "smoke-tests.yml"
       ],
       "pushed_at": "2026-09-28T18:58:52Z",
-      "size_kb": 7367
-    },
-    {
-      "repo": "MicroMoth-quilt",
-      "workflows": [
-        "build.yml"
-      ],
-      "pushed_at": "2026-09-28T18:54:39Z",
-      "size_kb": 9952
+      "size_kb": 7559
     },
     {
       "repo": "pincher",
@@ -34038,24 +34083,10 @@
       "size_kb": 1489
     },
     {
-      "repo": "jev-garden",
-      "workflows": [
-        "garden.yml"
-      ],
-      "pushed_at": "2026-09-28T18:43:01Z",
-      "size_kb": 111
-    },
-    {
-      "repo": "quilt-jepa",
-      "workflows": [],
-      "pushed_at": "2026-09-28T18:30:37Z",
-      "size_kb": 47
-    },
-    {
       "repo": "qthe",
       "workflows": [],
       "pushed_at": "2026-09-28T18:10:50Z",
-      "size_kb": 2184
+      "size_kb": 2195
     },
     {
       "repo": "quilt-research-canons",
@@ -34074,18 +34105,6 @@
       "workflows": [],
       "pushed_at": "2026-09-28T17:46:21Z",
       "size_kb": 4
-    },
-    {
-      "repo": "AI-Writings",
-      "workflows": [
-        "ci.yml",
-        "landing-page.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml"
-      ],
-      "pushed_at": "2026-09-28T17:45:12Z",
-      "size_kb": 3615764
     },
     {
       "repo": "quilt",
@@ -34117,12 +34136,6 @@
       "workflows": [],
       "pushed_at": "2026-09-28T17:28:01Z",
       "size_kb": 9
-    },
-    {
-      "repo": "fleet-seeds",
-      "workflows": [],
-      "pushed_at": "2026-09-28T17:21:29Z",
-      "size_kb": 2646
     },
     {
       "repo": "quilt-codespace-lab",
@@ -34180,17 +34193,6 @@
       ],
       "pushed_at": "2026-09-28T11:34:51Z",
       "size_kb": 52353
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-09-28T11:26:04Z",
-      "size_kb": 8613
     }
   ],
   "notes": [
@@ -34198,6 +34200,7 @@
     "per-repo evidence lives in classification: [family, stage in {name,description,none}, matched keywords \"|\" joined, language] — audit the map, do not trust it blind",
     "CI coverage is measured only on the top_motion slice (API economy); absence elsewhere is UNMEASURED, not zero",
     "pagination follows Link headers (rel=next) until the account is exhausted, bounded by a hard safety cap of 120 pages (12000 repos); pagination_cap_hit=true would mean the cap bound the run and the true count is unknown-by-this-run",
-    "fleet keyword audit (54-c): 30-repo deterministic sample of the description-stage fleet population (then 1153) read by hand — 25/30 genuinely fleet (83% strict, 27/30 counting defensible multi-agent-theory borderlines) ⇒ synonym table kept unchanged; 53-e suspicion that agent/lane/receipt hoover broadly is refuted on this account (surface at audit time: agent=844 · fleet=425 · crab=9 · lane=6 · receipt=6 · seeds=2); misses receipted in worklog 54-c (lau-compilers \"agent DSL\" tail-match, superinstance-embedder verb-matched \"seeds\")"
+    "fleet keyword audit (54-c): 30-repo deterministic sample of the description-stage fleet population (then 1153) read by hand — 25/30 genuinely fleet (83% strict, 27/30 counting defensible multi-agent-theory borderlines) ⇒ synonym table kept unchanged; 53-e suspicion that agent/lane/receipt hoover broadly is refuted on this account (surface at audit time: agent=844 · fleet=425 · crab=9 · lane=6 · receipt=6 · seeds=2); misses receipted in worklog 54-c (lau-compilers \"agent DSL\" tail-match, superinstance-embedder verb-matched \"seeds\")",
+    "qthe keyword audit (55-c): 30-repo deterministic sample of the description-stage qthe population (then 427; surface ternary=402 · canon=25) read by hand — 26/30 genuinely qthe (87% strict, 28/30 = 93% counting two defensible ternary/fleet tie-zone borderlines: flux-realm \"A2A orchestration with ternary event manifolds\", superinstance-protocol \"ternary conservation auditing for A2A messaging\") ⇒ synonym table kept unchanged; the 54-c \"canonical\"-adjective suspicion CONFIRMED but bounded — full census of all 25 canon-surface repos: 9 adjective collisions (substrate-opposites, observation-primitive, compress-huffman-rs, huffman-code, plato-tile-import, plato-tile-spec, plato-tile-spec-c, jetson-grand-design, flux-isa-authority) vs 16 genuine canon-noun usages (\"R10 substrate canon point as code\", \"The Quilt canon as code\", \"canon-aware\", \"the answer is canon\"); residual ≈ 9 repos = 2% of desc-stage qthe, priced NOT fixed (family precision 87% ≥ 70% bar; stability rule forbids unforced reclassification); ternary surface clean in sample + red-flag scan of all 402 (ternary-compiler/-python are three-valued-logic compilers, not ?: operators); strategy-ecology stays qthe by receipted precedence (ternary substantive, fleet-subject tie zone — the 54-c named example)"
   ]
 }

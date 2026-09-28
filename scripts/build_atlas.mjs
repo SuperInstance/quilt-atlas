@@ -24,6 +24,12 @@
 //   Env-gated ATLAS_DUMP=<path> writes a per-repo audit dump
 //   (name, description, family, stage, hits) so keyword-precision audits
 //   (54-c fleet audit and successors) read real text, not guesses.
+//
+// v3.1 (task 55-c): NO classifier change. qthe synonym audit executed per the
+//   54-c queued finding: 30-repo deterministic sample of the desc-stage qthe
+//   population read by hand (87% strict precision, ≥ 70% bar) ⇒ synonym table
+//   KEPT; the "canonical"-adjective residual is census-receipted in notes.
+//   Audit verdict lives in atlas.json notes so scheduled regens carry it.
 
 import { writeFileSync, readFileSync } from 'node:fs';
 
@@ -164,6 +170,7 @@ const atlas = {
     'CI coverage is measured only on the top_motion slice (API economy); absence elsewhere is UNMEASURED, not zero',
     'pagination follows Link headers (rel=next) until the account is exhausted, bounded by a hard safety cap of 120 pages (12000 repos); pagination_cap_hit=true would mean the cap bound the run and the true count is unknown-by-this-run',
     'fleet keyword audit (54-c): 30-repo deterministic sample of the description-stage fleet population (then 1153) read by hand — 25/30 genuinely fleet (83% strict, 27/30 counting defensible multi-agent-theory borderlines) ⇒ synonym table kept unchanged; 53-e suspicion that agent/lane/receipt hoover broadly is refuted on this account (surface at audit time: agent=844 · fleet=425 · crab=9 · lane=6 · receipt=6 · seeds=2); misses receipted in worklog 54-c (lau-compilers "agent DSL" tail-match, superinstance-embedder verb-matched "seeds")',
+    'qthe keyword audit (55-c): 30-repo deterministic sample of the description-stage qthe population (then 427; surface ternary=402 · canon=25) read by hand — 26/30 genuinely qthe (87% strict, 28/30 = 93% counting two defensible ternary/fleet tie-zone borderlines: flux-realm "A2A orchestration with ternary event manifolds", superinstance-protocol "ternary conservation auditing for A2A messaging") ⇒ synonym table kept unchanged; the 54-c "canonical"-adjective suspicion CONFIRMED but bounded — full census of all 25 canon-surface repos: 9 adjective collisions (substrate-opposites, observation-primitive, compress-huffman-rs, huffman-code, plato-tile-import, plato-tile-spec, plato-tile-spec-c, jetson-grand-design, flux-isa-authority) vs 16 genuine canon-noun usages ("R10 substrate canon point as code", "The Quilt canon as code", "canon-aware", "the answer is canon"); residual ≈ 9 repos = 2% of desc-stage qthe, priced NOT fixed (family precision 87% ≥ 70% bar; stability rule forbids unforced reclassification); ternary surface clean in sample + red-flag scan of all 402 (ternary-compiler/-python are three-valued-logic compilers, not ?: operators); strategy-ecology stays qthe by receipted precedence (ternary substantive, fleet-subject tie zone — the 54-c named example)',
   ],
 };
 writeFileSync('atlas.json', JSON.stringify(atlas, null, 2) + '\n');
