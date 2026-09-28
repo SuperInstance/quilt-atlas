@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T19:28:14.422Z",
+  "generated_at_utc": "2026-09-28T19:30:13.708Z",
   "account": "SuperInstance",
   "total_repos": 4849,
   "pages_fetched": 49,
@@ -33998,6 +33998,26 @@
   },
   "top_motion": [
     {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-09-28T19:29:02Z",
+      "size_kb": 90
+    },
+    {
+      "repo": "cellforge",
+      "workflows": [],
+      "pushed_at": "2026-09-28T19:27:25Z",
+      "size_kb": 145
+    },
+    {
+      "repo": "cns-substrate",
+      "workflows": [],
+      "pushed_at": "2026-09-28T19:27:23Z",
+      "size_kb": 1648
+    },
+    {
       "repo": "MicroMoth-quilt",
       "workflows": [
         "build.yml"
@@ -34042,14 +34062,6 @@
       ],
       "pushed_at": "2026-09-28T19:07:23Z",
       "size_kb": 3615764
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-09-28T19:02:58Z",
-      "size_kb": 90
     },
     {
       "repo": "SmartCRDT",
@@ -34174,25 +34186,6 @@
       ],
       "pushed_at": "2026-09-28T15:16:05Z",
       "size_kb": 341
-    },
-    {
-      "repo": "tidepool",
-      "workflows": [],
-      "pushed_at": "2026-09-28T15:15:24Z",
-      "size_kb": 66
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-09-28T11:34:51Z",
-      "size_kb": 52353
     }
   ],
   "notes": [
