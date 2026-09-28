@@ -1,34 +1,37 @@
 {
-  "generated_at_utc": "2026-09-28T17:17:06.902Z",
+  "generated_at_utc": "2026-09-28T19:00:59.955Z",
   "account": "SuperInstance",
-  "total_repos": 4000,
+  "total_repos": 4848,
+  "pages_fetched": 49,
+  "pagination_cap": 120,
+  "pagination_cap_hit": false,
   "families": {
-    "other": 2180,
-    "fleet": 1401,
-    "qthe": 116,
-    "quilt": 229,
-    "jev": 39,
-    "latent": 16,
-    "moth": 19
+    "other": 2502,
+    "fleet": 1555,
+    "qthe": 460,
+    "quilt": 246,
+    "jev": 44,
+    "latent": 18,
+    "moth": 23
   },
   "families_by_stage": {
     "none": {
-      "other": 2180
+      "other": 2502
     },
     "description": {
-      "fleet": 1012,
-      "qthe": 83,
-      "quilt": 26,
-      "jev": 21,
-      "latent": 3,
-      "moth": 1
+      "fleet": 1153,
+      "qthe": 427,
+      "quilt": 40,
+      "jev": 26,
+      "latent": 5,
+      "moth": 2
     },
     "name": {
-      "quilt": 203,
+      "quilt": 206,
       "qthe": 33,
-      "fleet": 389,
+      "fleet": 402,
       "latent": 13,
-      "moth": 18,
+      "moth": 21,
       "jev": 18
     }
   },
@@ -975,6 +978,7 @@
       "git-native-mud",
       "git-pipeline",
       "git-storage",
+      "glyphspace",
       "gno",
       "goallog-ai",
       "gossip-protocol",
@@ -2213,7 +2217,328 @@
       "spectro",
       "splay-tree-rs",
       "spline-instrument",
-      "spline-midi-smooth"
+      "spline-midi-smooth",
+      "spline-physics",
+      "spline-spectral",
+      "Spreader-tool",
+      "spring-mass",
+      "StarBench",
+      "starship-jetsonclaw1",
+      "startup-ai",
+      "state",
+      "state-machine",
+      "statemachine-rs",
+      "statistical-learning",
+      "step-back-operator",
+      "step-back-topology",
+      "storage-guardian",
+      "storyboard-engine",
+      "streaming-response-handler",
+      "string-search-rs",
+      "study-smartcomponent",
+      "study-weird-roblox-ai",
+      "StudyLog",
+      "studylog-ai-1",
+      "studylog-ai-pages",
+      "stunt-double",
+      "style-dna",
+      "SubForge",
+      "substrate-attest",
+      "substrate-attest-rs",
+      "substrate-bench",
+      "substrate-bundle",
+      "substrate-canary-pin",
+      "substrate-contest",
+      "substrate-contest-rs",
+      "substrate-delegate",
+      "substrate-embedding",
+      "substrate-forge",
+      "substrate-foundation",
+      "substrate-game-engine",
+      "substrate-membership",
+      "substrate-merger",
+      "substrate-revoke",
+      "substrate-revoke-rs",
+      "substrate-rng",
+      "substrate-traverse",
+      "substrate-vectors",
+      "substrate-videogame-ml",
+      "substrate-withdraw",
+      "substrate-witness-log",
+      "substrate-witness-log-rs",
+      "suffix-array-rs",
+      "suffix-automaton-rs",
+      "suna",
+      "supabase",
+      "SuperInstance",
+      "superinstance-ai",
+      "superinstance-ai-pages",
+      "SuperInstance-archive",
+      "superinstance-cli",
+      "superinstance-design",
+      "superinstance-design-system",
+      "superinstance-ffi",
+      "SuperInstance-Fiction",
+      "SuperInstance-gamedev",
+      "superinstance-harness",
+      "superinstance-hdc-core",
+      "superinstance-live",
+      "superinstance-math",
+      "superinstance-runtime",
+      "SuperInstance-SDK1",
+      "superinstance-spreadsheet",
+      "superinstance-wiki",
+      "SuperInstanceCommunity",
+      "SuperInstanceDocs",
+      "SuperInstanceEco",
+      "SuperInstanceExamples",
+      "surrealdb",
+      "swarm",
+      "swarm-code",
+      "swarm-rooms",
+      "swarm-tminus",
+      "symbiont-network",
+      "symbol-table",
+      "symmetry-math",
+      "symmetry-math-c",
+      "symmetry-math-npm",
+      "symplectic-geometry",
+      "symplectic-music",
+      "symplectic-opt",
+      "symplectic-opt-rs",
+      "symplectic-physics",
+      "symplectic-spin",
+      "sync-primitive",
+      "synesis-architecture",
+      "synesis-cloud-app",
+      "synesis-context-docs",
+      "synesis-docs",
+      "synesis-examples",
+      "synesis-manifests",
+      "synesis-migration-guides",
+      "synesis-phases",
+      "synesis-research",
+      "synesis-scripts",
+      "synesis-sessions",
+      "synesis-status",
+      "synesis-templates",
+      "synesis-tools",
+      "synthcity",
+      "t-minus-rs",
+      "tap-frontend",
+      "tap-gamenight",
+      "task-batcher",
+      "task-queue",
+      "tasklog-ai",
+      "tda-c",
+      "tda-rs",
+      "technician",
+      "technician-paradigm",
+      "temp",
+      "templates",
+      "temporal-compress",
+      "temporal-flux",
+      "temporal-logic",
+      "tensor-spline",
+      "terax-ai",
+      "terminal-forecast-harness",
+      "terminal-hodge-harness",
+      "terminal-spectral-harness",
+      "ternary-channel",
+      "ternary-conserve",
+      "ternary-cuda-kernels-v2",
+      "ternary-dissertation-c",
+      "ternary-experiment",
+      "ternary-gauge-theory",
+      "ternary-grace",
+      "ternary-intent-cache",
+      "ternary-locks",
+      "ternary-needledrop",
+      "ternary-predict",
+      "ternary-reef",
+      "ternary-registry",
+      "ternary-registry-v2",
+      "ternary-rom",
+      "ternary-room",
+      "ternary-secret-share",
+      "ternary-speculate",
+      "ternary-spiral",
+      "ternary-tenforward",
+      "ternary-wiki",
+      "tessera",
+      "test-mutator",
+      "test-pages-repo",
+      "test-repo",
+      "test-rs",
+      "test-sdk-connection",
+      "test-tool-extract",
+      "tests",
+      "tetris-integrity",
+      "texture-synth",
+      "the-listeners-ear",
+      "the-lock",
+      "the-plenum-early-version",
+      "the-relay",
+      "the-revolution",
+      "the-tap",
+      "the-tap-pub",
+      "the-technician",
+      "the-technician-courses",
+      "thermal-budget",
+      "thermodynamics",
+      "thor-rom",
+      "thought-amplifier",
+      "tick-engine",
+      "tick-engine-v2",
+      "tidepool",
+      "tile-chain",
+      "tile-compiler",
+      "tile-cuda",
+      "tile-lifecycle",
+      "tile-lock-synthesis",
+      "tile-neon",
+      "tile-opencl",
+      "tile-refiner",
+      "timeseries-db",
+      "tiny-ecs",
+      "tiny-neural",
+      "tminus-client",
+      "tminus-music",
+      "token-stream",
+      "token-vault",
+      "token-wavelet",
+      "tonnetz-constraints",
+      "tools",
+      "topo-sonata",
+      "topo-sonata-rs",
+      "topological-flow",
+      "topological-sort-agent-rs",
+      "topology-bench",
+      "topology-lab",
+      "torch-vector-search",
+      "tracer-rs",
+      "tracer-rs-archive",
+      "train-llm-from-scratch",
+      "training-architecture",
+      "training-data-collector",
+      "training-throttle",
+      "transfer-entropy",
+      "travelog-ai",
+      "travlog-ai",
+      "trawl",
+      "treap-rs",
+      "TrendRadar",
+      "tri-quarter-toolbox",
+      "Tripartite1",
+      "triplet-miner",
+      "triplet-miner-rs",
+      "tropical-algebra",
+      "tropical-attention",
+      "tropical-attention-kernel",
+      "tropical-geometry",
+      "tropical-geometry-rs",
+      "tropical-graph",
+      "tropical-harmony-rs",
+      "tropical-neural",
+      "tropical-synth",
+      "tui-rs",
+      "turbovec",
+      "turbovec-integration-ccc",
+      "turbovec-substrate",
+      "Turing-tensor-midi",
+      "tutor-ai",
+      "tx-rs",
+      "typst",
+      "tzpro-agent",
+      "ues-protocol",
+      "UI",
+      "ui-design-system",
+      "Understand-Anything",
+      "unicode-rs",
+      "UniRL",
+      "universal-import-export",
+      "universe-chain",
+      "usemeter",
+      "usemeter-archive",
+      "uv",
+      "uv-cache-guardian",
+      "validation-bits",
+      "validation-holonomy",
+      "validation-rigidity",
+      "vector-agents.md",
+      "vector-clock",
+      "vector-clock-rs",
+      "vector-navigator",
+      "vector-search",
+      "venue-personality",
+      "vessel",
+      "vessel-agent-system",
+      "vessel-bridge",
+      "vessel-constellation",
+      "vessel-monitor",
+      "vessel-quest",
+      "vessel-room-navigator",
+      "vessel-sandbox",
+      "vessel-spec",
+      "vetcheck",
+      "vibe-core",
+      "vibe-protocol",
+      "vibe-world",
+      "vite",
+      "vm-estate",
+      "vocabularies",
+      "voice-note-app",
+      "voice-reflex-gate",
+      "voice-signature-tool",
+      "voronoi-traditions",
+      "voxblox",
+      "voxblox-plusplus",
+      "voxel-logic",
+      "voxelgpt",
+      "voxelworks",
+      "wal-journal",
+      "warp-flux-poc",
+      "wasm-cert-wedge",
+      "wasm-verify",
+      "wasserstein-narrative",
+      "wasserstein-ot-c",
+      "watcher-rs",
+      "wave-conservation",
+      "wavelet-core",
+      "webgpu-profiler",
+      "webhook-relay",
+      "webrtc-stream",
+      "websocket-fabric",
+      "websocket-fabric-v2",
+      "websocket-rs",
+      "wesley",
+      "wesley-cns-adapter",
+      "wesley-holodeck",
+      "wesleys-imagination",
+      "west-african-math-c",
+      "west-african-math-rs",
+      "wheelhouse-game",
+      "whistle",
+      "wiki",
+      "wire-harmony",
+      "witness-complex",
+      "witness-topology-rs",
+      "workers-rs",
+      "workflow-rs",
+      "ws-fabric",
+      "ws-status-indicator",
+      "xlang",
+      "xMind",
+      "young-tableau-rs",
+      "zero-knowledge",
+      "zero-shot-auditor",
+      "zeroclaw-agent-early-version",
+      "zeroclaw-dissertation",
+      "zhc-chain",
+      "zhc-consensus",
+      "zhc-yang-mills",
+      "ZkCanvas",
+      "zkp-rs"
     ],
     "fleet": [
       "a2a-adapter",
@@ -2726,6 +3051,7 @@
       "fleet-holographic",
       "fleet-homology",
       "fleet-homunculus",
+      "fleet-hooks",
       "fleet-hydra-connector",
       "fleet-i2i-protocol",
       "fleet-identity",
@@ -3066,6 +3392,7 @@
       "git-native-agents",
       "git-remote-agent",
       "glyph-language",
+      "glyphcast",
       "governance-equipment",
       "grammar-curator-1",
       "grand-pattern-adversarial",
@@ -3616,7 +3943,159 @@
       "spectral-graph-agent-rs",
       "spectral-prosody",
       "spectral-prosody-rs",
-      "spectral-shape"
+      "spectral-shape",
+      "spreader-agent",
+      "spreadsheet-cells",
+      "standalone-agent-scaffold",
+      "starter-shell",
+      "stigmergy",
+      "studylog-agent",
+      "sunset-ecosystem",
+      "super-z-quartermaster",
+      "superagent-framework",
+      "superinstance-agent",
+      "superinstance-agent-trait",
+      "superinstance-architecture",
+      "superinstance-ci",
+      "superinstance-cocapn",
+      "superinstance-core",
+      "superinstance-ecosystem",
+      "superinstance-embedder",
+      "superinstance-fleet-proto",
+      "superinstance-flux-runtime-ruby",
+      "superinstance-gpu-compute",
+      "superinstance-index",
+      "superinstance-knowledge",
+      "superinstance-mcp",
+      "superinstance-polyformalism-harness",
+      "superinstance-vectorize",
+      "superinstance-voyage",
+      "SuperInstanceCore",
+      "SuperInstancecore1",
+      "superpowers",
+      "superz-diary",
+      "superz-parallel-fleet-executor",
+      "superz-runtime",
+      "superz-twin",
+      "superz-vessel",
+      "swarm-anchor",
+      "swarm-intuition",
+      "swarm-intuition-v2",
+      "swarm-orbit",
+      "swarm-signals",
+      "SwarmMCP",
+      "SwarmOrchestration",
+      "symphony-orchestrator",
+      "symphony-runtime",
+      "symplectic-fleet",
+      "synclink-protocol",
+      "synesis",
+      "synesis-agents",
+      "synesis-benches",
+      "synesis-prompts",
+      "system-prompts-and-models-of-ai-tools",
+      "t-minus",
+      "taskflow",
+      "telepathy-c",
+      "temporal-pattern",
+      "tender",
+      "tensor-midi",
+      "tensor-penrose",
+      "terax-fleet-modules",
+      "terax-gateway",
+      "terminal-sheaf-harness",
+      "ternary-beacon",
+      "ternary-cadence",
+      "ternary-captain",
+      "ternary-cartograph",
+      "ternary-ear",
+      "ternary-ensign",
+      "ternary-fleet",
+      "ternary-fleet-integration",
+      "ternary-fleet-packing",
+      "ternary-form",
+      "ternary-harbor",
+      "ternary-lighthouse",
+      "ternary-pilgrim",
+      "ternary-replay",
+      "ternary-tidelight",
+      "ternary-timbre",
+      "ternary-weather",
+      "terrain",
+      "test-runner-vessel",
+      "the-bridge",
+      "the-fleet",
+      "the-rotation",
+      "the-seed",
+      "thermal-equilibrium",
+      "tide-pool",
+      "tile-memory-early-version",
+      "tiny-agent-protocol",
+      "tminus-dispatcher",
+      "tminus-ecosystem-review",
+      "token-budget-energy",
+      "ToolGuardian",
+      "topo-merge",
+      "topology-anomaly-detector",
+      "trail-agent",
+      "trinity-marine-station",
+      "tripartite-agent",
+      "tripartite-room",
+      "tripartite-rs",
+      "tripartite-rs-archive",
+      "trust-agent",
+      "trust-graph",
+      "VaaS",
+      "vector-novelty",
+      "vessel-agent",
+      "vessel-coordination-protocol",
+      "vessel-equipment-agent-skills",
+      "vessel-prototype",
+      "vessel-template",
+      "vessel-tuner",
+      "Vibe-Code-Agent-Gen",
+      "vibe-graph",
+      "ViMax",
+      "warp",
+      "warp-room",
+      "warp-vote-consensus",
+      "wasserstein-agents",
+      "wasserstein-agents-rs",
+      "watch-follow",
+      "whisper-sync",
+      "witness-topology",
+      "workflow-engineer",
+      "workshop",
+      "ws-snapshot-hermit-crab",
+      "ws-snapshot-soundcrab",
+      "yiluodi",
+      "yoneda",
+      "z-agent-bootcamp",
+      "zc-alchemist-shell",
+      "zc-archivist-shell",
+      "zc-curator-shell",
+      "zc-herald-shell",
+      "zc-mason-shell",
+      "zc-navigator-shell",
+      "zc-scholar-shell",
+      "zc-scout-shell",
+      "zc-scribe-shell",
+      "zc-sentinel-shell",
+      "zc-tinker-shell",
+      "zc-weaver-shell",
+      "zeitgeist-protocol",
+      "zero-knowledge-fleet",
+      "zero-trust-fleet",
+      "zeroclaw-arena",
+      "zeroclaw-crew",
+      "zeroclaw-fisher",
+      "zeroclaw-guard",
+      "zeroclaw-loop",
+      "zeroclaw-plato",
+      "zeroclaw-scout",
+      "zeroclaw-trader",
+      "zeroclaws",
+      "zerolang"
     ],
     "qthe": [
       "agent-jam",
@@ -3734,7 +4213,351 @@
       "si-superinstance",
       "silo-core",
       "sketch-gc-pid-feedback-loop",
-      "sketch-ternary-kihn-metaphor"
+      "sketch-ternary-kihn-metaphor",
+      "strategy-ecology",
+      "strategy-ecology-c",
+      "strategy-transfer",
+      "substrate-opposites",
+      "superinstance-advisor",
+      "superinstance-protocol",
+      "superinstance-ternary-wavelet",
+      "superinstance-website",
+      "ternary-accumulator",
+      "ternary-activation",
+      "ternary-active-inference",
+      "ternary-adversarial",
+      "ternary-agent",
+      "ternary-anchor",
+      "ternary-antidote",
+      "ternary-archive",
+      "ternary-arena",
+      "ternary-arithmetic",
+      "ternary-attention",
+      "ternary-auction",
+      "ternary-auto-vectorizer",
+      "ternary-automata",
+      "ternary-backpressure",
+      "ternary-baum-welch",
+      "ternary-bayesian",
+      "ternary-belief",
+      "ternary-benchmark",
+      "ternary-bite",
+      "ternary-blockchain",
+      "ternary-bloom-filter",
+      "ternary-bridge",
+      "ternary-btree",
+      "ternary-budget",
+      "ternary-bus",
+      "ternary-cache",
+      "ternary-cargo",
+      "ternary-causality",
+      "ternary-cell",
+      "ternary-cell-python",
+      "ternary-chaos",
+      "ternary-checkpoint",
+      "ternary-chemistry",
+      "ternary-chronicle",
+      "ternary-cipher",
+      "ternary-circuit",
+      "ternary-classifier",
+      "ternary-cli",
+      "ternary-clustering",
+      "ternary-codes",
+      "ternary-collatz",
+      "ternary-color",
+      "ternary-command",
+      "ternary-command-buffer",
+      "ternary-compass",
+      "ternary-compiler",
+      "ternary-compiler-optimizer",
+      "ternary-compiler-python",
+      "ternary-compiler-v2",
+      "ternary-complexity",
+      "ternary-compress",
+      "ternary-compression",
+      "ternary-compression-v2",
+      "ternary-conduct",
+      "ternary-consensus",
+      "ternary-constant-cache",
+      "ternary-constellation",
+      "ternary-constraint",
+      "ternary-control",
+      "ternary-conv",
+      "ternary-cookbook",
+      "ternary-coordination",
+      "ternary-core",
+      "ternary-cortex",
+      "ternary-counterpoint",
+      "ternary-critical",
+      "ternary-criticality",
+      "ternary-crossfader",
+      "ternary-crystal",
+      "ternary-cuda-kernels",
+      "ternary-current",
+      "ternary-curriculum",
+      "ternary-database",
+      "ternary-depth",
+      "ternary-dice",
+      "ternary-diehard",
+      "ternary-diff",
+      "ternary-dispatch",
+      "ternary-distill",
+      "ternary-distributed",
+      "ternary-dockyard",
+      "ternary-drift",
+      "ternary-dropout",
+      "ternary-dynamics",
+      "ternary-dynamics-python",
+      "ternary-ear-training",
+      "ternary-echo",
+      "ternary-ecology",
+      "ternary-econ",
+      "ternary-ecosystem",
+      "ternary-electromagnetism",
+      "ternary-em",
+      "ternary-energy",
+      "ternary-engine",
+      "ternary-ensemble",
+      "ternary-entropy",
+      "ternary-envelope",
+      "ternary-epidemic",
+      "ternary-epoch",
+      "ternary-esp32-firmware",
+      "ternary-event",
+      "ternary-event-pool",
+      "ternary-evolution-advanced",
+      "ternary-experiment-workers",
+      "ternary-explain",
+      "ternary-failure",
+      "ternary-fault-tree",
+      "ternary-federated",
+      "ternary-fence",
+      "ternary-fib",
+      "ternary-field",
+      "ternary-fire",
+      "ternary-fitness",
+      "ternary-fitness-c",
+      "ternary-fitness-python",
+      "ternary-flux",
+      "ternary-forgiveness",
+      "ternary-foundry",
+      "ternary-free-energy",
+      "ternary-frontier",
+      "ternary-fuse",
+      "ternary-fuzzy",
+      "ternary-ga",
+      "ternary-game-of-life",
+      "ternary-game-theory",
+      "ternary-games",
+      "ternary-gate",
+      "ternary-gauge",
+      "ternary-gc",
+      "ternary-genetic",
+      "ternary-genome",
+      "ternary-geometry",
+      "ternary-grad",
+      "ternary-gradient",
+      "ternary-gradient-queue",
+      "ternary-grain",
+      "ternary-grammar",
+      "ternary-graph",
+      "ternary-grid-launch",
+      "ternary-haar",
+      "ternary-hamiltonian",
+      "ternary-hardware",
+      "ternary-harmonic",
+      "ternary-hash",
+      "ternary-heap",
+      "ternary-helm",
+      "ternary-hmm",
+      "ternary-homology",
+      "ternary-hotswap-inference",
+      "ternary-inference",
+      "ternary-inference-c",
+      "ternary-inference-sim",
+      "ternary-interpreter",
+      "ternary-inventory",
+      "ternary-irradiate",
+      "ternary-ising",
+      "ternary-jam",
+      "ternary-kalman",
+      "ternary-kernel-launch",
+      "ternary-knn",
+      "ternary-knot",
+      "ternary-kuramoto",
+      "ternary-language",
+      "ternary-language-evolution",
+      "ternary-language-model",
+      "ternary-lattice",
+      "ternary-lattice-gc",
+      "ternary-lease",
+      "ternary-life",
+      "ternary-llm",
+      "ternary-logic",
+      "ternary-logistic",
+      "ternary-loop",
+      "ternary-loss",
+      "ternary-manifesto",
+      "ternary-market",
+      "ternary-markov",
+      "ternary-matmul",
+      "ternary-matrix",
+      "ternary-membrane",
+      "ternary-memory",
+      "ternary-memory-pool",
+      "ternary-mesh",
+      "ternary-metrics",
+      "ternary-minority",
+      "ternary-mirror",
+      "ternary-mixer",
+      "ternary-morph",
+      "ternary-morphogenesis",
+      "ternary-motion",
+      "ternary-mud",
+      "ternary-muse",
+      "ternary-music",
+      "ternary-mutual-info",
+      "ternary-navigator",
+      "ternary-negotiate",
+      "ternary-network",
+      "ternary-noether",
+      "ternary-noise",
+      "ternary-norm",
+      "ternary-observatory",
+      "ternary-optimizer",
+      "ternary-oracle",
+      "ternary-pack",
+      "ternary-pagerank",
+      "ternary-pan",
+      "ternary-pareto",
+      "ternary-paxos",
+      "ternary-pca",
+      "ternary-percolate",
+      "ternary-percolation",
+      "ternary-permutation",
+      "ternary-petri",
+      "ternary-phase",
+      "ternary-pheromone-market",
+      "ternary-pid",
+      "ternary-pipeline",
+      "ternary-pipeline-parallel",
+      "ternary-planning",
+      "ternary-platoon",
+      "ternary-polyrhythm",
+      "ternary-pool",
+      "ternary-popgen",
+      "ternary-priority-queue",
+      "ternary-projection",
+      "ternary-proof",
+      "ternary-prophet",
+      "ternary-protocol",
+      "ternary-protocol-python",
+      "ternary-prune",
+      "ternary-quantize",
+      "ternary-quorum",
+      "ternary-rack",
+      "ternary-rate-limiter",
+      "ternary-reassembly",
+      "ternary-regex",
+      "ternary-register-file",
+      "ternary-regression",
+      "ternary-renormalization",
+      "ternary-renormalize",
+      "ternary-reservoir",
+      "ternary-resilience",
+      "ternary-resonance",
+      "ternary-retry",
+      "ternary-rhythm",
+      "ternary-rigging",
+      "ternary-ring",
+      "ternary-rl",
+      "ternary-robotics",
+      "ternary-route",
+      "ternary-routing",
+      "ternary-runlength",
+      "ternary-sampler",
+      "ternary-sandbox",
+      "ternary-sandpile",
+      "ternary-scheduler",
+      "ternary-scheduling",
+      "ternary-scheduling-v2",
+      "ternary-science",
+      "ternary-scoring",
+      "ternary-search",
+      "ternary-search-index",
+      "ternary-search-rs",
+      "ternary-seed",
+      "ternary-semaphore",
+      "ternary-sensor",
+      "ternary-shard",
+      "ternary-shard-merge",
+      "ternary-shard-split",
+      "ternary-shared-memory",
+      "ternary-sheaf",
+      "ternary-shield",
+      "ternary-shipyard",
+      "ternary-signal-flow",
+      "ternary-signaling",
+      "ternary-signals",
+      "ternary-sketch",
+      "ternary-som",
+      "ternary-sort",
+      "ternary-spatial",
+      "ternary-spreadsheet",
+      "ternary-spreadsheet-c",
+      "ternary-spreadsheet-python",
+      "ternary-steganography",
+      "ternary-steward",
+      "ternary-story",
+      "ternary-stream-queue",
+      "ternary-streaming",
+      "ternary-surface-memory",
+      "ternary-svm",
+      "ternary-swarm",
+      "ternary-symbiont",
+      "ternary-symmetry",
+      "ternary-sync",
+      "ternary-temperament",
+      "ternary-tempo",
+      "ternary-tensor",
+      "ternary-tensor-parallel",
+      "ternary-texture-memory",
+      "ternary-thermodynamics",
+      "ternary-thermostat",
+      "ternary-thread-block",
+      "ternary-tidepool",
+      "ternary-tnn",
+      "ternary-topology",
+      "ternary-transfer",
+      "ternary-transform",
+      "ternary-transformer",
+      "ternary-trees",
+      "ternary-trust",
+      "ternary-tuple",
+      "ternary-turing",
+      "ternary-types",
+      "ternary-validation",
+      "ternary-version",
+      "ternary-visualization",
+      "ternary-visualizer",
+      "ternary-viterbi",
+      "ternary-vortex",
+      "ternary-voting",
+      "ternary-voyage",
+      "ternary-vu",
+      "ternary-walk",
+      "ternary-walsh",
+      "ternary-warp",
+      "ternary-warp-block",
+      "ternary-wasm",
+      "ternary-watermark",
+      "ternary-wave",
+      "ternary-zigzag",
+      "ternary-zkp",
+      "three-forms-of-evidence",
+      "three-forms-of-forgetting",
+      "warp-ternary-vote",
+      "witness-is-prediction"
     ],
     "quilt": [
       "AgentCompute",
@@ -3965,7 +4788,24 @@
       "scrap-quilt",
       "seed-ui",
       "sonar-vision-demo",
-      "spectral-spreadsheet"
+      "spectral-spreadsheet",
+      "spread",
+      "Spreadsheet-ai",
+      "spreadsheet-conservation-wasm",
+      "spreadsheet-engine",
+      "spreadsheet-formulas",
+      "spreadsheet-moment-proto",
+      "spreadsheet-plr-bridge",
+      "spreadsheet-projection",
+      "stock-screener",
+      "SuperInstance-papers",
+      "SuperInstance-Starter-Agent",
+      "tagseq2tagseq4quilt",
+      "the-beyond",
+      "tit-quilt",
+      "tit_quilt_elixir",
+      "twist-engine",
+      "urban-transportation-system"
     ],
     "jev": [
       "api-orchestra",
@@ -4006,7 +4846,12 @@
       "quilt-cowboy-jev",
       "quilt-jev-oracle",
       "quilt-jev-toolkit",
-      "quilt-jev-toolkit-push"
+      "quilt-jev-toolkit-push",
+      "substrate-gan",
+      "substrate-llm-client",
+      "substrate-trainer",
+      "substrate-walker",
+      "terminal-entropy-harness"
     ],
     "latent": [
       "cuda-world-model",
@@ -4024,7 +4869,9 @@
       "plato-jepa-dual",
       "plato-vision-jepa",
       "quilt-jepa",
-      "recovered-copy-20260824-fleet-jepa-midi"
+      "recovered-copy-20260824-fleet-jepa-midi",
+      "stable-worldmodel",
+      "ternary-world"
     ],
     "moth": [
       "fleet-midi-quantum",
@@ -4045,7 +4892,11 @@
       "quilt-quantum-canary",
       "quilt-quantum-canary-bridge",
       "quilt-quantumaudio-demo",
-      "quilt-quantumaudio-demo-push"
+      "quilt-quantumaudio-demo-push",
+      "substrate-post-quantum",
+      "substrate-quantum",
+      "SuperInstance.github.io",
+      "ternary-quantum"
     ]
   },
   "classification": {
@@ -11675,6 +12526,12 @@
       "fleet",
       "Python"
     ],
+    "fleet-hooks": [
+      "fleet",
+      "name",
+      "fleet",
+      "Shell"
+    ],
     "fleet-hydra-connector": [
       "fleet",
       "name",
@@ -15190,6 +16047,18 @@
       "description",
       "agent",
       "Rust"
+    ],
+    "glyphcast": [
+      "fleet",
+      "description",
+      "receipt",
+      ""
+    ],
+    "glyphspace": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "gno": [
       "other",
@@ -20085,7 +20954,7 @@
       "quilt",
       "name",
       "quilt",
-      "C#"
+      "Python"
     ],
     "midden": [
       "other",
@@ -28048,72 +28917,5218 @@
       "none",
       "",
       "Python"
+    ],
+    "spline-physics": [
+      "other",
+      "none",
+      "",
+      "Makefile"
+    ],
+    "spline-spectral": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "spread": [
+      "quilt",
+      "description",
+      "sheet",
+      "Rust"
+    ],
+    "spreader-agent": [
+      "fleet",
+      "description",
+      "agent",
+      "TypeScript"
+    ],
+    "Spreader-tool": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "Spreadsheet-ai": [
+      "quilt",
+      "description",
+      "sheet",
+      "Rust"
+    ],
+    "spreadsheet-cells": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Python"
+    ],
+    "spreadsheet-conservation-wasm": [
+      "quilt",
+      "description",
+      "sheet",
+      "Rust"
+    ],
+    "spreadsheet-engine": [
+      "quilt",
+      "description",
+      "sheet",
+      "Rust"
+    ],
+    "spreadsheet-formulas": [
+      "quilt",
+      "description",
+      "sheet",
+      "Rust"
+    ],
+    "spreadsheet-moment-proto": [
+      "quilt",
+      "description",
+      "sheet",
+      "TypeScript"
+    ],
+    "spreadsheet-plr-bridge": [
+      "quilt",
+      "description",
+      "sheet",
+      "Rust"
+    ],
+    "spreadsheet-projection": [
+      "quilt",
+      "description",
+      "sheet",
+      "Python"
+    ],
+    "spring-mass": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "stable-worldmodel": [
+      "latent",
+      "description",
+      "world model",
+      "Python"
+    ],
+    "standalone-agent-scaffold": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "StarBench": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "starship-jetsonclaw1": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "starter-shell": [
+      "fleet",
+      "description",
+      "fleet|agent|crab",
+      "JavaScript"
+    ],
+    "startup-ai": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "state": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "state-machine": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "statemachine-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "statistical-learning": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "step-back-operator": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "step-back-topology": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "stigmergy": [
+      "fleet",
+      "description",
+      "agent",
+      "TypeScript"
+    ],
+    "stock-screener": [
+      "quilt",
+      "description",
+      "quilt",
+      "Python"
+    ],
+    "storage-guardian": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "storyboard-engine": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "strategy-ecology": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "strategy-ecology-c": [
+      "qthe",
+      "description",
+      "ternary",
+      "C"
+    ],
+    "strategy-transfer": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "streaming-response-handler": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "string-search-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "study-smartcomponent": [
+      "other",
+      "none",
+      "",
+      "C#"
+    ],
+    "study-weird-roblox-ai": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "StudyLog": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "studylog-agent": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "studylog-ai-1": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "studylog-ai-pages": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "stunt-double": [
+      "other",
+      "none",
+      "",
+      "Shell"
+    ],
+    "style-dna": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "SubForge": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "substrate-attest": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-attest-rs": [
+      "other",
+      "none",
+      "",
+      "Makefile"
+    ],
+    "substrate-bench": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "substrate-bundle": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-canary-pin": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-contest": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-contest-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "substrate-delegate": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-embedding": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "substrate-forge": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "substrate-foundation": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-game-engine": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "substrate-gan": [
+      "jev",
+      "description",
+      "jev",
+      "TypeScript"
+    ],
+    "substrate-llm-client": [
+      "jev",
+      "description",
+      "jev",
+      "TypeScript"
+    ],
+    "substrate-membership": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-merger": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-opposites": [
+      "qthe",
+      "description",
+      "canon",
+      "TypeScript"
+    ],
+    "substrate-post-quantum": [
+      "moth",
+      "name",
+      "quantum",
+      "TypeScript"
+    ],
+    "substrate-quantum": [
+      "moth",
+      "name",
+      "quantum",
+      "TypeScript"
+    ],
+    "substrate-revoke": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-revoke-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "substrate-rng": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "substrate-trainer": [
+      "jev",
+      "description",
+      "jepa",
+      "Python"
+    ],
+    "substrate-traverse": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-vectors": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "substrate-videogame-ml": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "substrate-walker": [
+      "jev",
+      "description",
+      "jev",
+      "Python"
+    ],
+    "substrate-withdraw": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-witness-log": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "substrate-witness-log-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "suffix-array-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "suffix-automaton-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "suna": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "sunset-ecosystem": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "supabase": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "super-z-quartermaster": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      ""
+    ],
+    "superagent-framework": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "SuperInstance": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "superinstance-advisor": [
+      "qthe",
+      "description",
+      "canon",
+      "HTML"
+    ],
+    "superinstance-agent": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "TypeScript"
+    ],
+    "superinstance-agent-trait": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Rust"
+    ],
+    "superinstance-ai": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "superinstance-ai-pages": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "superinstance-architecture": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "SuperInstance-archive": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "superinstance-ci": [
+      "fleet",
+      "description",
+      "fleet",
+      "Shell"
+    ],
+    "superinstance-cli": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "superinstance-cocapn": [
+      "fleet",
+      "description",
+      "fleet",
+      "Rust"
+    ],
+    "superinstance-core": [
+      "fleet",
+      "description",
+      "fleet",
+      "Rust"
+    ],
+    "superinstance-design": [
+      "other",
+      "none",
+      "",
+      "CSS"
+    ],
+    "superinstance-design-system": [
+      "other",
+      "none",
+      "",
+      "Lua"
+    ],
+    "superinstance-ecosystem": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "superinstance-embedder": [
+      "fleet",
+      "description",
+      "seeds",
+      "Rust"
+    ],
+    "superinstance-ffi": [
+      "other",
+      "none",
+      "",
+      "Zig"
+    ],
+    "SuperInstance-Fiction": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "superinstance-fleet-proto": [
+      "fleet",
+      "name",
+      "fleet",
+      "Rust"
+    ],
+    "superinstance-flux-runtime-ruby": [
+      "fleet",
+      "description",
+      "agent",
+      "Ruby"
+    ],
+    "SuperInstance-gamedev": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "superinstance-gpu-compute": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Rust"
+    ],
+    "superinstance-harness": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "superinstance-hdc-core": [
+      "other",
+      "none",
+      "",
+      "Makefile"
+    ],
+    "superinstance-index": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "superinstance-knowledge": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "superinstance-live": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "superinstance-math": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "superinstance-mcp": [
+      "fleet",
+      "description",
+      "fleet",
+      "TypeScript"
+    ],
+    "SuperInstance-papers": [
+      "quilt",
+      "description",
+      "sheet",
+      "TypeScript"
+    ],
+    "superinstance-polyformalism-harness": [
+      "fleet",
+      "description",
+      "fleet",
+      "JavaScript"
+    ],
+    "superinstance-protocol": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "superinstance-runtime": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "SuperInstance-SDK1": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "superinstance-spreadsheet": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "SuperInstance-Starter-Agent": [
+      "quilt",
+      "description",
+      "sheet",
+      "TypeScript"
+    ],
+    "superinstance-ternary-wavelet": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "superinstance-vectorize": [
+      "fleet",
+      "description",
+      "fleet",
+      "TypeScript"
+    ],
+    "superinstance-voyage": [
+      "fleet",
+      "description",
+      "fleet",
+      "Python"
+    ],
+    "superinstance-website": [
+      "qthe",
+      "description",
+      "ternary",
+      "HTML"
+    ],
+    "superinstance-wiki": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "SuperInstance.github.io": [
+      "moth",
+      "description",
+      "quantum",
+      "HTML"
+    ],
+    "SuperInstanceCommunity": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "SuperInstanceCore": [
+      "fleet",
+      "description",
+      "agent",
+      "TypeScript"
+    ],
+    "SuperInstancecore1": [
+      "fleet",
+      "description",
+      "agent",
+      "TypeScript"
+    ],
+    "SuperInstanceDocs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "SuperInstanceEco": [
+      "other",
+      "none",
+      "",
+      "Jupyter Notebook"
+    ],
+    "SuperInstanceExamples": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "superpowers": [
+      "fleet",
+      "description",
+      "agent",
+      "Shell"
+    ],
+    "superz-diary": [
+      "fleet",
+      "description",
+      "fleet",
+      ""
+    ],
+    "superz-parallel-fleet-executor": [
+      "fleet",
+      "name",
+      "fleet",
+      "Python"
+    ],
+    "superz-runtime": [
+      "fleet",
+      "description",
+      "fleet",
+      "Python"
+    ],
+    "superz-twin": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "JavaScript"
+    ],
+    "superz-vessel": [
+      "fleet",
+      "description",
+      "fleet",
+      "Python"
+    ],
+    "surrealdb": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "swarm": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "swarm-anchor": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "swarm-code": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "swarm-intuition": [
+      "fleet",
+      "description",
+      "fleet",
+      "TypeScript"
+    ],
+    "swarm-intuition-v2": [
+      "fleet",
+      "description",
+      "fleet",
+      "TypeScript"
+    ],
+    "swarm-orbit": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Python"
+    ],
+    "swarm-rooms": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "swarm-signals": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "swarm-tminus": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "SwarmMCP": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "SwarmOrchestration": [
+      "fleet",
+      "description",
+      "agent",
+      "TypeScript"
+    ],
+    "symbiont-network": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "symbol-table": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "symmetry-math": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "symmetry-math-c": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "symmetry-math-npm": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "symphony-orchestrator": [
+      "fleet",
+      "description",
+      "fleet",
+      "JavaScript"
+    ],
+    "symphony-runtime": [
+      "fleet",
+      "description",
+      "agent",
+      "JavaScript"
+    ],
+    "symplectic-fleet": [
+      "fleet",
+      "name",
+      "fleet",
+      "Rust"
+    ],
+    "symplectic-geometry": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "symplectic-music": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "symplectic-opt": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "symplectic-opt-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "symplectic-physics": [
+      "other",
+      "none",
+      "",
+      "Fortran"
+    ],
+    "symplectic-spin": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "sync-primitive": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "synclink-protocol": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "synesis": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "synesis-agents": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "synesis-architecture": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "synesis-benches": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "synesis-cloud-app": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "synesis-context-docs": [
+      "other",
+      "none",
+      "",
+      "Mermaid"
+    ],
+    "synesis-docs": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "synesis-examples": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "synesis-manifests": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "synesis-migration-guides": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "synesis-phases": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "synesis-prompts": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "synesis-research": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "synesis-scripts": [
+      "other",
+      "none",
+      "",
+      "Shell"
+    ],
+    "synesis-sessions": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "synesis-status": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "synesis-templates": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "synesis-tools": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "synthcity": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "system-prompts-and-models-of-ai-tools": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "t-minus": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "t-minus-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tagseq2tagseq4quilt": [
+      "quilt",
+      "name",
+      "quilt",
+      "Python"
+    ],
+    "tap-frontend": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "tap-gamenight": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "task-batcher": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "task-queue": [
+      "other",
+      "none",
+      "",
+      "Makefile"
+    ],
+    "taskflow": [
+      "fleet",
+      "description",
+      "agent",
+      "HTML"
+    ],
+    "tasklog-ai": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "tda-c": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "tda-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "technician": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "technician-paradigm": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "telepathy-c": [
+      "fleet",
+      "description",
+      "receipt",
+      "C"
+    ],
+    "temp": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "templates": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "temporal-compress": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "temporal-flux": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "temporal-logic": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "temporal-pattern": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "tender": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      ""
+    ],
+    "tensor-midi": [
+      "fleet",
+      "description",
+      "agent",
+      "JavaScript"
+    ],
+    "tensor-penrose": [
+      "fleet",
+      "description",
+      "fleet",
+      "Python"
+    ],
+    "tensor-spline": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "terax-ai": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "terax-fleet-modules": [
+      "fleet",
+      "name",
+      "fleet",
+      "TypeScript"
+    ],
+    "terax-gateway": [
+      "fleet",
+      "description",
+      "fleet",
+      "Python"
+    ],
+    "terminal-entropy-harness": [
+      "jev",
+      "description",
+      "latent",
+      "Rust"
+    ],
+    "terminal-forecast-harness": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "terminal-hodge-harness": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "terminal-sheaf-harness": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "terminal-spectral-harness": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-accumulator": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-activation": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-active-inference": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-adversarial": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-agent": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-anchor": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-antidote": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-archive": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-arena": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-arithmetic": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-attention": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-auction": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-auto-vectorizer": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-automata": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-backpressure": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-baum-welch": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-bayesian": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-beacon": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Rust"
+    ],
+    "ternary-belief": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-benchmark": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-bite": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-blockchain": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-bloom-filter": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-bridge": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-btree": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-budget": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-bus": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cache": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cadence": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "ternary-captain": [
+      "fleet",
+      "description",
+      "fleet",
+      "Rust"
+    ],
+    "ternary-cargo": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cartograph": [
+      "fleet",
+      "description",
+      "fleet",
+      "Rust"
+    ],
+    "ternary-causality": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cell": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cell-python": [
+      "qthe",
+      "description",
+      "ternary",
+      "Python"
+    ],
+    "ternary-channel": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-chaos": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-checkpoint": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-chemistry": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-chronicle": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cipher": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-circuit": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-classifier": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cli": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-clustering": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-codes": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-collatz": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-color": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-command": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-command-buffer": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-compass": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-compiler": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-compiler-optimizer": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-compiler-python": [
+      "qthe",
+      "description",
+      "ternary",
+      "Python"
+    ],
+    "ternary-compiler-v2": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-complexity": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-compress": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-compression": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-compression-v2": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-conduct": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-consensus": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-conserve": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-constant-cache": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-constellation": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-constraint": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-control": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-conv": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cookbook": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-coordination": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-core": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cortex": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-counterpoint": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-critical": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-criticality": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-crossfader": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-crystal": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-cuda-kernels": [
+      "qthe",
+      "description",
+      "ternary",
+      "Cuda"
+    ],
+    "ternary-cuda-kernels-v2": [
+      "other",
+      "none",
+      "",
+      "Cuda"
+    ],
+    "ternary-current": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-curriculum": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-database": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-depth": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-dice": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-diehard": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-diff": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-dispatch": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-dissertation-c": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "ternary-distill": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-distributed": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-dockyard": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-drift": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-dropout": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-dynamics": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-dynamics-python": [
+      "qthe",
+      "description",
+      "ternary",
+      "Python"
+    ],
+    "ternary-ear": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Rust"
+    ],
+    "ternary-ear-training": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-echo": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-ecology": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-econ": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-ecosystem": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-electromagnetism": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-em": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-energy": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-engine": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-ensemble": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-ensign": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "ternary-entropy": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-envelope": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-epidemic": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-epoch": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-esp32-firmware": [
+      "qthe",
+      "description",
+      "ternary",
+      "C"
+    ],
+    "ternary-event": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-event-pool": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-evolution-advanced": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-experiment": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-experiment-workers": [
+      "qthe",
+      "description",
+      "ternary",
+      "TypeScript"
+    ],
+    "ternary-explain": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-failure": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-fault-tree": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-federated": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-fence": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-fib": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-field": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-fire": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-fitness": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-fitness-c": [
+      "qthe",
+      "description",
+      "ternary",
+      "C"
+    ],
+    "ternary-fitness-python": [
+      "qthe",
+      "description",
+      "ternary",
+      "Python"
+    ],
+    "ternary-fleet": [
+      "fleet",
+      "name",
+      "fleet",
+      ""
+    ],
+    "ternary-fleet-integration": [
+      "fleet",
+      "name",
+      "fleet",
+      "Rust"
+    ],
+    "ternary-fleet-packing": [
+      "fleet",
+      "name",
+      "fleet",
+      "Python"
+    ],
+    "ternary-flux": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-forgiveness": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-form": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "ternary-foundry": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-free-energy": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-frontier": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-fuse": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-fuzzy": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-ga": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-game-of-life": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-game-theory": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-games": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-gate": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-gauge": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-gauge-theory": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-gc": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-genetic": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-genome": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-geometry": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-grace": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-grad": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-gradient": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-gradient-queue": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-grain": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-grammar": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-graph": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-grid-launch": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-haar": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-hamiltonian": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-harbor": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "ternary-hardware": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-harmonic": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-hash": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-heap": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-helm": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-hmm": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-homology": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-hotswap-inference": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-inference": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-inference-c": [
+      "qthe",
+      "description",
+      "ternary",
+      "C"
+    ],
+    "ternary-inference-sim": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-intent-cache": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-interpreter": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-inventory": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-irradiate": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-ising": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-jam": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-kalman": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-kernel-launch": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-knn": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-knot": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-kuramoto": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-language": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-language-evolution": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-language-model": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-lattice": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-lattice-gc": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-lease": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-life": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-lighthouse": [
+      "fleet",
+      "description",
+      "fleet",
+      "Rust"
+    ],
+    "ternary-llm": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-locks": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-logic": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-logistic": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-loop": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-loss": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-manifesto": [
+      "qthe",
+      "description",
+      "ternary",
+      ""
+    ],
+    "ternary-market": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-markov": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-matmul": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-matrix": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-membrane": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-memory": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-memory-pool": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-mesh": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-metrics": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-minority": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-mirror": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-mixer": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-morph": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-morphogenesis": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-motion": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-mud": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-muse": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-music": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-mutual-info": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-navigator": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-needledrop": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-negotiate": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-network": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-noether": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-noise": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-norm": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-observatory": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-optimizer": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-oracle": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pack": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pagerank": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pan": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pareto": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-paxos": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pca": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-percolate": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-percolation": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-permutation": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-petri": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-phase": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pheromone-market": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pid": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pilgrim": [
+      "fleet",
+      "description",
+      "fleet",
+      "Rust"
+    ],
+    "ternary-pipeline": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pipeline-parallel": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-planning": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-platoon": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-polyrhythm": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-pool": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-popgen": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-predict": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-priority-queue": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-projection": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-proof": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-prophet": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-protocol": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-protocol-python": [
+      "qthe",
+      "description",
+      "ternary",
+      "Python"
+    ],
+    "ternary-prune": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-quantize": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-quantum": [
+      "moth",
+      "name",
+      "quantum",
+      "Rust"
+    ],
+    "ternary-quorum": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-rack": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-rate-limiter": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-reassembly": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-reef": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-regex": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-register-file": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-registry": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-registry-v2": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-regression": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-renormalization": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-renormalize": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-replay": [
+      "fleet",
+      "description",
+      "agent|seeds",
+      "Rust"
+    ],
+    "ternary-reservoir": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-resilience": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-resonance": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-retry": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-rhythm": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-rigging": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-ring": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-rl": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-robotics": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-rom": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "ternary-room": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-route": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-routing": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-runlength": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-sampler": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-sandbox": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-sandpile": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-scheduler": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-scheduling": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-scheduling-v2": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-science": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-scoring": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-search": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-search-index": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-search-rs": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-secret-share": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-seed": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-semaphore": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-sensor": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-shard": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-shard-merge": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-shard-split": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-shared-memory": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-sheaf": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-shield": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-shipyard": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-signal-flow": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-signaling": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-signals": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-sketch": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-som": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-sort": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-spatial": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-speculate": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-spiral": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-spreadsheet": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-spreadsheet-c": [
+      "qthe",
+      "description",
+      "ternary",
+      "C"
+    ],
+    "ternary-spreadsheet-python": [
+      "qthe",
+      "description",
+      "ternary",
+      "Python"
+    ],
+    "ternary-steganography": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-steward": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-story": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-stream-queue": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-streaming": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-surface-memory": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-svm": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-swarm": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-symbiont": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-symmetry": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-sync": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-temperament": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-tempo": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-tenforward": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ternary-tensor": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-tensor-parallel": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-texture-memory": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-thermodynamics": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-thermostat": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-thread-block": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-tidelight": [
+      "fleet",
+      "description",
+      "fleet",
+      "Rust"
+    ],
+    "ternary-tidepool": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-timbre": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "ternary-tnn": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-topology": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-transfer": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-transform": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-transformer": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-trees": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-trust": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-tuple": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-turing": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-types": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-validation": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-version": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-visualization": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-visualizer": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-viterbi": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-vortex": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-voting": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-voyage": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-vu": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-walk": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-walsh": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-warp": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-warp-block": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-wasm": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-watermark": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-wave": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-weather": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "ternary-wiki": [
+      "other",
+      "none",
+      "",
+      "Shell"
+    ],
+    "ternary-world": [
+      "latent",
+      "description",
+      "world model",
+      "Rust"
+    ],
+    "ternary-zigzag": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "ternary-zkp": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "terrain": [
+      "fleet",
+      "description",
+      "crab",
+      "Python"
+    ],
+    "tessera": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "test-mutator": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "test-pages-repo": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "test-repo": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "test-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "test-runner-vessel": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      ""
+    ],
+    "test-sdk-connection": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "test-tool-extract": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "tests": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "tetris-integrity": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "texture-synth": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "the-beyond": [
+      "quilt",
+      "description",
+      "quilt",
+      "HTML"
+    ],
+    "the-bridge": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "the-fleet": [
+      "fleet",
+      "name",
+      "fleet",
+      "TypeScript"
+    ],
+    "the-listeners-ear": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "the-lock": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "the-plenum-early-version": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "the-relay": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "the-revolution": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "the-rotation": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Rust"
+    ],
+    "the-seed": [
+      "fleet",
+      "description",
+      "agent",
+      "TypeScript"
+    ],
+    "the-tap": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "the-tap-pub": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "the-technician": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "the-technician-courses": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "thermal-budget": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "thermal-equilibrium": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "thermodynamics": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "thor-rom": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "thought-amplifier": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "three-forms-of-evidence": [
+      "qthe",
+      "description",
+      "canon",
+      "JavaScript"
+    ],
+    "three-forms-of-forgetting": [
+      "qthe",
+      "description",
+      "canon",
+      "JavaScript"
+    ],
+    "tick-engine": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tick-engine-v2": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tide-pool": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "tidepool": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "tile-chain": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "tile-compiler": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "tile-cuda": [
+      "other",
+      "none",
+      "",
+      "Cuda"
+    ],
+    "tile-lifecycle": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "tile-lock-synthesis": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "tile-memory-early-version": [
+      "fleet",
+      "description",
+      "fleet",
+      "Python"
+    ],
+    "tile-neon": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "tile-opencl": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "tile-refiner": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "timeseries-db": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tiny-agent-protocol": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "tiny-ecs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tiny-neural": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tit-quilt": [
+      "quilt",
+      "name",
+      "quilt",
+      "Python"
+    ],
+    "tit_quilt_elixir": [
+      "quilt",
+      "name",
+      "quilt",
+      "Elixir"
+    ],
+    "tminus-client": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "tminus-dispatcher": [
+      "fleet",
+      "description",
+      "agent",
+      "JavaScript"
+    ],
+    "tminus-ecosystem-review": [
+      "fleet",
+      "description",
+      "fleet",
+      ""
+    ],
+    "tminus-music": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "token-budget-energy": [
+      "fleet",
+      "description",
+      "fleet",
+      "TypeScript"
+    ],
+    "token-stream": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "token-vault": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "token-wavelet": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tonnetz-constraints": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ToolGuardian": [
+      "fleet",
+      "description",
+      "agent",
+      "TypeScript"
+    ],
+    "tools": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "topo-merge": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "topo-sonata": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "topo-sonata-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "topological-flow": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "topological-sort-agent-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "topology-anomaly-detector": [
+      "fleet",
+      "description",
+      "fleet",
+      "Python"
+    ],
+    "topology-bench": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "topology-lab": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "torch-vector-search": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "tracer-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "tracer-rs-archive": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "trail-agent": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "train-llm-from-scratch": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "training-architecture": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "training-data-collector": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "training-throttle": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "transfer-entropy": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "travelog-ai": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "travlog-ai": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "trawl": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "treap-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "TrendRadar": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "tri-quarter-toolbox": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "trinity-marine-station": [
+      "fleet",
+      "description",
+      "agent",
+      "JavaScript"
+    ],
+    "tripartite-agent": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      ""
+    ],
+    "tripartite-room": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "tripartite-rs": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "tripartite-rs-archive": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "Tripartite1": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "triplet-miner": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "triplet-miner-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tropical-algebra": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tropical-attention": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tropical-attention-kernel": [
+      "other",
+      "none",
+      "",
+      "Cuda"
+    ],
+    "tropical-geometry": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tropical-geometry-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tropical-graph": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tropical-harmony-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "tropical-neural": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tropical-synth": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "trust-agent": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "trust-graph": [
+      "fleet",
+      "description",
+      "fleet",
+      "TypeScript"
+    ],
+    "tui-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "turbovec": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "turbovec-integration-ccc": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "turbovec-substrate": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "Turing-tensor-midi": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "tutor-ai": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "twist-engine": [
+      "quilt",
+      "description",
+      "quilt",
+      "JavaScript"
+    ],
+    "tx-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "typst": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "tzpro-agent": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "ues-protocol": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "UI": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "ui-design-system": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "Understand-Anything": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "unicode-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "UniRL": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "universal-import-export": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "universe-chain": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "urban-transportation-system": [
+      "quilt",
+      "description",
+      "quilt",
+      "Java"
+    ],
+    "usemeter": [
+      "other",
+      "none",
+      "",
+      "Makefile"
+    ],
+    "usemeter-archive": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "uv": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "uv-cache-guardian": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "VaaS": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "validation-bits": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "validation-holonomy": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "validation-rigidity": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "vector-agents.md": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "vector-clock": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "vector-clock-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "vector-navigator": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "vector-novelty": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "vector-search": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "venue-personality": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "vessel": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "vessel-agent": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "vessel-agent-system": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "vessel-bridge": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "vessel-constellation": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "vessel-coordination-protocol": [
+      "fleet",
+      "description",
+      "fleet",
+      ""
+    ],
+    "vessel-equipment-agent-skills": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "vessel-monitor": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "vessel-prototype": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Python"
+    ],
+    "vessel-quest": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "vessel-room-navigator": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "vessel-sandbox": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "vessel-spec": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "vessel-template": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "vessel-tuner": [
+      "fleet",
+      "description",
+      "fleet",
+      "TypeScript"
+    ],
+    "vetcheck": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "Vibe-Code-Agent-Gen": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "vibe-core": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "vibe-graph": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "vibe-protocol": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "vibe-world": [
+      "other",
+      "none",
+      "",
+      "Lua"
+    ],
+    "ViMax": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "vite": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "vm-estate": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "vocabularies": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "voice-note-app": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "voice-reflex-gate": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "voice-signature-tool": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "voronoi-traditions": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "voxblox": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "voxblox-plusplus": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "voxel-logic": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "voxelgpt": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "voxelworks": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "wal-journal": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "warp": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "warp-flux-poc": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "warp-room": [
+      "fleet",
+      "description",
+      "fleet",
+      "C"
+    ],
+    "warp-ternary-vote": [
+      "qthe",
+      "description",
+      "ternary",
+      "Rust"
+    ],
+    "warp-vote-consensus": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Rust"
+    ],
+    "wasm-cert-wedge": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "wasm-verify": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "wasserstein-agents": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "wasserstein-agents-rs": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "wasserstein-narrative": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "wasserstein-ot-c": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "watch-follow": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "watcher-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "wave-conservation": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "wavelet-core": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "webgpu-profiler": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "webhook-relay": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "webrtc-stream": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "websocket-fabric": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "websocket-fabric-v2": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "websocket-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "wesley": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "wesley-cns-adapter": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "wesley-holodeck": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "wesleys-imagination": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "west-african-math-c": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "west-african-math-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "wheelhouse-game": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "whisper-sync": [
+      "fleet",
+      "description",
+      "fleet",
+      "Makefile"
+    ],
+    "whistle": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "wiki": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "wire-harmony": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "witness-complex": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "witness-is-prediction": [
+      "qthe",
+      "description",
+      "canon",
+      "JavaScript"
+    ],
+    "witness-topology": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "witness-topology-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "workers-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "workflow-engineer": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "workflow-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "workshop": [
+      "fleet",
+      "description",
+      "fleet",
+      ""
+    ],
+    "ws-fabric": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ws-snapshot-hermit-crab": [
+      "fleet",
+      "name",
+      "crab",
+      ""
+    ],
+    "ws-snapshot-soundcrab": [
+      "fleet",
+      "name",
+      "crab",
+      ""
+    ],
+    "ws-status-indicator": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "xlang": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "xMind": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "yiluodi": [
+      "fleet",
+      "description",
+      "receipt",
+      "JavaScript"
+    ],
+    "yoneda": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "young-tableau-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "z-agent-bootcamp": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Python"
+    ],
+    "zc-alchemist-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zc-archivist-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zc-curator-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zc-herald-shell": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      ""
+    ],
+    "zc-mason-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zc-navigator-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zc-scholar-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zc-scout-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zc-scribe-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zc-sentinel-shell": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      ""
+    ],
+    "zc-tinker-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zc-weaver-shell": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zeitgeist-protocol": [
+      "fleet",
+      "description",
+      "fleet",
+      ""
+    ],
+    "zero-knowledge": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "zero-knowledge-fleet": [
+      "fleet",
+      "name",
+      "fleet",
+      "TypeScript"
+    ],
+    "zero-shot-auditor": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
+    "zero-trust-fleet": [
+      "fleet",
+      "name",
+      "fleet",
+      "TypeScript"
+    ],
+    "zeroclaw-agent-early-version": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "zeroclaw-arena": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "zeroclaw-crew": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "zeroclaw-dissertation": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "zeroclaw-fisher": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zeroclaw-guard": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zeroclaw-loop": [
+      "fleet",
+      "description",
+      "agent|crab",
+      "Shell"
+    ],
+    "zeroclaw-plato": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
+    "zeroclaw-scout": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zeroclaw-trader": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
+    "zeroclaws": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      ""
+    ],
+    "zerolang": [
+      "fleet",
+      "description",
+      "agent",
+      "C"
+    ],
+    "zhc-chain": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "zhc-consensus": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "zhc-yang-mills": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "ZkCanvas": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "zkp-rs": [
+      "other",
+      "none",
+      "",
+      ""
     ]
   },
   "top_motion": [
     {
-      "repo": "quilt-atlas",
+      "repo": "SmartCRDT",
       "workflows": [
-        "atlas.yml"
+        "benchmark-regression.yml",
+        "benchmark.yml",
+        "benchmarks-ci.yml",
+        "cd-enhanced.yml",
+        "ci.yml",
+        "codeql.yml",
+        "deploy.yml",
+        "docker.yml",
+        "pr-validation.yml",
+        "release.yml",
+        "security-scan.yml",
+        "smoke-tests.yml"
       ],
-      "pushed_at": "2026-09-28T17:16:14Z",
-      "size_kb": 28
-    },
-    {
-      "repo": "jev-garden",
-      "workflows": [
-        "garden.yml"
-      ],
-      "pushed_at": "2026-09-28T17:13:35Z",
-      "size_kb": 109
+      "pushed_at": "2026-09-28T18:58:52Z",
+      "size_kb": 7367
     },
     {
       "repo": "MicroMoth-quilt",
       "workflows": [
         "build.yml"
       ],
-      "pushed_at": "2026-09-28T17:13:09Z",
-      "size_kb": 9898
+      "pushed_at": "2026-09-28T18:54:39Z",
+      "size_kb": 9952
+    },
+    {
+      "repo": "pincher",
+      "workflows": [
+        "agent-workflow.yml",
+        "agent_activation.yml",
+        "ci.yml",
+        "publish_nail.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-09-28T18:54:19Z",
+      "size_kb": 1489
+    },
+    {
+      "repo": "jev-garden",
+      "workflows": [
+        "garden.yml"
+      ],
+      "pushed_at": "2026-09-28T18:43:01Z",
+      "size_kb": 111
+    },
+    {
+      "repo": "quilt-jepa",
+      "workflows": [],
+      "pushed_at": "2026-09-28T18:30:37Z",
+      "size_kb": 47
+    },
+    {
+      "repo": "qthe",
+      "workflows": [],
+      "pushed_at": "2026-09-28T18:10:50Z",
+      "size_kb": 2184
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [],
+      "pushed_at": "2026-09-28T18:05:20Z",
+      "size_kb": 142
+    },
+    {
+      "repo": "glyphspace",
+      "workflows": [],
+      "pushed_at": "2026-09-28T17:46:24Z",
+      "size_kb": 3
+    },
+    {
+      "repo": "glyphcast",
+      "workflows": [],
+      "pushed_at": "2026-09-28T17:46:21Z",
+      "size_kb": 4
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "ci.yml",
+        "landing-page.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml"
+      ],
+      "pushed_at": "2026-09-28T17:45:12Z",
+      "size_kb": 3615764
+    },
+    {
+      "repo": "quilt",
+      "workflows": [
+        "ci.yml",
+        "publish-rubygems.yml"
+      ],
+      "pushed_at": "2026-09-28T17:38:27Z",
+      "size_kb": 15372
     },
     {
       "repo": "coev",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-09-28T17:11:00Z",
-      "size_kb": 29
+      "pushed_at": "2026-09-28T17:37:35Z",
+      "size_kb": 30
     },
     {
       "repo": "pong-quilt",
       "workflows": [
         "merge-gate.yml"
       ],
-      "pushed_at": "2026-09-28T16:58:38Z",
-      "size_kb": 2325
+      "pushed_at": "2026-09-28T17:37:23Z",
+      "size_kb": 2332
     },
     {
-      "repo": "quilt-research-canons",
+      "repo": "fleet-hooks",
       "workflows": [],
-      "pushed_at": "2026-09-28T16:45:49Z",
-      "size_kb": 61
+      "pushed_at": "2026-09-28T17:28:01Z",
+      "size_kb": 9
     },
     {
       "repo": "fleet-seeds",
       "workflows": [],
-      "pushed_at": "2026-09-28T16:40:30Z",
-      "size_kb": 2613
+      "pushed_at": "2026-09-28T17:21:29Z",
+      "size_kb": 2646
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-09-28T17:17:08Z",
+      "size_kb": 90
     },
     {
       "repo": "quilt-codespace-lab",
       "workflows": [],
       "pushed_at": "2026-09-28T16:39:48Z",
       "size_kb": 43
-    },
-    {
-      "repo": "qthe",
-      "workflows": [],
-      "pushed_at": "2026-09-28T16:37:31Z",
-      "size_kb": 2178
     },
     {
       "repo": "mavis-substrate-walker",
@@ -28124,27 +34139,12 @@
       "size_kb": 67
     },
     {
-      "repo": "quilt",
-      "workflows": [
-        "ci.yml",
-        "publish-rubygems.yml"
-      ],
-      "pushed_at": "2026-09-28T15:19:50Z",
-      "size_kb": 15367
-    },
-    {
       "repo": "quilt-cloudflare",
       "workflows": [
         "ci.yml"
       ],
       "pushed_at": "2026-09-28T15:19:25Z",
       "size_kb": 3347
-    },
-    {
-      "repo": "quilt-jepa",
-      "workflows": [],
-      "pushed_at": "2026-09-28T15:18:32Z",
-      "size_kb": 47
     },
     {
       "repo": "duke-lab",
@@ -28163,6 +34163,25 @@
       "size_kb": 341
     },
     {
+      "repo": "tidepool",
+      "workflows": [],
+      "pushed_at": "2026-09-28T15:15:24Z",
+      "size_kb": 66
+    },
+    {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-09-28T11:34:51Z",
+      "size_kb": 52353
+    },
+    {
       "repo": "plato-portal",
       "workflows": [
         "auto-index.yml",
@@ -28172,88 +34191,13 @@
       ],
       "pushed_at": "2026-09-28T11:26:04Z",
       "size_kb": 8613
-    },
-    {
-      "repo": "SmartCRDT",
-      "workflows": [
-        "benchmark-regression.yml",
-        "benchmark.yml",
-        "benchmarks-ci.yml",
-        "cd-enhanced.yml",
-        "ci.yml",
-        "codeql.yml",
-        "deploy.yml",
-        "docker.yml",
-        "pr-validation.yml",
-        "release.yml",
-        "security-scan.yml",
-        "smoke-tests.yml"
-      ],
-      "pushed_at": "2026-09-28T09:11:06Z",
-      "size_kb": 7367
-    },
-    {
-      "repo": "quilt-gpu-lab",
-      "workflows": [],
-      "pushed_at": "2026-09-28T08:55:14Z",
-      "size_kb": 128965
-    },
-    {
-      "repo": "AI-Writings",
-      "workflows": [
-        "ci.yml",
-        "landing-page.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml"
-      ],
-      "pushed_at": "2026-09-28T08:54:25Z",
-      "size_kb": 3611293
-    },
-    {
-      "repo": "jeviter",
-      "workflows": [
-        "ci.yml",
-        "npm-publish-github-packages.yml",
-        "npm-publish.yml"
-      ],
-      "pushed_at": "2026-09-28T08:43:47Z",
-      "size_kb": 129
-    },
-    {
-      "repo": "fleet-static-host",
-      "workflows": [],
-      "pushed_at": "2026-09-28T08:35:08Z",
-      "size_kb": 70686
-    },
-    {
-      "repo": "api-orchestra",
-      "workflows": [],
-      "pushed_at": "2026-09-28T08:25:40Z",
-      "size_kb": 22263
-    },
-    {
-      "repo": "quilt-arcade",
-      "workflows": [
-        "ci.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-09-28T08:11:45Z",
-      "size_kb": 838
-    },
-    {
-      "repo": "elephant",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-09-28T08:10:31Z",
-      "size_kb": 46929
     }
   ],
   "notes": [
     "v2 (53-e): families match NAME first (precedence jev>latent>moth>qthe>quilt>fleet, unchanged from v1), then DESCRIPTION substring scoring (small synonym table per family, ties broken by precedence); residue stays \"other\" — families now use descriptions and are still imperfect on purpose",
     "per-repo evidence lives in classification: [family, stage in {name,description,none}, matched keywords \"|\" joined, language] — audit the map, do not trust it blind",
     "CI coverage is measured only on the top_motion slice (API economy); absence elsewhere is UNMEASURED, not zero",
-    "hard cap 40 pages x 100 = 4000; if total_repos == 4000 the account outgrew the map and the true count is unknown-by-this-run (raise the cap next run)"
+    "pagination follows Link headers (rel=next) until the account is exhausted, bounded by a hard safety cap of 120 pages (12000 repos); pagination_cap_hit=true would mean the cap bound the run and the true count is unknown-by-this-run",
+    "fleet keyword audit (54-c): 30-repo deterministic sample of the description-stage fleet population (then 1153) read by hand — 25/30 genuinely fleet (83% strict, 27/30 counting defensible multi-agent-theory borderlines) ⇒ synonym table kept unchanged; 53-e suspicion that agent/lane/receipt hoover broadly is refuted on this account (surface at audit time: agent=844 · fleet=425 · crab=9 · lane=6 · receipt=6 · seeds=2); misses receipted in worklog 54-c (lau-compilers \"agent DSL\" tail-match, superinstance-embedder verb-matched \"seeds\")"
   ]
 }

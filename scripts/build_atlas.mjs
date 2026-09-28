@@ -15,6 +15,15 @@
 // Every repo records [family, stage, matched keywords, language] in
 // atlas.json → "classification" so the map is auditable. Still imperfect
 // on purpose — but now the imperfection shows its evidence.
+//
+// v3 (task 54-c): pagination follows the Link header (rel="next") until the
+//   account is exhausted, bounded by a hard safety cap of 120 pages
+//   (12000 repos). The old 40-page cap pinned the map at exactly 4000 —
+//   the account outgrew it. Pages fetched + cap-hit are receipted in
+//   atlas.json (pages_fetched / pagination_cap / pagination_cap_hit).
+//   Env-gated ATLAS_DUMP=<path> writes a per-repo audit dump
+//   (name, description, family, stage, hits) so keyword-precision audits
+//   (54-c fleet audit and successors) read real text, not guesses.
 
 import { writeFileSync, readFileSync } from 'node:fs';
 
@@ -31,15 +40,29 @@ async function api(url) {
   return r.json();
 }
 
-// Hard cap receipted: 40 pages x 100 = 4000. If we come back with exactly
-// 4000, the account outgrew the map and the true count is unknown-by-this-run.
+// Pagination receipted: follow Link headers (rel="next") page by page until
+// the account is exhausted; the hard safety cap of 120 pages only exists so
+// a runaway account can never loop forever. If pagination_cap_hit is true,
+// the cap bound the run and the true count is still unknown-by-this-run.
+const PAGES_CAP = 120;
 const repos = [];
-for (let p = 1; p <= 40; p++) {
-  const b = await api(`https://api.github.com/users/${OWNER}/repos?per_page=100&page=${p}`);
+let pages = 0;
+let hardCapHit = false;
+let nextUrl = `https://api.github.com/users/${OWNER}/repos?per_page=100&page=1`;
+while (nextUrl) {
+  const r = await fetch(nextUrl, { headers: H });
+  if (!r.ok) throw new Error(`${r.status} ${nextUrl}`);
+  const b = await r.json();
   if (!Array.isArray(b) || b.length === 0) break;
   repos.push(...b);
-  if (b.length < 100) break;
+  pages++;
+  // GitHub Link header shape: <url&page=N>; rel="next", <url&page=M>; rel="last"
+  const m = (r.headers.get('link') || '').match(/<([^>]*)>;\s*rel="next"/);
+  if (!m) { nextUrl = null; break; }            // no rel=next ⇒ exhausted
+  if (pages >= PAGES_CAP) { hardCapHit = true; break; } // safety cap bound us
+  nextUrl = m[1];
 }
+console.log(`pagination: ${pages} pages, ${repos.length} repos, hard-cap-hit=${hardCapHit}`);
 
 // ---- classifier v2 -------------------------------------------------------
 // One table, family precedence = array order (same as v1's classify()).
@@ -108,10 +131,28 @@ for (const r of repos) {
   s[c.family] = (s[c.family] || 0) + 1;
 }
 
+// Audit lane (env-gated, off by default in scheduled runs): per-repo dump of
+// the real description text beside the classification evidence. This is how
+// keyword-precision audits stay honest — read the text, not the vibes.
+if (process.env.ATLAS_DUMP) {
+  const dump = repos.map((r) => ({
+    name: r.name,
+    description: r.description || '',
+    family: classification[r.name]?.[0] ?? 'MISSING',
+    stage: classification[r.name]?.[1] ?? 'MISSING',
+    hits: classification[r.name]?.[2] ?? '',
+  }));
+  writeFileSync(process.env.ATLAS_DUMP, JSON.stringify(dump, null, 2) + '\n');
+  console.log(`audit dump: ${dump.length} rows → ${process.env.ATLAS_DUMP}`);
+}
+
 const atlas = {
   generated_at_utc: new Date().toISOString(),
   account: OWNER,
   total_repos: repos.length,
+  pages_fetched: pages,
+  pagination_cap: PAGES_CAP,
+  pagination_cap_hit: hardCapHit,
   families: Object.fromEntries(Object.entries(byFamily).map(([k, v]) => [k, v.length])),
   families_by_stage: byStage,
   family_members: byFamily,
@@ -121,7 +162,8 @@ const atlas = {
     'v2 (53-e): families match NAME first (precedence jev>latent>moth>qthe>quilt>fleet, unchanged from v1), then DESCRIPTION substring scoring (small synonym table per family, ties broken by precedence); residue stays "other" — families now use descriptions and are still imperfect on purpose',
     'per-repo evidence lives in classification: [family, stage in {name,description,none}, matched keywords "|" joined, language] — audit the map, do not trust it blind',
     'CI coverage is measured only on the top_motion slice (API economy); absence elsewhere is UNMEASURED, not zero',
-    'hard cap 40 pages x 100 = 4000; if total_repos == 4000 the account outgrew the map and the true count is unknown-by-this-run (raise the cap next run)',
+    'pagination follows Link headers (rel=next) until the account is exhausted, bounded by a hard safety cap of 120 pages (12000 repos); pagination_cap_hit=true would mean the cap bound the run and the true count is unknown-by-this-run',
+    'fleet keyword audit (54-c): 30-repo deterministic sample of the description-stage fleet population (then 1153) read by hand — 25/30 genuinely fleet (83% strict, 27/30 counting defensible multi-agent-theory borderlines) ⇒ synonym table kept unchanged; 53-e suspicion that agent/lane/receipt hoover broadly is refuted on this account (surface at audit time: agent=844 · fleet=425 · crab=9 · lane=6 · receipt=6 · seeds=2); misses receipted in worklog 54-c (lau-compilers "agent DSL" tail-match, superinstance-embedder verb-matched "seeds")',
   ],
 };
 writeFileSync('atlas.json', JSON.stringify(atlas, null, 2) + '\n');
@@ -138,7 +180,7 @@ const famLine = Object.entries(atlas.families)
   .join(' · ');
 
 const block = `<!-- ATLAS:BEGIN (generated by scripts/build_atlas.mjs — do not hand-edit inside markers) -->
-**${atlas.total_repos} repos** · families (v2: name → description): ${famLine} · generated ${atlas.generated_at_utc}
+**${atlas.total_repos} repos** (${atlas.pages_fetched} pages, Link-follow cap ${atlas.pagination_cap}${atlas.pagination_cap_hit ? ' — CAP HIT, count bounded not total' : ''}) · families (v2: name → description): ${famLine} · generated ${atlas.generated_at_utc}
 
 v2 evidence rule: every repo's [family, stage, matched keywords, language] is recorded in atlas.json → \`classification\`. Descriptions joined the classifier; "other" is still honest residue. CI is probed only on the top-motion slice — absence elsewhere is UNMEASURED, not zero.
 
@@ -161,5 +203,5 @@ writeFileSync(readmePath, readme);
 const stageLine = Object.entries(byStage)
   .map(([s, m]) => `${s}=${Object.values(m).reduce((a, b) => a + b, 0)}`)
   .join(' · ');
-console.log(`atlas built: ${atlas.total_repos} repos, ${coverage.length} CI-probed, families ${famLine}`);
+console.log(`atlas built: ${atlas.total_repos} repos across ${pages} pages, ${coverage.length} CI-probed, families ${famLine}`);
 console.log(`stages: ${stageLine}`);
