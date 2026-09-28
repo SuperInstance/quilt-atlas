@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T19:00:59.955Z",
+  "generated_at_utc": "2026-09-28T19:02:57.099Z",
   "account": "SuperInstance",
   "total_repos": 4848,
   "pages_fetched": 49,
@@ -33991,6 +33991,14 @@
   },
   "top_motion": [
     {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-09-28T19:01:54Z",
+      "size_kb": 90
+    },
+    {
       "repo": "SmartCRDT",
       "workflows": [
         "benchmark-regression.yml",
@@ -34115,14 +34123,6 @@
       "workflows": [],
       "pushed_at": "2026-09-28T17:21:29Z",
       "size_kb": 2646
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-09-28T17:17:08Z",
-      "size_kb": 90
     },
     {
       "repo": "quilt-codespace-lab",
