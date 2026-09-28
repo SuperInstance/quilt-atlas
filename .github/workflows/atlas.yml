@@ -1,0 +1,42 @@
+name: atlas
+
+# The account mapping itself, on a schedule. Living map, living organ:
+# every 6h it re-inventories the SuperInstance account, re-measures CI
+# coverage on the moving frontier, and commits the diff. Append-only
+# spirit: nothing is deleted, the map only grows truer.
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atlas-regen
+  cancel-in-progress: false
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build atlas
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build_atlas.mjs
+      - name: Commit regen (if changed)
+        run: |
+          git config user.name  "quilt-atlas bot"
+          git config user.email "agents@superinstance.local"
+          git add atlas.json README.md
+          if git diff --cached --quiet; then
+            echo "no change — map already true"
+          else
+            git commit -m "atlas: scheduled regen $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
