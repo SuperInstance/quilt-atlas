@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-09-28T19:30:13.708Z",
+  "generated_at_utc": "2026-09-28T23:16:39.554Z",
   "account": "SuperInstance",
-  "total_repos": 4849,
+  "total_repos": 4854,
   "pages_fetched": 49,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2503,
-    "fleet": 1555,
-    "qthe": 460,
+    "other": 2504,
+    "fleet": 1558,
+    "qthe": 461,
     "quilt": 246,
     "jev": 44,
     "latent": 18,
@@ -16,10 +16,10 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2503
+      "other": 2504
     },
     "description": {
-      "fleet": 1153,
+      "fleet": 1156,
       "qthe": 427,
       "quilt": 40,
       "jev": 26,
@@ -28,7 +28,7 @@
     },
     "name": {
       "quilt": 206,
-      "qthe": 33,
+      "qthe": 34,
       "fleet": 402,
       "latent": 13,
       "moth": 21,
@@ -2325,6 +2325,7 @@
       "synesis-templates",
       "synesis-tools",
       "synthcity",
+      "Syzygy",
       "t-minus-rs",
       "tap-frontend",
       "tap-gamenight",
@@ -3626,9 +3627,12 @@
       "markdown-agent-studio",
       "mavis-canary-watcher",
       "mavis-erised",
+      "mavis-essay-scout",
       "mavis-fleet",
       "mavis-fleet-canary",
       "mavis-persona-preserver",
+      "mavis-pincher",
+      "mavis-pincher-pages",
       "MemEye",
       "memory-cloud",
       "memory-palace",
@@ -4189,6 +4193,7 @@
       "porch",
       "qthe",
       "qthe-codec",
+      "qthe-verify",
       "quilt-canon-book",
       "quilt-canon-cli",
       "quilt-canon-explorer",
@@ -20693,6 +20698,12 @@
       "agent",
       "Python"
     ],
+    "mavis-essay-scout": [
+      "fleet",
+      "description",
+      "fleet",
+      "Python"
+    ],
     "mavis-fleet": [
       "fleet",
       "name",
@@ -20716,6 +20727,18 @@
       "description",
       "fleet",
       "Python"
+    ],
+    "mavis-pincher": [
+      "fleet",
+      "description",
+      "fleet",
+      "TypeScript"
+    ],
+    "mavis-pincher-pages": [
+      "fleet",
+      "description",
+      "fleet",
+      "HTML"
     ],
     "mavis-self-review": [
       "other",
@@ -25180,6 +25203,12 @@
       "name",
       "qthe",
       "Python"
+    ],
+    "qthe-verify": [
+      "qthe",
+      "name",
+      "qthe",
+      ""
     ],
     "quality-gate-stream": [
       "other",
@@ -30023,6 +30052,12 @@
       "agent",
       ""
     ],
+    "Syzygy": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
     "t-minus": [
       "fleet",
       "description",
@@ -33998,58 +34033,24 @@
   },
   "top_motion": [
     {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-09-28T19:29:02Z",
-      "size_kb": 90
-    },
-    {
-      "repo": "cellforge",
-      "workflows": [],
-      "pushed_at": "2026-09-28T19:27:25Z",
-      "size_kb": 145
-    },
-    {
-      "repo": "cns-substrate",
-      "workflows": [],
-      "pushed_at": "2026-09-28T19:27:23Z",
-      "size_kb": 1648
-    },
-    {
       "repo": "MicroMoth-quilt",
       "workflows": [
         "build.yml"
       ],
-      "pushed_at": "2026-09-28T19:21:41Z",
-      "size_kb": 9952
-    },
-    {
-      "repo": "PuddnHead",
-      "workflows": [],
-      "pushed_at": "2026-09-28T19:20:19Z",
-      "size_kb": 0
+      "pushed_at": "2026-09-28T23:10:29Z",
+      "size_kb": 10074
     },
     {
       "repo": "fleet-seeds",
       "workflows": [],
-      "pushed_at": "2026-09-28T19:18:17Z",
-      "size_kb": 2646
-    },
-    {
-      "repo": "jev-garden",
-      "workflows": [
-        "garden.yml"
-      ],
-      "pushed_at": "2026-09-28T19:16:07Z",
-      "size_kb": 111
+      "pushed_at": "2026-09-28T22:26:50Z",
+      "size_kb": 2930
     },
     {
       "repo": "quilt-jepa",
       "workflows": [],
-      "pushed_at": "2026-09-28T19:14:04Z",
-      "size_kb": 47
+      "pushed_at": "2026-09-28T22:25:42Z",
+      "size_kb": 209
     },
     {
       "repo": "AI-Writings",
@@ -34060,8 +34061,102 @@
         "publish-jev-core.yml",
         "publish-jev-decide.yml"
       ],
-      "pushed_at": "2026-09-28T19:07:23Z",
-      "size_kb": 3615764
+      "pushed_at": "2026-09-28T22:15:41Z",
+      "size_kb": 3621119
+    },
+    {
+      "repo": "Syzygy",
+      "workflows": [],
+      "pushed_at": "2026-09-28T22:15:18Z",
+      "size_kb": 278
+    },
+    {
+      "repo": "jev-garden",
+      "workflows": [
+        "garden.yml"
+      ],
+      "pushed_at": "2026-09-28T21:49:26Z",
+      "size_kb": 186
+    },
+    {
+      "repo": "exoj",
+      "workflows": [
+        "smoke.yml"
+      ],
+      "pushed_at": "2026-09-28T21:46:58Z",
+      "size_kb": 154
+    },
+    {
+      "repo": "quilt-gpu-lab",
+      "workflows": [],
+      "pushed_at": "2026-09-28T21:42:27Z",
+      "size_kb": 129563
+    },
+    {
+      "repo": "quilt-cloudflare",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-09-28T21:41:49Z",
+      "size_kb": 3361
+    },
+    {
+      "repo": "PuddnHead",
+      "workflows": [],
+      "pushed_at": "2026-09-28T21:12:53Z",
+      "size_kb": 66
+    },
+    {
+      "repo": "pong-quilt",
+      "workflows": [
+        "merge-gate.yml"
+      ],
+      "pushed_at": "2026-09-28T20:54:30Z",
+      "size_kb": 2493
+    },
+    {
+      "repo": "cellforge",
+      "workflows": [],
+      "pushed_at": "2026-09-28T20:53:29Z",
+      "size_kb": 144
+    },
+    {
+      "repo": "cns-substrate",
+      "workflows": [],
+      "pushed_at": "2026-09-28T20:53:15Z",
+      "size_kb": 1650
+    },
+    {
+      "repo": "mavis-essay-scout",
+      "workflows": [],
+      "pushed_at": "2026-09-28T20:06:27Z",
+      "size_kb": 10
+    },
+    {
+      "repo": "mavis-pincher-pages",
+      "workflows": [],
+      "pushed_at": "2026-09-28T20:02:53Z",
+      "size_kb": 18
+    },
+    {
+      "repo": "mavis-pincher",
+      "workflows": [],
+      "pushed_at": "2026-09-28T19:59:32Z",
+      "size_kb": 17
+    },
+    {
+      "repo": "qthe-verify",
+      "workflows": [],
+      "pushed_at": "2026-09-28T19:42:26Z",
+      "size_kb": 1
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-09-28T19:30:15Z",
+      "size_kb": 113
     },
     {
       "repo": "SmartCRDT",
@@ -34117,75 +34212,6 @@
       "workflows": [],
       "pushed_at": "2026-09-28T17:46:21Z",
       "size_kb": 4
-    },
-    {
-      "repo": "quilt",
-      "workflows": [
-        "ci.yml",
-        "publish-rubygems.yml"
-      ],
-      "pushed_at": "2026-09-28T17:38:27Z",
-      "size_kb": 15372
-    },
-    {
-      "repo": "coev",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-09-28T17:37:35Z",
-      "size_kb": 30
-    },
-    {
-      "repo": "pong-quilt",
-      "workflows": [
-        "merge-gate.yml"
-      ],
-      "pushed_at": "2026-09-28T17:37:23Z",
-      "size_kb": 2332
-    },
-    {
-      "repo": "fleet-hooks",
-      "workflows": [],
-      "pushed_at": "2026-09-28T17:28:01Z",
-      "size_kb": 9
-    },
-    {
-      "repo": "quilt-codespace-lab",
-      "workflows": [],
-      "pushed_at": "2026-09-28T16:39:48Z",
-      "size_kb": 43
-    },
-    {
-      "repo": "mavis-substrate-walker",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-09-28T16:07:17Z",
-      "size_kb": 67
-    },
-    {
-      "repo": "quilt-cloudflare",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-09-28T15:19:25Z",
-      "size_kb": 3347
-    },
-    {
-      "repo": "duke-lab",
-      "workflows": [
-        "test.yml"
-      ],
-      "pushed_at": "2026-09-28T15:16:23Z",
-      "size_kb": 2187
-    },
-    {
-      "repo": "quilt-tools",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-09-28T15:16:05Z",
-      "size_kb": 341
     }
   ],
   "notes": [
