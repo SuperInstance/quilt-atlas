@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-09-28T16:04:06.993Z",
+  "generated_at_utc": "2026-09-28T16:05:15.841Z",
   "account": "SuperInstance",
   "total_repos": 4000,
   "families": {
-    "other": 3327,
-    "quilt": 202,
+    "other": 3326,
+    "quilt": 203,
     "qthe": 33,
     "fleet": 389,
     "latent": 13,
@@ -3338,8 +3338,7 @@
       "spectro",
       "splay-tree-rs",
       "spline-instrument",
-      "spline-midi-smooth",
-      "spline-physics"
+      "spline-midi-smooth"
     ],
     "quilt": [
       "ax-quilt",
@@ -3366,6 +3365,7 @@
       "quilt-arcade",
       "quilt-arch",
       "quilt-arena",
+      "quilt-atlas",
       "quilt-base",
       "quilt-bathy",
       "quilt-blueprint",
@@ -4029,6 +4029,14 @@
   },
   "top_motion": [
     {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-09-28T16:04:26Z",
+      "size_kb": 0
+    },
+    {
       "repo": "quilt-codespace-lab",
       "workflows": [],
       "pushed_at": "2026-09-28T15:57:41Z",
@@ -4058,7 +4066,7 @@
         "garden.yml"
       ],
       "pushed_at": "2026-09-28T15:25:07Z",
-      "size_kb": 80
+      "size_kb": 109
     },
     {
       "repo": "quilt",
@@ -4217,12 +4225,6 @@
       ],
       "pushed_at": "2026-09-28T07:18:34Z",
       "size_kb": 82978
-    },
-    {
-      "repo": "paced-seam",
-      "workflows": [],
-      "pushed_at": "2026-09-28T07:03:33Z",
-      "size_kb": 8
     }
   ],
   "notes": [
