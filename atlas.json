@@ -1,38 +1,38 @@
 {
-  "generated_at_utc": "2026-09-30T12:33:29.723Z",
+  "generated_at_utc": "2026-09-30T22:15:02.022Z",
   "account": "SuperInstance",
-  "total_repos": 4891,
-  "pages_fetched": 49,
+  "total_repos": 5103,
+  "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2516,
-    "fleet": 1563,
-    "qthe": 462,
-    "quilt": 265,
-    "jev": 44,
+    "other": 2704,
+    "fleet": 1575,
+    "qthe": 464,
+    "quilt": 272,
+    "jev": 47,
     "latent": 18,
     "moth": 23
   },
   "families_by_stage": {
     "none": {
-      "other": 2516
+      "other": 2704
     },
     "description": {
-      "fleet": 1161,
-      "qthe": 428,
+      "fleet": 1169,
+      "qthe": 429,
       "quilt": 44,
-      "jev": 26,
+      "jev": 27,
       "latent": 5,
       "moth": 2
     },
     "name": {
-      "quilt": 221,
-      "qthe": 34,
-      "fleet": 402,
+      "quilt": 228,
+      "qthe": 35,
+      "fleet": 406,
       "latent": 13,
       "moth": 21,
-      "jev": 18
+      "jev": 20
     }
   },
   "family_members": {
@@ -40,24 +40,33 @@
       ".github",
       "a2a-signal-chain",
       "a2ui",
+      "aabb-collision",
       "ab-testing-c",
       "ab-testing-rs",
       "aboracle",
       "ACE-Step-1.5",
       "acg_protocol",
+      "activation-fn",
       "active-inference",
       "active-probe",
       "activeledger-ai-pages",
+      "activeledger-ai-site",
       "activelog",
       "activelog-agent",
       "activelog-ai",
       "activelog-ai-pages",
+      "activelog-ai-site",
       "activelog-app",
       "activelog-backend",
       "activelog-claude",
       "ActiveLog-MVP",
       "ActiveLog-TechnicalRepo",
+      "actor-dispatcher",
+      "actor-pool",
+      "actor-router",
       "actor-rs",
+      "actor-supervisor",
+      "actor-system",
       "actualization-harbor",
       "actualize",
       "actualizer-ai",
@@ -86,8 +95,10 @@
       "ai-smart-notifications-archive",
       "ai-token-counter",
       "AI-Writings",
+      "ai-writings-vectorizer",
       "aider",
       "AIR",
+      "albanese-variety",
       "algebra-explorer",
       "algebraic-geometry",
       "algtop-rs",
@@ -99,6 +110,7 @@
       "analog-spline-theory",
       "animal-ai",
       "anomaly-atlas",
+      "anomaly-detect",
       "ant-colony",
       "api-doc-generator",
       "api-gateway",
@@ -107,17 +119,22 @@
       "arch-gateway-room-clean",
       "architectures",
       "archive",
+      "archive-writer",
       "arithmetic-code",
       "arm-neon-eisenstein-bench",
       "artistlog-ai",
       "asset-ranch",
       "ast-builder",
+      "ast-diff",
+      "ast-visitor",
       "astro",
       "async-gpu-dispatch",
       "async-rs",
       "attention-daemon-early-version",
       "auction-theory",
+      "audio-mixer",
       "audio-pipeline",
+      "audit-log",
       "audit-trail",
       "Auto-Backup-Compression-Encryption",
       "auto-changelog",
@@ -126,66 +143,93 @@
       "AutoData-old",
       "Automatic-Type-Safe-IndexedDB",
       "automerge",
+      "avl-tree",
       "avl-tree-rs",
+      "avro-codec",
       "avx512-constraint-checker",
       "axum",
       "b-tree",
       "b-tree-rs",
+      "b-tree-segment",
       "back-deck-game",
+      "backgammon-roll",
+      "backpressure-regulator",
       "baml",
       "band-ensemble-rs",
       "bandit-learner",
+      "base58-check",
       "base60-lattice",
       "bathydata-map",
       "baton-orchestrator",
       "batten-spline",
       "bayesian-game",
+      "bayesian-inference",
       "Bayesian-Multi-Armed-Bandits",
       "bayesian-update",
+      "bch-code",
+      "bech32-encode",
       "bench-compare",
+      "bench-runner",
       "Bend",
       "beta-test-alex",
+      "beta-test-framework",
       "beta-test-marcus",
       "betti-curve",
       "betti-music-computation",
+      "betti-number",
       "bezier-curve",
       "bid-engine-rs",
       "bigint-rs",
+      "bip32-derived",
+      "blake2-tree",
+      "blake3-hash",
+      "blame-tracker",
       "blog-posts",
+      "bloom-filter",
+      "bloom-filter-extended",
       "bloom-filter-rs",
+      "bloom-filter-scalable",
       "BMAD-METHOD",
       "boat-agent",
       "booklog-ai",
       "boot-camp",
       "bootcamp-engine",
       "bounded-model",
+      "bplus-tree",
       "braid-group-rs",
       "branch-bound",
+      "branch-prediction",
       "branch-sandbox",
       "breakthrough-prospector",
       "breed-registry",
       "bregman-divergence",
+      "brownian-motion",
       "bsp-tree",
       "build-guardian",
+      "bulkhead-pattern",
       "bun",
       "BusinessLog",
       "businesslog-ai",
       "businesslog-ai-pages",
       "businesslog-app",
       "bwt-compress",
+      "bytecode-gen",
       "caas-api",
       "cacapn",
       "cache-guardian-c",
+      "cache-hierarchy",
       "cache-layer",
       "cache-layer-optimizer",
       "cache-rs",
       "caching-service",
       "caching-service-rs",
       "canary-3lang",
+      "canary-release",
       "candor",
       "capitaine-agent",
       "capitaine-ai-pages",
       "capitaineai-com-pages",
+      "capnp-schema",
       "captain-console",
       "cargo-line-tycoon-substrate-ts",
       "carry-protocol",
@@ -194,19 +238,26 @@
       "casting-call-gpu",
       "casting-call-mcp",
       "cathedral-probe",
+      "cauchy-distribution",
       "causal-graph",
       "causal-graph-rs",
       "causal-healer",
       "cbor-stream",
       "cech-complex",
+      "cell-automaton",
       "cell-cascade",
       "cellforge",
+      "cellular-automata",
       "cellular-automata-rs",
       "Central-Error-Manager",
       "cfd-rs",
+      "cfg-analyzer",
       "cfg-construct",
       "cg-from-scratch",
+      "cgroup-monitor",
+      "change-point",
       "channel-capacity",
+      "channel-model",
       "chaos-rs",
       "character-library",
       "character-skill-trees",
@@ -235,6 +286,7 @@
       "clawmatrix",
       "cli-rs",
       "climate-conservation",
+      "clip-quantize",
       "clockwork-schedule",
       "cloudflare-code",
       "cloudflare-vibe",
@@ -268,9 +320,11 @@
       "cocapn-zig",
       "code-city",
       "code-conservation",
+      "codegen-llvm",
       "codelog-ai",
       "codex-budget-guard",
       "coding-3d",
+      "coff-parser",
       "CognitiveEngine",
       "cohomology-ring",
       "coinlog-ai",
@@ -281,6 +335,7 @@
       "collective-unconscious",
       "collision-detect",
       "color-space",
+      "columnar-store",
       "combinatorics",
       "commit-predictor",
       "commitment-scheme",
@@ -291,8 +346,10 @@
       "competitive-intel",
       "compiled-policy-c",
       "complex-rs",
+      "compliance-check",
       "compliance-watcher",
       "composite-headspace",
+      "composite-metric",
       "compress-bwt-rs",
       "compress-lz77-rs",
       "compress-rle-rs",
@@ -300,10 +357,15 @@
       "compress-trie-rs",
       "compression-algorithms",
       "confidence-cascade",
+      "config-center",
+      "config-layer",
       "config-manager",
       "config-rs",
+      "config-watch",
+      "conflict-detector",
       "conformance-service",
       "congestion-control",
+      "congestion-controller",
       "connection-pool-rs",
       "consensus",
       "consensus-protocol",
@@ -403,6 +465,8 @@
       "construct-hotswap",
       "construct-provenance",
       "construct-supply-chain",
+      "consul-client",
+      "container-runtime",
       "context-limits",
       "context-serializer",
       "conversation-toolkit",
@@ -417,11 +481,14 @@
       "cospectral-explorer",
       "cost-analysis",
       "cost-optimizer",
+      "count-min-sketch",
       "counterpoint-engine",
       "counterpoint-engine-c",
       "counterpoint-engine-rs",
+      "covers",
       "coxeter-group-rs",
       "cpu-sched",
+      "cqrs-framework",
       "crackle-runtime",
       "crackle-runtime-c",
       "craftlog-ai",
@@ -436,10 +503,17 @@
       "crates-publish-check",
       "crdt-bench",
       "crdt-core",
+      "crdt-gcounter",
+      "crdt-gset",
+      "crdt-lwwreg",
       "crdt-map",
+      "crdt-orset",
+      "crdt-pnvector",
       "CRDT_Research",
       "creative-engine-c",
       "creative-engine-rust",
+      "credential-store",
+      "cribbage-scoring",
       "cross-compile-checker",
       "crypto-primitives",
       "crypto-rs",
@@ -449,6 +523,7 @@
       "ct-demo",
       "ct-lab",
       "ctl-model",
+      "cuckoo-filter",
       "cuda-actor",
       "cuda-adaptation",
       "cuda-artifact",
@@ -542,7 +617,11 @@
       "current-sync",
       "cv-fundamentals",
       "cyclotomic-field",
+      "dag-runner",
       "dashai-flux-model-package",
+      "dashboard-render",
+      "datadog-forwarder",
+      "dataflow-analysis",
       "dataval-rs",
       "db-internals",
       "dead-reckoning-engine",
@@ -550,6 +629,7 @@
       "deadband-protocol",
       "deadband-python",
       "deadband-snr",
+      "debug-dwarf",
       "decentralized-uav-grid",
       "decision-tree-rs",
       "deckboss-1",
@@ -560,9 +640,11 @@
       "deckboss-hardware",
       "deckboss-marketplace",
       "deckboss-net-pages",
+      "deckboss-site",
       "deckhand-rs",
       "deepseek-chat-vessel",
       "delaunay-triang-rs",
+      "delaunay-triangulation",
       "delta-clt",
       "delta-encode",
       "demo",
@@ -570,6 +652,7 @@
       "dep-audit",
       "depgraph-gpu",
       "deployment-automator",
+      "deployment-rollback",
       "describe-device",
       "desire-loop",
       "dev-agent",
@@ -577,13 +660,21 @@
       "dial-ecology",
       "dial-space-explorer",
       "dial-theory",
+      "diff-merge",
+      "diff-myers",
+      "diff-patch",
+      "diff-patience",
+      "diff-three-way",
       "differential-regression",
       "diffie-hellman-rs",
       "difftop-rs",
+      "diffusion-model",
       "dify-budget-watchdog",
       "digital-signature-rs",
+      "dirichlet-process",
       "discrete-bayes-rs",
       "discussions",
+      "disjoint-set",
       "disk-sched",
       "dissertation",
       "dissertation-engine",
@@ -596,6 +687,7 @@
       "dmlog-ai-pages",
       "doclog-ai",
       "docs",
+      "document-store",
       "dodecet-encoder",
       "dog-food-audit",
       "dojo",
@@ -620,6 +712,7 @@
       "ecosystem-conservation",
       "ecosystem-graph",
       "ecosystem-thesis",
+      "ed25519-bip44",
       "edge-benchmark",
       "edge-boarding-protocol",
       "edge-compiler",
@@ -635,6 +728,7 @@
       "educationgamecocapn",
       "egg",
       "eigen-system",
+      "eigenvalue-solver",
       "eisenstein",
       "eisenstein-bench",
       "eisenstein-c",
@@ -651,7 +745,9 @@
       "eisenstein-wasm",
       "electromagnetism",
       "elephant-sim-worker",
+      "elf-parser",
       "elliptic-curve-ops",
+      "elliptic-curve-weierstrass",
       "email-oracle",
       "embedding-utils",
       "embeddings-engine",
@@ -662,13 +758,17 @@
       "emergent-coupling",
       "emotional-colorist",
       "encodec-pytorch",
+      "energy-budget",
       "entropy-code",
       "entropy-conservation",
       "entropy-flow-py",
+      "entropy-flow-rs",
       "entropy-gpu-rs",
+      "entropy-gradient",
       "entropy-lint",
       "entropy-production",
       "eos-seed",
+      "epoll-wrapper",
       "equilibrium-tokens",
       "equipment-catalog",
       "Equipment-Escalation-Router",
@@ -684,11 +784,16 @@
       "error-forest-hub",
       "escalation-engine",
       "ESP32-Plane-Radar",
+      "etcd-client",
+      "euler-lagrange",
+      "eureka-client",
       "eveng1_python_sdk",
+      "event-sourcing",
       "eventstream",
       "evo-rs",
       "evolving-sheaf-c",
       "examples",
+      "exception-handler",
       "exocortex-ast-cpp",
       "exocortex-clients",
       "exocortex-core",
@@ -704,6 +809,11 @@
       "experiment-wheel",
       "experiments",
       "exponential-family",
+      "expr-bytecode",
+      "expr-eval",
+      "expr-optimize",
+      "expr-parser",
+      "expr-typecheck",
       "expression-injection",
       "exptrack-rs",
       "extensive-form",
@@ -712,22 +822,31 @@
       "fabric-mcp",
       "failure-atlas",
       "failure-detector",
+      "falcon-7b-tools",
+      "falcon-hash",
+      "fallback-strategy",
       "farmerlog-ai",
       "fastc-core-regex",
       "fastc-core-sqlite",
       "fastloop-guard",
+      "feature-flag",
       "featurestore-rs",
       "federated-rs",
       "federated-tinyml-npm",
       "federated-tinyml-vessel",
+      "feedback-engine",
+      "feigenbaum-constant",
       "feistel-net",
       "fencecraft",
+      "fenwick-tree",
       "fenwick-tree-rs",
       "ferment-constraints",
       "fft-core",
       "fft-rs",
+      "fiber-bundle",
       "fibonacci-fence",
       "fibonacci-growth",
+      "fibonacci-heap",
       "fiedler-universal",
       "field-core",
       "field-evolution-early-version",
@@ -737,12 +856,17 @@
       "financial-conservation",
       "finite-difference-pde",
       "fir-filter",
+      "fisher-information",
       "fisher-rao",
       "fishermanscopilot",
       "FishingLog",
       "fishinglog-agent",
       "fishinglog-ai-pages",
+      "fishinglog-ai-site",
       "fitlog-ai",
+      "flac-decoder",
+      "flatbuf-gen",
+      "floer-homology",
       "flow",
       "flow-control",
       "flow-state",
@@ -922,6 +1046,7 @@
       "flx-cuda",
       "flywheel-engine",
       "fold-compression",
+      "font-rasterizer",
       "foodlog-ai",
       "forge-a2a",
       "forge-cli",
@@ -942,10 +1067,15 @@
       "formal-consciousness",
       "fortran-constraint-checking",
       "foundry",
+      "fourier-optics",
       "fractal-gen-rs",
+      "fragment-reassembler",
+      "frame-alloc",
+      "fredholm-equation",
       "free-energy",
       "free-probability",
       "free-probability-c",
+      "frobenius-norm",
       "FrontendHub",
       "frontends",
       "frozen-model-rl",
@@ -953,6 +1083,8 @@
       "Full-stack-Free-Movie-Streaming-Website",
       "func-analysis",
       "functional-graph",
+      "fundamental-group",
+      "fuzz-engine",
       "fuzzy-logic",
       "ga-core",
       "ga-core-rs",
@@ -965,29 +1097,41 @@
       "gardenlog-ai",
       "gatekeeper-as-flux-early-version",
       "gauge",
+      "gauss-markov",
       "gem-conservation-guardian",
       "gem-render-guardian",
       "gem-storage-guardian",
       "gen-llvm",
       "genetic-search",
       "GeoFlood",
+      "geohash-encoder",
       "gesture-kit",
       "gh-dungeons",
+      "ghost-ledger",
       "Ghost-tiles",
       "ghost-tiles-1",
       "ghost-tiles-c",
       "ghost-tiles-cpp",
       "ghost-tiles-csharp",
       "ghost-tiles-cuda",
+      "gibbs-phenomenon",
       "git-coordination-protocol",
       "git-native-mud",
       "git-pipeline",
       "git-storage",
       "glyphspace",
+      "glyphtensor",
+      "glyphtensor-bridge",
       "gno",
+      "go-gtp",
       "goallog-ai",
+      "godel-number",
+      "gossip-member",
+      "gossip-ping",
       "gossip-protocol",
+      "gossip-seed",
       "gossip-sub",
+      "gossip-suspicion",
       "governance-lab",
       "gpu-accelerator",
       "gpu-annealing",
@@ -1036,6 +1180,8 @@
       "grand-synthesis",
       "granger-causality",
       "graph-algorithms",
+      "graph-astar",
+      "graph-bellman-ford",
       "graph-centrality",
       "graph-coloring",
       "graph-coloring-rs",
@@ -1077,6 +1223,7 @@
       "hav-flux-bridge",
       "hav-reverse-actualization",
       "headroom",
+      "headspace-rs",
       "health",
       "health-monitoring-service",
       "healthlog-ai",
@@ -1169,6 +1316,7 @@
       "kan-extension",
       "kd-tree-rs",
       "keeper-c",
+      "kennel",
       "kernel-conservation",
       "kev-substrate-competition",
       "kev-substrate-mojo",
@@ -1184,6 +1332,7 @@
       "knowledge-agent",
       "knowledge-compass",
       "knowledge-cron",
+      "knowledge-graph",
       "knowledge-vault",
       "knowledge-vault-rs",
       "kungfu",
@@ -1393,6 +1542,7 @@
       "lever-runner",
       "lever-runner-synthesis",
       "lever-runner-wasm",
+      "lexical-substrate",
       "liath",
       "libgdx",
       "libpointmatcher",
@@ -1443,14 +1593,18 @@
       "lucid-dreamer-interactive",
       "lucid-tutor",
       "luciddream",
+      "luciddreamer",
       "luciddreamer-ai",
       "luciddreamer-ai-pages",
+      "luciddreamer-content",
       "luciddreamer-os",
+      "luciddreamer-prototype",
       "luciddreamer-research",
       "Lucineer",
       "lucineer-brain",
       "lucineer-com",
       "lucineer-com-pages",
+      "lucineer-com-site",
       "lucineer-creative",
       "lucineer-memory",
       "lucineer-relay",
@@ -1463,6 +1617,7 @@
       "madlibs-gan",
       "madlibs-gan-npm",
       "madlibs-gan-turbovec",
+      "magda-core-study",
       "magda-tensor",
       "make-me-app",
       "MakerLog",
@@ -1530,6 +1685,7 @@
       "monitoring-system",
       "monte-carlo-rs",
       "moo",
+      "morphic-canvas",
       "morphogenesis",
       "morse-theory",
       "motion-planning",
@@ -1537,6 +1693,7 @@
       "mud-agent",
       "mud-mcp",
       "mud-solitaire",
+      "mud-terminal",
       "mudra-bridge-core",
       "mudra-vessel-bridge-pkg",
       "multi-armed-bandit",
@@ -1792,6 +1949,7 @@
       "plato-room",
       "plato-room-acl",
       "plato-room-analytics",
+      "plato-room-code-review",
       "plato-room-configs",
       "plato-room-context",
       "plato-room-deployment",
@@ -1892,6 +2050,7 @@
       "platonic-randomness",
       "platos-shell",
       "platos-shell-ide",
+      "player-widget",
       "PlayerLog",
       "playerlog-ai",
       "playerlog-ai-pages",
@@ -2042,12 +2201,15 @@
       "renormalization",
       "renormalization-learning-rs",
       "repo-consolidation-plan",
+      "repo-docs",
       "repo-publication-log",
       "repos",
       "representation-theory",
       "research",
       "research-ct-robotics",
       "research-ct-sensor-fusion",
+      "research-lab",
+      "researchlocal-backup",
       "resonance-engine",
       "resonant-consensus",
       "reverse-actualization",
@@ -2066,7 +2228,11 @@
       "roadmaps",
       "roam-graph",
       "roblox-audio-suite",
+      "roblox-beatclock",
+      "roblox-bond-system",
       "roblox-build-animator",
+      "roblox-builder-kit",
+      "roblox-filtergate",
       "roblox-game-build-framework",
       "roblox-testkit",
       "roblox-world-scanner",
@@ -2095,6 +2261,7 @@
       "scrap-voice",
       "Scrapcraft",
       "scrapcraft-roblox",
+      "scrapcraft-roblox-bible",
       "scrapcraft-world",
       "scratch-blocks",
       "scratch-vm",
@@ -2114,6 +2281,7 @@
       "seed-nexus-bootstrap",
       "seed-oscillate",
       "segment-tree-rs",
+      "selectlib",
       "self-improving-band",
       "semantic-field",
       "semantic-store",
@@ -2146,15 +2314,24 @@
       "si-conservation-python",
       "si-conservation-wasm",
       "si-exocortex-rs",
+      "si-feedback",
       "si-fibration-timing",
       "si-geometric-demo",
+      "si-ghost-ledger",
+      "si-knowledge-base",
+      "si-knowledge-graph",
       "si-papers-new",
+      "si-player",
+      "si-research",
       "si-runtime-go",
       "si-runtime-js",
       "si-runtime-python",
       "si-runtime-wasm",
       "si-runtime-zig",
+      "si-sonic-shape",
+      "si-streamer",
       "si-symplectic-gossip",
+      "si-terminal",
       "si-tropical-attention",
       "signal-chain",
       "signal-router",
@@ -2173,6 +2350,8 @@
       "skill-cartridge-registry",
       "skills",
       "skip-list-rs",
+      "slackwater-art-spectrum",
+      "slackwater-cognition",
       "slackwater-forge",
       "slackwater-orchestrator",
       "slackwater-rust",
@@ -2202,6 +2381,7 @@
       "songline-math-c",
       "songline-math-pypi",
       "songline-math-wasm",
+      "sonic-shape",
       "sort-algo-rs",
       "spacedrive",
       "spacemap",
@@ -2232,6 +2412,7 @@
       "spline-spectral",
       "Spreader-tool",
       "spring-mass",
+      "sprinter-onboarding",
       "StarBench",
       "starship-jetsonclaw1",
       "startup-ai",
@@ -2243,6 +2424,7 @@
       "step-back-topology",
       "storage-guardian",
       "storyboard-engine",
+      "streamer",
       "streaming-response-handler",
       "string-search-rs",
       "study-smartcomponent",
@@ -2308,6 +2490,7 @@
       "swarm-code",
       "swarm-rooms",
       "swarm-tminus",
+      "sweep",
       "symbiont-network",
       "symbol-table",
       "symmetry-math",
@@ -2387,8 +2570,10 @@
       "test-tool-extract",
       "tests",
       "tetris-integrity",
+      "tev-mesh",
       "texture-synth",
       "the-listeners-ear",
+      "the-living-minds",
       "the-lock",
       "the-plenum-early-version",
       "the-relay",
@@ -2417,6 +2602,7 @@
       "tiny-neural",
       "tminus-client",
       "tminus-music",
+      "tminus-os",
       "token-stream",
       "token-vault",
       "token-wavelet",
@@ -2526,7 +2712,9 @@
       "websocket-rs",
       "wesley",
       "wesley-cns-adapter",
+      "wesley-curriculum",
       "wesley-holodeck",
+      "wesley-journal",
       "wesleys-imagination",
       "west-african-math-c",
       "west-african-math-rs",
@@ -2606,6 +2794,7 @@
       "agent-manifest",
       "agent-manifest-rs",
       "agent-manifold",
+      "agent-memory",
       "agent-metamorphosis",
       "agent-microexpressions",
       "agent-microtone",
@@ -2675,6 +2864,7 @@
       "baton-ai",
       "baton-protocol",
       "baton-skill",
+      "baton-system",
       "beacon-protocol",
       "become-ai",
       "belief-revision",
@@ -2792,6 +2982,7 @@
       "commit-caster",
       "comms-engineer-vessel",
       "compliance-fork",
+      "conductor",
       "confidence-c",
       "config-vault",
       "consensus-weave",
@@ -3004,6 +3195,7 @@
       "fleet-compass",
       "fleet-conductor",
       "fleet-config",
+      "fleet-connections",
       "fleet-consciousness",
       "fleet-consciousness-dashboard",
       "fleet-conservation",
@@ -3241,6 +3433,7 @@
       "fleet-registry-worker",
       "fleet-research",
       "fleet-resonance",
+      "fleet-rooms",
       "fleet-router",
       "fleet-router-integration",
       "fleet-rpg",
@@ -3290,6 +3483,7 @@
       "fleet-voice-leader",
       "fleet-warden",
       "fleet-warden-rs",
+      "fleet-weather-agent",
       "fleet-wiki",
       "fleet-witness-marks",
       "fleet-workshop",
@@ -3431,6 +3625,7 @@
       "hermes-brainstorm",
       "hermes-home",
       "hermes-nmi",
+      "hermes-ob1-core",
       "hermes-plato-shell",
       "hermes-roblox-construct",
       "hermit-crab",
@@ -3662,6 +3857,7 @@
       "monge-rs",
       "mud-arena",
       "mud-bridge",
+      "mud-engine",
       "mud-expert-1",
       "mud2scummvm",
       "mudra-vessel-bridge",
@@ -3746,6 +3942,7 @@
       "paperclip",
       "papers",
       "pareto-tournament",
+      "Patchwork-experts",
       "pelagic-bootstrap",
       "pelagic-twin",
       "penrose-memory",
@@ -3903,6 +4100,7 @@
       "shiplog",
       "si-bench",
       "si-catalog",
+      "si-conductor",
       "si-conservation-diffusion",
       "si-conservation-gauge-live",
       "si-core-c",
@@ -4019,6 +4217,7 @@
       "t-minus",
       "taskflow",
       "telepathy-c",
+      "template-fleet-agent",
       "temporal-pattern",
       "tender",
       "tensor-midi",
@@ -4078,6 +4277,7 @@
       "Vibe-Code-Agent-Gen",
       "vibe-graph",
       "ViMax",
+      "voxelglyph",
       "warp",
       "warp-room",
       "warp-vote-consensus",
@@ -4120,6 +4320,7 @@
       "zerolang"
     ],
     "qthe": [
+      "ackermann-function",
       "agent-jam",
       "agent-priming",
       "agent-priming-toolkit",
@@ -4138,6 +4339,7 @@
       "canon-recs",
       "canon-suite",
       "canon-zoo",
+      "canonical-form",
       "cell-doctrine",
       "cell-runtime",
       "compress-huffman-rs",
@@ -4634,6 +4836,7 @@
       "quilt-arena",
       "quilt-atlas",
       "quilt-attention",
+      "quilt-bandit",
       "quilt-base",
       "quilt-bathy",
       "quilt-blueprint",
@@ -4678,9 +4881,11 @@
       "quilt-csharp",
       "quilt-cuda",
       "quilt-dba",
+      "quilt-deck",
       "quilt-director",
       "quilt-discovery-demo",
       "quilt-doctor",
+      "quilt-dpcpp",
       "quilt-echovision",
       "quilt-ecosystem-demo",
       "quilt-ecosystem-web",
@@ -4704,6 +4909,7 @@
       "quilt-fleet-publish",
       "quilt-fleet-sim",
       "quilt-fleet-snapshot",
+      "quilt-fleet-tools",
       "quilt-flow",
       "quilt-fluidics",
       "quilt-fold",
@@ -4744,6 +4950,7 @@
       "quilt-ml-architecture",
       "quilt-ml-recipes",
       "quilt-mojo",
+      "quilt-mojo-lab",
       "quilt-multi-oracle",
       "quilt-murmur",
       "quilt-neighbourhood",
@@ -4798,6 +5005,7 @@
       "quilt-timesfm",
       "quilt-timesfm-rust",
       "quilt-tools",
+      "quilt-tournament",
       "quilt-trace",
       "quilt-tracker",
       "quilt-transformer-arena",
@@ -4842,6 +5050,7 @@
       "stock-screener",
       "SuperInstance-papers",
       "SuperInstance-Starter-Agent",
+      "svelte-quilt",
       "tagseq2tagseq4quilt",
       "the-beyond",
       "tit-quilt",
@@ -4869,6 +5078,7 @@
       "jev-diffusion-npm",
       "jev-diffusion-pypi",
       "jev-diffusion-rust",
+      "jev-fusion",
       "jev-gan",
       "jev-gan-cli",
       "jev-garden",
@@ -4879,6 +5089,8 @@
       "jeviter",
       "kev-substrate",
       "moth-jev-adapters",
+      "moth-jev-lab",
+      "murmuration",
       "plato-cortex",
       "plato-embed",
       "plato-perception",
@@ -5021,6 +5233,12 @@
       "agent",
       "Rust"
     ],
+    "aabb-collision": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "ab-testing": [
       "fleet",
       "description",
@@ -5075,6 +5293,18 @@
       "",
       "Python"
     ],
+    "ackermann-function": [
+      "qthe",
+      "description",
+      "canon",
+      "Rust"
+    ],
+    "activation-fn": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "active-inference": [
       "other",
       "none",
@@ -5105,6 +5335,12 @@
       "",
       "Python"
     ],
+    "activeledger-ai-site": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
     "activelog": [
       "other",
       "none",
@@ -5128,6 +5364,12 @@
       "none",
       "",
       "Python"
+    ],
+    "activelog-ai-site": [
+      "other",
+      "none",
+      "",
+      "HTML"
     ],
     "activelog-app": [
       "other",
@@ -5159,11 +5401,41 @@
       "",
       ""
     ],
+    "actor-dispatcher": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "actor-pool": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "actor-router": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "actor-rs": [
       "other",
       "none",
       "",
       ""
+    ],
+    "actor-supervisor": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "actor-system": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "actualization-harbor": [
       "other",
@@ -5448,6 +5720,12 @@
       "Rust"
     ],
     "agent-manifold": [
+      "fleet",
+      "description",
+      "agent",
+      "Rust"
+    ],
+    "agent-memory": [
       "fleet",
       "description",
       "agent",
@@ -5849,6 +6127,12 @@
       "fleet",
       ""
     ],
+    "ai-writings-vectorizer": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "aider": [
       "other",
       "none",
@@ -5860,6 +6144,12 @@
       "none",
       "",
       "Python"
+    ],
+    "albanese-variety": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "algebra-explorer": [
       "other",
@@ -5933,6 +6223,12 @@
       "",
       "Python"
     ],
+    "anomaly-detect": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "ant-colony": [
       "other",
       "none",
@@ -6005,6 +6301,12 @@
       "",
       ""
     ],
+    "archive-writer": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "archives": [
       "fleet",
       "description",
@@ -6047,6 +6349,18 @@
       "",
       "Rust"
     ],
+    "ast-diff": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "ast-visitor": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "astro": [
       "other",
       "none",
@@ -6083,7 +6397,19 @@
       "",
       "Rust"
     ],
+    "audio-mixer": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "audio-pipeline": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "audit-log": [
       "other",
       "none",
       "",
@@ -6173,6 +6499,12 @@
       "quilt",
       "Python"
     ],
+    "avl-tree": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "avl-tree-rs": [
       "other",
       "none",
@@ -6196,6 +6528,12 @@
       "description",
       "ternary",
       "Python"
+    ],
+    "avro-codec": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "avx512-constraint-checker": [
       "other",
@@ -6227,6 +6565,12 @@
       "",
       "Rust"
     ],
+    "b-tree-segment": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "babel-vessel": [
       "fleet",
       "description",
@@ -6238,6 +6582,18 @@
       "none",
       "",
       "HTML"
+    ],
+    "backgammon-roll": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "backpressure-regulator": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "baml": [
       "other",
@@ -6293,6 +6649,12 @@
       "agent",
       "Python"
     ],
+    "base58-check": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "base60-lattice": [
       "other",
       "none",
@@ -6341,6 +6703,12 @@
       "agent",
       ""
     ],
+    "baton-system": [
+      "fleet",
+      "description",
+      "fleet|agent",
+      "Shell"
+    ],
     "batten-spline": [
       "other",
       "none",
@@ -6348,6 +6716,12 @@
       "Python"
     ],
     "bayesian-game": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "bayesian-inference": [
       "other",
       "none",
       "",
@@ -6365,11 +6739,23 @@
       "",
       "Rust"
     ],
+    "bch-code": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "beacon-protocol": [
       "fleet",
       "description",
       "fleet",
       "Python"
+    ],
+    "bech32-encode": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "become-ai": [
       "fleet",
@@ -6384,6 +6770,12 @@
       "Rust"
     ],
     "bench-compare": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "bench-runner": [
       "other",
       "none",
       "",
@@ -6413,6 +6805,12 @@
       "ternary",
       "Rust"
     ],
+    "beta-test-framework": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "beta-test-marcus": [
       "other",
       "none",
@@ -6436,6 +6834,12 @@
       "none",
       "",
       "Python"
+    ],
+    "betti-number": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "bezier-curve": [
       "other",
@@ -6461,13 +6865,55 @@
       "",
       "Rust"
     ],
+    "bip32-derived": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "blake2-tree": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "blake3-hash": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "blame-tracker": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "blog-posts": [
       "other",
       "none",
       "",
       ""
     ],
+    "bloom-filter": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "bloom-filter-extended": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "bloom-filter-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "bloom-filter-scalable": [
       "other",
       "none",
       "",
@@ -6545,6 +6991,12 @@
       "",
       "Rust"
     ],
+    "bplus-tree": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "braid-group-rs": [
       "other",
       "none",
@@ -6552,6 +7004,12 @@
       "Rust"
     ],
     "branch-bound": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "branch-prediction": [
       "other",
       "none",
       "",
@@ -6593,6 +7051,12 @@
       "agent",
       "Python"
     ],
+    "brownian-motion": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "bsp-tree": [
       "other",
       "none",
@@ -6604,6 +7068,12 @@
       "none",
       "",
       "TypeScript"
+    ],
+    "bulkhead-pattern": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "bun": [
       "other",
@@ -6653,6 +7123,12 @@
       "",
       "Rust"
     ],
+    "bytecode-gen": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "bytecode-verifier-c": [
       "fleet",
       "description",
@@ -6689,6 +7165,12 @@
       "",
       "C"
     ],
+    "cache-hierarchy": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "cache-layer": [
       "other",
       "none",
@@ -6724,6 +7206,12 @@
       "none",
       "",
       "BQN"
+    ],
+    "canary-release": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "candor": [
       "other",
@@ -6773,6 +7261,12 @@
       "canon",
       ""
     ],
+    "canonical-form": [
+      "qthe",
+      "name",
+      "canon",
+      "Rust"
+    ],
     "capability-spec": [
       "fleet",
       "description",
@@ -6814,6 +7308,12 @@
       "none",
       "",
       "Python"
+    ],
+    "capnp-schema": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "cappuccino": [
       "fleet",
@@ -6947,6 +7447,12 @@
       "",
       "Rust"
     ],
+    "cauchy-distribution": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "causal-graph": [
       "other",
       "none",
@@ -6995,6 +7501,12 @@
       "",
       "Rust"
     ],
+    "cell-automaton": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "cell-cascade": [
       "other",
       "none",
@@ -7031,6 +7543,12 @@
       "quilt",
       "Python"
     ],
+    "cellular-automata": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "cellular-automata-agent": [
       "fleet",
       "description",
@@ -7055,6 +7573,12 @@
       "",
       "Rust"
     ],
+    "cfg-analyzer": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "cfg-construct": [
       "other",
       "none",
@@ -7067,13 +7591,31 @@
       "",
       "Rust"
     ],
+    "cgroup-monitor": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "ChainForgeLegend-Quilt": [
       "quilt",
       "description",
       "quilt",
       "JavaScript"
     ],
+    "change-point": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "channel-capacity": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "channel-model": [
       "other",
       "none",
       "",
@@ -7330,6 +7872,12 @@
       "none",
       "",
       "Python"
+    ],
+    "clip-quantize": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "clockwork-schedule": [
       "other",
@@ -7895,6 +8443,12 @@
       "fleet",
       "TypeScript"
     ],
+    "codegen-llvm": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "codelog-ai": [
       "other",
       "none",
@@ -7936,6 +8490,12 @@
       "description",
       "quilt",
       "JavaScript"
+    ],
+    "coff-parser": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "cognitive-archaeology": [
       "fleet",
@@ -8033,6 +8593,12 @@
       "",
       "Rust"
     ],
+    "columnar-store": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "combinatorics": [
       "other",
       "none",
@@ -8105,6 +8671,12 @@
       "",
       "Rust"
     ],
+    "compliance-check": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "compliance-fork": [
       "fleet",
       "description",
@@ -8122,6 +8694,12 @@
       "none",
       "",
       "JavaScript"
+    ],
+    "composite-metric": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "compress-bwt-rs": [
       "other",
@@ -8171,6 +8749,12 @@
       "jepa",
       "Rust"
     ],
+    "conductor": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
     "confidence-c": [
       "fleet",
       "description",
@@ -8182,6 +8766,18 @@
       "none",
       "",
       "TypeScript"
+    ],
+    "config-center": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "config-layer": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "config-manager": [
       "other",
@@ -8201,6 +8797,18 @@
       "fleet",
       "TypeScript"
     ],
+    "config-watch": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "conflict-detector": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "conformance-service": [
       "other",
       "none",
@@ -8208,6 +8816,12 @@
       "JavaScript"
     ],
     "congestion-control": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "congestion-controller": [
       "other",
       "none",
       "",
@@ -8945,6 +9559,18 @@
       "",
       "Rust"
     ],
+    "consul-client": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "container-runtime": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "context-broker": [
       "fleet",
       "description",
@@ -9101,6 +9727,12 @@
       "",
       "TypeScript"
     ],
+    "count-min-sketch": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "counterpoint-engine": [
       "other",
       "none",
@@ -9131,6 +9763,12 @@
       "agent",
       ""
     ],
+    "covers": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "coxeter-group-rs": [
       "other",
       "none",
@@ -9138,6 +9776,12 @@
       "Rust"
     ],
     "cpu-sched": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "cqrs-framework": [
       "other",
       "none",
       "",
@@ -9281,7 +9925,37 @@
       "",
       "Rust"
     ],
+    "crdt-gcounter": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "crdt-gset": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "crdt-lwwreg": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "crdt-map": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "crdt-orset": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "crdt-pnvector": [
       "other",
       "none",
       "",
@@ -9306,6 +9980,18 @@
       "C"
     ],
     "creative-engine-rust": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "credential-store": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "cribbage-scoring": [
       "other",
       "none",
       "",
@@ -9372,6 +10058,12 @@
       "Python"
     ],
     "ctl-model": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "cuckoo-filter": [
       "other",
       "none",
       "",
@@ -10277,11 +10969,35 @@
       "",
       "Python"
     ],
+    "dag-runner": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "dashai-flux-model-package": [
       "other",
       "none",
       "",
       "Python"
+    ],
+    "dashboard-render": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "datadog-forwarder": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "dataflow-analysis": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "dataval-rs": [
       "other",
@@ -10332,6 +11048,12 @@
       "Rust"
     ],
     "deadband-snr": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "debug-dwarf": [
       "other",
       "none",
       "",
@@ -10421,6 +11143,12 @@
       "",
       "HTML"
     ],
+    "deckboss-site": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
     "deckhand-rs": [
       "other",
       "none",
@@ -10458,6 +11186,12 @@
       ""
     ],
     "delaunay-triang-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "delaunay-triangulation": [
       "other",
       "none",
       "",
@@ -10523,6 +11257,12 @@
       "",
       "Go"
     ],
+    "deployment-rollback": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "describe-device": [
       "other",
       "none",
@@ -10577,6 +11317,36 @@
       "agent",
       "Rust"
     ],
+    "diff-merge": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "diff-myers": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "diff-patch": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "diff-patience": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "diff-three-way": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "differential-regression": [
       "other",
       "none",
@@ -10590,6 +11360,12 @@
       "Rust"
     ],
     "difftop-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "diffusion-model": [
       "other",
       "none",
       "",
@@ -10613,6 +11389,12 @@
       "",
       "Rust"
     ],
+    "dirichlet-process": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "discovery-mad-libs": [
       "fleet",
       "description",
@@ -10630,6 +11412,12 @@
       "none",
       "",
       ""
+    ],
+    "disjoint-set": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "disk-sched": [
       "other",
@@ -10738,6 +11526,12 @@
       "description",
       "fleet",
       "TypeScript"
+    ],
+    "document-store": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "dodecet-encoder": [
       "other",
@@ -10943,6 +11737,12 @@
       "",
       ""
     ],
+    "ed25519-bip44": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "EDDI": [
       "fleet",
       "description",
@@ -11063,6 +11863,12 @@
       "",
       "Rust"
     ],
+    "eigenvalue-solver": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "eisenstein": [
       "other",
       "none",
@@ -11177,7 +11983,19 @@
       "",
       "TypeScript"
     ],
+    "elf-parser": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "elliptic-curve-ops": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "elliptic-curve-weierstrass": [
       "other",
       "none",
       "",
@@ -11261,6 +12079,12 @@
       "",
       ""
     ],
+    "energy-budget": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "energy-c": [
       "fleet",
       "description",
@@ -11303,7 +12127,19 @@
       "",
       "Python"
     ],
+    "entropy-flow-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "entropy-gpu-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "entropy-gradient": [
       "other",
       "none",
       "",
@@ -11332,6 +12168,12 @@
       "description",
       "fleet",
       "TypeScript"
+    ],
+    "epoll-wrapper": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "equilibrium-tokens": [
       "other",
@@ -11501,6 +12343,24 @@
       "",
       "C++"
     ],
+    "etcd-client": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "euler-lagrange": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "eureka-client": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "eveng1_python_sdk": [
       "other",
       "none",
@@ -11511,6 +12371,12 @@
       "fleet",
       "description",
       "fleet",
+      "Rust"
+    ],
+    "event-sourcing": [
+      "other",
+      "none",
+      "",
       "Rust"
     ],
     "eventstream": [
@@ -11560,6 +12426,12 @@
       "none",
       "",
       ""
+    ],
+    "exception-handler": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "exocortex": [
       "fleet",
@@ -11687,6 +12559,36 @@
       "",
       "Rust"
     ],
+    "expr-bytecode": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "expr-eval": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "expr-optimize": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "expr-parser": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "expr-typecheck": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "expression-injection": [
       "other",
       "none",
@@ -11741,6 +12643,24 @@
       "",
       "Rust"
     ],
+    "falcon-7b-tools": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "falcon-hash": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "fallback-strategy": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "farmerlog-ai": [
       "other",
       "none",
@@ -11766,6 +12686,12 @@
       ""
     ],
     "fastloop-guard": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "feature-flag": [
       "other",
       "none",
       "",
@@ -11807,6 +12733,18 @@
       "fleet",
       ""
     ],
+    "feedback-engine": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "feigenbaum-constant": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "feistel-net": [
       "other",
       "none",
@@ -11818,6 +12756,12 @@
       "none",
       "",
       "Python"
+    ],
+    "fenwick-tree": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "fenwick-tree-rs": [
       "other",
@@ -11838,6 +12782,12 @@
       "Rust"
     ],
     "fft-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "fiber-bundle": [
       "other",
       "none",
       "",
@@ -11865,6 +12815,12 @@
       "fleet",
       "description",
       "fleet|agent",
+      "Rust"
+    ],
+    "fibonacci-heap": [
+      "other",
+      "none",
+      "",
       "Rust"
     ],
     "fibration-timing": [
@@ -11945,6 +12901,12 @@
       "",
       "Rust"
     ],
+    "fisher-information": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "fisher-rao": [
       "other",
       "none",
@@ -11975,11 +12937,29 @@
       "",
       "HTML"
     ],
+    "fishinglog-ai-site": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "fitlog-ai": [
       "other",
       "none",
       "",
       ""
+    ],
+    "flac-decoder": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "flatbuf-gen": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "fleet": [
       "fleet",
@@ -12238,6 +13218,12 @@
       "name",
       "fleet",
       "Python"
+    ],
+    "fleet-connections": [
+      "fleet",
+      "name",
+      "fleet",
+      "TypeScript"
     ],
     "fleet-consciousness": [
       "fleet",
@@ -13673,6 +14659,12 @@
       "fleet",
       "Rust"
     ],
+    "fleet-rooms": [
+      "fleet",
+      "name",
+      "fleet",
+      "Python"
+    ],
     "fleet-router": [
       "fleet",
       "name",
@@ -13967,6 +14959,12 @@
       "fleet",
       "Rust"
     ],
+    "fleet-weather-agent": [
+      "fleet",
+      "name",
+      "fleet|agent",
+      "Python"
+    ],
     "fleet-wiki": [
       "fleet",
       "name",
@@ -13989,6 +14987,12 @@
       "fleet",
       "name",
       "fleet",
+      "Rust"
+    ],
+    "floer-homology": [
+      "other",
+      "none",
+      "",
       "Rust"
     ],
     "flow": [
@@ -15533,6 +16537,12 @@
       "agent",
       "Rust"
     ],
+    "font-rasterizer": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "foodlog-ai": [
       "other",
       "none",
@@ -15767,7 +16777,31 @@
       "",
       "Rust"
     ],
+    "fourier-optics": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "fractal-gen-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "fragment-reassembler": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "frame-alloc": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "fredholm-equation": [
       "other",
       "none",
       "",
@@ -15802,6 +16836,12 @@
       "description",
       "fleet|agent",
       "Python"
+    ],
+    "frobenius-norm": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "from-fleet": [
       "fleet",
@@ -15857,11 +16897,23 @@
       "",
       "Rust"
     ],
+    "fundamental-group": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "futhark-lab": [
       "quilt",
       "description",
       "quilt",
       "Futhark"
+    ],
+    "fuzz-engine": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "fuzzy-logic": [
       "other",
@@ -15941,6 +16993,12 @@
       "",
       "Python"
     ],
+    "gauss-markov": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "gc-pid-bridge": [
       "qthe",
       "description",
@@ -15983,6 +17041,12 @@
       "",
       ""
     ],
+    "geohash-encoder": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "gesture-kit": [
       "other",
       "none",
@@ -15994,6 +17058,12 @@
       "none",
       "",
       "Go"
+    ],
+    "ghost-ledger": [
+      "other",
+      "none",
+      "",
+      "HTML"
     ],
     "Ghost-tiles": [
       "other",
@@ -16035,6 +17105,12 @@
       "fleet",
       "description",
       "agent",
+      "Rust"
+    ],
+    "gibbs-phenomenon": [
+      "other",
+      "none",
+      "",
       "Rust"
     ],
     "git-agent": [
@@ -16163,11 +17239,29 @@
       "",
       ""
     ],
+    "glyphtensor": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "glyphtensor-bridge": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "gno": [
       "other",
       "none",
       "",
       "Go"
+    ],
+    "go-gtp": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "goallog-ai": [
       "other",
@@ -16175,13 +17269,43 @@
       "",
       ""
     ],
+    "godel-number": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "gossip-member": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "gossip-ping": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "gossip-protocol": [
       "other",
       "none",
       "",
       "Rust"
     ],
+    "gossip-seed": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "gossip-sub": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "gossip-suspicion": [
       "other",
       "none",
       "",
@@ -16559,6 +17683,18 @@
       "",
       "Rust"
     ],
+    "graph-astar": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
+    "graph-bellman-ford": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "graph-centrality": [
       "other",
       "none",
@@ -16883,6 +18019,12 @@
       "ternary",
       "Python"
     ],
+    "headspace-rs": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "health": [
       "other",
       "none",
@@ -16990,6 +18132,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "hermes-ob1-core": [
+      "fleet",
+      "description",
+      "crab",
+      "Python"
     ],
     "hermes-perception": [
       "other",
@@ -17789,6 +18937,12 @@
       "jev",
       "Rust"
     ],
+    "jev-fusion": [
+      "jev",
+      "name",
+      "jev",
+      "Python"
+    ],
     "jev-gan": [
       "jev",
       "name",
@@ -17897,6 +19051,12 @@
       "agent",
       ""
     ],
+    "kennel": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "kernel-conservation": [
       "other",
       "none",
@@ -18004,6 +19164,12 @@
       "none",
       "",
       "TypeScript"
+    ],
+    "knowledge-graph": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "knowledge-vault": [
       "other",
@@ -20123,6 +21289,12 @@
       "",
       "Rust"
     ],
+    "lexical-substrate": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "liaison-agent": [
       "fleet",
       "description",
@@ -20519,6 +21691,12 @@
       "",
       "HTML"
     ],
+    "luciddreamer": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
     "luciddreamer-agent": [
       "fleet",
       "description",
@@ -20537,11 +21715,23 @@
       "",
       "HTML"
     ],
+    "luciddreamer-content": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
     "luciddreamer-os": [
       "other",
       "none",
       "",
       "HTML"
+    ],
+    "luciddreamer-prototype": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "luciddreamer-research": [
       "other",
@@ -20580,6 +21770,12 @@
       "TypeScript"
     ],
     "lucineer-com-pages": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "lucineer-com-site": [
       "other",
       "none",
       "",
@@ -20680,6 +21876,12 @@
       "none",
       "",
       "Python"
+    ],
+    "magda-core-study": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "magda-tensor": [
       "other",
@@ -21299,6 +22501,12 @@
       "",
       "JavaScript"
     ],
+    "morphic-canvas": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "morphogenesis": [
       "other",
       "none",
@@ -21330,6 +22538,12 @@
       "Python"
     ],
     "moth-jev-adapters": [
+      "jev",
+      "name",
+      "jev",
+      "Python"
+    ],
+    "moth-jev-lab": [
       "jev",
       "name",
       "jev",
@@ -21389,6 +22603,12 @@
       "agent",
       "Python"
     ],
+    "mud-engine": [
+      "fleet",
+      "description",
+      "agent",
+      "TypeScript"
+    ],
     "mud-expert-1": [
       "fleet",
       "description",
@@ -21406,6 +22626,12 @@
       "none",
       "",
       "Python"
+    ],
+    "mud-terminal": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
     ],
     "mud2scummvm": [
       "fleet",
@@ -21502,6 +22728,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "murmuration": [
+      "jev",
+      "description",
+      "jev",
+      "Python"
     ],
     "Murmurer": [
       "fleet",
@@ -22823,6 +24055,12 @@
       "",
       "Rust"
     ],
+    "Patchwork-experts": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
     "pay-equipment": [
       "other",
       "none",
@@ -24023,6 +25261,12 @@
       "",
       "Python"
     ],
+    "plato-room-code-review": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "plato-room-configs": [
       "other",
       "none",
@@ -24809,6 +26053,12 @@
       "",
       "TypeScript"
     ],
+    "player-widget": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "PlayerLog": [
       "other",
       "none",
@@ -25457,6 +26707,12 @@
       "quilt",
       "JavaScript"
     ],
+    "quilt-bandit": [
+      "quilt",
+      "name",
+      "quilt",
+      "JavaScript"
+    ],
     "quilt-base": [
       "quilt",
       "name",
@@ -25823,6 +27079,12 @@
       "quilt",
       "JavaScript"
     ],
+    "quilt-deck": [
+      "quilt",
+      "name",
+      "quilt",
+      "Python"
+    ],
     "quilt-director": [
       "quilt",
       "name",
@@ -25840,6 +27102,12 @@
       "name",
       "quilt",
       "Python"
+    ],
+    "quilt-dpcpp": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
     ],
     "quilt-echovision": [
       "quilt",
@@ -25978,6 +27246,12 @@
       "name",
       "quilt",
       "Python"
+    ],
+    "quilt-fleet-tools": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
     ],
     "quilt-flow": [
       "quilt",
@@ -26260,6 +27534,12 @@
       "name",
       "quilt",
       "Mojo"
+    ],
+    "quilt-mojo-lab": [
+      "quilt",
+      "name",
+      "quilt",
+      "Python"
     ],
     "quilt-multi-oracle": [
       "quilt",
@@ -26620,6 +27900,12 @@
       "name",
       "quilt",
       "JavaScript"
+    ],
+    "quilt-tournament": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
     ],
     "quilt-trace": [
       "quilt",
@@ -27413,6 +28699,12 @@
       "",
       ""
     ],
+    "repo-docs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "repo-publication-log": [
       "other",
       "none",
@@ -27454,6 +28746,18 @@
       "none",
       "",
       ""
+    ],
+    "research-lab": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "researchlocal-backup": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "resolve": [
       "fleet",
@@ -27593,7 +28897,25 @@
       "",
       "Lua"
     ],
+    "roblox-beatclock": [
+      "other",
+      "none",
+      "",
+      "Lua"
+    ],
+    "roblox-bond-system": [
+      "other",
+      "none",
+      "",
+      "Lua"
+    ],
     "roblox-build-animator": [
+      "other",
+      "none",
+      "",
+      "Lua"
+    ],
+    "roblox-builder-kit": [
       "other",
       "none",
       "",
@@ -27604,6 +28926,12 @@
       "description",
       "agent",
       "Python"
+    ],
+    "roblox-filtergate": [
+      "other",
+      "none",
+      "",
+      "Lua"
     ],
     "roblox-game-build-framework": [
       "other",
@@ -27839,6 +29167,12 @@
       "",
       "Luau"
     ],
+    "scrapcraft-roblox-bible": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "scrapcraft-world": [
       "other",
       "none",
@@ -27976,6 +29310,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "selectlib": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "self-evolve-ai": [
       "fleet",
@@ -28253,6 +29593,12 @@
       "",
       "Rust"
     ],
+    "si-conductor": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
     "si-conservation-diffusion": [
       "fleet",
       "description",
@@ -28295,6 +29641,12 @@
       "",
       "Rust"
     ],
+    "si-feedback": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "si-fibration-timing": [
       "other",
       "none",
@@ -28319,6 +29671,12 @@
       "",
       "Rust"
     ],
+    "si-ghost-ledger": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "si-gradient-flow": [
       "fleet",
       "description",
@@ -28342,6 +29700,18 @@
       "description",
       "fleet|agent",
       "Rust"
+    ],
+    "si-knowledge-base": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "si-knowledge-graph": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "si-lyapunov-fleet": [
       "fleet",
@@ -28385,6 +29755,12 @@
       "agent",
       "Rust"
     ],
+    "si-player": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "si-registry-rs": [
       "fleet",
       "description",
@@ -28396,6 +29772,12 @@
       "description",
       "fleet",
       "Rust"
+    ],
+    "si-research": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "si-runtime-go": [
       "other",
@@ -28439,11 +29821,23 @@
       "agent",
       "Rust"
     ],
+    "si-sonic-shape": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "si-spectral-gap": [
       "fleet",
       "description",
       "fleet",
       "Rust"
+    ],
+    "si-streamer": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "si-superinstance": [
       "qthe",
@@ -28462,6 +29856,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "si-terminal": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
     ],
     "si-topological-protect": [
       "fleet",
@@ -28696,6 +30096,18 @@
       "none",
       "",
       "Rust"
+    ],
+    "slackwater-art-spectrum": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "slackwater-cognition": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "slackwater-forge": [
       "other",
@@ -28954,6 +30366,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "sonic-shape": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "sort-algo-rs": [
       "other",
@@ -29261,6 +30679,12 @@
       "",
       "Rust"
     ],
+    "sprinter-onboarding": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "stable-worldmodel": [
       "latent",
       "description",
@@ -29374,6 +30798,12 @@
       "description",
       "ternary",
       "Rust"
+    ],
+    "streamer": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "streaming-response-handler": [
       "other",
@@ -30005,6 +31435,12 @@
       "",
       "Rust"
     ],
+    "svelte-quilt": [
+      "quilt",
+      "name",
+      "quilt",
+      "JavaScript"
+    ],
     "swarm": [
       "other",
       "none",
@@ -30070,6 +31506,12 @@
       "description",
       "agent",
       "TypeScript"
+    ],
+    "sweep": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "symbiont-network": [
       "other",
@@ -30388,6 +31830,12 @@
       "none",
       "",
       ""
+    ],
+    "template-fleet-agent": [
+      "fleet",
+      "name",
+      "fleet|agent",
+      "Python"
     ],
     "templates": [
       "other",
@@ -32789,6 +34237,12 @@
       "",
       "HTML"
     ],
+    "tev-mesh": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "texture-synth": [
       "other",
       "none",
@@ -32814,6 +34268,12 @@
       "TypeScript"
     ],
     "the-listeners-ear": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "the-living-minds": [
       "other",
       "none",
       "",
@@ -33058,6 +34518,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "tminus-os": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "token-budget-energy": [
       "fleet",
@@ -33755,6 +35221,12 @@
       "",
       "TypeScript"
     ],
+    "voxelglyph": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
     "voxelgpt": [
       "other",
       "none",
@@ -33911,11 +35383,23 @@
       "",
       "Python"
     ],
+    "wesley-curriculum": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "wesley-holodeck": [
       "other",
       "none",
       "",
       "HTML"
+    ],
+    "wesley-journal": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "wesleys-imagination": [
       "other",
@@ -34294,89 +35778,28 @@
     {
       "repo": "quilt-gpu-lab",
       "workflows": [],
-      "pushed_at": "2026-09-30T12:26:02Z",
-      "size_kb": 227322
+      "pushed_at": "2026-09-30T22:14:32Z",
+      "size_kb": 227108
     },
     {
-      "repo": "delta-shape",
+      "repo": "Patchwork-experts",
       "workflows": [],
-      "pushed_at": "2026-09-30T12:17:46Z",
-      "size_kb": 20
+      "pushed_at": "2026-09-30T22:11:59Z",
+      "size_kb": 0
     },
     {
-      "repo": "quilt-tools",
+      "repo": "quilt-mojo-lab",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-09-30T11:04:18Z",
-      "size_kb": 436
+      "pushed_at": "2026-09-30T22:06:16Z",
+      "size_kb": 27
     },
     {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-09-30T11:01:32Z",
-      "size_kb": 53384
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-09-30T10:53:50Z",
-      "size_kb": 8909
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-09-30T10:30:57Z",
-      "size_kb": 29604
-    },
-    {
-      "repo": "fleet-murmur",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-09-30T09:48:35Z",
-      "size_kb": 45158
-    },
-    {
-      "repo": "pong-quilt",
-      "workflows": [
-        "forge.yml",
-        "merge-gate.yml",
-        "pages.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-09-30T09:35:40Z",
-      "size_kb": 2346
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-09-30T09:28:22Z",
-      "size_kb": 124
-    },
-    {
-      "repo": "MicroMoth-quilt",
-      "workflows": [
-        "build.yml"
-      ],
-      "pushed_at": "2026-09-30T09:27:01Z",
-      "size_kb": 10373
+      "repo": "quilt-fleet-tools",
+      "workflows": [],
+      "pushed_at": "2026-09-30T21:51:31Z",
+      "size_kb": 0
     },
     {
       "repo": "AI-Writings",
@@ -34388,93 +35811,141 @@
         "publish-jev-core.yml",
         "publish-jev-decide.yml"
       ],
-      "pushed_at": "2026-09-30T09:26:38Z",
-      "size_kb": 3625812
+      "pushed_at": "2026-09-30T21:42:51Z",
+      "size_kb": 3636396
     },
     {
-      "repo": "quilt-ewitness",
+      "repo": "selectlib",
       "workflows": [],
-      "pushed_at": "2026-09-30T09:25:08Z",
-      "size_kb": 14
+      "pushed_at": "2026-09-30T21:29:23Z",
+      "size_kb": 0
     },
     {
-      "repo": "xruntime-conformance",
-      "workflows": [],
-      "pushed_at": "2026-09-30T09:16:10Z",
-      "size_kb": 8
-    },
-    {
-      "repo": "realm-ml",
-      "workflows": [],
-      "pushed_at": "2026-09-30T09:09:24Z",
-      "size_kb": 37
-    },
-    {
-      "repo": "quilt-score",
-      "workflows": [],
-      "pushed_at": "2026-09-30T09:00:57Z",
-      "size_kb": 8
-    },
-    {
-      "repo": "jev-quilt",
+      "repo": "pong-quilt",
       "workflows": [
-        "kat.yml",
+        "forge.yml",
+        "merge-gate.yml",
+        "pages.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-09-30T08:53:42Z",
-      "size_kb": 9410
+      "pushed_at": "2026-09-30T21:01:25Z",
+      "size_kb": 2946
     },
     {
-      "repo": "quilt-attention",
+      "repo": "jev-fusion",
       "workflows": [],
-      "pushed_at": "2026-09-30T08:52:34Z",
-      "size_kb": 23
+      "pushed_at": "2026-09-30T20:56:35Z",
+      "size_kb": 61
     },
     {
-      "repo": "harness-rssi",
-      "workflows": [],
-      "pushed_at": "2026-09-30T08:49:38Z",
-      "size_kb": 8
-    },
-    {
-      "repo": "percept-plugs",
-      "workflows": [],
-      "pushed_at": "2026-09-30T08:46:41Z",
-      "size_kb": 28
-    },
-    {
-      "repo": "forge-quilt",
-      "workflows": [],
-      "pushed_at": "2026-09-30T08:43:28Z",
-      "size_kb": 14
-    },
-    {
-      "repo": "quilt-ml-recipes",
+      "repo": "quilt-research-canons",
       "workflows": [
-        "test.yml"
+        "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-09-30T08:41:44Z",
-      "size_kb": 68
+      "pushed_at": "2026-09-30T20:41:32Z",
+      "size_kb": 29636
     },
     {
-      "repo": "quilt-rl",
-      "workflows": [
-        "test.yml"
-      ],
-      "pushed_at": "2026-09-30T08:39:51Z",
-      "size_kb": 149
-    },
-    {
-      "repo": "site-repair",
+      "repo": "glyphtensor",
       "workflows": [],
-      "pushed_at": "2026-09-30T08:18:18Z",
-      "size_kb": 6
+      "pushed_at": "2026-09-30T20:37:36Z",
+      "size_kb": 30
+    },
+    {
+      "repo": "quilt-tools",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-09-30T20:23:41Z",
+      "size_kb": 494
+    },
+    {
+      "repo": "sprinter-onboarding",
+      "workflows": [],
+      "pushed_at": "2026-09-30T20:08:20Z",
+      "size_kb": 7
+    },
+    {
+      "repo": "tev-mesh",
+      "workflows": [],
+      "pushed_at": "2026-09-30T20:08:14Z",
+      "size_kb": 7
+    },
+    {
+      "repo": "glyphtensor-bridge",
+      "workflows": [],
+      "pushed_at": "2026-09-30T20:08:08Z",
+      "size_kb": 7
     },
     {
       "repo": "micrograd-quilt",
       "workflows": [],
-      "pushed_at": "2026-09-30T08:16:40Z",
-      "size_kb": 4812
+      "pushed_at": "2026-09-30T19:43:17Z",
+      "size_kb": 4857
+    },
+    {
+      "repo": "fleet-murmur",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-09-30T19:31:12Z",
+      "size_kb": 45159
+    },
+    {
+      "repo": "delta-shape",
+      "workflows": [],
+      "pushed_at": "2026-09-30T19:31:07Z",
+      "size_kb": 31
+    },
+    {
+      "repo": "Murmur",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-09-30T19:28:33Z",
+      "size_kb": 105
+    },
+    {
+      "repo": "voxelglyph",
+      "workflows": [],
+      "pushed_at": "2026-09-30T19:00:04Z",
+      "size_kb": 59
+    },
+    {
+      "repo": "murmuration",
+      "workflows": [],
+      "pushed_at": "2026-09-30T18:54:19Z",
+      "size_kb": 145
+    },
+    {
+      "repo": "quilt-bandit",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-09-30T18:50:32Z",
+      "size_kb": 80
+    },
+    {
+      "repo": "quilt-neighbourhood",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-09-30T17:58:24Z",
+      "size_kb": 68
+    },
+    {
+      "repo": "fleet-seeds",
+      "workflows": [
+        "forge.yml"
+      ],
+      "pushed_at": "2026-09-30T17:49:46Z",
+      "size_kb": 3543
+    },
+    {
+      "repo": "fleet-kit",
+      "workflows": [],
+      "pushed_at": "2026-09-30T17:44:31Z",
+      "size_kb": 200
     }
   ],
   "notes": [
