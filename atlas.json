@@ -1,33 +1,33 @@
 {
-  "generated_at_utc": "2026-09-29T22:15:27.816Z",
+  "generated_at_utc": "2026-09-30T05:31:21.217Z",
   "account": "SuperInstance",
-  "total_repos": 4856,
+  "total_repos": 4870,
   "pages_fetched": 49,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2505,
-    "fleet": 1558,
-    "qthe": 461,
-    "quilt": 247,
+    "other": 2511,
+    "fleet": 1560,
+    "qthe": 462,
+    "quilt": 252,
     "jev": 44,
     "latent": 18,
     "moth": 23
   },
   "families_by_stage": {
     "none": {
-      "other": 2505
+      "other": 2511
     },
     "description": {
-      "fleet": 1156,
-      "qthe": 427,
-      "quilt": 40,
+      "fleet": 1158,
+      "qthe": 428,
+      "quilt": 43,
       "jev": 26,
       "latent": 5,
       "moth": 2
     },
     "name": {
-      "quilt": 207,
+      "quilt": 209,
       "qthe": 34,
       "fleet": 402,
       "latent": 13,
@@ -118,6 +118,7 @@
       "attention-daemon-early-version",
       "auction-theory",
       "audio-pipeline",
+      "audit-trail",
       "Auto-Backup-Compression-Encryption",
       "auto-changelog",
       "Auto-Tuning-Engine",
@@ -180,6 +181,7 @@
       "cache-rs",
       "caching-service",
       "caching-service-rs",
+      "canary-3lang",
       "candor",
       "capitaine-agent",
       "capitaine-ai-pages",
@@ -195,6 +197,7 @@
       "causal-graph",
       "causal-graph-rs",
       "causal-healer",
+      "cbor-stream",
       "cech-complex",
       "cell-cascade",
       "cellforge",
@@ -1977,6 +1980,7 @@
       "reallog-agent",
       "reallog-ai",
       "reallog-ai-pages",
+      "realm-ml",
       "realtime-core",
       "rebac-equipment",
       "recovered-copy-20260824-ACE-Step-1.5",
@@ -2245,6 +2249,7 @@
       "stunt-double",
       "style-dna",
       "SubForge",
+      "subleq-fabric",
       "substrate-attest",
       "substrate-attest-rs",
       "substrate-bench",
@@ -2327,6 +2332,7 @@
       "synesis-tools",
       "synthcity",
       "Syzygy",
+      "syzygy-lattice",
       "t-minus-rs",
       "tap-frontend",
       "tap-gamenight",
@@ -2911,6 +2917,7 @@
       "dry-dock",
       "ecosystem-dashboard",
       "EDDI",
+      "edge-ledger",
       "edge-native-paper",
       "edge-relay-agent",
       "edge-research-relay",
@@ -3961,6 +3968,7 @@
       "superagent-framework",
       "superinstance-agent",
       "superinstance-agent-trait",
+      "superinstance-api",
       "superinstance-architecture",
       "superinstance-ci",
       "superinstance-cocapn",
@@ -4564,7 +4572,8 @@
       "three-forms-of-evidence",
       "three-forms-of-forgetting",
       "warp-ternary-vote",
-      "witness-is-prediction"
+      "witness-is-prediction",
+      "witness-validation"
     ],
     "quilt": [
       "AgentCompute",
@@ -4586,6 +4595,7 @@
       "emergency-dispatch-simulation-system",
       "Equipment-CellLogic-Distiller",
       "FastGen4quilt",
+      "futhark-lab",
       "gpu_bpe4quilt",
       "kev-receipts",
       "laya4quilt",
@@ -4623,9 +4633,11 @@
       "quilt-c",
       "quilt-canary",
       "quilt-canary-port",
+      "quilt-canvas",
       "quilt-canvas-adversary",
       "quilt-canvas-ascetic",
       "quilt-canvas-demo",
+      "quilt-canvas-tui",
       "quilt-casting",
       "quilt-cell",
       "quilt-cell-bridges",
@@ -4790,6 +4802,8 @@
       "quilt-zig",
       "quilt-zk",
       "quiltcall",
+      "QuiltCanary.jl",
+      "QuiltEgg.jl",
       "recovered-copy-20260824-mist-quilt",
       "recovered-copy-20260824-scrap-quilt",
       "rune-quilt",
@@ -6054,6 +6068,12 @@
       "",
       "Rust"
     ],
+    "audit-trail": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "Auto-Backup-Compression-Encryption": [
       "other",
       "none",
@@ -6678,6 +6698,12 @@
       "",
       "Rust"
     ],
+    "canary-3lang": [
+      "other",
+      "none",
+      "",
+      "BQN"
+    ],
     "candor": [
       "other",
       "none",
@@ -6923,6 +6949,12 @@
       "description",
       "fleet",
       "Python"
+    ],
+    "cbor-stream": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "CCC": [
       "fleet",
@@ -10919,6 +10951,12 @@
       "none",
       "",
       "TypeScript"
+    ],
+    "edge-ledger": [
+      "fleet",
+      "description",
+      "fleet",
+      "JavaScript"
     ],
     "edge-llama": [
       "other",
@@ -15773,6 +15811,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "futhark-lab": [
+      "quilt",
+      "description",
+      "quilt",
+      "Futhark"
     ],
     "fuzzy-logic": [
       "other",
@@ -25500,6 +25544,12 @@
       "canon",
       "Python"
     ],
+    "quilt-canvas": [
+      "quilt",
+      "name",
+      "quilt",
+      "TypeScript"
+    ],
     "quilt-canvas-adversary": [
       "quilt",
       "name",
@@ -25517,6 +25567,12 @@
       "name",
       "quilt",
       "HTML"
+    ],
+    "quilt-canvas-tui": [
+      "quilt",
+      "name",
+      "quilt",
+      "JavaScript"
     ],
     "quilt-casting": [
       "quilt",
@@ -26586,6 +26642,18 @@
       "quilt",
       "Python"
     ],
+    "QuiltCanary.jl": [
+      "quilt",
+      "description",
+      "quilt",
+      "Julia"
+    ],
+    "QuiltEgg.jl": [
+      "quilt",
+      "description",
+      "quilt",
+      "Julia"
+    ],
     "quipu-math": [
       "other",
       "none",
@@ -26771,6 +26839,12 @@
       "none",
       "",
       "HTML"
+    ],
+    "realm-ml": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "realtime-core": [
       "other",
@@ -29232,6 +29306,12 @@
       "",
       "Python"
     ],
+    "subleq-fabric": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "substrate-attest": [
       "other",
       "none",
@@ -29489,6 +29569,12 @@
       "none",
       "",
       "HTML"
+    ],
+    "superinstance-api": [
+      "fleet",
+      "description",
+      "fleet",
+      "JavaScript"
     ],
     "superinstance-architecture": [
       "fleet",
@@ -30071,6 +30157,12 @@
       "none",
       "",
       "C"
+    ],
+    "syzygy-lattice": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
     ],
     "t-minus": [
       "fleet",
@@ -33756,6 +33848,12 @@
       "",
       "Rust"
     ],
+    "witness-validation": [
+      "qthe",
+      "description",
+      "canon",
+      ""
+    ],
     "workers-rs": [
       "other",
       "none",
@@ -34047,51 +34145,13 @@
   },
   "top_motion": [
     {
-      "repo": "quilt-research-canons",
-      "workflows": [],
-      "pushed_at": "2026-09-29T22:14:24Z",
-      "size_kb": 541
-    },
-    {
-      "repo": "qthe-codec",
-      "workflows": [],
-      "pushed_at": "2026-09-29T22:11:14Z",
-      "size_kb": 65
-    },
-    {
-      "repo": "quilt-gpu-lab",
-      "workflows": [],
-      "pushed_at": "2026-09-29T22:05:38Z",
-      "size_kb": 135526
-    },
-    {
-      "repo": "fleet-seeds",
-      "workflows": [
-        "forge.yml"
-      ],
-      "pushed_at": "2026-09-29T22:02:50Z",
-      "size_kb": 3430
-    },
-    {
-      "repo": "quilt-i2i",
-      "workflows": [],
-      "pushed_at": "2026-09-29T21:47:44Z",
-      "size_kb": 62
-    },
-    {
-      "repo": "quilt-c",
+      "repo": "Syzygy",
       "workflows": [
         "ci.yml",
-        "publish.yml"
+        "pages.yml"
       ],
-      "pushed_at": "2026-09-29T21:42:59Z",
-      "size_kb": 2845
-    },
-    {
-      "repo": "quilt-jepa",
-      "workflows": [],
-      "pushed_at": "2026-09-29T21:39:42Z",
-      "size_kb": 376
+      "pushed_at": "2026-09-30T05:29:58Z",
+      "size_kb": 410
     },
     {
       "repo": "AI-Writings",
@@ -34103,45 +34163,160 @@
         "publish-jev-core.yml",
         "publish-jev-decide.yml"
       ],
-      "pushed_at": "2026-09-29T21:26:56Z",
-      "size_kb": 3627381
+      "pushed_at": "2026-09-30T05:28:42Z",
+      "size_kb": 3634243
     },
     {
-      "repo": "MicroMoth-quilt",
-      "workflows": [
-        "build.yml"
-      ],
-      "pushed_at": "2026-09-29T21:25:37Z",
-      "size_kb": 10308
-    },
-    {
-      "repo": "Syzygy",
-      "workflows": [],
-      "pushed_at": "2026-09-29T20:37:48Z",
-      "size_kb": 337
-    },
-    {
-      "repo": "breakthrough-prospector",
-      "workflows": [],
-      "pushed_at": "2026-09-29T17:41:19Z",
-      "size_kb": 72
-    },
-    {
-      "repo": "hermit",
+      "repo": "fleet-dashboard",
       "workflows": [
         "ci.yml",
-        "clawsweeper-dispatch.yml"
+        "pages.yml"
       ],
-      "pushed_at": "2026-09-29T16:57:41Z",
-      "size_kb": 171875
+      "pushed_at": "2026-09-30T05:26:59Z",
+      "size_kb": 283
     },
     {
-      "repo": "quilt-atlas",
+      "repo": "quilt-gpu-lab",
+      "workflows": [],
+      "pushed_at": "2026-09-30T05:26:21Z",
+      "size_kb": 135703
+    },
+    {
+      "repo": "pong-quilt",
       "workflows": [
-        "atlas.yml"
+        "forge.yml",
+        "merge-gate.yml",
+        "pages.yml"
       ],
-      "pushed_at": "2026-09-29T12:52:37Z",
-      "size_kb": 116
+      "pushed_at": "2026-09-30T05:26:10Z",
+      "size_kb": 1638
+    },
+    {
+      "repo": "Scrapcraft",
+      "workflows": [
+        "ci.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-09-30T05:25:41Z",
+      "size_kb": 1943
+    },
+    {
+      "repo": "audit-trail",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-09-30T05:23:10Z",
+      "size_kb": 6
+    },
+    {
+      "repo": "sunset-ecosystem",
+      "workflows": [
+        "ci.yml",
+        "code-review-personas.yml",
+        "commit-caster.yml",
+        "release.yml",
+        "security.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:34Z",
+      "size_kb": 74049
+    },
+    {
+      "repo": "exoj",
+      "workflows": [
+        "forge.yml",
+        "smoke.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:33Z",
+      "size_kb": 161
+    },
+    {
+      "repo": "quilt-cloudflare",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:31Z",
+      "size_kb": 3367
+    },
+    {
+      "repo": "pincher",
+      "workflows": [
+        "agent-workflow.yml",
+        "agent_activation.yml",
+        "ci.yml",
+        "publish_nail.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:30Z",
+      "size_kb": 1604
+    },
+    {
+      "repo": "eisenstein",
+      "workflows": [
+        "ci.yml",
+        "rust-ci.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:27Z",
+      "size_kb": 6413
+    },
+    {
+      "repo": "ec2mud",
+      "workflows": [
+        "ci-node.yml",
+        "ci.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:25Z",
+      "size_kb": 287
+    },
+    {
+      "repo": "cocapn-plato",
+      "workflows": [
+        "ci-python.yml",
+        "ci.yml",
+        "coverage-improvement.yml",
+        "release.yml",
+        "security.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:24Z",
+      "size_kb": 209
+    },
+    {
+      "repo": "constraint-theory-core",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:22Z",
+      "size_kb": 139068
+    },
+    {
+      "repo": "lucineer-relay",
+      "workflows": [
+        "ci.yml",
+        "tests.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:19Z",
+      "size_kb": 435
+    },
+    {
+      "repo": "ccc-os",
+      "workflows": [
+        "ci-python.yml",
+        "ci.yml",
+        "release.yml",
+        "security.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:17Z",
+      "size_kb": 197
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-09-30T04:56:16Z",
+      "size_kb": 8755
     },
     {
       "repo": "SuperInstance",
@@ -34153,110 +34328,46 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-09-29T11:16:08Z",
+      "pushed_at": "2026-09-30T04:56:14Z",
       "size_kb": 52872
     },
     {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-09-29T11:04:15Z",
-      "size_kb": 8755
-    },
-    {
-      "repo": "quilt",
-      "workflows": [
-        "ci.yml",
-        "publish-rubygems.yml"
-      ],
-      "pushed_at": "2026-09-29T06:42:17Z",
-      "size_kb": 15394
-    },
-    {
-      "repo": "jev-garden",
-      "workflows": [
-        "forge.yml",
-        "garden.yml"
-      ],
-      "pushed_at": "2026-09-29T04:43:10Z",
-      "size_kb": 294
-    },
-    {
-      "repo": "webgpu-profiler",
-      "workflows": [
-        "ci-node.yml",
-        "ci.yml"
-      ],
-      "pushed_at": "2026-09-29T04:09:55Z",
-      "size_kb": 333
-    },
-    {
-      "repo": "CognitiveEngine",
-      "workflows": [
-        "ci.yml",
-        "docker.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-09-29T04:08:50Z",
-      "size_kb": 742
-    },
-    {
-      "repo": "PersonalLog",
+      "repo": "SuperInstance-papers",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-09-29T04:05:24Z",
-      "size_kb": 10310
+      "pushed_at": "2026-09-30T04:56:13Z",
+      "size_kb": 30921
     },
     {
-      "repo": "tripartite-rs-archive",
+      "repo": "polln",
       "workflows": [
-        "ci.yml",
-        "security.yml"
+        "ci.yml"
       ],
-      "pushed_at": "2026-09-29T04:03:50Z",
-      "size_kb": 71
+      "pushed_at": "2026-09-30T04:56:11Z",
+      "size_kb": 34695
     },
     {
-      "repo": "knowledge-vault-rs",
+      "repo": "forgemaster",
       "workflows": [
         "ci.yml",
-        "security.yml"
+        "differential-test.yml",
+        "metal-bake.yml"
       ],
-      "pushed_at": "2026-09-29T04:03:49Z",
-      "size_kb": 76
+      "pushed_at": "2026-09-30T04:56:10Z",
+      "size_kb": 247629
     },
     {
-      "repo": "SmartCRDT",
-      "workflows": [
-        "benchmark-regression.yml",
-        "benchmark.yml",
-        "benchmarks-ci.yml",
-        "cd-enhanced.yml",
-        "ci.yml",
-        "codeql.yml",
-        "deploy.yml",
-        "docker.yml",
-        "pr-validation.yml",
-        "release.yml",
-        "security-scan.yml",
-        "smoke-tests.yml"
-      ],
-      "pushed_at": "2026-09-29T04:02:34Z",
-      "size_kb": 7559
+      "repo": "witness-validation",
+      "workflows": [],
+      "pushed_at": "2026-09-30T04:50:34Z",
+      "size_kb": 0
     },
     {
-      "repo": "quilt-fleet",
-      "workflows": [
-        "ci.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-09-29T04:02:22Z",
-      "size_kb": 2965
+      "repo": "micrograd-quilt",
+      "workflows": [],
+      "pushed_at": "2026-09-30T04:49:20Z",
+      "size_kb": 4810
     }
   ],
   "notes": [
