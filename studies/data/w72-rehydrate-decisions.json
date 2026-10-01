@@ -1,0 +1,103 @@
+{
+ "corpus": "papermill",
+ "curve_source": "outputs/w72-decay-curve.json (scripts/w72_decay_curve.mjs)",
+ "decisions": [
+  {
+   "action": "catchup",
+   "catchup_cost": 91.0,
+   "catchup_diffs": 91,
+   "cost_full_rehydrate": 300.0,
+   "decay_fraction": 0.0,
+   "estimated_divergent_paths": 0,
+   "expected_divergence": 0.0,
+   "measured_divergence_at_t": 0,
+   "measured_divergent_paths": 0,
+   "missing_receipts": 0,
+   "model_kind": "logistic",
+   "prefix_receipts_known": 101,
+   "rationale": "expected divergence 0.0000 within threshold 0.02 and catch-up cheaper (91 for 91 diffs vs 300 for rehydration)",
+   "replica_depth": 10,
+   "scenario_note": "young replica, upstream intact (p=n: nothing missing)",
+   "stream_length": 101,
+   "threshold": 0.02
+  },
+  {
+   "action": "rehydrate",
+   "catchup_cost": 71.0,
+   "catchup_diffs": 71,
+   "cost_full_rehydrate": 300.0,
+   "decay_fraction": 0.24752475247524752,
+   "estimated_divergent_paths": 50,
+   "expected_divergence": 0.20061504188869964,
+   "measured_divergence_at_t": 0.209677,
+   "measured_divergent_paths": 52,
+   "missing_receipts": 25,
+   "model_kind": "logistic",
+   "prefix_receipts_known": 76,
+   "rationale": "expected divergence 0.2006 at decay t=0.2475 exceeds threshold 0.02; incremental catch-up would land ~20% divergent \u2014 rebuild from seal instead",
+   "replica_depth": 30,
+   "scenario_note": "archive lost 25 of 101 commits (t=25/101, measured depth)",
+   "stream_length": 101,
+   "threshold": 0.02
+  },
+  {
+   "action": "rehydrate",
+   "catchup_cost": 50.0,
+   "catchup_diffs": 50,
+   "cost_full_rehydrate": 300.0,
+   "decay_fraction": 0.49504950495049505,
+   "estimated_divergent_paths": 120,
+   "expected_divergence": 0.4849212858469928,
+   "measured_divergence_at_t": 0.471774,
+   "measured_divergent_paths": 117,
+   "missing_receipts": 50,
+   "model_kind": "logistic",
+   "prefix_receipts_known": 51,
+   "rationale": "expected divergence 0.4849 at decay t=0.4950 exceeds threshold 0.02; incremental catch-up would land ~48% divergent \u2014 rebuild from seal instead",
+   "replica_depth": 51,
+   "scenario_note": "checkpoint at the w71 PROBE-2 50%-truncation depth (t=50/101)",
+   "stream_length": 101,
+   "threshold": 0.02
+  },
+  {
+   "action": "rehydrate",
+   "catchup_cost": 21.0,
+   "catchup_diffs": 21,
+   "cost_full_rehydrate": 300.0,
+   "decay_fraction": 0.7425742574257426,
+   "estimated_divergent_paths": 193,
+   "expected_divergence": 0.7771619263238654,
+   "measured_divergence_at_t": 0.78629,
+   "measured_divergent_paths": 195,
+   "missing_receipts": 75,
+   "model_kind": "logistic",
+   "prefix_receipts_known": 26,
+   "rationale": "expected divergence 0.7772 at decay t=0.7426 exceeds threshold 0.02; incremental catch-up would land ~78% divergent \u2014 rebuild from seal instead",
+   "replica_depth": 80,
+   "scenario_note": "deep replica, archive kept only every 4th commit (t=75/101)",
+   "stream_length": 101,
+   "threshold": 0.02
+  }
+ ],
+ "head_paths": 248,
+ "model": {
+  "logistic": {
+   "params": {
+    "a": 3.4375,
+    "t0": 0.515
+   },
+   "r2": 0.9994926676497727
+  },
+  "piecewise": {
+   "note": "exact on measured knots",
+   "r2": 1.0
+  }
+ },
+ "parameters": {
+  "cost_catchup_per_diff": 1.0,
+  "cost_full_rehydrate": 300.0,
+  "threshold": 0.02
+ },
+ "policy": "expected_divergence > threshold -> rehydrate; else rehydrate iff cost_full_rehydrate <= catchup_cost; else catchup",
+ "stream_length": 101
+}

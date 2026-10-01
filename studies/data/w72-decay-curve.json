@@ -1,0 +1,97 @@
+{
+  "corpus": "papermill",
+  "measured": "2026-10-01T01:04:15Z",
+  "instrument": "quilt-neighbourhood CellDiff fold vs git HEAD tree (images/ excluded); truncation = deterministic uniform drop of commits in topo-reverse(oldest-first) order",
+  "stream_commits": 101,
+  "head_paths": 248,
+  "full_stream_match": true,
+  "curve": [
+    {
+      "kept_commits": 101,
+      "dropped_commits": 0,
+      "t": 0,
+      "folded_paths": 248,
+      "divergent_paths": 0,
+      "divergence_fraction": 0,
+      "note": "full stream (w71 P2 anchor: fold == HEAD byte-identical)"
+    },
+    {
+      "kept_commits": 76,
+      "dropped_commits": 25,
+      "t": 0.247525,
+      "folded_paths": 196,
+      "divergent_paths": 52,
+      "divergence_fraction": 0.209677,
+      "note": "drop every 4th commit at offset 3 (25 dropped)"
+    },
+    {
+      "kept_commits": 51,
+      "dropped_commits": 50,
+      "t": 0.49505,
+      "folded_paths": 131,
+      "divergent_paths": 117,
+      "divergence_fraction": 0.471774,
+      "note": "drop every 2nd commit at offset 1 (50 dropped) — EXACT w71 PROBE-2 strategy"
+    },
+    {
+      "kept_commits": 26,
+      "dropped_commits": 75,
+      "t": 0.742574,
+      "folded_paths": 53,
+      "divergent_paths": 195,
+      "divergence_fraction": 0.78629,
+      "note": "keep every 4th commit (75 dropped)"
+    },
+    {
+      "kept_commits": 0,
+      "dropped_commits": 101,
+      "t": 1,
+      "folded_paths": 0,
+      "divergent_paths": 248,
+      "divergence_fraction": 1,
+      "note": "empty stream (lower anchor)"
+    }
+  ],
+  "sample_divergent_paths": {
+    "1": [
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      ".gitignore",
+      "CLAUDE.md",
+      "LICENSE",
+      "README.md",
+      "a2a/consciousness-broadcast-protocol.md",
+      "a2a/first-contact-transcript.md",
+      "a2a/fleet-council-meeting.md"
+    ],
+    "0.247525": [
+      "audits/paperclip-vs-moment-vs-deckboss.md",
+      "consciousness/ontology-of-the-fork.md",
+      "consciousness/the-commit-that-woke-up.md",
+      "creative/cocapn-art-history.md",
+      "creative/cocapn-artists.md",
+      "creative/cocapn-writers.md",
+      "education/cocapn-classroom.md",
+      "experiments/devils-advocate-distillation.md"
+    ],
+    "0.49505": [
+      ".gitignore",
+      "a2a/consciousness-broadcast-protocol.md",
+      "a2a/first-contact-transcript.md",
+      "audits/paperclip-vs-moment-vs-deckboss.md",
+      "business/90-day-launch-plan.md",
+      "business/enterprise-fleet.md",
+      "consciousness/ontology-of-the-fork.md",
+      "consciousness/the-commit-that-woke-up.md"
+    ],
+    "0.742574": [
+      ".gitignore",
+      "CLAUDE.md",
+      "a2a/consciousness-broadcast-protocol.md",
+      "a2a/first-contact-transcript.md",
+      "a2a/fleet-council-meeting.md",
+      "audits/gemini-repo-audit.md",
+      "audits/glm-repo-audit.md",
+      "audits/paperclip-vs-moment-vs-deckboss.md"
+    ]
+  }
+}
