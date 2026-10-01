@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-10-01T13:12:08.132Z",
+  "generated_at_utc": "2026-10-01T22:40:53.417Z",
   "account": "SuperInstance",
-  "total_repos": 5113,
+  "total_repos": 5124,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
     "other": 2710,
-    "fleet": 1576,
+    "fleet": 1581,
     "qthe": 464,
-    "quilt": 274,
-    "jev": 48,
+    "quilt": 278,
+    "jev": 50,
     "latent": 18,
     "moth": 23
   },
@@ -19,7 +19,7 @@
       "other": 2710
     },
     "description": {
-      "fleet": 1169,
+      "fleet": 1173,
       "qthe": 429,
       "quilt": 45,
       "jev": 27,
@@ -27,12 +27,12 @@
       "moth": 2
     },
     "name": {
-      "quilt": 229,
+      "quilt": 233,
       "qthe": 35,
-      "fleet": 407,
+      "fleet": 408,
       "latent": 13,
       "moth": 21,
-      "jev": 21
+      "jev": 23
     }
   },
   "family_members": {
@@ -2909,6 +2909,7 @@
       "CCC",
       "ccc-os",
       "cellular-automata-agent",
+      "cf-deployments",
       "character-agent-integration",
       "character-arc",
       "character-class",
@@ -3115,6 +3116,7 @@
       "dojo-scout",
       "dojo-scribe",
       "domain-agent-base",
+      "doubt-ledger",
       "dream-compiler",
       "drone-fleet-ternary",
       "dry-dock",
@@ -3217,6 +3219,7 @@
       "fleet-court",
       "fleet-crdt",
       "fleet-cron",
+      "fleet-cross-study",
       "fleet-daemon",
       "fleet-daily",
       "fleet-dashboard",
@@ -3591,6 +3594,7 @@
       "free-probability-rs",
       "friendly-fox",
       "from-fleet",
+      "frozen-clock-lab",
       "frozen-intelligence",
       "garden",
       "ghost-track",
@@ -4285,6 +4289,7 @@
       "vibe-graph",
       "ViMax",
       "voxelglyph",
+      "wardroom",
       "warp",
       "warp-room",
       "warp-vote-consensus",
@@ -4809,6 +4814,8 @@
       "collaborative-realtime-drawing-system-quilt",
       "colony-cell",
       "conservation-geometry",
+      "cot-quilt",
+      "cot-quilt-lab",
       "cra-analysis",
       "deepseek-harness-quilt",
       "emergency-dispatch-simulation-system",
@@ -4898,6 +4905,7 @@
       "quilt-ecosystem-demo",
       "quilt-ecosystem-web",
       "quilt-edge-arch",
+      "quilt-edge-lab",
       "quilt-edge-ml",
       "quilt-edge-node",
       "quilt-edge-observer",
@@ -4934,6 +4942,7 @@
       "quilt-haskell",
       "quilt-i2i",
       "quilt-id",
+      "quilt-in-git",
       "quilt-iterator",
       "quilt-j",
       "quilt-jetson",
@@ -5092,6 +5101,8 @@
       "jev-gan-cli",
       "jev-garden",
       "jev-harness",
+      "jev-net",
+      "jev-net-worker",
       "jev-quilt",
       "jev-receipts",
       "jev-turbovec",
@@ -7583,6 +7594,12 @@
       "",
       "Python"
     ],
+    "cf-deployments": [
+      "fleet",
+      "description",
+      "fleet|receipt",
+      "HTML"
+    ],
     "cfd-rs": [
       "other",
       "none",
@@ -9749,6 +9766,18 @@
       "",
       "TypeScript"
     ],
+    "cot-quilt": [
+      "quilt",
+      "name",
+      "quilt",
+      "Python"
+    ],
+    "cot-quilt-lab": [
+      "quilt",
+      "name",
+      "quilt",
+      "Python"
+    ],
     "count-min-sketch": [
       "other",
       "none",
@@ -11627,6 +11656,12 @@
       "",
       ""
     ],
+    "doubt-ledger": [
+      "fleet",
+      "description",
+      "fleet",
+      ""
+    ],
     "dream-compiler": [
       "fleet",
       "description",
@@ -13336,6 +13371,12 @@
       "name",
       "fleet",
       "TypeScript"
+    ],
+    "fleet-cross-study": [
+      "fleet",
+      "name",
+      "fleet",
+      ""
     ],
     "fleet-daemon": [
       "fleet",
@@ -16895,6 +16936,12 @@
       "",
       "HTML"
     ],
+    "frozen-clock-lab": [
+      "fleet",
+      "description",
+      "fleet",
+      ""
+    ],
     "frozen-intelligence": [
       "fleet",
       "description",
@@ -16971,7 +17018,7 @@
       "other",
       "none",
       "",
-      "C"
+      "Python"
     ],
     "galois-field": [
       "other",
@@ -19006,6 +19053,18 @@
       "name",
       "jev",
       "Python"
+    ],
+    "jev-net": [
+      "jev",
+      "name",
+      "jev",
+      "Python"
+    ],
+    "jev-net-worker": [
+      "jev",
+      "name",
+      "jev",
+      "JavaScript"
     ],
     "jev-quilt": [
       "jev",
@@ -27197,6 +27256,12 @@
       "quilt",
       "Rust"
     ],
+    "quilt-edge-lab": [
+      "quilt",
+      "name",
+      "quilt",
+      "JavaScript"
+    ],
     "quilt-edge-ml": [
       "quilt",
       "name",
@@ -27412,6 +27477,12 @@
       "name",
       "quilt",
       "Python"
+    ],
+    "quilt-in-git": [
+      "quilt",
+      "name",
+      "quilt",
+      "Shell"
     ],
     "quilt-iterator": [
       "quilt",
@@ -35315,6 +35386,12 @@
       "",
       "Rust"
     ],
+    "wardroom": [
+      "fleet",
+      "description",
+      "fleet|agent|receipt",
+      ""
+    ],
     "warp": [
       "fleet",
       "description",
@@ -35846,10 +35923,72 @@
   },
   "top_motion": [
     {
-      "repo": "chiaroscuro",
+      "repo": "quilt-gpu-lab",
       "workflows": [],
-      "pushed_at": "2026-10-01T13:07:54Z",
-      "size_kb": 280
+      "pushed_at": "2026-10-01T22:40:14Z",
+      "size_kb": 302142
+    },
+    {
+      "repo": "superinstance-api",
+      "workflows": [],
+      "pushed_at": "2026-10-01T22:31:21Z",
+      "size_kb": 23
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-01T22:27:18Z",
+      "size_kb": 29683
+    },
+    {
+      "repo": "tidepool",
+      "workflows": [],
+      "pushed_at": "2026-10-01T22:23:33Z",
+      "size_kb": 76
+    },
+    {
+      "repo": "Projectionist",
+      "workflows": [],
+      "pushed_at": "2026-10-01T22:22:11Z",
+      "size_kb": 1057
+    },
+    {
+      "repo": "jev-net-worker",
+      "workflows": [],
+      "pushed_at": "2026-10-01T22:20:25Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "fleet-triage",
+      "workflows": [],
+      "pushed_at": "2026-10-01T22:19:55Z",
+      "size_kb": 887
+    },
+    {
+      "repo": "quilt-Kuramoto",
+      "workflows": [],
+      "pushed_at": "2026-10-01T22:13:48Z",
+      "size_kb": 7567
+    },
+    {
+      "repo": "doubt-ledger",
+      "workflows": [],
+      "pushed_at": "2026-10-01T22:11:20Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "frozen-clock-lab",
+      "workflows": [],
+      "pushed_at": "2026-10-01T22:11:14Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "wardroom",
+      "workflows": [],
+      "pushed_at": "2026-10-01T22:10:29Z",
+      "size_kb": 0
     },
     {
       "repo": "jev-quilt",
@@ -35857,14 +35996,34 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-01T13:07:39Z",
-      "size_kb": 9453
+      "pushed_at": "2026-10-01T22:05:31Z",
+      "size_kb": 9553
     },
     {
-      "repo": "reverse-actualization",
+      "repo": "jev-net",
       "workflows": [],
-      "pushed_at": "2026-10-01T13:00:27Z",
-      "size_kb": 1348
+      "pushed_at": "2026-10-01T21:36:26Z",
+      "size_kb": 32
+    },
+    {
+      "repo": "cot-quilt-lab",
+      "workflows": [],
+      "pushed_at": "2026-10-01T21:21:27Z",
+      "size_kb": 38
+    },
+    {
+      "repo": "quilt-in-git",
+      "workflows": [],
+      "pushed_at": "2026-10-01T21:20:58Z",
+      "size_kb": 13
+    },
+    {
+      "repo": "fleet-seeds",
+      "workflows": [
+        "forge.yml"
+      ],
+      "pushed_at": "2026-10-01T21:20:13Z",
+      "size_kb": 3577
     },
     {
       "repo": "pong-quilt",
@@ -35874,130 +36033,14 @@
         "pages.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-01T12:57:18Z",
-      "size_kb": 3601
+      "pushed_at": "2026-10-01T21:15:08Z",
+      "size_kb": 3856
     },
     {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-01T12:32:48Z",
-      "size_kb": 463
-    },
-    {
-      "repo": "quilt-gpu-lab",
+      "repo": "cot-quilt",
       "workflows": [],
-      "pushed_at": "2026-10-01T12:14:30Z",
-      "size_kb": 296560
-    },
-    {
-      "repo": "quilt-fleet",
-      "workflows": [
-        "ci.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-10-01T11:39:43Z",
-      "size_kb": 3103
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-01T11:30:48Z",
-      "size_kb": 53945
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-01T11:20:52Z",
-      "size_kb": 9080
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-01T10:30:53Z",
-      "size_kb": 29643
-    },
-    {
-      "repo": "quilt-mojo-lab",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-01T09:55:06Z",
-      "size_kb": 99
-    },
-    {
-      "repo": "conservation-spectral-mojo",
-      "workflows": [],
-      "pushed_at": "2026-10-01T09:54:07Z",
-      "size_kb": 56
-    },
-    {
-      "repo": "constraint-theory-mojo",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-01T09:19:11Z",
-      "size_kb": 25
-    },
-    {
-      "repo": "exocortex-embed-mojo",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-01T08:55:32Z",
-      "size_kb": 50
-    },
-    {
-      "repo": "grand-pattern-mojo",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-01T08:28:04Z",
-      "size_kb": 23
-    },
-    {
-      "repo": "quilt-mojo",
-      "workflows": [],
-      "pushed_at": "2026-10-01T08:08:54Z",
-      "size_kb": 2849
-    },
-    {
-      "repo": "quilt-neighbourhood",
-      "workflows": [
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-01T07:52:53Z",
-      "size_kb": 136
-    },
-    {
-      "repo": "kev-substrate-mojo",
-      "workflows": [],
-      "pushed_at": "2026-10-01T07:48:14Z",
-      "size_kb": 35
-    },
-    {
-      "repo": "slackwater-lattice",
-      "workflows": [
-        "ci.yml",
-        "tests.yml"
-      ],
-      "pushed_at": "2026-10-01T07:39:09Z",
-      "size_kb": 87
+      "pushed_at": "2026-10-01T21:01:31Z",
+      "size_kb": 255
     },
     {
       "repo": "AI-Writings",
@@ -36009,34 +36052,42 @@
         "publish-jev-core.yml",
         "publish-jev-decide.yml"
       ],
-      "pushed_at": "2026-10-01T07:31:36Z",
-      "size_kb": 3646415
+      "pushed_at": "2026-10-01T20:58:09Z",
+      "size_kb": 3647181
     },
     {
-      "repo": "Projectionist",
-      "workflows": [],
-      "pushed_at": "2026-10-01T07:24:14Z",
-      "size_kb": 801
-    },
-    {
-      "repo": "fleet-triage",
-      "workflows": [],
-      "pushed_at": "2026-10-01T06:43:20Z",
-      "size_kb": 586
-    },
-    {
-      "repo": "quilt-verilog",
+      "repo": "quilt-tools",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-01T06:10:14Z",
-      "size_kb": 56549
+      "pushed_at": "2026-10-01T20:37:54Z",
+      "size_kb": 560
     },
     {
-      "repo": "qthe-codec",
+      "repo": "quilt-edge-lab",
       "workflows": [],
-      "pushed_at": "2026-10-01T06:06:47Z",
-      "size_kb": 78
+      "pushed_at": "2026-10-01T20:24:43Z",
+      "size_kb": 115
+    },
+    {
+      "repo": "pie-minimax",
+      "workflows": [],
+      "pushed_at": "2026-10-01T20:14:11Z",
+      "size_kb": 65
+    },
+    {
+      "repo": "quilt-mojo-lab",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-01T20:13:05Z",
+      "size_kb": 121
+    },
+    {
+      "repo": "quilt-dba",
+      "workflows": [],
+      "pushed_at": "2026-10-01T20:07:49Z",
+      "size_kb": 303
     }
   ],
   "notes": [
