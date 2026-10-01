@@ -1,0 +1,19 @@
+{
+  "c2_unique_5grams": 454888,
+  "fleet_hits": 4,
+  "max_contiguous_chain_5grams": 4,
+  "best_span_tokens": "the best ai agent uses the least ai",
+  "hits_sample": [
+    "the best ai agent uses",
+    "best ai agent uses the",
+    "ai agent uses the least",
+    "agent uses the least ai"
+  ],
+  "REGISTER_verdict": "PASS-candidate",
+  "contiguous_12tok_equivalent_chain": 8,
+  "REGISTER_verdict_strict": "FAIL",
+  "KILL_check": {
+    "hit_le_decoy": false,
+    "generic_vocab_risk": 0
+  }
+}
