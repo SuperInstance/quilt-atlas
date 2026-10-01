@@ -1,38 +1,38 @@
 {
-  "generated_at_utc": "2026-09-30T22:15:02.022Z",
+  "generated_at_utc": "2026-10-01T05:50:44.936Z",
   "account": "SuperInstance",
-  "total_repos": 5103,
+  "total_repos": 5113,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2704,
-    "fleet": 1575,
+    "other": 2710,
+    "fleet": 1576,
     "qthe": 464,
-    "quilt": 272,
-    "jev": 47,
+    "quilt": 274,
+    "jev": 48,
     "latent": 18,
     "moth": 23
   },
   "families_by_stage": {
     "none": {
-      "other": 2704
+      "other": 2710
     },
     "description": {
       "fleet": 1169,
       "qthe": 429,
-      "quilt": 44,
+      "quilt": 45,
       "jev": 27,
       "latent": 5,
       "moth": 2
     },
     "name": {
-      "quilt": 228,
+      "quilt": 229,
       "qthe": 35,
-      "fleet": 406,
+      "fleet": 407,
       "latent": 13,
       "moth": 21,
-      "jev": 20
+      "jev": 21
     }
   },
   "family_members": {
@@ -130,6 +130,7 @@
       "astro",
       "async-gpu-dispatch",
       "async-rs",
+      "atlas-forge",
       "attention-daemon-early-version",
       "auction-theory",
       "audio-mixer",
@@ -279,7 +280,6 @@
       "claude-code-vessel",
       "Claude-PRISM-CF",
       "Claude-prism-local-json",
-      "claudesclaude",
       "claw-extensions",
       "clawcanvas",
       "clawcraft",
@@ -366,6 +366,7 @@
       "conformance-service",
       "congestion-control",
       "congestion-controller",
+      "connect4",
       "connection-pool-rs",
       "consensus",
       "consensus-protocol",
@@ -1047,6 +1048,7 @@
       "flywheel-engine",
       "fold-compression",
       "font-rasterizer",
+      "font_atlas_packager",
       "foodlog-ai",
       "forge-a2a",
       "forge-cli",
@@ -1088,6 +1090,7 @@
       "fuzzy-logic",
       "ga-core",
       "ga-core-rs",
+      "ga4444",
       "galois-field",
       "galois-retrieval",
       "galois-unification-proofs",
@@ -1338,6 +1341,7 @@
       "kungfu",
       "l-system-rs",
       "l10n-rs",
+      "ladder",
       "landauer",
       "lapce-coverage-gap",
       "lattice-climate",
@@ -1843,6 +1847,7 @@
       "phase-five-research",
       "physics-clock",
       "pid-control",
+      "pie-minimax",
       "pincher",
       "pincher-flux-bridge",
       "pinchrs",
@@ -2079,6 +2084,7 @@
       "profiler-rs",
       "progress-rs",
       "project1",
+      "Projectionist",
       "projects",
       "prompt-compiler",
       "prompt-rs",
@@ -3472,6 +3478,7 @@
       "fleet-topology",
       "fleet-topology-rs",
       "fleet-touchdesigner-connector",
+      "fleet-triage",
       "fleet-tts",
       "fleet-tutorials",
       "fleet-twilight",
@@ -4798,6 +4805,7 @@
       "character-sheet",
       "claw",
       "coev",
+      "cog-lab",
       "collaborative-realtime-drawing-system-quilt",
       "colony-cell",
       "conservation-geometry",
@@ -5055,6 +5063,7 @@
       "the-beyond",
       "tit-quilt",
       "tit_quilt_elixir",
+      "tmux-quilt",
       "twist-engine",
       "typesafe-quilts",
       "urban-transportation-system"
@@ -5082,6 +5091,7 @@
       "jev-gan",
       "jev-gan-cli",
       "jev-garden",
+      "jev-harness",
       "jev-quilt",
       "jev-receipts",
       "jev-turbovec",
@@ -6378,6 +6388,12 @@
       "none",
       "",
       ""
+    ],
+    "atlas-forge": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "attention-daemon-early-version": [
       "other",
@@ -7807,12 +7823,6 @@
       "",
       "TypeScript"
     ],
-    "claudesclaude": [
-      "other",
-      "none",
-      "",
-      "TypeScript"
-    ],
     "Claude_Baton": [
       "fleet",
       "description",
@@ -8497,6 +8507,12 @@
       "",
       "Rust"
     ],
+    "cog-lab": [
+      "quilt",
+      "description",
+      "quilt",
+      "JavaScript"
+    ],
     "cognitive-archaeology": [
       "fleet",
       "description",
@@ -8826,6 +8842,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "connect4": [
+      "other",
+      "none",
+      "",
+      "C"
     ],
     "connection-pool-rs": [
       "other",
@@ -14893,6 +14915,12 @@
       "fleet",
       "JavaScript"
     ],
+    "fleet-triage": [
+      "fleet",
+      "name",
+      "fleet",
+      "Python"
+    ],
     "fleet-tts": [
       "fleet",
       "name",
@@ -16543,6 +16571,12 @@
       "",
       "Rust"
     ],
+    "font_atlas_packager": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "foodlog-ai": [
       "other",
       "none",
@@ -16932,6 +16966,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "ga4444": [
+      "other",
+      "none",
+      "",
+      "C"
     ],
     "galois-field": [
       "other",
@@ -18961,6 +19001,12 @@
       "jev",
       "JavaScript"
     ],
+    "jev-harness": [
+      "jev",
+      "name",
+      "jev",
+      "Python"
+    ],
     "jev-quilt": [
       "jev",
       "name",
@@ -19212,6 +19258,12 @@
       "none",
       "",
       ""
+    ],
+    "ladder": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "landauer": [
       "other",
@@ -24059,7 +24111,7 @@
       "fleet",
       "description",
       "agent",
-      ""
+      "Python"
     ],
     "pay-equipment": [
       "other",
@@ -24282,6 +24334,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "pie-minimax": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "pincher": [
       "other",
@@ -26341,6 +26399,12 @@
       "",
       "TypeScript"
     ],
+    "Projectionist": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
     "projects": [
       "other",
       "none",
@@ -27251,7 +27315,7 @@
       "quilt",
       "name",
       "quilt",
-      ""
+      "Python"
     ],
     "quilt-flow": [
       "quilt",
@@ -34525,6 +34589,12 @@
       "",
       "Python"
     ],
+    "tmux-quilt": [
+      "quilt",
+      "name",
+      "quilt",
+      "TypeScript"
+    ],
     "token-budget-energy": [
       "fleet",
       "description",
@@ -35778,28 +35848,115 @@
     {
       "repo": "quilt-gpu-lab",
       "workflows": [],
-      "pushed_at": "2026-09-30T22:14:32Z",
-      "size_kb": 227108
+      "pushed_at": "2026-10-01T05:37:09Z",
+      "size_kb": 228568
+    },
+    {
+      "repo": "chiaroscuro",
+      "workflows": [],
+      "pushed_at": "2026-10-01T05:34:41Z",
+      "size_kb": 203
+    },
+    {
+      "repo": "fleet-triage",
+      "workflows": [],
+      "pushed_at": "2026-10-01T05:13:59Z",
+      "size_kb": 311
+    },
+    {
+      "repo": "pong-quilt",
+      "workflows": [
+        "forge.yml",
+        "merge-gate.yml",
+        "pages.yml",
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-01T05:12:17Z",
+      "size_kb": 3160
+    },
+    {
+      "repo": "quilt-canvas-tui",
+      "workflows": [],
+      "pushed_at": "2026-10-01T04:58:00Z",
+      "size_kb": 1556
+    },
+    {
+      "repo": "Projectionist",
+      "workflows": [],
+      "pushed_at": "2026-10-01T04:56:44Z",
+      "size_kb": 48
+    },
+    {
+      "repo": "quilt-elf",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-01T04:44:43Z",
+      "size_kb": 2868
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-01T04:42:57Z",
+      "size_kb": 29623
+    },
+    {
+      "repo": "atlas-forge",
+      "workflows": [],
+      "pushed_at": "2026-10-01T04:29:10Z",
+      "size_kb": 18
+    },
+    {
+      "repo": "quilt-neighbourhood",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-01T03:55:39Z",
+      "size_kb": 105
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-01T03:47:41Z",
+      "size_kb": 311
+    },
+    {
+      "repo": "font_atlas_packager",
+      "workflows": [],
+      "pushed_at": "2026-10-01T03:45:16Z",
+      "size_kb": 7
+    },
+    {
+      "repo": "voxelglyph",
+      "workflows": [],
+      "pushed_at": "2026-10-01T02:23:34Z",
+      "size_kb": 72
     },
     {
       "repo": "Patchwork-experts",
       "workflows": [],
-      "pushed_at": "2026-09-30T22:11:59Z",
-      "size_kb": 0
+      "pushed_at": "2026-10-01T01:48:50Z",
+      "size_kb": 2318
     },
     {
-      "repo": "quilt-mojo-lab",
+      "repo": "fleet-murmur",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-09-30T22:06:16Z",
-      "size_kb": 27
+      "pushed_at": "2026-10-01T01:40:31Z",
+      "size_kb": 45170
     },
     {
-      "repo": "quilt-fleet-tools",
-      "workflows": [],
-      "pushed_at": "2026-09-30T21:51:31Z",
-      "size_kb": 0
+      "repo": "quilt-pincher",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-01T01:37:21Z",
+      "size_kb": 2841
     },
     {
       "repo": "AI-Writings",
@@ -35811,141 +35968,61 @@
         "publish-jev-core.yml",
         "publish-jev-decide.yml"
       ],
-      "pushed_at": "2026-09-30T21:42:51Z",
-      "size_kb": 3636396
+      "pushed_at": "2026-10-01T01:36:57Z",
+      "size_kb": 3626070
     },
     {
-      "repo": "selectlib",
+      "repo": "pie-minimax",
       "workflows": [],
-      "pushed_at": "2026-09-30T21:29:23Z",
-      "size_kb": 0
+      "pushed_at": "2026-10-01T01:25:04Z",
+      "size_kb": 34
     },
     {
-      "repo": "pong-quilt",
-      "workflows": [
-        "forge.yml",
-        "merge-gate.yml",
-        "pages.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-09-30T21:01:25Z",
-      "size_kb": 2946
-    },
-    {
-      "repo": "jev-fusion",
+      "repo": "cog-lab",
       "workflows": [],
-      "pushed_at": "2026-09-30T20:56:35Z",
-      "size_kb": 61
+      "pushed_at": "2026-10-01T01:23:54Z",
+      "size_kb": 19
     },
     {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-09-30T20:41:32Z",
-      "size_kb": 29636
-    },
-    {
-      "repo": "glyphtensor",
-      "workflows": [],
-      "pushed_at": "2026-09-30T20:37:36Z",
-      "size_kb": 30
-    },
-    {
-      "repo": "quilt-tools",
+      "repo": "quilt-mojo-lab",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-09-30T20:23:41Z",
-      "size_kb": 494
+      "pushed_at": "2026-10-01T01:21:54Z",
+      "size_kb": 72
     },
     {
-      "repo": "sprinter-onboarding",
-      "workflows": [],
-      "pushed_at": "2026-09-30T20:08:20Z",
-      "size_kb": 7
-    },
-    {
-      "repo": "tev-mesh",
-      "workflows": [],
-      "pushed_at": "2026-09-30T20:08:14Z",
-      "size_kb": 7
-    },
-    {
-      "repo": "glyphtensor-bridge",
-      "workflows": [],
-      "pushed_at": "2026-09-30T20:08:08Z",
-      "size_kb": 7
-    },
-    {
-      "repo": "micrograd-quilt",
-      "workflows": [],
-      "pushed_at": "2026-09-30T19:43:17Z",
-      "size_kb": 4857
-    },
-    {
-      "repo": "fleet-murmur",
+      "repo": "quilt-fleet-tools",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-09-30T19:31:12Z",
-      "size_kb": 45159
+      "pushed_at": "2026-10-01T01:17:24Z",
+      "size_kb": 62
     },
     {
-      "repo": "delta-shape",
+      "repo": "ga4444",
       "workflows": [],
-      "pushed_at": "2026-09-30T19:31:07Z",
-      "size_kb": 31
+      "pushed_at": "2026-10-01T01:15:03Z",
+      "size_kb": 38
     },
     {
-      "repo": "Murmur",
+      "repo": "SuperInstance",
       "workflows": [
-        "ci.yml"
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
       ],
-      "pushed_at": "2026-09-30T19:28:33Z",
-      "size_kb": 105
+      "pushed_at": "2026-10-01T01:08:07Z",
+      "size_kb": 53392
     },
     {
-      "repo": "voxelglyph",
+      "repo": "connect4",
       "workflows": [],
-      "pushed_at": "2026-09-30T19:00:04Z",
-      "size_kb": 59
-    },
-    {
-      "repo": "murmuration",
-      "workflows": [],
-      "pushed_at": "2026-09-30T18:54:19Z",
-      "size_kb": 145
-    },
-    {
-      "repo": "quilt-bandit",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-09-30T18:50:32Z",
-      "size_kb": 80
-    },
-    {
-      "repo": "quilt-neighbourhood",
-      "workflows": [
-        "test.yml"
-      ],
-      "pushed_at": "2026-09-30T17:58:24Z",
-      "size_kb": 68
-    },
-    {
-      "repo": "fleet-seeds",
-      "workflows": [
-        "forge.yml"
-      ],
-      "pushed_at": "2026-09-30T17:49:46Z",
-      "size_kb": 3543
-    },
-    {
-      "repo": "fleet-kit",
-      "workflows": [],
-      "pushed_at": "2026-09-30T17:44:31Z",
-      "size_kb": 200
+      "pushed_at": "2026-10-01T00:08:03Z",
+      "size_kb": 328
     }
   ],
   "notes": [
