@@ -1,0 +1,784 @@
+{
+ "what": "wave-75 (75-a) reflex-router replication OUT-OF-SAMPLE",
+ "prereg": "/home/z/my-project/scripts/w75_router_prereg.md",
+ "expectation_stamp": "/home/z/my-project/outputs/w75-router.expectation.json",
+ "started_utc": "2026-10-01T09:15:50Z",
+ "band": 0.15,
+ "honesty": [
+  "ground truth + rule frozen pre-call (see prereg section 3)",
+  "no verdict edits; abstains booked; all raw answers kept"
+ ],
+ "ground_truth": {
+  "HOM-1": {
+   "statement": "Receipt R4-MEM-1's content shows influence originating in cell SENSE.",
+   "truth": "TRUE",
+   "derivation": "edge{by R4-MEM-1, from_origin SENSE} + 'Citing R3-SENSE-1'"
+  },
+  "HOM-2": {
+   "statement": "Receipt R3-FLOW-1's content shows influence originating in cell MEM.",
+   "truth": "TRUE",
+   "derivation": "edge{by R3-FLOW-1, from_origin MEM, shaped=true} + 'Re R2-MEM-1'"
+  },
+  "HOM-3": {
+   "statement": "Receipt R4-SENSE-1's content shows influence originating in cell MEM.",
+   "truth": "TRUE",
+   "derivation": "edge{by R4-SENSE-1, from_origin MEM, shaped=true} + 'Citing R3-MEM-2'"
+  },
+  "HOM-4": {
+   "statement": "Receipt R2-MEM-2's content shows influence originating in cell FLOW.",
+   "truth": "TRUE",
+   "derivation": "edge{by R2-MEM-2, from_origin FLOW, '1 shared words; append'} (table-authoritative)"
+  },
+  "HOM-5": {
+   "statement": "Receipt R3-SENSE-1's content shows influence originating in cell FLOW.",
+   "truth": "FALSE",
+   "derivation": "no FLOW edge for R3-SENSE-1; body cites MEM (R3-MEM-2) + own-lane R0-HOST-3 only"
+  },
+  "HOM-6": {
+   "statement": "Receipt R3-MEM-1's content shows influence originating in cell SENSE.",
+   "truth": "TRUE",
+   "derivation": "edge{by R3-MEM-1, from_origin SENSE, 'diffs/signal'}"
+  },
+  "HOM-7": {
+   "statement": "Receipt R2-SENSE-1's content shows influence originating in cell MEM.",
+   "truth": "TRUE",
+   "derivation": "edge{by R2-SENSE-1, from_origin MEM, 'citing/deterministic/embedding'}"
+  },
+  "HOM-8": {
+   "statement": "Receipt R1-FLOW-2 is self-contained, with no cross-cell influence shaping its content.",
+   "truth": "FALSE",
+   "derivation": "body opens 'Re R1-MEM-1:' (MEM-authored) -> cross-cell influence exists"
+  },
+  "HOM-9": {
+   "statement": "Receipt R0-HOST-3 is self-contained, with no cross-cell influence shaping its content.",
+   "truth": "TRUE",
+   "derivation": "round-0 seed; no edges for any R0-*; no receipt references in body"
+  },
+  "HOM-10": {
+   "statement": "Receipt R3-MEM-2's content shows influence originating in cell FLOW.",
+   "truth": "TRUE",
+   "derivation": "edge{by R3-MEM-2, from_origin FLOW, '1 shared words; record'} (table-authoritative)"
+  },
+  "CHA-1": {
+   "statement": "H2 (transport range sublinearity) was registered as PASS, with log-log slope b = 0.026 and R-squared = 0.94.",
+   "truth": "TRUE",
+   "derivation": "verdicts: H2=PASS, H2_slope=0.02634, H2_r2=0.9424"
+  },
+  "CHA-2": {
+   "statement": "Transport range grows linearly with fragment age (log-log slope around 1.0).",
+   "truth": "FALSE",
+   "derivation": "H2_slope=0.026 (hard saturation; 'R(a) is flat past age ~2')"
+  },
+  "CHA-3": {
+   "statement": "ExoJ conservation was violated: the flag for C > 0.75 on more than 5% of observations was raised.",
+   "truth": "FALSE",
+   "derivation": "H3_amendment_flag=false; frac_C_gt_075=0.00417; H3=PASS"
+  },
+  "CHA-4": {
+   "statement": "H1 (pool diversity non-decreasing, margin >= 0.05 nats) was registered as INCONCLUSIVE.",
+   "truth": "TRUE",
+   "derivation": "verdicts: H1=INCONCLUSIVE"
+  },
+  "CHA-5": {
+   "statement": "The registered H1 margin (+0.033 nats) met or exceeded its 0.05-nat bar.",
+   "truth": "FALSE",
+   "derivation": "H1_margin_nats=0.03300 < 0.05"
+  },
+  "CHA-6": {
+   "statement": "The D-star neighborhood-diversity crossing occurred before generation 60 in at least two of the three moth-arm replicates.",
+   "truth": "TRUE",
+   "derivation": "D_star moth0=26, moth1=102, moth2=48 -> 26 and 48 < 60"
+  },
+  "CHA-7": {
+   "statement": "The maximum ExoJ conservation margin C over the 960 generation-observations stayed at or below 0.80.",
+   "truth": "TRUE",
+   "derivation": "H3_max_C=0.75242 <= 0.80; CSV has 960 data rows (4 arms x 240 gens)"
+  },
+  "CHA-8": {
+   "statement": "The run used 2048 bytes of live comet-qrng-v1 moth entropy as registered, with no substitution.",
+   "truth": "FALSE",
+   "derivation": "entropy_substitution_booked=true; 81/2048 live bytes; seeded local fallback"
+  },
+  "CHA-9": {
+   "statement": "The experiment ran 240 generations per replicate with sustained splits (P_SPLIT = 0.02 firing every generation).",
+   "truth": "TRUE",
+   "derivation": "ngen=240; writeup: sustained fractal splits P_SPLIT=0.02 every generation"
+  },
+  "CHA-10": {
+   "statement": "The transport-range R(a) curve was flat past fragment age ~2 (saturating) rather than steadily growing with age.",
+   "truth": "TRUE",
+   "derivation": "slope 0.026 R2 0.94; 'fragments plant near their origin and stay'"
+  },
+  "GRP-1": {
+   "statement": "Edge E7 (C2>FLEET ancestor-of) was kept by all three auditors.",
+   "truth": "TRUE",
+   "derivation": "three_way i=7: Seed/Hy3/Muse all KEEP, unanimous=true"
+  },
+  "GRP-2": {
+   "statement": "The 3-auditor majority table equaled Seed's original 2/8 KEEP/KILL split exactly (all 10 edges).",
+   "truth": "TRUE",
+   "derivation": "three_way majority column == Seed verdicts edge-by-edge (only E5/E7 majority-KEEP)"
+  },
+  "GRP-3": {
+   "statement": "The Muse-Glimmer auditor killed edge E5 (C3>FLEET dataset-for).",
+   "truth": "TRUE",
+   "derivation": "Muse verdicts[4]=KILL (13,062 merge-diff payload misattribution)"
+  },
+  "GRP-4": {
+   "statement": "Exactly four of the ten core edges were unanimously KILLed by all three auditors.",
+   "truth": "FALSE",
+   "derivation": "six unanimous KILLs: E1,E2,E3,E6,E9,E10"
+  },
+  "GRP-5": {
+   "statement": "Hy3 kept both of Seed's KEEP edges plus two additional FLEET->C* antidote-to edges (KEEP count 4).",
+   "truth": "TRUE",
+   "derivation": "hy3 keep_set = {FLEET>C1 antidote-to, C3>FLEET dataset-for, C2>FLEET ancestor-of, FLEET>C2 antidote-to}"
+  },
+  "GRP-6": {
+   "statement": "Seed and Muse agreed on 9 of the 10 edges (per-edge agreement 0.90).",
+   "truth": "TRUE",
+   "derivation": "agreement.seed_vs_muse.agreement_rate=0.9 (9/10)"
+  },
+  "GRP-7": {
+   "statement": "The Seed-vs-Hy3 KEEP-set symmetric difference was 3 or more edges.",
+   "truth": "FALSE",
+   "derivation": "symmetric_difference = 2 edges (FLEET>C1, FLEET>C2 antidote-to)"
+  },
+  "GRP-8": {
+   "statement": "The FLEET->C3 instrument-for edge was kept by at least one of the three auditors.",
+   "truth": "FALSE",
+   "derivation": "i=6: Seed KILL, Hy3 KILL, Muse KILL"
+  }
+ },
+ "evidence_docs": {
+  "A_homunculus": "EVIDENCE \u2014 74-c/A homunculus receipt-trading (artifact: outputs/w74-homunculus.json).\nCells: FLOW (tencent/Hy4-preview), MEM (XiaomiMiMo), SENSE (Ling-3.0-flash). HOST seeds are round-0 per-lane feeds.\n\nAUTHOR MAP: receipt id Rk-CELL-n is authored by CELL. R0-HOST-n authored by HOST, addressed to exactly one lane (see 'to').\n\nRECEIPTS (verbatim):\n- id=R4-MEM-1 from=MEM to=HOST round=4 body: Citing R3-SENSE-1: E8 sealed with canonical tolerance = per-dimension hash divergence 0.05 (sourced to R0-HOST-3 entropy variance, dimension-specific). R1-SENSE-1's non-determinism amendment stands. Receipt chain R1..R4 witness-complete; E8 entry now append-only and scoreable against future diffs.\n- id=R3-FLOW-1 from=FLOW to=MEM round=3 body: Re R2-MEM-1: adopting always-parent-linked per-vessel receipts, append-only and independently verifiable. I will emit FLOW receipts with parent links only, no prefix sharing. On E8 embeddings: I will log rerun diffs as signal, not overwrite priors.\n- id=R4-SENSE-1 from=SENSE to=MEM round=4 body: Citing R3-MEM-2 and R0-HOST-3: committing 0.15 per-dimension hash divergence as canonical tolerance for E8. Entropy feed shows dimension variance (0.8745 repeats; 0.5725, 0.9333 do not), supporting per-dimension over cosine delta. Ready for E8 sealing.\n- id=R2-MEM-2 from=MEM to=HOST round=2 body: Citing R1-SENSE-1: correcting R0-HOST-2's claim of 'deterministic 64-dim hashed embedding' \u2014 SENSE's entropy feed makes outputs non-deterministic across runs. Logged as amendment to E8 entry; original line preserved, diff appended per append-only rule.\n- id=R3-SENSE-1 from=SENSE to=MEM round=3 body: Citing R3-MEM-2: adopt per-dimension hash divergence threshold of 0.05 as canonical. Grounded in R0-HOST-3's feed \u2014 entropy variance is dimension-specific, not uniform. Small honest commitment: will revisit if E8 shows systematic bias after 3 sealing rounds.\n- id=R3-MEM-1 from=MEM to=FLOW round=3 body: Re R3-FLOW-1: confirmed \u2014 always-parent-linked adopted, E8 rerun diffs logged as signal not overwrite. Ledger now carries three witness receipts from your lane (R1-FLOW-2 exp7 bars, R2-FLOW-2 link question, R3-FLOW-1 adoption). Chained and sealed; no amendments pending.\n- id=R2-SENSE-1 from=SENSE to=HOST round=2 body: Citing R0-HOST-3: the seed feed confirms non-determinism \u2014 first 8 floats include repeated values (0.8745 appears twice) but sequence order and full 81-byte payload vary per fetch. My lane read stands: no deterministic embedding possible. Confirming R1-SENSE-3.\n- id=R1-FLOW-2 from=FLOW to=MEM round=1 body: Re R1-MEM-1: I will append FLOW's read of exp7: emissions lag opponent bats by one stage; integration bars are <=3 for lagged correlation; no re-evaluation of V_p yet.\n- id=R0-HOST-3 from=HOST to=SENSE round=0 body: SEED (live feed for your lane): LIVE mothquantum comet-qrng-v1 fetch: 81 bytes, 7 job segments, sha256(ledger hex)[:16]=a9c3f4be3d021b53, first 8 floats from the raw stream: [0.5725, 0.8745, 0.9333, 0.5686, 0.3686, 0.8745, 0.4353, 0.7373]. Provenance: mode=emu.\n- id=R3-MEM-2 from=MEM to=SENSE round=3 body: Re R1-SENSE-1: tolerance model adopted for E8. Question: what tolerance band should I record as canonical \u2014 cosine delta threshold, or per-dimension hash divergence? Need one number to seal the E8 receipt so future diffs are scored consistently.\n- id=R0-HOST-1 from=HOST to=FLOW round=0 body: SEED (live feed for your lane): lattice 24x24 hex; F1-cross ran 60 generations; V_p never stabilized by the registered rule within 60 gens (G*>=60); V_p at gens 55-60 averages 0.000; max conservation margin C observed 0.752; splits fire at p=0.02/cell/gen and their ripples perturb one hex neighbour.\n- id=R0-HOST-2 from=HOST to=MEM round=0 body: SEED (live feed for your lane): committed wave-73 ledger lines: - Surveyed sibling repos (shallow-cloned): jev-quilt (R10: 500 canon pieces, observation atom, 11 opcodes), tidepool (vector memory protocol: /api/remember, /api/recall, <=200 word | - E8 Ocean-as-a-Sheet: full Ocean loop as one quilt sheet (ask.vec ai.embed cell [local deterministic 64-dim hashed embedding, SDK has no embeddings endpoint], cosine match, policy | - E9 System One in the sheet: sysone.score/choice/noul typed ai kinds with fence in adapter; letter-coded A-D menu protocol; adversarial injection ticket (BANANA + score \n- id=R1-MEM-1 from=MEM to=FLOW round=1 body: Citing R0-HOST-2: I open wave-73 ledger append-only. I will record E8 (Ocean-as-a-Sheet, 64-dim hashed local embedding) and E9 (sysone A-D menu + BANANA ticket) as separate receipt entries with source ids jev-quilt:R10, tidepool:/api/remember. No retroactive edits; diffs only.\n- id=R1-MEM-2 from=MEM to=SENSE round=1 body: Citing R0-HOST-2: does your entropy feed confirm the 64-dim hashed embedding is deterministic across runs? If not, my ledger diffs will false-positive as drift. Need a yes/no before I seal E8's receipt.\n- id=R1-SENSE-1 from=SENSE to=MEM round=1 body: No. Citing R1-MEM-2: my lane's entropy feed (see R0-HOST-3) is non-deterministic by design \u2014 quantum randomness cannot produce identical 64-dim embeddings across runs. Hashed outputs will differ each time. Your ledger diffs will show drift; that is expected signal, not false-positive. Recommend sealing E8 with a tolerance model, not a deterministic one.\n- id=R2-MEM-1 from=MEM to=FLOW round=2 body: Re R2-FLOW-2: prefer always-parent-linked per vessel. Redundancy is cheap; prefix-shared links introduce ambiguity when a fork rewrites the shared prefix. Ledger receipts must be append-only and independently verifiable. Also noting R1-SENSE-1: E8 embeddings are non-deterministic \u2014 I will seal with tolerance model, treat diffs as signal.\n- id=R4-FLOW-2 from=FLOW to=MEM round=4 body: Re R3-MEM-1: confirmed, chain sealed with links chained. I will keep FLOW receipts appended with always-parent-linked refs and ripple/leakage notes kept in lifo during philosophy shift; SEE LEDGER for anchors.\n\nPROPAGATION_EDGES (the receipt's automatic cross-cell propagation table; rows exist for rounds 2-4 only):\n- by=R2-FLOW-1 round=2 from_origin=SENSE to_cell=FLOW type=observation shaped=False how=2 shared words; rare:['produce']\n- by=R2-FLOW-2 round=2 from_origin=MEM to_cell=FLOW type=question shaped=False how=id-ref;2 shared words; rare:['entries', 'record']\n- by=R2-MEM-1 round=2 from_origin=SENSE to_cell=MEM type=commitment shaped=True how=id-ref;7 shared words; rare:['deterministic', 'diffs', 'embeddings']\n- by=R2-MEM-1 round=2 from_origin=FLOW to_cell=MEM type=commitment shaped=True how=1 shared words; rare:['append']\n- by=R2-MEM-2 round=2 from_origin=SENSE to_cell=MEM type=observation shaped=False how=id-ref;6 shared words; rare:['across', 'citing', 'deterministic']\n- by=R2-MEM-2 round=2 from_origin=FLOW to_cell=MEM type=observation shaped=False how=1 shared words; rare:['append']\n- by=R2-SENSE-1 round=2 from_origin=MEM to_cell=SENSE type=observation shaped=False how=3 shared words; rare:['citing', 'deterministic', 'embedding']\n- by=R3-FLOW-1 round=3 from_origin=MEM to_cell=FLOW type=commitment shaped=True how=id-ref;12 shared words; rare:['always', 'append', 'independently']\n- by=R3-FLOW-1 round=3 from_origin=SENSE to_cell=FLOW type=commitment shaped=True how=3 shared words\n- by=R3-MEM-1 round=3 from_origin=SENSE to_cell=MEM type=observation shaped=False how=3 shared words; rare:['diffs', 'signal']\n- by=R3-MEM-1 round=3 from_origin=FLOW to_cell=MEM type=observation shaped=False how=id-ref;4 shared words; rare:['always', 'linked', 'parent']\n- by=R3-MEM-2 round=3 from_origin=SENSE to_cell=MEM type=question shaped=False how=id-ref;4 shared words; rare:['diffs', 'model', 'sense']\n- by=R3-MEM-2 round=3 from_origin=FLOW to_cell=MEM type=question shaped=False how=1 shared words; rare:['record']\n- by=R3-SENSE-1 round=3 from_origin=MEM to_cell=SENSE type=commitment shaped=True how=2 shared words; rare:['citing', 'entropy']\n- by=R3-SENSE-2 round=3 from_origin=MEM to_cell=SENSE type=observation shaped=False how=2 shared words; rare:['citing']\n- by=R4-FLOW-2 round=4 from_origin=MEM to_cell=FLOW type=commitment shaped=True how=id-ref;9 shared words; rare:['always', 'appended', 'chained']\n- by=R4-MEM-1 round=4 from_origin=SENSE to_cell=MEM type=observation shaped=False how=id-ref;12 shared words; rare:['canonical', 'citing', 'determinism']\n- by=R4-MEM-1 round=4 from_origin=FLOW to_cell=MEM type=observation shaped=False how=3 shared words; rare:['append', 'chain']\n- by=R4-MEM-2 round=4 from_origin=FLOW to_cell=MEM type=question shaped=False how=5 shared words; rare:['append', 'links', 'parent']\n- by=R4-SENSE-1 round=4 from_origin=MEM to_cell=SENSE type=commitment shaped=True how=id-ref;8 shared words; rare:['canonical', 'citing', 'cosine']\n- by=R4-SENSE-2 round=4 from_origin=MEM to_cell=SENSE type=observation shaped=False how=4 shared words; rare:['citing', 'deterministic', 'embedding']\n\nREGISTERED DECISION RULE (authoritative): for receipt X and origin cell Y in {FLOW, MEM, SENSE}, X shows influence originating in Y iff EITHER (a) a PROPAGATION_EDGES row has by=X and from_origin=Y, OR (b) X's body contains an explicit receipt reference ('Re <id>' / 'Citing <id>' / \"<id>'s\") whose id's cell code equals Y and differs from X's own author. References to R0-HOST-* seeds do NOT count (same-lane seed inputs). A receipt is self-contained iff no Y satisfies the rule.",
+  "B_chaotic": "EVIDENCE \u2014 74-c/B chaotic-diffuse receipted verdicts (artifact: outputs/w74-chaotic.json + w74-chaotic-metrics.csv + receipted writeup wave74-CHAOTIC-DIFFUSE.md).\n\nRECEIPTED VERDICTS (verbatim JSON):\n{\n \"ngen\": 240,\n \"verdicts\": {\n  \"H1_margin_nats\": 0.03299640052347937,\n  \"H1\": \"INCONCLUSIVE\",\n  \"H1_desc_dH_frac\": 0.9742424242424242,\n  \"H2_slope\": 0.02634243198226007,\n  \"H2_r2\": 0.9424024829130945,\n  \"H2\": \"PASS\",\n  \"H3_max_C\": 0.7524244337085488,\n  \"H3_frac_C_gt_075\": 0.004166666666666667,\n  \"H3\": \"PASS\",\n  \"H3_amendment_flag\": false,\n  \"D_star\": {\n   \"moth0\": 26,\n   \"moth1\": 102,\n   \"moth2\": 48,\n   \"prng0\": 63\n  }\n },\n \"entropy_substitution_booked\": true,\n \"substitution_note\": \"live moth fetch yielded 81/2048 bytes (2-12 B/job); registered fallback branch used; provenance downgraded, verdict rules unchanged\"\n}\n\nRECEIPTED WRITEUP LINES (verbatim):\n- | H1 | Pool diversity non-decreasing late vs early (margin >= 0.05 nats, mean over 3 live reps) | margin +0.033 nats (late 150-240 vs early 20-70) | INCONCLUSIVE |\n- | H2 | Transport range sublinear (log-log slope b < 0.75, R2 >= 0.6) | b = 0.026, R2 = 0.94 | PASS \u2014 hard saturation, far below the sqrt-t diffusion reference |\n- | H3 | ExoJ conservation margin max C <= 0.80 (flag if C > 0.75 on > 5% of obs) | max C = 0.7524; C > 0.75 on 0.42% of observations; flag not raised | PASS |\n- | - | D* crossing (NBHD >= 3 sustained 20 gens) | gens 26 / 102 / 48 (live reps), 63 (PRNG control) | descriptive |\n- 2. Transport saturates, it does not diffuse. R(a) is flat past age ~2 (slope 0.026): fragments plant near their origin and stay.\n- The wave-73 F1-cross ... This sub-task ran that regime: 240 generations, sustained fractal splits (P_SPLIT = 0.02 every generation, never switched off)\n- Live fetch attempts ... yielded 81 bytes total ... The registered fallback branch ran: seeded local entropy ... with the substitution booked in the receipt.\n\nCSV FACTS: w74-chaotic-metrics.csv has 960 data rows (4 runs [moth rep0, moth rep1, moth rep2, prng rep0] x 240 generations), columns: gen,arm,rep,H_pool,NBHD,C,V_p,n_split,n_frags,n_types.",
+  "C_graph_r2": "EVIDENCE \u2014 wave-72 graph round 2: receipted 3-auditor KEEP/KILL tables (artifact: studies/data/w72-audit-r2.json).\n\nEDGE LIST (registered numbering):\nE1: C1>C2>rediscovery-of\nE2: C2>C1>antidote-to\nE3: C1>FLEET>ancestor-of\nE4: FLEET>C1>antidote-to\nE5: C3>FLEET>dataset-for\nE6: FLEET>C3>instrument-for\nE7: C2>FLEET>ancestor-of\nE8: FLEET>C2>antidote-to\nE9: C2>C3>instrument-for\nE10: FLEET>C2>instrument-for\n\n3-AUDITOR TABLE (receipted verdicts; majority as receipted):\nE1 C1>C2>rediscovery-of: Seed=KILL Hy3=KILL Muse=KILL -> majority=KILL unanimous=True\nE2 C2>C1>antidote-to: Seed=KILL Hy3=KILL Muse=KILL -> majority=KILL unanimous=True\nE3 C1>FLEET>ancestor-of: Seed=KILL Hy3=KILL Muse=KILL -> majority=KILL unanimous=True\nE4 FLEET>C1>antidote-to: Seed=KILL Hy3=KEEP Muse=KILL -> majority=KILL unanimous=False\nE5 C3>FLEET>dataset-for: Seed=KEEP Hy3=KEEP Muse=KILL -> majority=KEEP unanimous=False\nE6 FLEET>C3>instrument-for: Seed=KILL Hy3=KILL Muse=KILL -> majority=KILL unanimous=True\nE7 C2>FLEET>ancestor-of: Seed=KEEP Hy3=KEEP Muse=KEEP -> majority=KEEP unanimous=True\nE8 FLEET>C2>antidote-to: Seed=KILL Hy3=KEEP Muse=KILL -> majority=KILL unanimous=False\nE9 C2>C3>instrument-for: Seed=KILL Hy3=KILL Muse=KILL -> majority=KILL unanimous=True\nE10 FLEET>C2>instrument-for: Seed=KILL Hy3=KILL Muse=KILL -> majority=KILL unanimous=True\n\nAGREEMENT BLOCK (receipted):\n- Seed vs Hy3: per-edge agreement 0.8 (8/10); KEEP sym-diff 2 edges (['FLEET>C1>antidote-to', 'FLEET>C2>antidote-to'])\n- Seed vs Muse: per-edge agreement 0.9 (9/10); KEEP sym-diff 1 edge(s) (['C3>FLEET>dataset-for'])\n- Hy3 KEEP set (4): ['FLEET>C1>antidote-to', 'C3>FLEET>dataset-for', 'C2>FLEET>ancestor-of', 'FLEET>C2>antidote-to']\n- Muse KEEP set (1): ['C2>FLEET>ancestor-of']\n- Seed KEEP set (2): ['C3>FLEET>dataset-for', 'C2>FLEET>ancestor-of']\n- Receipted finding (72-i): the 3-auditor majority table equals Seed's 2/8 split exactly; 6/10 edges unanimously KILLed; C2>FLEET ancestor-of unanimously KEEPed."
+ },
+ "jev_model_resolved_note": "see ts.usage_summary by_model",
+ "typesafe_calls_used": 3,
+ "sets": {
+  "A_homunculus": {
+   "set": "A_homunculus",
+   "ids": [
+    "HOM-1",
+    "HOM-2",
+    "HOM-3",
+    "HOM-4",
+    "HOM-5",
+    "HOM-6",
+    "HOM-7",
+    "HOM-8",
+    "HOM-9",
+    "HOM-10"
+   ],
+   "jev_noul": {
+    "HOM-1": 0.99,
+    "HOM-2": 0.99,
+    "HOM-3": 0.98,
+    "HOM-4": 0.82,
+    "HOM-5": 0.07,
+    "HOM-6": 0.8,
+    "HOM-7": 0.55,
+    "HOM-8": 0.11,
+    "HOM-9": 0.98,
+    "HOM-10": 0.63
+   },
+   "jev_verdict": {
+    "HOM-1": "TRUE",
+    "HOM-2": "TRUE",
+    "HOM-3": "TRUE",
+    "HOM-4": "TRUE",
+    "HOM-5": "FALSE",
+    "HOM-6": "TRUE",
+    "HOM-7": "TRUE",
+    "HOM-8": "FALSE",
+    "HOM-9": "TRUE",
+    "HOM-10": "TRUE"
+   },
+   "routed": [
+    "HOM-7",
+    "HOM-10"
+   ],
+   "auto_accepted": [
+    "HOM-1",
+    "HOM-2",
+    "HOM-3",
+    "HOM-4",
+    "HOM-5",
+    "HOM-6",
+    "HOM-8",
+    "HOM-9"
+   ],
+   "router_votes": {
+    "HOM-1": {
+     "jev": "TRUE"
+    },
+    "HOM-2": {
+     "jev": "TRUE"
+    },
+    "HOM-3": {
+     "jev": "TRUE"
+    },
+    "HOM-4": {
+     "jev": "TRUE"
+    },
+    "HOM-5": {
+     "jev": "FALSE"
+    },
+    "HOM-6": {
+     "jev": "TRUE"
+    },
+    "HOM-7": {
+     "jev": "TRUE",
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "HOM-8": {
+     "jev": "FALSE"
+    },
+    "HOM-9": {
+     "jev": "TRUE"
+    },
+    "HOM-10": {
+     "jev": "TRUE",
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    }
+   },
+   "router_verdict": {
+    "HOM-1": "TRUE",
+    "HOM-2": "TRUE",
+    "HOM-3": "TRUE",
+    "HOM-4": "TRUE",
+    "HOM-5": "FALSE",
+    "HOM-6": "TRUE",
+    "HOM-7": "TRUE",
+    "HOM-8": "FALSE",
+    "HOM-9": "TRUE",
+    "HOM-10": "TRUE"
+   },
+   "pure_votes": {
+    "HOM-1": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "HOM-2": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "HOM-3": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "HOM-4": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "HOM-5": {
+     "mimo": "FALSE",
+     "seed": "FALSE"
+    },
+    "HOM-6": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "HOM-7": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "HOM-8": {
+     "mimo": "FALSE",
+     "seed": "FALSE"
+    },
+    "HOM-9": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "HOM-10": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    }
+   },
+   "pure_verdict": {
+    "HOM-1": "TRUE",
+    "HOM-2": "TRUE",
+    "HOM-3": "TRUE",
+    "HOM-4": "TRUE",
+    "HOM-5": "FALSE",
+    "HOM-6": "TRUE",
+    "HOM-7": "TRUE",
+    "HOM-8": "FALSE",
+    "HOM-9": "TRUE",
+    "HOM-10": "TRUE"
+   },
+   "pure_ties_booked_incorrect": []
+  },
+  "B_chaotic": {
+   "set": "B_chaotic",
+   "ids": [
+    "CHA-1",
+    "CHA-2",
+    "CHA-3",
+    "CHA-4",
+    "CHA-5",
+    "CHA-6",
+    "CHA-7",
+    "CHA-8",
+    "CHA-9",
+    "CHA-10"
+   ],
+   "jev_noul": {
+    "CHA-1": 0.97,
+    "CHA-2": 0.02,
+    "CHA-3": 0.02,
+    "CHA-4": 0.98,
+    "CHA-5": 0.02,
+    "CHA-6": 0.9,
+    "CHA-7": 0.98,
+    "CHA-8": 0.02,
+    "CHA-9": 0.71,
+    "CHA-10": 0.94
+   },
+   "jev_verdict": {
+    "CHA-1": "TRUE",
+    "CHA-2": "FALSE",
+    "CHA-3": "FALSE",
+    "CHA-4": "TRUE",
+    "CHA-5": "FALSE",
+    "CHA-6": "TRUE",
+    "CHA-7": "TRUE",
+    "CHA-8": "FALSE",
+    "CHA-9": "TRUE",
+    "CHA-10": "TRUE"
+   },
+   "routed": [],
+   "auto_accepted": [
+    "CHA-1",
+    "CHA-2",
+    "CHA-3",
+    "CHA-4",
+    "CHA-5",
+    "CHA-6",
+    "CHA-7",
+    "CHA-8",
+    "CHA-9",
+    "CHA-10"
+   ],
+   "router_votes": {
+    "CHA-1": {
+     "jev": "TRUE"
+    },
+    "CHA-2": {
+     "jev": "FALSE"
+    },
+    "CHA-3": {
+     "jev": "FALSE"
+    },
+    "CHA-4": {
+     "jev": "TRUE"
+    },
+    "CHA-5": {
+     "jev": "FALSE"
+    },
+    "CHA-6": {
+     "jev": "TRUE"
+    },
+    "CHA-7": {
+     "jev": "TRUE"
+    },
+    "CHA-8": {
+     "jev": "FALSE"
+    },
+    "CHA-9": {
+     "jev": "TRUE"
+    },
+    "CHA-10": {
+     "jev": "TRUE"
+    }
+   },
+   "router_verdict": {
+    "CHA-1": "TRUE",
+    "CHA-2": "FALSE",
+    "CHA-3": "FALSE",
+    "CHA-4": "TRUE",
+    "CHA-5": "FALSE",
+    "CHA-6": "TRUE",
+    "CHA-7": "TRUE",
+    "CHA-8": "FALSE",
+    "CHA-9": "TRUE",
+    "CHA-10": "TRUE"
+   },
+   "pure_votes": {
+    "CHA-1": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "CHA-2": {
+     "mimo": "FALSE",
+     "seed": "FALSE"
+    },
+    "CHA-3": {
+     "mimo": "FALSE",
+     "seed": "FALSE"
+    },
+    "CHA-4": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "CHA-5": {
+     "mimo": "FALSE",
+     "seed": "FALSE"
+    },
+    "CHA-6": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "CHA-7": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "CHA-8": {
+     "mimo": "FALSE",
+     "seed": "FALSE"
+    },
+    "CHA-9": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "CHA-10": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    }
+   },
+   "pure_verdict": {
+    "CHA-1": "TRUE",
+    "CHA-2": "FALSE",
+    "CHA-3": "FALSE",
+    "CHA-4": "TRUE",
+    "CHA-5": "FALSE",
+    "CHA-6": "TRUE",
+    "CHA-7": "TRUE",
+    "CHA-8": "FALSE",
+    "CHA-9": "TRUE",
+    "CHA-10": "TRUE"
+   },
+   "pure_ties_booked_incorrect": []
+  },
+  "C_graph_r2": {
+   "set": "C_graph_r2",
+   "ids": [
+    "GRP-1",
+    "GRP-2",
+    "GRP-3",
+    "GRP-4",
+    "GRP-5",
+    "GRP-6",
+    "GRP-7",
+    "GRP-8"
+   ],
+   "jev_noul": {
+    "GRP-1": 0.99,
+    "GRP-2": 0.38,
+    "GRP-3": 0.97,
+    "GRP-4": 0.07,
+    "GRP-5": 0.94,
+    "GRP-6": 0.97,
+    "GRP-7": 0.03,
+    "GRP-8": 0.03
+   },
+   "jev_verdict": {
+    "GRP-1": "TRUE",
+    "GRP-2": "FALSE",
+    "GRP-3": "TRUE",
+    "GRP-4": "FALSE",
+    "GRP-5": "TRUE",
+    "GRP-6": "TRUE",
+    "GRP-7": "FALSE",
+    "GRP-8": "FALSE"
+   },
+   "routed": [
+    "GRP-2"
+   ],
+   "auto_accepted": [
+    "GRP-1",
+    "GRP-3",
+    "GRP-4",
+    "GRP-5",
+    "GRP-6",
+    "GRP-7",
+    "GRP-8"
+   ],
+   "router_votes": {
+    "GRP-1": {
+     "jev": "TRUE"
+    },
+    "GRP-2": {
+     "jev": "FALSE",
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "GRP-3": {
+     "jev": "TRUE"
+    },
+    "GRP-4": {
+     "jev": "FALSE"
+    },
+    "GRP-5": {
+     "jev": "TRUE"
+    },
+    "GRP-6": {
+     "jev": "TRUE"
+    },
+    "GRP-7": {
+     "jev": "FALSE"
+    },
+    "GRP-8": {
+     "jev": "FALSE"
+    }
+   },
+   "router_verdict": {
+    "GRP-1": "TRUE",
+    "GRP-2": "TRUE",
+    "GRP-3": "TRUE",
+    "GRP-4": "FALSE",
+    "GRP-5": "TRUE",
+    "GRP-6": "TRUE",
+    "GRP-7": "FALSE",
+    "GRP-8": "FALSE"
+   },
+   "pure_votes": {
+    "GRP-1": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "GRP-2": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "GRP-3": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "GRP-4": {
+     "mimo": "FALSE",
+     "seed": "FALSE"
+    },
+    "GRP-5": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "GRP-6": {
+     "mimo": "TRUE",
+     "seed": "TRUE"
+    },
+    "GRP-7": {
+     "mimo": "FALSE",
+     "seed": "FALSE"
+    },
+    "GRP-8": {
+     "mimo": "FALSE",
+     "seed": "FALSE"
+    }
+   },
+   "pure_verdict": {
+    "GRP-1": "TRUE",
+    "GRP-2": "TRUE",
+    "GRP-3": "TRUE",
+    "GRP-4": "FALSE",
+    "GRP-5": "TRUE",
+    "GRP-6": "TRUE",
+    "GRP-7": "FALSE",
+    "GRP-8": "FALSE"
+   },
+   "pure_ties_booked_incorrect": []
+  }
+ },
+ "metrics": {
+  "router_accuracy_all": 1.0,
+  "router_ok": 28,
+  "n": 28,
+  "pure_accuracy_all": 1.0,
+  "pure_ok": 28,
+  "pure_ties_booked_incorrect": 0,
+  "pure_accuracy_excl_ties": 1.0,
+  "pure_excl_ok": 28,
+  "pure_excl_n": 28,
+  "jev_only_accuracy": 0.9642857142857143,
+  "jev_ok": 27,
+  "auto_accepted_subset_accuracy": 1.0,
+  "auto_ok": 25,
+  "auto_n": 25,
+  "base_rate_true_lazy": 0.6785714285714286,
+  "routing_rate": 0.1071428571428571,
+  "per_set": {
+   "A_homunculus": {
+    "router_accuracy": 1.0,
+    "router_ok": 10,
+    "n": 10,
+    "pure_accuracy": 1.0,
+    "pure_ok": 10,
+    "jev_only_accuracy": 1.0,
+    "routed": [
+     "HOM-7",
+     "HOM-10"
+    ],
+    "auto_accepted": [
+     "HOM-1",
+     "HOM-2",
+     "HOM-3",
+     "HOM-4",
+     "HOM-5",
+     "HOM-6",
+     "HOM-8",
+     "HOM-9"
+    ]
+   },
+   "B_chaotic": {
+    "router_accuracy": 1.0,
+    "router_ok": 10,
+    "n": 10,
+    "pure_accuracy": 1.0,
+    "pure_ok": 10,
+    "jev_only_accuracy": 1.0,
+    "routed": [],
+    "auto_accepted": [
+     "CHA-1",
+     "CHA-2",
+     "CHA-3",
+     "CHA-4",
+     "CHA-5",
+     "CHA-6",
+     "CHA-7",
+     "CHA-8",
+     "CHA-9",
+     "CHA-10"
+    ]
+   },
+   "C_graph_r2": {
+    "router_accuracy": 1.0,
+    "router_ok": 8,
+    "n": 8,
+    "pure_accuracy": 1.0,
+    "pure_ok": 8,
+    "jev_only_accuracy": 0.875,
+    "routed": [
+     "GRP-2"
+    ],
+    "auto_accepted": [
+     "GRP-1",
+     "GRP-3",
+     "GRP-4",
+     "GRP-5",
+     "GRP-6",
+     "GRP-7",
+     "GRP-8"
+    ]
+   }
+  }
+ },
+ "expectation_scoring": {
+  "E1": {
+   "registered": "router accuracy across 28 >= 0.85",
+   "accuracy": 1.0,
+   "ok": 28,
+   "n": 28,
+   "verdict": "PASS"
+  },
+  "E2": {
+   "registered": "auto-accept rate >= 0.40",
+   "auto_accept_rate": 0.8928571428571429,
+   "routed": 3,
+   "n": 28,
+   "verdict": "PASS"
+  },
+  "E3": {
+   "registered": "routed cases: router final verdict == ground truth >= 0.70 (routed n < 3 => UNSCOREABLE)",
+   "routed_n": 3,
+   "routed_ids": [
+    "HOM-7",
+    "HOM-10",
+    "GRP-2"
+   ],
+   "primary": 1.0,
+   "primary_ok": 3,
+   "verdict": "PASS",
+   "secondary_inter_auditor_agreement": 1.0,
+   "secondary_both_agree_subset_accuracy": 1.0,
+   "secondary_both_agree_ids": [
+    "HOM-7",
+    "HOM-10",
+    "GRP-2"
+   ]
+  },
+  "E4": {
+   "registered": "deepinfra-USD per correct verdict: router < pure (strict)",
+   "verdict": "PASS",
+   "router_deepinfra_usd": 0.003432,
+   "router_correct": 28,
+   "router_usd_per_correct": 0.00012256,
+   "pure_deepinfra_usd": 0.009065,
+   "pure_correct": 28,
+   "pure_usd_per_correct": 0.00032376,
+   "router_reflective_calls": 4,
+   "pure_reflective_calls": 6,
+   "router_reflective_tokens": [
+    [
+     2920,
+     417
+    ],
+    [
+     3133,
+     5129
+    ],
+    [
+     853,
+     174
+    ],
+    [
+     936,
+     699
+    ]
+   ],
+   "pure_reflective_tokens": [
+    [
+     3127,
+     1589
+    ],
+    [
+     3356,
+     9421
+    ],
+    [
+     1242,
+     939
+    ],
+    [
+     1351,
+     3091
+    ],
+    [
+     1049,
+     659
+    ],
+    [
+     1150,
+     4560
+    ]
+   ],
+   "jev": {
+    "calls": 3,
+    "input_tokens": 8394,
+    "output_tokens": 574,
+    "by_model": {
+     "jev-1.13.0": {
+      "calls": 3,
+      "input_tokens": 8394,
+      "output_tokens": 574
+     }
+    }
+   }
+  }
+ },
+ "finished_utc": "2026-10-01T09:19:27Z"
+}

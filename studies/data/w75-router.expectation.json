@@ -1,0 +1,65 @@
+{
+ "what": "wave-75 reflex-router replication OUT-OF-SAMPLE (75-a) \u2014 stamped pre-expectations",
+ "registered_utc": "2026-10-01T09:08:23Z",
+ "stamped_utc": "2026-10-01T09:15:33Z",
+ "prereg_file": "/home/z/my-project/scripts/w75_router_prereg.md",
+ "prereg_sha256": "10c9bef075c5b45bacd671f7df3864c6e4962c8f76125b0d6e38fcdaa1ca4a26",
+ "before_any_wave75_api_call": true,
+ "frozen_rule": {
+  "band": "|noul-0.5| <= 0.15 (noul in [0.35,0.65])",
+  "verdict_mapping": "noul >= 0.5 -> TRUE else FALSE",
+  "routed_panel": "XiaomiMiMo/MiMo-V2.6-Flash + ByteDance/Seed-2.0-mini, temp 0, majority-of-3 with Jev as tiebreak vote",
+  "pure_arm_tie": "booked INCORRECT (no tiebreak mechanism); excl-ties also reported",
+  "parse_failure": "one JSON-only retry then ABSTAIN; majorities over cast votes"
+ },
+ "sets": {
+  "A_homunculus": {
+   "n": 10,
+   "true": 8,
+   "false": 2,
+   "gt_rule": "propagation_edges row (by=X, from_origin=Y) OR explicit cross-cell citation in body; R0-HOST seeds excluded; table-authoritative"
+  },
+  "B_chaotic": {
+   "n": 10,
+   "true": 6,
+   "false": 4,
+   "gt_rule": "direct comparison vs receipted verdicts/metrics/writeup values"
+  },
+  "C_graph_edges_r2": {
+   "n": 8,
+   "true": 5,
+   "false": 3,
+   "gt_rule": "direct read of receipted 3-auditor tables in studies/data/w72-audit-r2.json (NEW property statements, not the 10 calibration judgments)"
+  }
+ },
+ "total": {
+  "n": 28,
+  "true": 19,
+  "false": 9,
+  "base_rate_true": 0.6786
+ },
+ "expectations": {
+  "E1": {
+   "registered": "router final-verdict accuracy across 28 >= 0.85 (>=24/28)",
+   "prior": 0.55
+  },
+  "E2": {
+   "registered": "auto-accept rate >= 0.40 (routed <= 16)",
+   "prior": 0.6
+  },
+  "E3": {
+   "registered": "routed cases: router final verdict (majority-of-3) == ground truth in >= 0.70; routed n < 3 => UNSCOREABLE (booked, not auto-passed)",
+   "prior": 0.6
+  },
+  "E4": {
+   "registered": "deepinfra-USD per correct verdict: router < pure-reflective (strict); Jev overhead reported in tokens (TypeSafe pricing unpublished)",
+   "prior": 0.7
+  }
+ },
+ "budgets": {
+  "deepinfra_usd": 0.05,
+  "typesafe_calls": 60
+ },
+ "no_post_hoc": "band, rule, thresholds, statement set, and ground truths are frozen as of registered_utc; failures booked honestly",
+ "correction_note": "PRE-CALL correction 09:12Z: prereg summary arithmetic for Set C (6T/2F -> 5T/3F) and total (20/8 -> 19/9); per-statement ground-truth table unchanged from initial registration; zero API calls made as of both stamps."
+}
