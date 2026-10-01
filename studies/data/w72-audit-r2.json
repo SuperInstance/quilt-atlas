@@ -1,0 +1,743 @@
+{
+  "task": "72-i second-auditor reproducibility of the Seed 2/8 split on the 10 w72-f core edges",
+  "registered_expectation": {
+    "registered_at": "2026-10-01T01:57:03.399Z",
+    "gate": {
+      "E1": "per-edge agreement(Seed, Hy3) >= 0.7 (>=7/10)",
+      "E2": "|KEEP(Hy3) XOR KEEP(Seed)| <= 1"
+    },
+    "reproduced_if": "E1 AND E2",
+    "falsifier": "agreement < 0.7 OR KEEP sym-diff >= 2 => auditor-specific split",
+    "third_auditor": "meta-models/Muse-Glimmer-30B (triangulation only, not gated)",
+    "prior": "Seed's 2 KEEP verdicts rest on verbatim payload-digest matches, so Hy3 should keep those two; the 8 KILLs are absence-of-evidence judgments where harshness may vary"
+  },
+  "prompt": {
+    "digest": "scripts/w71_profile.txt (byte-identical to 72-f R4)",
+    "audit_task": "byte-identical 72-f R4 auditTask",
+    "core_edges": [
+      "C1>C2>rediscovery-of",
+      "C2>C1>antidote-to",
+      "C1>FLEET>ancestor-of",
+      "FLEET>C1>antidote-to",
+      "C3>FLEET>dataset-for",
+      "FLEET>C3>instrument-for",
+      "C2>FLEET>ancestor-of",
+      "FLEET>C2>antidote-to",
+      "C2>C3>instrument-for",
+      "FLEET>C2>instrument-for"
+    ],
+    "core_full": [
+      {
+        "from": "C1",
+        "to": "C2",
+        "type": "rediscovery-of",
+        "value": "honest cost accounting for agent labor",
+        "route": "per-phase cost-line convention",
+        "payload": "\"Total Research Time: 3 hours\" line rediscovered as papermill's 48h/498k-word burn ledger"
+      },
+      {
+        "from": "C2",
+        "to": "C1",
+        "type": "antidote-to",
+        "value": "measured latency replaces claimed throughput",
+        "route": "typed DECKBOSS CELL latency budgets",
+        "payload": "10 interaction patterns with latency budgets vs tx-rs fictional \"4,273 tx/s\" for unbuilt code"
+      },
+      {
+        "from": "C1",
+        "to": "FLEET",
+        "type": "ancestor-of",
+        "value": "crate topology and hub structure",
+        "route": "ecosystem co-mention graph",
+        "payload": "58 planned Rust crates / 3,699 edges / 1 giant component -> quilt-neighbourhood + quilt-mojo-lab + quilt-fleet-tools crate set"
+      },
+      {
+        "from": "FLEET",
+        "to": "C1",
+        "type": "antidote-to",
+        "value": "measurement discipline over fiction",
+        "route": "bench-seal hash chain + measured>claimed policy",
+        "payload": "quilt-mojo-lab 1,295M cells/s and 4.33x AoS measured ratio vs C1's fictional perf tables"
+      },
+      {
+        "from": "C3",
+        "to": "FLEET",
+        "type": "dataset-for",
+        "value": "benchmark arena substrate",
+        "route": "arena YAML rasterization to cell grids",
+        "payload": "900 arena cell grids (walls=high resistance, goals=+1 sources, hazards=-1 sinks) with 10x30x3 family signatures"
+      },
+      {
+        "from": "FLEET",
+        "to": "C3",
+        "type": "instrument-for",
+        "value": "verdict verification of simulation runs",
+        "route": "judge-gate instrument verification",
+        "payload": "cell-lab 7-model allowlist verdicts + bench-seal hashes sealing arena rasterization outputs"
+      },
+      {
+        "from": "C2",
+        "to": "FLEET",
+        "type": "ancestor-of",
+        "value": "diff lineage and history provenance",
+        "route": "CellDiff DAG replay",
+        "payload": "359 papermill diffs replayed; P1-P5 fold reconstructs HEAD exactly"
+      },
+      {
+        "from": "FLEET",
+        "to": "C2",
+        "type": "antidote-to",
+        "value": "reconciliation over write-once brittleness",
+        "route": "P1-P5 merge fold + tombstone-as-sibling fix",
+        "payload": "13,062 merge-reconciliation diffs proving removes are first-class heads, against 282/294 single-touch files"
+      },
+      {
+        "from": "C2",
+        "to": "C3",
+        "type": "instrument-for",
+        "value": "touch-count audit of maintenance claims",
+        "route": "file-touch census",
+        "payload": "282/294 write-once ratio applied to C3 fork side: 511 commits, 0/900 corpus YAML touched"
+      },
+      {
+        "from": "FLEET",
+        "to": "C2",
+        "type": "instrument-for",
+        "value": "verification protocol",
+        "route": "channel",
+        "payload": "judge-gate instrument specs from quilt-fleet-tools (adversarial round-3 queued)"
+      }
+    ]
+  },
+  "seed_72f": {
+    "source": "outputs/w72-graph-r2.json (seed_audit)",
+    "parsed": {
+      "rows": [],
+      "verdicts": [
+        "KILL",
+        "KILL",
+        "KILL",
+        "KILL",
+        "KEEP",
+        "KILL",
+        "KEEP",
+        "KILL",
+        "KILL",
+        "KILL"
+      ],
+      "evidence": [
+        "KILL | No mention of C2 referencing C1's \"Total Research Time: 3 hours\" cost line; no evidence of rediscovery between the two corpora.",
+        "KILL | No evidence linking C2's DECKBOSS CELL latency budgets to a corrective response against C1's fictional tx-rs throughput claims.",
+        "KILL | No evidence that C1's planned 58 Rust crates or ecosystem co-mention graph are ancestral to the FLEET's crate set.",
+        "KILL | No evidence that FLEET's measured quilt-mojo-lab performance data acts as an antidote to C1's fictional performance tables.",
+        "KEEP | C3's section explicitly details rasterizing 900 arena YAMLs into cell grids with walls=high resistance, goals=+1 potential sources, hazards=-1 sinks, and 10 cognitive families ×30 days ×3 variants matching the payload.",
+        "KILL | No explicit statement in the digest that FLEET's judge-gate tools or bench-seal hashes are used to verify C3's simulation run verdicts.",
+        "KEEP | The FLEET section contains verbatim matching payload text: \"papermill 359 diffs replayed; P1-P5 fold reconstructs HEAD exactly\".",
+        "KILL | No evidence that FLEET's merge reconciliation work corrects C2's write-once file brittleness.",
+        "KILL | No evidence that C2's file-touch census was used to audit C3's maintenance claims.",
+        "KILL | No evidence linking FLEET's judge-gate instrument specs to C2's verification protocol."
+      ],
+      "counts": {
+        "keep": 2,
+        "kill": 8
+      },
+      "countsLine": "count(KEEP)=2, count(KILL)=8",
+      "leastSure": "Least sure edge: Edge 6, because while the digest contains all individual data points from the payload, there is no explicit textual statement that FLEET's tools are used to verify C3's simulation verdicts.",
+      "assignedBy": [
+        "content",
+        "content",
+        "content",
+        "content",
+        "content",
+        "content",
+        "content",
+        "content",
+        "content",
+        "content"
+      ]
+    },
+    "raw_first_80": "| # | edge | KEEP or KILL | evidence-or-missing-reason |\n|---|---|---|---|\n| 1 |"
+  },
+  "auditors": {
+    "tencent/Hy3": {
+      "parsed": {
+        "rows": [],
+        "verdicts": [
+          "KILL",
+          "KILL",
+          "KILL",
+          "KEEP",
+          "KEEP",
+          "KILL",
+          "KEEP",
+          "KEEP",
+          "KILL",
+          "KILL"
+        ],
+        "evidence": [
+          "KILL | Digest shows C1 has \"Total Research Time: 3 hours\" cost lines and C2 has \"48h/498k-word burn ledger\" but NO textual evidence C2 rediscovered or referenced C1's convention; C2 is separate fiction with zero cross-links (245 monads).",
+          "KILL | Digest shows C2 has DECKBOSS CELLS with latency budgets and C1 has fictional perf tables, but NO evidence C2 is an antidote to C1 or references it; zero cross-links in C2.",
+          "KILL | Digest lists C1's 58 planned crates / 3,699-edge graph and FLEET's quilt-* crate set, but NO textual evidence FLEET descends from or was shaped by C1's topology.",
+          "KEEP | Digest: quilt-mojo-lab measured 1,295M cells/s, 4.33x AoS \"measured>claimed\" and quilt-fleet-tools bench-seal; C1 has fictional perf tables for unbuilt code — FLEET policy contrasts C1 fiction.",
+          "KEEP | Digest: C3 900 arena YAMLs rasterized to cell grids (walls/high res, goals/+1, hazards/-1) with family signatures; FLEET replayed animal-ai as DAG with 37,523 diffs.",
+          "KILL | Digest mentions cell-lab judge instrument + bench-seal, but NO evidence these verify or seal C3 arena rasterization outputs specifically.",
+          "KEEP | Digest: papermill 359 diffs replayed as CellDiff DAG; P1-P5 fold reconstructed HEAD exactly.",
+          "KEEP | Digest: FLEET 13,062 merge-reconciliation diffs, removes as first-class heads; C2 write-once 282/294 touched once.",
+          "KILL | Digest shows C2 write-once ratio and C3 fork 0/900 YAML touched, but NO evidence C2's ratio was applied as instrument to audit C3.",
+          "KILL | Digest: judge-gate instrument from quilt-fleet-tools, adversarial round-3 queued, but NO evidence it is verification protocol instrument for C2 specifically."
+        ],
+        "counts": {
+          "keep": 4,
+          "kill": 6
+        },
+        "countsLine": "count(KEEP)=4, count(KILL)=6",
+        "leastSure": "LEAST SURE: edge 5 (C3→FLEET dataset-for) — digest confirms rasterization and DAG replay but \"benchmark arena substrate\" purpose is inferred from FLEET replaying history, not explicit statement that C3 grids serve as FLEET benchmark substrate.",
+        "assignedBy": [
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content"
+        ]
+      },
+      "usage": {
+        "prompt_tokens": 1727,
+        "total_tokens": 2439,
+        "completion_tokens": 712,
+        "estimated_cost": 0.00060187,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": null
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "finish_reason": "stop",
+      "error": null,
+      "raw": "| # | edge | KEEP or KILL | evidence-or-missing-reason |\n| --- | --- | --- | --- |\n| 1 | C1→C2 rediscovery-of honest cost accounting | KILL | Digest shows C1 has \"Total Research Time: 3 hours\" cost lines and C2 has \"48h/498k-word burn ledger\" but NO textual evidence C2 rediscovered or referenced C1's convention; C2 is separate fiction with zero cross-links (245 monads). |\n| 2 | C2→C1 antidote-to measured latency vs claimed throughput | KILL | Digest shows C2 has DECKBOSS CELLS with latency budgets and C1 has fictional perf tables, but NO evidence C2 is an antidote to C1 or references it; zero cross-links in C2. |\n| 3 | C1→FLEET ancestor-of crate topology | KILL | Digest lists C1's 58 planned crates / 3,699-edge graph and FLEET's quilt-* crate set, but NO textual evidence FLEET descends from or was shaped by C1's topology. |\n| 4 | FLEET→C1 antidote-to measurement discipline | KEEP | Digest: quilt-mojo-lab measured 1,295M cells/s, 4.33x AoS \"measured>claimed\" and quilt-fleet-tools bench-seal; C1 has fictional perf tables for unbuilt code — FLEET policy contrasts C1 fiction. |\n| 5 | C3→FLEET dataset-for benchmark substrate | KEEP | Digest: C3 900 arena YAMLs rasterized to cell grids (walls/high res, goals/+1, hazards/-1) with family signatures; FLEET replayed animal-ai as DAG with 37,523 diffs. |\n| 6 | FLEET→C3 instrument-for verdict verification | KILL | Digest mentions cell-lab judge instrument + bench-seal, but NO evidence these verify or seal C3 arena rasterization outputs specifically. |\n| 7 | C2→FLEET ancestor-of diff lineage | KEEP | Digest: papermill 359 diffs replayed as CellDiff DAG; P1-P5 fold reconstructed HEAD exactly. |\n| 8 | FLEET→C2 antidote-to reconciliation over write-once | KEEP | Digest: FLEET 13,062 merge-reconciliation diffs, removes as first-class heads; C2 write-once 282/294 touched once. |\n| 9 | C2→C3 instrument-for touch-count audit | KILL | Digest shows C2 write-once ratio and C3 fork 0/900 YAML touched, but NO evidence C2's ratio was applied as instrument to audit C3. |\n| 10 | FLEET→C2 instrument-for verification protocol | KILL | Digest: judge-gate instrument from quilt-fleet-tools, adversarial round-3 queued, but NO evidence it is verification protocol instrument for C2 specifically. |\n\ncount(KEEP)=4, count(KILL)=6\n\nLEAST SURE: edge 5 (C3→FLEET dataset-for) — digest confirms rasterization and DAG replay but \"benchmark arena substrate\" purpose is inferred from FLEET replaying history, not explicit statement that C3 grids serve as FLEET benchmark substrate."
+    },
+    "meta-models/Muse-Glimmer-30B": {
+      "parsed": {
+        "rows": [],
+        "verdicts": [
+          "KILL",
+          "KILL",
+          "KILL",
+          "KILL",
+          "KILL",
+          "KILL",
+          "KEEP",
+          "KILL",
+          "KILL",
+          "KILL"
+        ],
+        "evidence": [
+          "KILL | Digest lists C1 per-phase honest cost lines \"Total Research Time: 3 hours\" and C2 245 md / 498k words written in 48h separately; no concrete evidence of rediscovery or connection between them",
+          "KILL | Digest lists C2 typed DECKBOSS CELLS + 10 interaction patterns with latency budgets and C1 fictional perf tables tx-rs \"4,273 tx/s\" separately; no concrete evidence of antidote relation",
+          "KILL | Digest lists C1 ecosystem co-mention graph 3,699 edges / 1 giant component and FLEET NOW quilt-neighbourhood / quilt-mojo-lab / quilt-fleet-tools separately; no concrete lineage evidence",
+          "KILL | Digest lists quilt-mojo-lab 1,295M cells/s, 4.33x AoS measured>claimed and C1 fictional perf tables separately; no concrete evidence FLEET is antidote to C1",
+          "KILL | Digest describes C3 900 arena YAMLs and rasterization to cell grids walls=high resistance goals=+1 sources hazards=-1 sinks, and lists FLEET NOW components separately; no explicit statement that FLEET uses C3 as dataset",
+          "KILL | Digest lists quilt-fleet-tools judge-gate instrument verification + bench-seal hash chains and cell-lab 7-model allowlist, and C3 rasterization separately; no concrete evidence of instrumentation of C3 runs",
+          "KEEP | Digest states TODAY all three legacy histories replayed as CellDiff DAGs and P1-P5 fold reconstructed HEAD exactly papermill 359 diffs; CellDiff DAG is part of quilt-neighbourhood v0.4.0 in FLEET NOW",
+          "KILL | Digest attributes 13,062 merge-reconciliation diffs to animal-ai not papermill, and lists C2 282/294 write-once separately; no concrete antidote link and payload mismatches corpus",
+          "KILL | Digest gives C2 282/294 write-once ratio and C3 fork side 511 commits touched ZERO corpus YAML separately; no evidence the C2 ratio was applied to C3",
+          "KILL | Digest lists quilt-fleet-tools judge-gate instrument verification and cell-lab adversarial round-3 queued, and C2 papermill stats separately; no concrete evidence FLEET instruments C2"
+        ],
+        "counts": {
+          "keep": 1,
+          "kill": 9
+        },
+        "countsLine": "count(KEEP)=1, count(KILL)=9",
+        "leastSure": "Least sure about edge 5 C3 -> FLEET dataset-for benchmark arena substrate. The digest describes arena rasterization under C3 and FLEET components under FLEET NOW, and \"Our simulation today rasterized arenas\" is ambiguous whether that simulation is FLEET work; the digest does not explicitly attribute the rasterization to FLEET, so the link is plausible but not concretely evidenced.",
+        "assignedBy": [
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content",
+          "content"
+        ]
+      },
+      "usage": {
+        "prompt_tokens": 1685,
+        "total_tokens": 6229,
+        "completion_tokens": 4544,
+        "estimated_cost": 0.0059583,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": null
+        }
+      },
+      "finish_reason": "stop",
+      "error": null,
+      "raw": "| # | edge | KEEP or KILL | evidence-or-missing-reason |\n| 1 | C1 -> C2 rediscovery-of honest cost accounting for agent labor, per-phase cost-line convention, \"Total Research Time: 3 hours\" line rediscovered as papermill's 48h/498k-word burn ledger | KILL | Digest lists C1 per-phase honest cost lines \"Total Research Time: 3 hours\" and C2 245 md / 498k words written in 48h separately; no concrete evidence of rediscovery or connection between them |\n| 2 | C2 -> C1 antidote-to measured latency replaces claimed throughput, typed DECKBOSS CELL latency budgets, 10 interaction patterns with latency budgets vs tx-rs fictional \"4,273 tx/s\" for unbuilt code | KILL | Digest lists C2 typed DECKBOSS CELLS + 10 interaction patterns with latency budgets and C1 fictional perf tables tx-rs \"4,273 tx/s\" separately; no concrete evidence of antidote relation |\n| 3 | C1 -> FLEET ancestor-of crate topology and hub structure, ecosystem co-mention graph, 58 planned Rust crates / 3,699 edges / 1 giant component -> quilt-neighbourhood + quilt-mojo-lab + quilt-fleet-tools crate set | KILL | Digest lists C1 ecosystem co-mention graph 3,699 edges / 1 giant component and FLEET NOW quilt-neighbourhood / quilt-mojo-lab / quilt-fleet-tools separately; no concrete lineage evidence |\n| 4 | FLEET -> C1 antidote-to measurement discipline over fiction, bench-seal hash chain + measured>claimed policy, quilt-mojo-lab 1,295M cells/s and 4.33x AoS measured ratio vs C1's fictional perf tables | KILL | Digest lists quilt-mojo-lab 1,295M cells/s, 4.33x AoS measured>claimed and C1 fictional perf tables separately; no concrete evidence FLEET is antidote to C1 |\n| 5 | C3 -> FLEET dataset-for benchmark arena substrate, arena YAML rasterization to cell grids, 900 arena cell grids walls=high resistance goals=+1 sources hazards=-1 sinks with 10x30x3 family signatures | KILL | Digest describes C3 900 arena YAMLs and rasterization to cell grids walls=high resistance goals=+1 sources hazards=-1 sinks, and lists FLEET NOW components separately; no explicit statement that FLEET uses C3 as dataset |\n| 6 | FLEET -> C3 instrument-for verdict verification of simulation runs, judge-gate instrument verification, cell-lab 7-model allowlist verdicts + bench-seal hashes sealing arena rasterization outputs | KILL | Digest lists quilt-fleet-tools judge-gate instrument verification + bench-seal hash chains and cell-lab 7-model allowlist, and C3 rasterization separately; no concrete evidence of instrumentation of C3 runs |\n| 7 | C2 -> FLEET ancestor-of diff lineage and history provenance, CellDiff DAG replay, 359 papermill diffs replayed; P1-P5 fold reconstructs HEAD exactly | KEEP | Digest states TODAY all three legacy histories replayed as CellDiff DAGs and P1-P5 fold reconstructed HEAD exactly papermill 359 diffs; CellDiff DAG is part of quilt-neighbourhood v0.4.0 in FLEET NOW |\n| 8 | FLEET -> C2 antidote-to reconciliation over write-once brittleness, P1-P5 merge fold + tombstone-as-sibling fix, 13,062 merge-reconciliation diffs proving removes are first-class heads against 282/294 single-touch files | KILL | Digest attributes 13,062 merge-reconciliation diffs to animal-ai not papermill, and lists C2 282/294 write-once separately; no concrete antidote link and payload mismatches corpus |\n| 9 | C2 -> C3 instrument-for touch-count audit of maintenance claims, file-touch census, 282/294 write-once ratio applied to C3 fork side: 511 commits 0/900 corpus YAML touched | KILL | Digest gives C2 282/294 write-once ratio and C3 fork side 511 commits touched ZERO corpus YAML separately; no evidence the C2 ratio was applied to C3 |\n| 10 | FLEET -> C2 instrument-for verification protocol, channel, judge-gate instrument specs from quilt-fleet-tools adversarial round-3 queued | KILL | Digest lists quilt-fleet-tools judge-gate instrument verification and cell-lab adversarial round-3 queued, and C2 papermill stats separately; no concrete evidence FLEET instruments C2 |\n\ncount(KEEP)=1, count(KILL)=9\n\nLeast sure about edge 5 C3 -> FLEET dataset-for benchmark arena substrate. The digest describes arena rasterization under C3 and FLEET components under FLEET NOW, and \"Our simulation today rasterized arenas\" is ambiguous whether that simulation is FLEET work; the digest does not explicitly attribute the rasterization to FLEET, so the link is plausible but not concretely evidenced."
+    }
+  },
+  "agreement": {
+    "seed_vs_hy3": {
+      "per_edge": [
+        {
+          "i": 1,
+          "edge": "C1>C2>rediscovery-of",
+          "seed": "KILL",
+          "hy3": "KILL",
+          "agree": true
+        },
+        {
+          "i": 2,
+          "edge": "C2>C1>antidote-to",
+          "seed": "KILL",
+          "hy3": "KILL",
+          "agree": true
+        },
+        {
+          "i": 3,
+          "edge": "C1>FLEET>ancestor-of",
+          "seed": "KILL",
+          "hy3": "KILL",
+          "agree": true
+        },
+        {
+          "i": 4,
+          "edge": "FLEET>C1>antidote-to",
+          "seed": "KILL",
+          "hy3": "KEEP",
+          "agree": false
+        },
+        {
+          "i": 5,
+          "edge": "C3>FLEET>dataset-for",
+          "seed": "KEEP",
+          "hy3": "KEEP",
+          "agree": true
+        },
+        {
+          "i": 6,
+          "edge": "FLEET>C3>instrument-for",
+          "seed": "KILL",
+          "hy3": "KILL",
+          "agree": true
+        },
+        {
+          "i": 7,
+          "edge": "C2>FLEET>ancestor-of",
+          "seed": "KEEP",
+          "hy3": "KEEP",
+          "agree": true
+        },
+        {
+          "i": 8,
+          "edge": "FLEET>C2>antidote-to",
+          "seed": "KILL",
+          "hy3": "KEEP",
+          "agree": false
+        },
+        {
+          "i": 9,
+          "edge": "C2>C3>instrument-for",
+          "seed": "KILL",
+          "hy3": "KILL",
+          "agree": true
+        },
+        {
+          "i": 10,
+          "edge": "FLEET>C2>instrument-for",
+          "seed": "KILL",
+          "hy3": "KILL",
+          "agree": true
+        }
+      ],
+      "n_compared": 10,
+      "agreement_rate": 0.8,
+      "agreement_count": 8,
+      "keep_set": {
+        "seed": [
+          "C3>FLEET>dataset-for",
+          "C2>FLEET>ancestor-of"
+        ],
+        "hy3": [
+          "FLEET>C1>antidote-to",
+          "C3>FLEET>dataset-for",
+          "C2>FLEET>ancestor-of",
+          "FLEET>C2>antidote-to"
+        ],
+        "intersection": [
+          "C3>FLEET>dataset-for",
+          "C2>FLEET>ancestor-of"
+        ],
+        "symmetric_difference": [
+          "FLEET>C1>antidote-to",
+          "FLEET>C2>antidote-to"
+        ],
+        "jaccard": 0.5
+      },
+      "E1_pass": true,
+      "E2_pass": false
+    },
+    "seed_vs_muse": {
+      "per_edge": [
+        {
+          "i": 1,
+          "edge": "C1>C2>rediscovery-of",
+          "seed": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 2,
+          "edge": "C2>C1>antidote-to",
+          "seed": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 3,
+          "edge": "C1>FLEET>ancestor-of",
+          "seed": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 4,
+          "edge": "FLEET>C1>antidote-to",
+          "seed": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 5,
+          "edge": "C3>FLEET>dataset-for",
+          "seed": "KEEP",
+          "muse": "KILL",
+          "agree": false
+        },
+        {
+          "i": 6,
+          "edge": "FLEET>C3>instrument-for",
+          "seed": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 7,
+          "edge": "C2>FLEET>ancestor-of",
+          "seed": "KEEP",
+          "muse": "KEEP",
+          "agree": true
+        },
+        {
+          "i": 8,
+          "edge": "FLEET>C2>antidote-to",
+          "seed": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 9,
+          "edge": "C2>C3>instrument-for",
+          "seed": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 10,
+          "edge": "FLEET>C2>instrument-for",
+          "seed": "KILL",
+          "muse": "KILL",
+          "agree": true
+        }
+      ],
+      "n_compared": 10,
+      "agreement_rate": 0.9,
+      "agreement_count": 9,
+      "keep_set": {
+        "seed": [
+          "C3>FLEET>dataset-for",
+          "C2>FLEET>ancestor-of"
+        ],
+        "muse": [
+          "C2>FLEET>ancestor-of"
+        ],
+        "intersection": [
+          "C2>FLEET>ancestor-of"
+        ],
+        "symmetric_difference": [
+          "C3>FLEET>dataset-for"
+        ],
+        "jaccard": 0.5
+      },
+      "E1_pass": true,
+      "E2_pass": true
+    },
+    "hy3_vs_muse": {
+      "per_edge": [
+        {
+          "i": 1,
+          "edge": "C1>C2>rediscovery-of",
+          "hy3": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 2,
+          "edge": "C2>C1>antidote-to",
+          "hy3": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 3,
+          "edge": "C1>FLEET>ancestor-of",
+          "hy3": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 4,
+          "edge": "FLEET>C1>antidote-to",
+          "hy3": "KEEP",
+          "muse": "KILL",
+          "agree": false
+        },
+        {
+          "i": 5,
+          "edge": "C3>FLEET>dataset-for",
+          "hy3": "KEEP",
+          "muse": "KILL",
+          "agree": false
+        },
+        {
+          "i": 6,
+          "edge": "FLEET>C3>instrument-for",
+          "hy3": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 7,
+          "edge": "C2>FLEET>ancestor-of",
+          "hy3": "KEEP",
+          "muse": "KEEP",
+          "agree": true
+        },
+        {
+          "i": 8,
+          "edge": "FLEET>C2>antidote-to",
+          "hy3": "KEEP",
+          "muse": "KILL",
+          "agree": false
+        },
+        {
+          "i": 9,
+          "edge": "C2>C3>instrument-for",
+          "hy3": "KILL",
+          "muse": "KILL",
+          "agree": true
+        },
+        {
+          "i": 10,
+          "edge": "FLEET>C2>instrument-for",
+          "hy3": "KILL",
+          "muse": "KILL",
+          "agree": true
+        }
+      ],
+      "n_compared": 10,
+      "agreement_rate": 0.7,
+      "agreement_count": 7,
+      "keep_set": {
+        "hy3": [
+          "FLEET>C1>antidote-to",
+          "C3>FLEET>dataset-for",
+          "C2>FLEET>ancestor-of",
+          "FLEET>C2>antidote-to"
+        ],
+        "muse": [
+          "C2>FLEET>ancestor-of"
+        ],
+        "intersection": [
+          "C2>FLEET>ancestor-of"
+        ],
+        "symmetric_difference": [
+          "FLEET>C1>antidote-to",
+          "C3>FLEET>dataset-for",
+          "FLEET>C2>antidote-to"
+        ],
+        "jaccard": 0.25
+      },
+      "E1_pass": true,
+      "E2_pass": false
+    },
+    "three_way": [
+      {
+        "i": 1,
+        "edge": "C1>C2>rediscovery-of",
+        "seed": "KILL",
+        "hy3": "KILL",
+        "muse": "KILL",
+        "majority": "KILL",
+        "unanimous": true
+      },
+      {
+        "i": 2,
+        "edge": "C2>C1>antidote-to",
+        "seed": "KILL",
+        "hy3": "KILL",
+        "muse": "KILL",
+        "majority": "KILL",
+        "unanimous": true
+      },
+      {
+        "i": 3,
+        "edge": "C1>FLEET>ancestor-of",
+        "seed": "KILL",
+        "hy3": "KILL",
+        "muse": "KILL",
+        "majority": "KILL",
+        "unanimous": true
+      },
+      {
+        "i": 4,
+        "edge": "FLEET>C1>antidote-to",
+        "seed": "KILL",
+        "hy3": "KEEP",
+        "muse": "KILL",
+        "majority": "KILL",
+        "unanimous": false
+      },
+      {
+        "i": 5,
+        "edge": "C3>FLEET>dataset-for",
+        "seed": "KEEP",
+        "hy3": "KEEP",
+        "muse": "KILL",
+        "majority": "KEEP",
+        "unanimous": false
+      },
+      {
+        "i": 6,
+        "edge": "FLEET>C3>instrument-for",
+        "seed": "KILL",
+        "hy3": "KILL",
+        "muse": "KILL",
+        "majority": "KILL",
+        "unanimous": true
+      },
+      {
+        "i": 7,
+        "edge": "C2>FLEET>ancestor-of",
+        "seed": "KEEP",
+        "hy3": "KEEP",
+        "muse": "KEEP",
+        "majority": "KEEP",
+        "unanimous": true
+      },
+      {
+        "i": 8,
+        "edge": "FLEET>C2>antidote-to",
+        "seed": "KILL",
+        "hy3": "KEEP",
+        "muse": "KILL",
+        "majority": "KILL",
+        "unanimous": false
+      },
+      {
+        "i": 9,
+        "edge": "C2>C3>instrument-for",
+        "seed": "KILL",
+        "hy3": "KILL",
+        "muse": "KILL",
+        "majority": "KILL",
+        "unanimous": true
+      },
+      {
+        "i": 10,
+        "edge": "FLEET>C2>instrument-for",
+        "seed": "KILL",
+        "hy3": "KILL",
+        "muse": "KILL",
+        "majority": "KILL",
+        "unanimous": true
+      }
+    ]
+  },
+  "verdict": {
+    "split_reproduced": false,
+    "E1_pass": true,
+    "E2_pass": false,
+    "interpretation": "split NOT reproduced — auditor-specific",
+    "caveats": [
+      "digest-evidence-bound: audits judge digest support, not repo truth",
+      "n=1 second auditor gated; Muse is triangulation"
+    ]
+  },
+  "api_cost": {
+    "calls": 4,
+    "total_estimated_cost_usd": 0.007596,
+    "log": [
+      {
+        "model": "tencent/Hy3",
+        "usage": {
+          "prompt_tokens": 1727,
+          "total_tokens": 2439,
+          "completion_tokens": 712,
+          "estimated_cost": 0.00060187,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": null
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "ms": 27836
+      },
+      {
+        "model": "meta-models/Muse-Glimmer-30B",
+        "usage": {
+          "prompt_tokens": 1685,
+          "total_tokens": 6229,
+          "completion_tokens": 4544,
+          "estimated_cost": 0.0059583,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": null
+          }
+        },
+        "ms": 33237
+      },
+      {
+        "model": "nvidia/Nemotron-3-Nano-30B-A3B",
+        "usage": {
+          "prompt_tokens": 2022,
+          "total_tokens": 3810,
+          "completion_tokens": 1788,
+          "estimated_cost": 0.00045870000000000004,
+          "prompt_tokens_details": null
+        },
+        "ms": 54769
+      },
+      {
+        "model": "nvidia/Nemotron-3-Nano-30B-A3B",
+        "usage": {
+          "prompt_tokens": 3420,
+          "total_tokens": 5450,
+          "completion_tokens": 2030,
+          "estimated_cost": 0.000577,
+          "prompt_tokens_details": null
+        },
+        "ms": 67250
+      }
+    ]
+  }
+}

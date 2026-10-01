@@ -53,3 +53,15 @@ Method: 5-grams of papermill HEAD text absent from *both* synesis-research and a
 - `scripts/w72_graph_r2.mjs`, `outputs/w72-graph-r2.json`, `scripts/w72_graph_r2_out.txt` (full transcripts incl. retries; Inkling needed 8k-token retries in both rounds — reasoning tokens swallow JSON budgets)
 - `scripts/w72_probe5gram.mjs`, `outputs/w72-probe-5gram.json`, `studies/data/w72-probe-5gram.json`
 - Parse-robustness receipt: MiMo's w71 baseline uses unquoted JSON keys; the parser gained bare-key quoting + fallback (three-stage), verified against all four models' outputs.
+
+## Second-auditor reproducibility + Nemotron diagnostic (72-i)
+
+Gate pre-registered before any call (stamped `w72-audit-r2.expectation.json`): per-edge agreement ≥ 0.7 AND same KEEP set within 1 edge.
+
+| pair | per-edge agreement | KEEP-set delta |
+|---|---|---|
+| Seed vs **Hy3** | **0.80** (8/10) | sym-diff 2 — Hy3 keeps Seed's both KEEPs **plus** both FLEET→C\* antidote-to |
+| Seed vs **Muse** | **0.90** (9/10) | sym-diff 1 — Muse kills C3→FLEET dataset-for too |
+| Hy3 vs Muse | 0.70 (7/10) | sym-diff 3 |
+
+**The exact 2/8 split did NOT reproduce under the registered gate** (E1 PASS 0.80, E2 FAIL sym-diff 2; auditor KEEP counts ranged 1–4). What does reproduce: the digest-bound KILL regime — 6/10 edges unanimously KILLed, `C2→FLEET ancestor-of` unanimously KEEPed, and the 3-auditor majority table equals Seed's 2/8 exactly. Muse caught a payload misattribution Seed missed (13,062 merge-diffs belong to C3, not C2). Nemotron outlier classified **H2 — inverted edge-type semantics, self-defended** ("ancestor-of – a temporal or structural precedence"; "rediscovery-of – the source re-creates or replays the target's history"); H1 parse friction recovered both rounds, H3 not primary. Limitations: n=2 second auditors, digest-only evidence, single diagnostic session, LLM-table parsing. Seals: `w72-audit-r2`, `w72-nemotron-diag` (chain VERDICT PASS); artifacts `studies/data/w72-audit-r2.json`, `studies/data/w72-nemotron-diag.json`, `scripts/w72_audit_r2.mjs`.

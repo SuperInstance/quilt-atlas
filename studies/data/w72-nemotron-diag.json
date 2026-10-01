@@ -1,0 +1,64 @@
+{
+  "task": "72-i Nemotron-3-Nano-30B-A3B outlier diagnostic (why Jaccard <= 0.16 vs every other model in w72-f graph consensus)",
+  "method": "H1 assessed offline from outputs/w72-graph-r2-cache.json raw R1/R2 contents; H2/H3 via one 2-turn DeepInfra session (turn 1: own R2 graph + MiMo baseline shown, asked defend/revise/drop + 5 edge-type interpretations; turn 2: Seed audit verdicts shown, asked what it would change). Classification by the study runner from quotes; model outputs unedited in scripts/w72_audit_r2_out.txt.",
+  "classification": {
+    "primary": "H2 — edge-TYPE semantic divergence (systematic, defended)",
+    "h1_parse_format_failure": "RULED OUT AS CAUSE (format friction real but recovered)",
+    "h3_different_corpus_anchoring": "MINOR / NOT PRIMARY (same digest facts, different type lens)",
+    "mechanism": "Nemotron read the same fleet-replay facts through a different type+direction convention: ancestor-of = temporal precedence between corpora (cluster: lineage descent corpus->FLEET); rediscovery-of = FLEET->C* replay (cluster: corpus-to-corpus or C*->FLEET); antidote-to direction inverted vs cluster. Result: a near-isomorphic but type-incompatible graph. It defended 10/10 of its edges when shown peer graphs in R2 (r1_vs_r2_edge_set_identical=true) and re-asserted its own conventions in the debrief."
+  },
+  "h1_offline_evidence": {
+    "r1_content_first_120_chars": " } Actually need concrete payload: maybe \"2025-01..2026-01\". Use that.",
+    "r1_content_begins_mid_object": true,
+    "r1_parses_to_n_edges": 10,
+    "r1_contained_deliberation_then_final_array": true,
+    "r2_parses_to_n_edges": 10,
+    "r1_vs_r2_edge_set_identical": true,
+    "r1_vs_r2_token_jaccard": 0.608,
+    "worklog_72f_note": "72-f worklog records Nemotron R1 output was empty once (retried at 8000; the cache stores only the successful session; the surviving content begins mid-object, consistent with a truncated/retried stream)",
+    "verdict": "Both rounds parsed to 10 valid edges; R2 re-emitted the identical 10-edge set. Parsing cannot explain Jaccard 0.048-0.158 — the divergence is in content, not format."
+  },
+  "h2_quotes": [
+    {
+      "q": "ancestor-of – a temporal or structural precedence where the source's existence or period predates the target.",
+      "src": "diagnostic turn 1, part (c) one-line type definitions",
+      "contrast": "Cluster models (MiMo/Ling/Inkling) use ancestor-of for lineage descent: C1/C2 -> FLEET 'crate topology/diff lineage the fleet was built from'. Nemotron's only ancestor-of edges are C3->C1 and C1->C2 with payloads 'temporal precedence (C3 spans 2021-2026, includes C1 period)' / 'chronological precedence' (cached R1/R2 graph)."
+    },
+    {
+      "q": "rediscovery-of – the source re-creates or replays the target's historical diff or artifact.",
+      "src": "diagnostic turn 1, part (c)",
+      "contrast": "Cluster uses rediscovery-of only corpus-to-corpus (C1>C2); Nemotron uses it FLEET->C1/C2/C3 'replayed as CellDiff DAG' — the same fact the cluster encodes as C*->FLEET ancestor-of + FLEET->C* instrument-for."
+    },
+    {
+      "q": "instrument-for edges point from FLEET to each component because the fleet supplies the verification tools; MiMo used the opposite direction (component -> fleet) to stress the component's role in generating cost data.",
+      "src": "diagnostic turn 1, part (b)",
+      "contrast": "MiMo's baseline has FLEET->C3 instrument-for but C*->FLEET for the lineage edges; Nemotron made ALL THREE instrument-for edges FLEET->C* and added FLEET->C1/C2/C3 instrument-for on top of its rediscovery edges (double-encoding replay+verification)."
+    },
+    {
+      "q": "antidote-to edges run from components to FLEET (e.g., C1 -> FLEET 'supplies Rust crates template') ...; MiMo placed antidote edges the other way round, reflecting a different interpretive lens.",
+      "src": "diagnostic turn 1, part (b)",
+      "contrast": "Cluster convention: FLEET->C* antidote-to (measured>claimed corrects fiction; reconciliation corrects write-once brittleness). Nemotron inverted the direction (C1->FLEET)."
+    },
+    {
+      "q": "Adopt MiMo's edge-type semantics for the two cases where my reading diverged.",
+      "src": "diagnostic turn 2",
+      "contrast": "Nemotron itself, post-audit, names its type readings as the divergence point."
+    },
+    {
+      "q": "Those capture the concrete fact that the fleet re-plays each component's diff history (CellDiff DAGs of 507, 359, and 37 523 diffs). The audit never voted on them because they were not part of the 10 consensus candidates, and the digest explicitly describes the 'replayed as CellDiff DAG' payloads. They therefore remain a faithful representation of the provenance loop.",
+      "src": "diagnostic turn 2, edges it still defends",
+      "contrast": "True: none of its FLEET->C* rediscovery-of edges entered the >=3/4 consensus; it still considers them digest-faithful — a self-consistent alternative type system, not noise."
+    }
+  ],
+  "h3_assessment": "Its payloads do cluster on different digest lines than the cluster models (CellDiff replay counts, judge-gate, temporal spans vs crate topology, fictional perf tables, write-once census), but in the debrief it cites the SAME fleet-replay facts the cluster used and explicitly attributes the difference to type/direction conventions: 'the edge types we selected map directly onto the mechanisms we observed ... and the directionality mirrors who is the source of the claim versus the sink that validates or consumes it' (turn 1, part b). H3 therefore does not explain the outlier status.",
+  "turn2_errors_honesty_note": "Turn 2 contains misreadings that further evidence H2-as-self-lens: it garbled edge labels ('C2 -> FLEET instrument-for (touch-count audit)' — edge 9 is C2->C3), and invented a rationale for MiMo's C2->C1 edge ('the audit's consensus (MiMo) treats that relationship as C2 (papermill) precedes C1 (research) chronologically' — MiMo's edge is antidote-to 'measured latency replaces claimed throughput', not chronological precedence). It maps other models' edges back into its own type system even when quoting them.",
+  "api": {
+    "model": "nvidia/Nemotron-3-Nano-30B-A3B",
+    "calls": 2,
+    "turn1_usage": { "prompt_tokens": 2022, "completion_tokens": 1788, "estimated_cost": 0.0004587 },
+    "turn2_usage": { "prompt_tokens": 3420, "completion_tokens": 2030, "estimated_cost": 0.000577 },
+    "retries_needed": 0
+  },
+  "transcript": "scripts/w72_audit_r2_out.txt (sections '--- Nemotron turn 1 ---' / '--- Nemotron turn 2 ---')",
+  "raw": "outputs/w72-nemotron-diag-raw.json"
+}
