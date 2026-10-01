@@ -25,7 +25,7 @@ Coordinator: main (Super Z). 3 subagent waves (7 subagent runs, 2 timeouts recov
 ## Organ status
 
 - LIVE: github (13 scopes), moth comet-qrng-v1, typesafe jev-1.13.0 (new key).
-- DARK here (need re-send): deepinfra sk-di- (lost), deepseek/groq/zai/gemini/elevenlabs/minimax/cloudflare (verified live by keyprobe in ANOTHER agent's env, never present in this env).
+- DARK here (need re-send): deepinfra key (lost, pattern redacted), deepseek/groq/zai/gemini/elevenlabs/minimax/cloudflare (verified live by keyprobe in ANOTHER agent's env, never present in this env).
 - CI now runs on: quilt-lab, quilt-nn, quilt-rl, quilt-ml-recipes, quilt-neighbourhood, quilt-attention(N/A), pong-quilt, quilt-ewitness(pending) — account was at ZERO Actions 12h ago.
 
 ## Next lanes (dawn queue)
