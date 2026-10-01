@@ -1,0 +1,77 @@
+{
+  "papermill": {
+    "commits": 101,
+    "merges": 0,
+    "diffs": 359,
+    "invalid": 0,
+    "statusCounts": {
+      "A": 248,
+      "M": 10
+    },
+    "foldCells": 248,
+    "headPaths": 248,
+    "missing": 0,
+    "extra": 0,
+    "converged": true,
+    "authors": 4,
+    "span": "2026-04-01..2026-04-13",
+    "days": 12,
+    "headFileDiffs": 248,
+    "replayMs": 24,
+    "receipts": 360,
+    "mergesReconciled": 0,
+    "reconciliationDiffs": 0,
+    "missingSample": [],
+    "extraSample": []
+  },
+  "animal-ai": {
+    "commits": 766,
+    "merges": 45,
+    "diffs": 37523,
+    "invalid": 0,
+    "statusCounts": {
+      "A": 12510,
+      "M": 821,
+      "D": 10364
+    },
+    "foldCells": 1017,
+    "headPaths": 1017,
+    "missing": 0,
+    "extra": 0,
+    "converged": true,
+    "authors": 21,
+    "span": "2021-05-09..2026-06-08",
+    "days": 1856,
+    "headFileDiffs": 11455,
+    "replayMs": 2139,
+    "receipts": 37524,
+    "mergesReconciled": 45,
+    "reconciliationDiffs": 13062,
+    "missingSample": [],
+    "extraSample": []
+  },
+  "synesis-research": {
+    "commits": 1,
+    "merges": 0,
+    "diffs": 507,
+    "invalid": 0,
+    "statusCounts": {
+      "A": 506
+    },
+    "foldCells": 506,
+    "headPaths": 506,
+    "missing": 0,
+    "extra": 0,
+    "converged": true,
+    "authors": 1,
+    "span": "2026-09-22..2026-09-22",
+    "days": 1,
+    "headFileDiffs": 506,
+    "replayMs": 21,
+    "receipts": 508,
+    "mergesReconciled": 0,
+    "reconciliationDiffs": 0,
+    "missingSample": [],
+    "extraSample": []
+  }
+}
