@@ -1,0 +1,795 @@
+{
+ "what": "w76-m3 raw results (76-a mechanical-learning M3 round 3)",
+ "prereg": "/home/z/my-project/scripts/w76_m3_prereg.md",
+ "prereg_sha256": "a484f5fb2f05688e7cdf592bc590a134e583f354f089938af8f30754a286900a",
+ "expectation_stamp": "/home/z/my-project/outputs/w76-m3.expectation.json",
+ "rule_version": "M3-evidencegate-commit-v1",
+ "registered_utc": "2026-10-01T10:41:22Z",
+ "arms": [
+  "m3_df0.3",
+  "m3_df0.5",
+  "m3_df0.7",
+  "m1_baseline"
+ ],
+ "seeds": [
+  404,
+  505,
+  606
+ ],
+ "registered_bars": {
+  "R1_bar": 0.1,
+  "R2_bar_corr399": 0.7067070294862626,
+  "R3_bound": 1.2,
+  "R4_tol": 1e-06,
+  "R6_tolerance": 1e-12
+ },
+ "config_hashes": {
+  "m3_df0.3-404": "7256fd2b50ae43dbabd46f2ac58b956c633c223785730d757e25222e8fbe1728",
+  "m3_df0.3-505": "e0276cf61653829b19797e7bed2def8582ff356b43222f247b6f5ad8d089c42b",
+  "m3_df0.3-606": "4eb767a6f200af440b3c01a333ef601d57c5516cb0549219c3c2b645974dcb25",
+  "m3_df0.5-404": "c4d1c9a1d1b96d181fc2c2b7a483022c5d26f970521f2c586aaff610c34e3091",
+  "m3_df0.5-505": "5da1416399d49e690b156d5d8041158f2157d5bae6c98692400d66e13970931e",
+  "m3_df0.5-606": "e9c7f9fda2f9854b394a17495e9b3a9b30c00ace45b5db3cf485cf0894ade26a",
+  "m3_df0.7-404": "5b253b03507aeff91209e0eef941bfb6dc4fb069c1c5dc9470ba58f2b770d616",
+  "m3_df0.7-505": "bc98460716bb5045f0d8cdecb6ac63d9d7ff68f6d74a0f68abf613af4ea6b6f1",
+  "m3_df0.7-606": "ef0fba9b40a51bc8a0778700c8ef137dfec0eae281a658cee58a16e4ff54af43",
+  "m1_baseline-404": "f4c98d24b79f75965f750c8c90313127161aa1b7655f262fcfa45e2ff7938f1b",
+  "m1_baseline-505": "7aa33e72377f93951ae979ff98a827fb7f508d826c537b386fb65328ff9e1112",
+  "m1_baseline-606": "a85cecd840e7e80e3ad55ae983348175d1a31d732724c8bbf6fa6723cd6331df"
+ },
+ "r1_offpath": {
+  "metric": "mean over seeds of per-seed off-path cell-mean |r_commit-0.4| at tick 399 (M2 P4' convention)",
+  "per_seed": {
+   "404": 0.0,
+   "505": 0.0,
+   "606": 0.0
+  },
+  "mean_over_seeds": 0.0,
+  "m1_baseline_per_seed": {
+   "404": 0.0,
+   "505": 0.0,
+   "606": 0.0
+  },
+  "m1_baseline_mean": 0.0,
+  "bar": 0.1,
+  "pass": true,
+  "verdict": "PASS"
+ },
+ "r2_encoding": {
+  "metric": "corr@399 (Pearson(INTENSITY, r_commit), metrics[TRAIN_TICKS-1])",
+  "per_seed": {
+   "404": 0.6861066183691137,
+   "505": 0.6861066183691137,
+   "606": 0.6861066183691137
+  },
+  "m1_baseline_per_seed": {
+   "404": 0.7067070294862626,
+   "505": 0.7067070294862626,
+   "606": 0.7067070294862626
+  },
+  "bar": 0.7067070294862626,
+  "pass": false,
+  "verdict": "FAIL"
+ },
+ "r3_homeostasis": {
+  "max_unclamped_per_run": {
+   "m3_df0.3-404": 1.0353977724680559,
+   "m3_df0.3-505": 1.0308653580367237,
+   "m3_df0.3-606": 1.0331140036135515,
+   "m3_df0.5-404": 1.0353977724680559,
+   "m3_df0.5-505": 1.0308653580367237,
+   "m3_df0.5-606": 1.0331140036135515,
+   "m3_df0.7-404": 1.0353977724680559,
+   "m3_df0.7-505": 1.0308653580367237,
+   "m3_df0.7-606": 1.0331140036135515,
+   "m1_baseline-404": 1.0353977724680559,
+   "m1_baseline-505": 1.0308653580367237,
+   "m1_baseline-606": 1.0331140036135515
+  },
+  "bound": 1.2,
+  "pass": true,
+  "verdict": "PASS"
+ },
+ "r4_replay": {
+  "m3_df0.3-404": {
+   "rows": 3734,
+   "prefix_rows": 3133,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 3.3306690738754696e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m3_df0.3-505": {
+   "rows": 3762,
+   "prefix_rows": 3133,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 2.220446049250313e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m3_df0.3-606": {
+   "rows": 3743,
+   "prefix_rows": 3133,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 4.440892098500626e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m3_df0.5-404": {
+   "rows": 2578,
+   "prefix_rows": 2196,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 2.220446049250313e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m3_df0.5-505": {
+   "rows": 2603,
+   "prefix_rows": 2196,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 3.3306690738754696e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m3_df0.5-606": {
+   "rows": 2577,
+   "prefix_rows": 2196,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 4.440892098500626e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m3_df0.7-404": {
+   "rows": 1157,
+   "prefix_rows": 956,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 1.1102230246251565e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m3_df0.7-505": {
+   "rows": 1189,
+   "prefix_rows": 956,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 2.220446049250313e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m3_df0.7-606": {
+   "rows": 1159,
+   "prefix_rows": 956,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 4.440892098500626e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m1_baseline-404": {
+   "rows": 4029,
+   "prefix_rows": 3307,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 3.3306690738754696e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m1_baseline-505": {
+   "rows": 4043,
+   "prefix_rows": 3307,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 4.440892098500626e-16,
+   "train_boundary_diff": 0.0
+  },
+  "m1_baseline-606": {
+   "rows": 4023,
+   "prefix_rows": 3307,
+   "refusal": null,
+   "max_diff": 0.0,
+   "shuffled_max_diff": 6.661338147750939e-16,
+   "train_boundary_diff": 0.0
+  },
+  "tamper_delta_refused": true,
+  "tamper_config_refused": true,
+  "tamper_delta_reason": "row_hash mismatch at seq 3 (tampered content)",
+  "tamper_config_reason": "config_hash mismatch at seq 3",
+  "pass": true,
+  "verdict": "PASS"
+ },
+ "r4_replay_verdict": {
+  "pass": true,
+  "verdict": "PASS"
+ },
+ "r5_receipts_shrink": {
+  "metric": "total commit events (emitted receipts over 500 ticks), paired per seed",
+  "m3_df0.5_per_seed": {
+   "404": 2578,
+   "505": 2603,
+   "606": 2577
+  },
+  "m1_baseline_per_seed": {
+   "404": 4029,
+   "505": 4043,
+   "606": 4023
+  },
+  "gate_blocked_per_seed": {
+   "404": 1698,
+   "505": 1665,
+   "606": 1687
+  },
+  "blocked_would_emit_per_seed": {
+   "404": 1466,
+   "505": 1444,
+   "606": 1457
+  },
+  "pass": true,
+  "verdict": "PASS"
+ },
+ "r6_dose_response": {
+  "metric": "mean-over-seeds off-path dev at tick 399 vs delta_frac",
+  "dev_df0.3": 0.0,
+  "dev_df0.5": 0.0,
+  "dev_df0.7": 0.0,
+  "per_seed": {
+   "m3_df0.3": {
+    "404": 0.0,
+    "505": 0.0,
+    "606": 0.0
+   },
+   "m3_df0.5": {
+    "404": 0.0,
+    "505": 0.0,
+    "606": 0.0
+   },
+   "m3_df0.7": {
+    "404": 0.0,
+    "505": 0.0,
+    "606": 0.0
+   }
+  },
+  "tolerance": 1e-12,
+  "pass": true,
+  "strictly_decreasing_both_steps": false,
+  "verdict": "PASS"
+ },
+ "judge": {
+  "what": "w76-m3 judge round (advisory; cannot change R1-R6)",
+  "run_note": "run 1: Ling-3.0-flash hit the registered 500-token completion cap during reasoning and emitted no JSON (parse failure booked verbatim in outputs/w76-m3-judge-run1-parse-failure.json); ONE receipted retry with a larger completion budget per the 75-a parse-retry precedent. MiMo's run-1 JSON parsed and stands.",
+  "attempts": {
+   "mimo": [
+    {
+     "max_tokens": 500,
+     "parsed": false,
+     "completion_tokens": 500
+    },
+    {
+     "max_tokens": 2000,
+     "parsed": true,
+     "completion_tokens": 536
+    }
+   ],
+   "ling": [
+    {
+     "max_tokens": 500,
+     "parsed": false,
+     "completion_tokens": 500
+    },
+    {
+     "max_tokens": 2000,
+     "parsed": true,
+     "completion_tokens": 636
+    }
+   ]
+  },
+  "jev": {
+   "r1": 0.97,
+   "r2": 0.04,
+   "r3": 0.98,
+   "r4": 0.95,
+   "r5": 0.98,
+   "r6": 0.97,
+   "evidence_quality": 2.8,
+   "prereg_fidelity": 3.83
+  },
+  "jev_usage": {
+   "calls": 1,
+   "input_tokens": 2135,
+   "output_tokens": 139,
+   "by_model": {
+    "jev-1.13.0": {
+     "calls": 1,
+     "input_tokens": 2135,
+     "output_tokens": 139
+    }
+   }
+  },
+  "mimo": {
+   "r1": true,
+   "r2": false,
+   "r3": true,
+   "r4": true,
+   "r5": true,
+   "r6": true
+  },
+  "mimo_one_line": "R2 misses its corr bar on every seed (0.686 < 0.7067); R1/R3/R4/R5/R6 meet their registered bars, though R1 and R6 pass only vacuously at the tick-399 point where no arm commits any off-path cell.",
+  "ling": {
+   "r1": true,
+   "r2": false,
+   "r3": true,
+   "r4": true,
+   "r5": true,
+   "r6": true
+  },
+  "ling_one_line": "R2 fails (corr 0.686 < 0.7067 threshold on all seeds); all other registered predictions satisfy their bars.",
+  "mechanical": {
+   "r1": 1,
+   "r2": 0,
+   "r3": 1,
+   "r4": 1,
+   "r5": 1,
+   "r6": 1
+  },
+  "votes": {
+   "r1": {
+    "jev_noul": 0.97,
+    "mimo": 1,
+    "ling": 1
+   },
+   "r2": {
+    "jev_noul": 0.04,
+    "mimo": 0,
+    "ling": 0
+   },
+   "r3": {
+    "jev_noul": 0.98,
+    "mimo": 1,
+    "ling": 1
+   },
+   "r4": {
+    "jev_noul": 0.95,
+    "mimo": 1,
+    "ling": 1
+   },
+   "r5": {
+    "jev_noul": 0.98,
+    "mimo": 1,
+    "ling": 1
+   },
+   "r6": {
+    "jev_noul": 0.97,
+    "mimo": 1,
+    "ling": 1
+   }
+  },
+  "majority": {
+   "r1": {
+    "support_votes": 3,
+    "voters": 3,
+    "majority_supported": true,
+    "matches_mechanical": true
+   },
+   "r2": {
+    "support_votes": 0,
+    "voters": 3,
+    "majority_supported": false,
+    "matches_mechanical": true
+   },
+   "r3": {
+    "support_votes": 3,
+    "voters": 3,
+    "majority_supported": true,
+    "matches_mechanical": true
+   },
+   "r4": {
+    "support_votes": 3,
+    "voters": 3,
+    "majority_supported": true,
+    "matches_mechanical": true
+   },
+   "r5": {
+    "support_votes": 3,
+    "voters": 3,
+    "majority_supported": true,
+    "matches_mechanical": true
+   },
+   "r6": {
+    "support_votes": 3,
+    "voters": 3,
+    "majority_supported": true,
+    "matches_mechanical": true
+   }
+  },
+  "agreement": {
+   "mimo_vs_mechanical": 1.0,
+   "ling_vs_mechanical": 1.0,
+   "majority_vs_mechanical": 1.0
+  },
+  "costs": {
+   "deepinfra": {
+    "mimo_usage": {
+     "total_tokens": 3723,
+     "completion_tokens": 1036,
+     "estimated_cost": 0.00031502799999999997,
+     "prompt_tokens": 2687
+    },
+    "ling_usage": {
+     "total_tokens": 4015,
+     "completion_tokens": 1136,
+     "estimated_cost": 0.00037721999999999994,
+     "prompt_tokens": 2879,
+     "reasoning_tokens": 1063
+    },
+    "deepinfra_usd_estimate": 0.005457,
+    "typesafe_usage": {
+     "calls": 1,
+     "input_tokens": 2135,
+     "output_tokens": 139,
+     "by_model": {
+      "jev-1.13.0": {
+       "calls": 1,
+       "input_tokens": 2135,
+       "output_tokens": 139
+      }
+     }
+    }
+   },
+   "budget_bar": 0.03
+  }
+ },
+ "costs": {
+  "deepinfra": {
+   "mimo_usage": {
+    "total_tokens": 3723,
+    "completion_tokens": 1036,
+    "estimated_cost": 0.00031502799999999997,
+    "prompt_tokens": 2687
+   },
+   "ling_usage": {
+    "total_tokens": 4015,
+    "completion_tokens": 1136,
+    "estimated_cost": 0.00037721999999999994,
+    "prompt_tokens": 2879,
+    "reasoning_tokens": 1063
+   },
+   "deepinfra_usd_estimate": 0.005457,
+   "typesafe_usage": {
+    "calls": 1,
+    "input_tokens": 2135,
+    "output_tokens": 139,
+    "by_model": {
+     "jev-1.13.0": {
+      "calls": 1,
+      "input_tokens": 2135,
+      "output_tokens": 139
+     }
+    }
+   }
+  },
+  "budget_bar": 0.03
+ },
+ "runs_scalar": {
+  "m3_df0.3-404": {
+   "arm": "m3_df0.3",
+   "seed": 404,
+   "delta_frac": 0.3,
+   "config_hash": "7256fd2b50ae43dbabd46f2ac58b956c633c223785730d757e25222e8fbe1728",
+   "corr_commit_train_end": 0.7082852602123886,
+   "corr_commit_final": 0.5845850922218309,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0353977724680559,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 3734,
+   "gate_blocked": 354,
+   "blocked_would_emit": 295,
+   "ledger_len": 3734,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.39299202475469974,
+    "offpath_max_dev": 0.6,
+    "offpath_cells": 25
+   },
+   "fingerprint": "db015558d35267246f6f4382654cb49bd24ca418205092784a9e5edd463aa0dc"
+  },
+  "m3_df0.3-505": {
+   "arm": "m3_df0.3",
+   "seed": 505,
+   "delta_frac": 0.3,
+   "config_hash": "e0276cf61653829b19797e7bed2def8582ff356b43222f247b6f5ad8d089c42b",
+   "corr_commit_train_end": 0.7082852602123886,
+   "corr_commit_final": 0.7458412574566589,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0308653580367237,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 3762,
+   "gate_blocked": 330,
+   "blocked_would_emit": 282,
+   "ledger_len": 3762,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.39089628571860197,
+    "offpath_max_dev": 0.5321903906297278,
+    "offpath_cells": 25
+   },
+   "fingerprint": "d04610e3ca0845d20588189789a61a098ab09dd215b82b7181f1e43c8e6b7957"
+  },
+  "m3_df0.3-606": {
+   "arm": "m3_df0.3",
+   "seed": 606,
+   "delta_frac": 0.3,
+   "config_hash": "4eb767a6f200af440b3c01a333ef601d57c5516cb0549219c3c2b645974dcb25",
+   "corr_commit_train_end": 0.7082852602123886,
+   "corr_commit_final": 0.6095311242130418,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0331140036135515,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 3743,
+   "gate_blocked": 336,
+   "blocked_would_emit": 281,
+   "ledger_len": 3743,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.3691100375652635,
+    "offpath_max_dev": 0.6,
+    "offpath_cells": 25
+   },
+   "fingerprint": "19ace48e998d3e54cc7b79f8a31d309b4d0aac72f6bc053247679b49094666b1"
+  },
+  "m3_df0.5-404": {
+   "arm": "m3_df0.5",
+   "seed": 404,
+   "delta_frac": 0.5,
+   "config_hash": "c4d1c9a1d1b96d181fc2c2b7a483022c5d26f970521f2c586aaff610c34e3091",
+   "corr_commit_train_end": 0.6861066183691137,
+   "corr_commit_final": 0.6127700486332213,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0353977724680559,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 2578,
+   "gate_blocked": 1698,
+   "blocked_would_emit": 1466,
+   "ledger_len": 2578,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.36686942364609826,
+    "offpath_max_dev": 0.6,
+    "offpath_cells": 25
+   },
+   "fingerprint": "4ee99e3a91f5162419d8f8c09fae420f95e58ad615c8668206e4eefa9a1afe3c"
+  },
+  "m3_df0.5-505": {
+   "arm": "m3_df0.5",
+   "seed": 505,
+   "delta_frac": 0.5,
+   "config_hash": "5da1416399d49e690b156d5d8041158f2157d5bae6c98692400d66e13970931e",
+   "corr_commit_train_end": 0.6861066183691137,
+   "corr_commit_final": 0.7260024470689029,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0308653580367237,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 2603,
+   "gate_blocked": 1665,
+   "blocked_would_emit": 1444,
+   "ledger_len": 2603,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.37115218359480706,
+    "offpath_max_dev": 0.5248669204578984,
+    "offpath_cells": 25
+   },
+   "fingerprint": "7ec6df048998ecd0295c0f46d896defbb56a470251bb745bd6567506bc5c5141"
+  },
+  "m3_df0.5-606": {
+   "arm": "m3_df0.5",
+   "seed": 606,
+   "delta_frac": 0.5,
+   "config_hash": "e9c7f9fda2f9854b394a17495e9b3a9b30c00ace45b5db3cf485cf0894ade26a",
+   "corr_commit_train_end": 0.6861066183691137,
+   "corr_commit_final": 0.6081359151747902,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0331140036135515,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 2577,
+   "gate_blocked": 1687,
+   "blocked_would_emit": 1457,
+   "ledger_len": 2577,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.35245544680622365,
+    "offpath_max_dev": 0.6,
+    "offpath_cells": 25
+   },
+   "fingerprint": "e3cd7e7fc10f47080e0b7a5aed82cc64893a0f4019cfb743f515cd4b302d8a8f"
+  },
+  "m3_df0.7-404": {
+   "arm": "m3_df0.7",
+   "seed": 404,
+   "delta_frac": 0.7,
+   "config_hash": "5b253b03507aeff91209e0eef941bfb6dc4fb069c1c5dc9470ba58f2b770d616",
+   "corr_commit_train_end": 0.5908138993859403,
+   "corr_commit_final": 0.6159105751670655,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0353977724680559,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 1157,
+   "gate_blocked": 4107,
+   "blocked_would_emit": 2921,
+   "ledger_len": 1157,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.33413129969056987,
+    "offpath_max_dev": 0.6,
+    "offpath_cells": 25
+   },
+   "fingerprint": "31eb2c4965c54c3953bde5508097bd74126e1939ddd545ec2e59d5867c7ffb27"
+  },
+  "m3_df0.7-505": {
+   "arm": "m3_df0.7",
+   "seed": 505,
+   "delta_frac": 0.7,
+   "config_hash": "bc98460716bb5045f0d8cdecb6ac63d9d7ff68f6d74a0f68abf613af4ea6b6f1",
+   "corr_commit_train_end": 0.5908138993859403,
+   "corr_commit_final": 0.7198276766052979,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0308653580367237,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 1189,
+   "gate_blocked": 4094,
+   "blocked_would_emit": 2896,
+   "ledger_len": 1189,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.32012400963408816,
+    "offpath_max_dev": 0.5118188830561174,
+    "offpath_cells": 25
+   },
+   "fingerprint": "93d7039bef207818c5eaffdd86fbe559d1c87e10dd8feb4dc5c8b7a4de665635"
+  },
+  "m3_df0.7-606": {
+   "arm": "m3_df0.7",
+   "seed": 606,
+   "delta_frac": 0.7,
+   "config_hash": "ef0fba9b40a51bc8a0778700c8ef137dfec0eae281a658cee58a16e4ff54af43",
+   "corr_commit_train_end": 0.5908138993859403,
+   "corr_commit_final": 0.5796356903915285,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0331140036135515,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 1159,
+   "gate_blocked": 4100,
+   "blocked_would_emit": 2902,
+   "ledger_len": 1159,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.3250206263665226,
+    "offpath_max_dev": 0.6,
+    "offpath_cells": 25
+   },
+   "fingerprint": "c35fc82592e5fdbe8599e3415f069f04a76351ddea4dd658c2501d977fa58de1"
+  },
+  "m1_baseline-404": {
+   "arm": "m1_baseline",
+   "seed": 404,
+   "delta_frac": 0.0,
+   "config_hash": "f4c98d24b79f75965f750c8c90313127161aa1b7655f262fcfa45e2ff7938f1b",
+   "corr_commit_train_end": 0.7067070294862626,
+   "corr_commit_final": 0.5801739777538831,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0353977724680559,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 4029,
+   "gate_blocked": 0,
+   "blocked_would_emit": 0,
+   "ledger_len": 4029,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.395980191493627,
+    "offpath_max_dev": 0.6,
+    "offpath_cells": 25
+   },
+   "fingerprint": "d02a52d91eefd10904497714994894085b47033c0635e108fc945a066deb056c"
+  },
+  "m1_baseline-505": {
+   "arm": "m1_baseline",
+   "seed": 505,
+   "delta_frac": 0.0,
+   "config_hash": "7aa33e72377f93951ae979ff98a827fb7f508d826c537b386fb65328ff9e1112",
+   "corr_commit_train_end": 0.7067070294862626,
+   "corr_commit_final": 0.7454400347754526,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0308653580367237,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 4043,
+   "gate_blocked": 0,
+   "blocked_would_emit": 0,
+   "ledger_len": 4043,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.3949283439745205,
+    "offpath_max_dev": 0.5321903906297278,
+    "offpath_cells": 25
+   },
+   "fingerprint": "1f82b49d8fe11fd96920640a31ae079f2a5fa07363f6022a7abe0598de65b1b2"
+  },
+  "m1_baseline-606": {
+   "arm": "m1_baseline",
+   "seed": 606,
+   "delta_frac": 0.0,
+   "config_hash": "a85cecd840e7e80e3ad55ae983348175d1a31d732724c8bbf6fa6723cd6331df",
+   "corr_commit_train_end": 0.7067070294862626,
+   "corr_commit_final": 0.6016806889122934,
+   "corr_fast_train_end": 0.7067067078809315,
+   "max_abs_r_unclamped": 1.0331140036135515,
+   "final_max_abs_r": 1.0,
+   "events_plasticity": 6500,
+   "events_commit": 4023,
+   "gate_blocked": 0,
+   "blocked_would_emit": 0,
+   "ledger_len": 4023,
+   "offpath_tick399": {
+    "offpath_mean_dev": 0.0,
+    "offpath_max_dev": 0.0,
+    "offpath_cells": 25
+   },
+   "offpath_tick500": {
+    "offpath_mean_dev": 0.37417121212185783,
+    "offpath_max_dev": 0.6,
+    "offpath_cells": 25
+   },
+   "fingerprint": "69764b29555e6c5c808be1050d32008327f824a4bdb3ca5395fc9e9d6ecb0d39"
+  }
+ },
+ "omitted": "per-tick metric series and learned r_commit maps omitted from this compact copy; full raw at /home/z/my-project/outputs/w76-m3-results.json (12 config-hash-stamped JSONL ledgers under outputs/w76-m3-ledgers/)"
+}
