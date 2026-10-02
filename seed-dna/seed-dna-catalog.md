@@ -615,3 +615,286 @@ so the prose can never drift from the ledger.
   repo, fields: repo, family, essence, primitives, language, soft_joints, time_flows,
   synergies, distill_next.
 - This chapter is additive; no existing atlas content was modified or deleted.
+---
+
+## Addendum: the second sweep (wave-68)
+
+> Lane 68-d, 2026-10-02. The 66-a census distilled 47 repos (49 JSON records with the
+> two context repos); the account held **5,140 public repos** at fetch time and several
+> active ones had never been given DNA entries. This addendum deep-reads **31 named
+> repos** (meta + README raw + root contents + last 5 commits each, ~130 authenticated
+> API calls): **29 new DNA records** appended to `seed-dna.json` (78 total) and **2
+> existing entries re-verified current** (jev-net, quilt-far-shore — no erratum needed,
+> see Errata). Zero meta-404s; two repos have no README (font_atlas_packager,
+> xruntime-conformance) — Cargo.toml / CONFORMANCE.md fetched as the primary document.
+> Append-only: nothing above this line was modified.
+
+### A.1 The second sweep at a glance
+
+| repo | family | one-line essence | last push | state |
+|---|---|---|---|---|
+| quilt-gpu-lab | witness | standing GPU experiment loop; the manifest makes the ledger verifiable | 10-02 | ALIVE |
+| pong-quilt | creative | ML you can watch think; every claim wears a pinned wristband | 10-02 | ALIVE |
+| jev-paint-quilt | joint | JEV advisement as a 6-dim vector pulse in a paint loop | 10-02 | ALIVE (new today) |
+| chiaroscuro | creative | characters are shapes, not pixels; five engines, per-cell glyph elections | 10-02 | ALIVE |
+| plato-portal | substrate | the nameplate SDK; the vocabulary sketchbook (bottles, γ+η=C) | 10-02 | ALIVE (auto-index cron) |
+| tidepool | organ | the fleet's vector context ocean; absence is information | 10-02 | ALIVE |
+| A2A-native-notebookLM | organ | the repo is the mind; 19k★ fork now rebuilding core as a receipted cell DAG | 10-02 | ALIVE |
+| quilt-overhead | creative | the corn maze from the airplane; altitude is detail | 10-02 | ALIVE (new today) |
+| backward-holdem | joint | the game is not to play the game; adaptation per equal spend | 10-02 | ALIVE (new today) |
+| pie-minimax | witness | the smallest exact box; 81 linear params barely beat guessing | 10-02 | ALIVE |
+| qthe-codec | polyglot | the zero-bit-cost context-keyed tone channel (Latin square) | 10-02 | ALIVE |
+| atlas-forge | creative | differentiable glyph-atlas optimizer; pre-registered | 10-01 | ALIVE |
+| font_atlas_packager | creative | ttf → 4x6 coverage → 24-bit u32 signatures (no README) | 10-01 | ALIVE |
+| voxelglyph | witness | a provable ceiling: Syzygy's luma projection is rank-one | 10-01 | ALIVE |
+| glyphtensor | substrate | the data block IS the layout; two pinned spatial layouts | 09-30 | ALIVE |
+| tev-mesh | joint | inference that trains while it infers; structural e-gate | 09-30 | ALIVE |
+| glyphtensor-bridge | witness | the executable zero-copy audit (ZC-1/2/3) | 09-30 | ALIVE |
+| xruntime-conformance | witness | polyformalism executed; bit-identical loss, divergent digest | 09-30 | ALIVE |
+| selectlib | witness | the refusal is the library; controls before numbers | 09-30 | ALIVE |
+| jev-harness | joint | a JEV client that cannot fail quietly | 09-30 | ALIVE |
+| jev-fusion | joint | four falsifiable judge-in-the-loop architectures | 09-30 | ALIVE |
+| quilt-canvas-tui | creative | the terminal face; 3 ports byte-identical over quilt-c | 10-01 | ALIVE |
+| quilt-neighbourhood | swarm | diff-DAG convergence; byte-identical in every merge order | 10-01 | ALIVE |
+| sprinter-onboarding | organ | the fleet's manual; docs whose integrity is pinned | 09-30 | ALIVE |
+| superinstance-api | organ | the growing context brain; five seams + MCP tools | 10-01 | ALIVE |
+| quilt-rag | creative | production RAG where every component is a cell | 10-01 | MAINTENANCE |
+| quilt-fleet | swarm | the orchestration plane across quilt tiers | 10-01 | MAINTENANCE |
+| quilt-elf | organ | invisible elves arbitraging the quota clock | 10-01 | MAINTENANCE |
+| jev-net | joint | *(existing 66-a entry — re-verified current)* | 10-01 | ALIVE |
+| jev-net-worker | joint | the hosted JEV net that learns while nobody calls it | 10-01 | ALIVE |
+| quilt-far-shore | time | *(existing 66-a entry — re-verified current; R1 still queued, see A.6)* | 10-02 | ALIVE |
+
+**Alive vs dormant:** 28/31 alive with lane activity within the last 3 days; 3
+MAINTENANCE-only (quilt-rag, quilt-fleet, quilt-elf — the mid-August TypeScript product
+line whose last *content* commits are mid-September; their recent pushes are
+dependabot/PR-merge commits only); **0 hard-dormant, 0 deleted, 0 meta-404s.** plato-portal
+is alive *by automation* (daily auto-index commits; SDK commits slower — receipted above).
+
+Full per-repo DNA (essence, primitives, soft joints, time, synergies, distill_next) for
+all 29 new repos: `seed-dna.json` records 50–78. The rest of this addendum gives the
+readable distillation of only what is NEW relative to the 66-a chapter — the clusters,
+the loops, the boilerplate — plus the errata check and the highlights.
+
+### A.2 The six clusters (the second sweep's phenotype map)
+
+**The glyph/alphabet organism** (7 repos, all created within the last 5 days):
+font_atlas_packager (Rust, ttf→u32) → atlas-forge (evolved atlases, pre-registered A/B)
+→ chiaroscuro (the 73-glyph election engine, five doors, live) → glyphtensor (u32 token
+format: the data block IS the layout) → glyphtensor-bridge (the executable audit) →
+tev-mesh (decision feedback at the canvas edge) → quilt-canvas-tui (chiaroscuro as a
+terminal projection mode). A complete producer→consumer→renderer→format→auditor→model
+organ system that the first census saw only as "quilt-canvas (creative)".
+
+**The honesty-instrument cascade** (6 repos): jev-fusion (four disagreeing experiments)
+→ selectlib ("the part that did not change across all four" — the refusal IS the
+library) → jev-harness (a client that cannot fail quietly) → xruntime-conformance
+(Rule 3: the preimage must be what the docstring claims, proven by a second
+implementation) → pie-minimax (check-in-head arithmetic: 3^9=19,683 falsifies the
+impossible 180,361) → voxelglyph ("three instruments that lied", receipted). This is the
+fleet's epistemics compiled into importable form.
+
+**The memory organs** (3 repos, same stack): tidepool (write-at-end/recall-at-start
+ocean) + superinstance-api (tiles/vectors/reflexes/field/growth as MCP tools) +
+A2A-native-notebookLM (repo-bootable notebook) — all D1 + Vectorize + Workers AI, all
+pinning schema drift, two of them independently re-homing the five-opcode WAL.
+
+**The game-rig pair**: backward-holdem (equal-budget script crafting; backward mode =
+visible hands) ↔ quilt-overhead (the fleet-from-above projection) — wired to each other
+SAME-DAY (see A.4 loop 1).
+
+**The judged nets**: jev-net (existing entry) + jev-net-worker (new: the hosted
+incarnation — state delta travels, the definition stays canonical) + jev-paint-quilt
+(vector advisement as paint) + tev-mesh (the vendor decision model behind an e-gate).
+
+**The product line (maintenance mode)**: quilt-rag (17th), quilt-fleet (18th),
+quilt-elf — the August TypeScript trilogy that extends the cell model into production
+domains; alive by dependabot, quiet by lane. Their DNA is recorded because they are the
+only repos in the sweep that state the cell doctrine in npm-facing form.
+
+### A.3 NEW boilerplate duplications (extends §3)
+
+- **§3.3 pre-registration, updated count: 7+ → ~13.** New instances: atlas-forge
+  (pre-registration.md sealed before training, verdict rule pre-stated), backward-holdem
+  (PREREG in LEDGER.md), pie-minimax ("the prediction, stated before the run"),
+  chiaroscuro (pre-registration docs as chain content, main-based re-lands),
+  quilt-overhead/backward-holdem via their exp receipts. Two dialects now: prose-predict
+  (pie-minimax) and seal-then-run (atlas-forge).
+- **§3.1 receipt chains, two NEW dialect members.** backward-holdem's fnv1a-64 WAL with
+  `script identity = sha256(file + parameters)` (a new idable-actor twist), and
+  quilt-neighbourhood's `{seq, kind, payload_sha, prev_sha, sha}` chain (a *decision*
+  receipt: accept AND reject are sealed — the reject-sig kind is new to the account).
+  pong-quilt's v1 draw ledger (append discipline pinned, #98) adds the
+  append-discipline-as-test variant. Count: at least 16 implementations in two dialects.
+- **NEW: the FAIL-first pin.** Distinct from the tamper battery (§3.2): a pin written
+  and observed RED before the implementation that makes it pass. Now re-implemented in
+  ≥6 repos across 3 languages: quilt-overhead (pin_feed.py), quilt-canvas-tui ("every
+  pin observed RED"), pong-quilt (tests/honesty.test.js two-way claim pin), backward-holdem
+  (pin_engine.py, 21 pins), voxelglyph ("the 7 pins never executed the product" — the
+  failure mode named), glyphtensor/tev-mesh/bridge (node:test pins). **Distill:** one
+  `fleet-pin` helper (assert RED → implement → assert GREEN → emit receipt).
+- **NEW: the MEASURED / CITED / UNVERIFIED triple-mark.** tev-mesh states it canonically
+  ("tev1 capability numbers are CITED; only the loop behavior is MEASURED"), glyphtensor
+  ("all numbers MEASURED via the node:test suite on this host"), glyphtensor-bridge
+  (PyTorch "unexecuted — the audit is the executable part"), jev-harness (None = failure,
+  not low score). This is §3.8's honesty prose evolving into a typed vocabulary — worth
+  promoting to the account's honesty-block generator (§3.8 distill) as three enum values.
+- **NEW: the schema-drift pin.** tidepool parses `schema.sql` and the worker's INSERT
+  statements independently and refuses column asymmetry at test time ("a drift that
+  would otherwise fail only at deploy time, on real D1"). superinstance-api carries five
+  seams in one schema.sql and per-agent tokens; quilt-neighbourhood rejects NaN/±Infinity
+  at cell-write time. Same shape: *the boundary condition becomes a test, not a hope.*
+- **§3.4 provider-ladder clients, updated count: 4+ → 7+.** jev-harness (preflight +
+  journal), selectlib run_judge, tidepool JEV gate, tev-mesh /v1/systemone client with
+  playback keyed by request hash, jev-paint-quilt, jev-net-worker's unwrapAI, plus the
+  far-shore ideation caller (spend-capped, fail-closed). The ladder primitive is now the
+  most-reimplemented piece in the account after the receipt chain itself.
+
+### A.4 NEW compound loops (repos receipting each other — the second coalesce)
+
+1. **The same-day wiring loop (new speed record).** backward-holdem (created 2026-10-02)
+   emits a deterministic WAL with a pinned `wal_ref` shape; quilt-overhead (created
+   2026-10-02) lands "WIRING: real feed from backward-holdem WAL (wal_ref 0809402a)"
+   hours later — and the dependency runs BOTH ways: backward-holdem's README cites
+   quilt-overhead's docs/VISIBLE_HANDS.md as the source of its backward mode. Two
+   same-day repos, producer/consumer/producer, with the adapter FAIL-first pinned before
+   the real feed landed. The census's "the repos are reproducing" (loop 3) is now
+   happening within a single day.
+2. **The atlas supply chain.** font_atlas_packager → atlas-forge → chiaroscuro is a
+   three-stage pipeline with handoffs in u32 signatures: the Rust rasterizer produces
+   66/73 unique signatures; atlas-forge evolves an alternative and A/Bs BOTH on
+   chiaroscuro's own sobel_agree.py protocol; chiaroscuro's election engine is the
+   consumer that defines the contract both producers target. A market with a pinned
+   interface and competing suppliers — inside one account.
+3. **The doctrine mint.** quilt-gpu-lab's README mints a fleet-seeds referral edge by
+   citation: `aw-quint-opcode → gl-ledgers (minted VERIFIED by this citation, per the
+   fleet weight law)`, naming AI-Writings' algebra.md as the five-opcode WAL canonical
+   source and git-agent as canonical producer — while dogfooding pong-quilt's receipt
+   doctrine. Repos are now issuing each other's provenance credentials.
+4. **The state-travels loop.** jev-net (definition, local) ↔ jev-net-worker (hosted
+   incarnation): the worker exposes `/state` as a DELTA ONLY (`jev-net-state@1`) so
+   `default.json + state.json == the grown net, anywhere`, and accepts `/learn` from
+   external judges while self-playing nightly. The census's bootable-state primitive
+   (jev-net) now has a hosted, always-learning peer — and tournament parity is receipted
+   ("synth consumes prism-projected contributions").
+5. **The upstream invasion.** A2A-native-notebookLM — a fork of a 19k★ project — is
+   rebuilding its own notebook core as a receipted cell DAG ("spreadsheet-logic rebuild
+   core — receipted cell DAG (const/py/port…)"). The cell model is propagating into
+   upstream open-source, not just into fleet siblings.
+6. **The seed-expansion law continues** (census loop 3): quilt-far-shore's specs name
+   their adoption targets (storefront `src/vector.js`/`src/freeze.js`; chrono read-only);
+   sprinter-onboarding's ROADMAP assigns the glyph lanes (A/B/C) that glyphtensor,
+   atlas-forge and quilt-gpu-lab are executing; chiaroscuro's README links the FLEET map
+   as its own `.quilt` registry.
+
+### A.5 Updated family counts
+
+| family | 66-a | +68-d | total | new members |
+|---|---|---|---|---|
+| substrate | 7 | +2 | **9** | plato-portal, glyphtensor |
+| time | 6 | 0 | **6** | — |
+| witness | 8 | +6 | **14** | quilt-gpu-lab, pie-minimax, voxelglyph, glyphtensor-bridge, xruntime-conformance, selectlib |
+| joint | 10 | +6 | **16** | jev-paint-quilt, backward-holdem, tev-mesh, jev-harness, jev-fusion, jev-net-worker |
+| swarm | 6 | +2 | **8** | quilt-neighbourhood, quilt-fleet |
+| organ | 5 | +5 | **10** | tidepool, A2A-native-notebookLM, sprinter-onboarding, superinstance-api, quilt-elf |
+| polyglot | 3 | +1 | **4** | qthe-codec (a carrier in a distant substrate: spare timbre bits under a Latin-square law) |
+| creative | 4 | +7 | **11** | pong-quilt, chiaroscuro, quilt-overhead, atlas-forge, font_atlas_packager, quilt-rag, quilt-canvas-tui |
+| **total** | **49** | **+29** | **78** | jev-net and quilt-far-shore re-verified, not duplicated |
+
+The witness family doubled (+6): the second sweep's densest activity is the account
+measuring its own instruments.
+
+### A.6 quilt-far-shore — R1 status (receipted, as asked)
+
+**R1 (compound-key freeze test re-run) is QUEUED, NOT RUN.** Evidence, all fetched live:
+
+- `quilt-far-shore` has exactly **1 commit** (f729677a, "v0: the far shore imagined,
+  then reverse-actualized", 2026-10-02) and 9 files: FAR-SHORE.md (9 imagined 2028
+  primitives, each grounded in a real 2026 artifact with the delta named),
+  REVERSE-ACTUALIZE.md (R1/R2/R3 with two-sided falsifiable predictions; ranking R3=12,
+  **R1=9 "most actionable next"**, R2=8), `spec/primitives-v2.md` (§A fact/tone split +
+  two-stage freeze test; §B rate/accum/lag derived cells — 9/9 tests green), and 13
+  receipt files from 4 external calls (deepseek ×2 — one empty-content fail and one
+  token-cap truncation *mined verbatim from its own reasoning trace*, honestly receipted;
+  typesafe jev scores consumed as ordinal after exceeding the 0..1 range; gpt-oss-20b
+  KILL/KILL/MUTATE adopted as design constraints).
+- The adoption target shows no v2: `quilt-storefront/eval/` contains only
+  `freeze-report.json` (the 67-c v1 honest NON-FREEZE — the 7-observation corpus R1
+  wants to grow to ≥14), no `freeze-report-v2.json`, no `refunderPreVectorV2` anywhere;
+  `quilt-softjoints` tip is "compiler v1: union-find clustering" — no compound-key work.
+- The worklog records the queue (66-a's "for the next lane: run quilt-far-shore R1 and
+  adopt §A/§B additively into storefront/chrono") and no lane has claimed it.
+
+**What the far-shore lane should do next** (from the repo's own sequencing note,
+re-endorsed by this sweep): one wave-68 lane runs **R1 + R3 together** (R1 ≈ 8–12
+deepinfra battery calls over the storefront battery with fact-varied messages and a
+hand grammar — `receipt_present`, `amount_band`, `product_class` — zero model calls for
+facts; R3 is 0-call monitors over ledgers already on disk), artifacts
+`eval/freeze-report-v2.json` (append-only) + `refunderPreVectorV2` additive to
+`src/vector.js`. **R2** (derived cells over quilt-chrono, with the optional moth jitter
+stream) stays queued for 69. Either R1 outcome is decisive: a frozen policy ruling would
+be the storefront's first zero-call frozen answer; a persistent split is the strongest
+evidence for where soft joints must stay alive.
+
+### A.7 Errata
+
+- **No corrections to existing 66-a entries were needed.** The two overlaps were
+  verified current, not corrected: `jev-net`'s entry matches today's README (packet
+  faces, transfer law, hebbian credit, `jev-net-state@1`); `quilt-far-shore`'s entry
+  (including its `distill_next`: "run R1 freeze-test re-run; adopt §A/§B additively")
+  remains exactly accurate as of this sweep.
+- **Additive finding touching an existing entry's repo (not a correction):**
+  xruntime-conformance discovered that quilt-nn's `lossShaOf` hashes the UTF-8 encoding
+  of a latin1-decoded string rather than the canonical bytes its docstring claims (the
+  mean-loss float agrees bit-for-bit across runtimes; the digest does not), plus a
+  latent cold-start precondition in `evaluateForward`. The 66-a quilt-nn entry claimed
+  neither portability of that digest nor cold-callability, so no entry is wrong — but
+  the fix + a cross-runtime conformance test now belong on quilt-nn's distill_next.
+- **Census-count footnote:** the 66-a chapter headline says 47 repos; its own §4 and
+  JSON correctly carry 49 (47 + the atlas + fleet-triage context). Unchanged here; this
+  addendum brings the JSON to 78 records.
+
+### A.8 Highlights — the three most surprising finds of the second sweep
+
+1. **Polyformalism was executed, and the bug is in the digest, not the math.**
+   xruntime-conformance ran the SAME quilt-nn graph in Node (their code, unmodified) and
+   Python (spec-written, zero shared source): loss identical to the last bit of float64,
+   23/23 per-cell digests identical — and the sha256 loss digest DIVERGES, because
+   `lossShaOf` hashes a UTF-8 re-encoding of a latin1 string, not the bytes its docstring
+   names. The census's portable-canary constant is now backed by a live-computation
+   conformance result, and a new rule (Rule 3) was minted: the preimage must be what the
+   docstring claims, proven by a second implementation.
+2. **Repos wired themselves together on their birthday.** backward-holdem and
+   quilt-overhead were both created 2026-10-02; by end of day the hold'em WAL was
+   overhead's live feed (`wal_ref 0809402a` double-pinned) and overhead's VISIBLE_HANDS
+   doc was hold'em's design source — a bidirectional producer/consumer loop between two
+   same-day repos, adapter pinned FAIL-first before the real feed existed. The account's
+   coalesce is accelerating from wave-scale to day-scale.
+3. **The honesty instrument became the product.** The sweep's densest cluster ships
+   epistemics as importable code: selectlib refuses to compute a number until five named
+   controls fire ("a number produced by an instrument that has not been shown to work is
+   worse than no number, because it will be believed"); jev-harness refuses to send a
+   malformed request and scores None as failure; glyphtensor-bridge ships detectors whose
+   whole job is to fire on the spec they audit; tev-mesh institutionalizes vendor-number
+   skepticism (Bespoke 63.5% vs the vendor's dev-set 88%). Also notable: quilt-gpu-lab
+   mints a fleet-seeds referral edge by citation — provenance issuance between repos.
+
+### A.9 Method receipt (second sweep)
+
+- Fetched 2026-10-02 via GitHub API (`Accept: application/vnd.github+json` for
+  meta/contents/commits, `application/vnd.github.raw` for documents): repo metadata +
+  root contents + last 5 commits + README (or named primary doc) for **31 named repos**
+  — ~130 authenticated calls, zero meta-404s, token runtime-only from `.env.keys`,
+  never echoed. Primary docs fetched where README is absent: font_atlas_packager
+  (Cargo.toml + src listing), xruntime-conformance (CONFORMANCE.md).
+- quilt-far-shore additionally: REVERSE-ACTUALIZE.md, FAR-SHORE.md, receipts/ listing;
+  cross-checks into quilt-storefront (eval/ listing), quilt-softjoints, and the fleet
+  worklog (for the R1 queue claim).
+- Assignments are judgment calls stated honestly (qthe-codec → polyglot for being a
+  carrier in a distant substrate; backward-holdem → joint for measuring adaptation, not
+  federation; quilt-rag → creative per the census's "skinned with use-case" rule).
+- Machine-usable companion: `seed-dna.json` — **78 records** (49 prior + 29 new), one
+  per repo, identical field shapes; existing records byte-verified untouched
+  (parse-compare before write).
+- This addendum is appended below the 66-a chapter; no existing atlas content was
+  modified or deleted.
