@@ -1,38 +1,38 @@
 {
-  "generated_at_utc": "2026-10-02T12:33:17.135Z",
+  "generated_at_utc": "2026-10-02T22:13:14.672Z",
   "account": "SuperInstance",
-  "total_repos": 5138,
+  "total_repos": 5149,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2712,
-    "fleet": 1581,
+    "other": 2714,
+    "fleet": 1584,
     "qthe": 464,
-    "quilt": 289,
-    "jev": 51,
+    "quilt": 293,
+    "jev": 52,
     "latent": 18,
-    "moth": 23
+    "moth": 24
   },
   "families_by_stage": {
     "none": {
-      "other": 2712
+      "other": 2714
     },
     "description": {
-      "fleet": 1173,
+      "fleet": 1175,
       "qthe": 429,
-      "quilt": 46,
+      "quilt": 47,
       "jev": 27,
       "latent": 5,
       "moth": 2
     },
     "name": {
-      "quilt": 243,
+      "quilt": 246,
       "qthe": 35,
-      "fleet": 408,
-      "latent": 13,
-      "moth": 21,
-      "jev": 24
+      "fleet": 409,
+      "jev": 25,
+      "moth": 22,
+      "latent": 13
     }
   },
   "family_members": {
@@ -123,6 +123,7 @@
       "arithmetic-code",
       "arm-neon-eisenstein-bench",
       "artistlog-ai",
+      "Asciipocalypse",
       "asset-ranch",
       "ast-builder",
       "ast-diff",
@@ -2528,6 +2529,7 @@
       "synthcity",
       "Syzygy",
       "syzygy-lattice",
+      "Syzygy-OpenSkyFlight",
       "t-minus-rs",
       "tap-frontend",
       "tap-gamenight",
@@ -3122,6 +3124,7 @@
       "dream-compiler",
       "drone-fleet-ternary",
       "dry-dock",
+      "dungeon-syncopation",
       "ecosystem-dashboard",
       "EDDI",
       "edge-ledger",
@@ -3145,6 +3148,7 @@
       "Equipment-Swarm-Coordinator",
       "Equipment-Swarm-Coordinator-Ruby",
       "ergodic-transport-rs",
+      "erised-fleet-table",
       "erised-mirror",
       "error-catalog",
       "event-bus",
@@ -4065,6 +4069,7 @@
       "python-agent-shell",
       "quill-isa-architect",
       "random-walk-agent",
+      "receiptd",
       "recovered-copy-20260824-fleet-dashboard",
       "recovered-copy-20260824-fleet-embed",
       "recovered-copy-20260824-fleet-ensemble",
@@ -4820,6 +4825,7 @@
       "cot-quilt-lab",
       "cra-analysis",
       "deepseek-harness-quilt",
+      "dungeon-ml-zoo",
       "emergency-dispatch-simulation-system",
       "Equipment-CellLogic-Distiller",
       "erised-sequencer",
@@ -4906,6 +4912,7 @@
       "quilt-discovery-demo",
       "quilt-doctor",
       "quilt-dpcpp",
+      "quilt-dungeons",
       "quilt-echovision",
       "quilt-ecosystem-demo",
       "quilt-ecosystem-web",
@@ -4932,6 +4939,7 @@
       "quilt-fleet-sim",
       "quilt-fleet-snapshot",
       "quilt-fleet-tools",
+      "quilt-float",
       "quilt-flow",
       "quilt-fluidics",
       "quilt-fold",
@@ -4984,6 +4992,7 @@
       "Quilt-ollama-rag-reranker",
       "quilt-opt",
       "quilt-optimization",
+      "quilt-oracle-poc",
       "quilt-orchestrator",
       "quilt-organ-workers",
       "quilt-organism",
@@ -5095,6 +5104,7 @@
       "cocapn-escalation",
       "cocapn-oneiros",
       "concrete-token-demo",
+      "dungeon-jev",
       "elephant",
       "exoj",
       "grand-pattern-claude",
@@ -5164,6 +5174,7 @@
       "ternary-world"
     ],
     "moth": [
+      "dungeon-micromoth",
       "fleet-midi-quantum",
       "lau-mirror-symmetry",
       "lau-quantum-groups-agents",
@@ -6371,6 +6382,12 @@
       "none",
       "",
       "TypeScript"
+    ],
+    "Asciipocalypse": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "asset-ranch": [
       "other",
@@ -11766,6 +11783,30 @@
       "",
       "JavaScript"
     ],
+    "dungeon-jev": [
+      "jev",
+      "name",
+      "jev",
+      "JavaScript"
+    ],
+    "dungeon-micromoth": [
+      "moth",
+      "name",
+      "moth",
+      "JavaScript"
+    ],
+    "dungeon-ml-zoo": [
+      "quilt",
+      "description",
+      "quilt",
+      ""
+    ],
+    "dungeon-syncopation": [
+      "fleet",
+      "description",
+      "receipt",
+      "JavaScript"
+    ],
     "dynamic-sandbox": [
       "other",
       "none",
@@ -12383,6 +12424,12 @@
       "none",
       "",
       "Python"
+    ],
+    "erised-fleet-table": [
+      "fleet",
+      "name",
+      "fleet",
+      "JavaScript"
     ],
     "erised-mirror": [
       "fleet",
@@ -23356,7 +23403,7 @@
       "other",
       "none",
       "",
-      ""
+      "Shell"
     ],
     "old-school-machine-wisdom": [
       "other",
@@ -27282,6 +27329,12 @@
       "quilt",
       ""
     ],
+    "quilt-dungeons": [
+      "quilt",
+      "name",
+      "quilt",
+      "JavaScript"
+    ],
     "quilt-echovision": [
       "quilt",
       "name",
@@ -27437,6 +27490,12 @@
       "name",
       "quilt",
       "Python"
+    ],
+    "quilt-float": [
+      "quilt",
+      "name",
+      "quilt",
+      "JavaScript"
     ],
     "quilt-flow": [
       "quilt",
@@ -27791,6 +27850,12 @@
       "name",
       "quilt",
       "Python"
+    ],
+    "quilt-oracle-poc": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
     ],
     "quilt-orchestrator": [
       "quilt",
@@ -28493,6 +28558,12 @@
       "none",
       "",
       "TypeScript"
+    ],
+    "receiptd": [
+      "fleet",
+      "description",
+      "fleet|receipt",
+      "Python"
     ],
     "recovered-copy-20260824-ACE-Step-1.5": [
       "other",
@@ -31969,6 +32040,12 @@
       "C"
     ],
     "syzygy-lattice": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "Syzygy-OpenSkyFlight": [
       "other",
       "none",
       "",
@@ -36021,107 +36098,158 @@
   },
   "top_motion": [
     {
-      "repo": "doubt-ledger",
+      "repo": "wardroom",
       "workflows": [],
-      "pushed_at": "2026-10-02T12:25:42Z",
+      "pushed_at": "2026-10-02T22:12:40Z",
       "size_kb": 44
     },
     {
-      "repo": "A2A-native-notebookLM",
+      "repo": "fleet-seeds",
       "workflows": [
-        "build-and-release.yml",
-        "build-dev.yml",
-        "ci.yml",
+        "forge.yml"
+      ],
+      "pushed_at": "2026-10-02T22:11:09Z",
+      "size_kb": 4195
+    },
+    {
+      "repo": "quilt-float",
+      "workflows": [],
+      "pushed_at": "2026-10-02T22:10:20Z",
+      "size_kb": 140
+    },
+    {
+      "repo": "jev-quilt",
+      "workflows": [
+        "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-02T12:08:17Z",
-      "size_kb": 10130
+      "pushed_at": "2026-10-02T22:07:50Z",
+      "size_kb": 9516
     },
     {
-      "repo": "quilt-tools",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-02T11:13:28Z",
-      "size_kb": 389
+      "repo": "dungeon-syncopation",
+      "workflows": [],
+      "pushed_at": "2026-10-02T22:06:14Z",
+      "size_kb": 0
     },
     {
-      "repo": "SuperInstance",
+      "repo": "gh-dungeons",
       "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
+        "release.yml"
       ],
-      "pushed_at": "2026-10-02T11:00:34Z",
-      "size_kb": 54451
+      "pushed_at": "2026-10-02T22:04:14Z",
+      "size_kb": 21816
     },
     {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-02T10:52:55Z",
-      "size_kb": 9218
+      "repo": "quilt-dungeons",
+      "workflows": [],
+      "pushed_at": "2026-10-02T22:04:02Z",
+      "size_kb": 0
     },
     {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-02T10:27:01Z",
-      "size_kb": 29745
+      "repo": "dungeon-micromoth",
+      "workflows": [],
+      "pushed_at": "2026-10-02T22:00:44Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "quilt-organ-workers",
+      "workflows": [],
+      "pushed_at": "2026-10-02T21:56:48Z",
+      "size_kb": 138
+    },
+    {
+      "repo": "dungeon-jev",
+      "workflows": [],
+      "pushed_at": "2026-10-02T21:56:30Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "dungeon-ml-zoo",
+      "workflows": [],
+      "pushed_at": "2026-10-02T21:48:24Z",
+      "size_kb": 0
     },
     {
       "repo": "quilt-gpu-lab",
       "workflows": [],
-      "pushed_at": "2026-10-02T10:14:48Z",
-      "size_kb": 372330
+      "pushed_at": "2026-10-02T21:44:51Z",
+      "size_kb": 373838
     },
     {
-      "repo": "tidepool",
-      "workflows": [],
-      "pushed_at": "2026-10-02T10:04:03Z",
-      "size_kb": 90
-    },
-    {
-      "repo": "PersonalLog",
+      "repo": "slackwater-rust",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-02T09:42:07Z",
-      "size_kb": 10093
-    },
-    {
-      "repo": "pong-quilt",
-      "workflows": [
-        "forge.yml",
-        "merge-gate.yml",
-        "pages.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-02T09:40:18Z",
-      "size_kb": 1929
-    },
-    {
-      "repo": "git-agent",
-      "workflows": [
-        "ci.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-10-02T09:38:20Z",
-      "size_kb": 313
+      "pushed_at": "2026-10-02T21:38:19Z",
+      "size_kb": 196
     },
     {
       "repo": "fleet-triage",
       "workflows": [],
-      "pushed_at": "2026-10-02T09:37:10Z",
-      "size_kb": 1953
+      "pushed_at": "2026-10-02T21:33:37Z",
+      "size_kb": 3400
+    },
+    {
+      "repo": "quilt-storefront",
+      "workflows": [],
+      "pushed_at": "2026-10-02T21:33:10Z",
+      "size_kb": 202
+    },
+    {
+      "repo": "twist-engine",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-02T21:32:48Z",
+      "size_kb": 1004
+    },
+    {
+      "repo": "quilt-conversation",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-02T21:32:46Z",
+      "size_kb": 29
+    },
+    {
+      "repo": "Spreadsheet-ai",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-02T21:32:44Z",
+      "size_kb": 23
+    },
+    {
+      "repo": "quilt-mermaid",
+      "workflows": [],
+      "pushed_at": "2026-10-02T21:32:42Z",
+      "size_kb": 2
+    },
+    {
+      "repo": "rune-quilt",
+      "workflows": [
+        "e2e.yml",
+        "lint.yml",
+        "security.yml",
+        "test-linux.yml",
+        "test-macos.yml",
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-02T21:32:28Z",
+      "size_kb": 147618
+    },
+    {
+      "repo": "quilt-chrono",
+      "workflows": [],
+      "pushed_at": "2026-10-02T21:29:18Z",
+      "size_kb": 94
+    },
+    {
+      "repo": "research",
+      "workflows": [],
+      "pushed_at": "2026-10-02T21:28:55Z",
+      "size_kb": 911
     },
     {
       "repo": "AI-Writings",
@@ -36133,82 +36261,14 @@
         "publish-jev-core.yml",
         "publish-jev-decide.yml"
       ],
-      "pushed_at": "2026-10-02T09:33:57Z",
-      "size_kb": 3656265
+      "pushed_at": "2026-10-02T21:27:59Z",
+      "size_kb": 3665274
     },
     {
-      "repo": "CognitiveEngine",
-      "workflows": [
-        "ci.yml",
-        "docker.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-10-02T09:30:32Z",
-      "size_kb": 746
-    },
-    {
-      "repo": "quilt-in-git",
+      "repo": "doubt-ledger",
       "workflows": [],
-      "pushed_at": "2026-10-02T09:24:43Z",
-      "size_kb": 104
-    },
-    {
-      "repo": "backward-holdem",
-      "workflows": [],
-      "pushed_at": "2026-10-02T09:15:08Z",
-      "size_kb": 72
-    },
-    {
-      "repo": "cf-native-backend",
-      "workflows": [],
-      "pushed_at": "2026-10-02T08:53:44Z",
-      "size_kb": 301
-    },
-    {
-      "repo": "quilt-adjudication",
-      "workflows": [],
-      "pushed_at": "2026-10-02T08:49:14Z",
-      "size_kb": 116
-    },
-    {
-      "repo": "jev-paint-quilt",
-      "workflows": [],
-      "pushed_at": "2026-10-02T08:36:30Z",
-      "size_kb": 6
-    },
-    {
-      "repo": "Projectionist",
-      "workflows": [],
-      "pushed_at": "2026-10-02T08:28:34Z",
-      "size_kb": 621
-    },
-    {
-      "repo": "fleet-seeds",
-      "workflows": [
-        "forge.yml"
-      ],
-      "pushed_at": "2026-10-02T08:13:59Z",
-      "size_kb": 3700
-    },
-    {
-      "repo": "quilt-organ-workers",
-      "workflows": [],
-      "pushed_at": "2026-10-02T08:12:47Z",
-      "size_kb": 66
-    },
-    {
-      "repo": "erised-sequencer",
-      "workflows": [],
-      "pushed_at": "2026-10-02T08:05:15Z",
-      "size_kb": 14
-    },
-    {
-      "repo": "quilt-codespace",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-02T07:57:12Z",
-      "size_kb": 5016
+      "pushed_at": "2026-10-02T21:23:39Z",
+      "size_kb": 85
     }
   ],
   "notes": [
