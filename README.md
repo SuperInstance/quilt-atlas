@@ -68,3 +68,14 @@ v2 evidence rule: every repo's [family, stage, matched keywords, language] is re
 
 Missing rows in the table are below the motion cut — see atlas.json for the full inventory.
 <!-- ATLAS:END -->
+
+## Studies
+
+- **[`seed-dna/`](./seed-dna/)** (wave-66 lane 66-a, 2026-10-02) — the SEED DNA catalog:
+  47 study repos read live via the GitHub API and each distilled to a language-free
+  "genetic code" (cell, edge, tick, receipt, chain, projection, seal, fold), organized
+  into functional families (substrates, time organs, witness instruments, models-in-the-
+  joint, swarm, organs, polyglot, creative skins), with a cross-repo synergy map, the
+  account's recurring boilerplate distilled into a named to-do list, and a machine-usable
+  `seed-dna.json` (49 entries incl. the two context repos). Append-only chapter; the
+  catalog's §4 documents the method and its receipts.
