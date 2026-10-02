@@ -898,3 +898,170 @@ evidence for where soft joints must stay alive.
   (parse-compare before write).
 - This addendum is appended below the 66-a chapter; no existing atlas content was
   modified or deleted.
+
+---
+
+## Addendum B: delta sweep (wave-70) — the fleet's 24h pulse
+
+> Wave-70 lane 70-f scout delta, appended 2026-10-02T19:xxZ, ~1h before the
+> account's wave-70 close. Scope: what moved since the 68-D sweep (census was
+> 78 records over a 5,140-repo account). Append-only; no existing content
+> modified. Machine-usable companion: `seed-dna.json` — now **90 records**
+> (78 + 12 new), identical field shapes, first 78 byte-untouched (line-splice
+> append, not a re-serialization).
+
+### B.1 At a glance
+
+- **Account:** 5,143 repos (52 pages @ 100; up from 5,140 at the 68-D sweep).
+- **24h pulse:** 75 repos pushed since 2026-10-01T19:13Z; **38 of the 75 are
+  census repos** — a two-thirds-known heartbeat.
+- **New-to-census repos:** 12 recorded here (7 created after 2026-10-02T00:00Z,
+  5 borderline created 2026-10-01T20:00–24:00Z — inside the "~" window, all
+  five pushed within the 24h window; exactly the 12-repo cap).
+- **Family counts: 78 -> 90** — substrate 9+2, witness 14+2, joint 16+1,
+  swarm 8+2, organ 10+3, creative 11+2, time 6, polyglot 4.
+
+### B.2 The twelve (one-paragraph essence + family guess + soft-joint note)
+
+1. **quilt-float** — *swarm.* Two git-agents float and teach each other:
+   quilts as branches, lessons as commits, receipt-chain tips as the synchrony
+   primitive — the two-git-agents design sliced into a living repo the day it
+   was written. Soft-joint: the tip hash is the ONLY clock the two agents
+   share; a one-commit repo, so the record is a bet on the design, receipted
+   as such.
+2. **receiptd** — *witness.* The fleet's trust layer as a daemon+CLI twin over
+   ONE append-only JSONL hash chain: trust = re-execution, tamper names the
+   line, INCONCLUSIVE is first-class ("a gate that cannot say UNKNOWN will
+   lie"). Born from a four-model ideation convergence on open-terminal —
+   every model independently arrived at receiptd first. Soft-joint: the pins
+   are the README; slice 2 (a second writer) is where it meets federation.
+3. **quilt-mcp-receipts** — *organ* (witness crosswalk: it IS the census's
+   RECEIPT primitive, served). The fleet receipt chain as a signed append-only
+   MCP organ (qmr1) — read/verify/append over stdio; v3 attribution
+   (sigAlg:'ed25519' + sigKeyFp + keyring) with named fail-closed errors;
+   conformance harness self-application 16/16. This is the repo the 69-b
+   dead-lane finished and sealed — it existed as work before it existed in
+   the census; the delta sweep closes that gap.
+4. **quilt-oracle-poc** — *organ.* The paper trail of the callable git-agent
+   oracle PoC: self-decomposition ({tree, symbols, heat}), HTTP+CLI twins,
+   receipted fix-loop with 30-min task leases, float-proof via dated
+   oracle-evidence-* branches. Honest failure receipted (lane died at
+   turn-200; deletion state unverified and SAID so). Soft-joint: deliberately
+   split from quilt-codespace — proof/receipts as a standalone deliverable.
+5. **erised-fleet-table** — *creative.* The fleet playing itself: an
+   erised-sequencer TTRPG where dice are re-derived from the ledger
+   (sha256(prev_tip|seq|solid|n)), scars survive rewinds, and the scenario is
+   a real open fleet question (organ drift between heartbeats) whose
+   hardening plan became real (tip-notary, below). Soft-joint: gamified ≠
+   fake — every class move is a live fleet mechanism.
+6. **quilt-adjudication** — *joint.* The merge that cannot be committed
+   silently: quilt-in-git plus a post-merge hook (diff-tree -m — the
+   substrate's probe was blind to merges, pinned FAIL-first), merge receipts
+   with parents, and the refusal: same-cell merges do not silently take
+   last-writer. Disputes are recorded, not discarded; no judge in the loop,
+   by design. Soft-joint: the CF competition entry already growing inside a
+   fork of a census repo — adjudication is the joint family's missing verb.
+7. **Syzygy-OpenSkyFlight** — *creative.* Browser 3D flight sim over real
+   terrain (Three.js, Terrarium elevation, concentric LOD). Honest note:
+   created in the org 2026-10-02 with history ending 2026-04 (import or
+   re-creation; pushed_at predates created_at) — no fleet DNA found; recorded
+   for census completeness, distill deferred by receipt.
+8. **quilt-organ-workers** — *organ.* The fleet's organs, serverless:
+   organ-boot-loader (content-addressed boot bundles), judge-relay (fan-out),
+   tip-notary (external anchoring of every fleet receipt chain), organ-watcher
+   (two-notary reconciliation, dual-anchored PARTIALs, lane-id
+   normalization). Soft-joint: this is the fleet table's ANCHOR-the-tips move
+   executed for real; the anchor-proof ledger hunt re-ran empty (70-c) — the
+   unverifiable row is receipted-unverifiable.
+9. **doubt-ledger** — *witness.* Trust relocates blindness; it does not
+   delete it. An append-only, git-backed ledger of what you stopped checking,
+   why, what covers it, and what event brings it back; discharge demands a
+   written reason; qmr1 export verified cross-implementation. Soft-joint: the
+   census's SEAL law pointed at the checkers themselves — the fleet auditing
+   its own trust.
+10. **wardroom** — *swarm.* The officers' mess: off-duty rounds where the one
+    rule is "show up as yourself" and no claim needs a receipt — the one room
+    without witnesses, kept on purpose. Sideboard threads argue sibling repos'
+    ideas (jev-net's self-improvement loop) without being about anyone's work.
+    Soft-joint: the social complement of the receipt culture; four rounds in
+    its first day, no deadlines ever.
+11. **cf-native-backend** — *substrate.* The next GitHub asked from the user's
+    side: intent (not branch) as the unit of work, history as a witness log
+    with a rewind handle, verification as a first-class queryable object.
+    Soft-joint: a verified asset inventory mapping OTHER census repos
+    (frozen-clock-lab, quilt-in-git, doubt-ledger, quilt-tools #32/#33) onto
+    the competition thesis — the coalesce, receipted as an inventory.
+12. **cot-quilt-lab** — *substrate.* The smallest runtime where any API is a
+    Provider, any pipeline a list of stages, any cell pure z_in -> z_out;
+    three pens on the quilt sheet (python/JSON/TSV), FAIL-first pins
+    (ENOENT receipt before implementation exists). Soft-joint: a sibling
+    agent's design doc (agent-321) consumed by lanes with the fleet's pin
+    culture — census kin to cot-quilt.
+
+### B.3 The pulse (known repos, 24h)
+
+38 census repos pushed. Top 5 by recency, with subjects:
+
+1. **jev-quilt** (19:03Z) — "1st-wipe JEV hourly report: 22q sweep,
+   mean_p=0.6068, 9 bedrock hits, 0 drift alarms" — the hourly reports
+   rolling on their own clock; the fleet's heartbeat literalized.
+2. **quilt-far-shore** (18:51Z) — "R1+R3 reverse-actualized beside untouched
+   claims: compound-key freeze real (4 fact-keyed proposals, emotion-only 0,
+   replay 8/8 zero-call)" — the 69-d dead lane's work sealed by its finisher.
+3. **jeviter** (18:50Z) — "verify: prev-linkage check — closes the
+   forged-body hole (Round-16 scout)" — a scout finding landed as a verifier.
+4. **quilt-gpu-lab** (18:47Z) — "REST-EM attempt-2 gate booked
+   INCOMPLETE-HELD (N2 failed-to-run x3, overnight retry armed)" +
+   "SCOUT-23: CONTRADICT-class reporter-default-PASS ... RC-4 raised (3rd
+   reseal-forgery)" — the fleet auditing itself, incompleteness booked
+   honestly.
+5. **quilt-chrono** (18:43Z) — "seal: alg:'Ed25519' — the signer has a name;
+   HMAC default stays byte-compat (dead lane 69-b's work, finished +
+   committed by 69-b-r2)".
+
+Top 3 of the pulse, read as one sentence: the heartbeat (jev-quilt hourly,
+0 drift alarms) never stopped while the fleet closed its dead lanes
+(chrono Ed25519, far-shore R1+R3) and turned its scouts' contradictions into
+verifiers (jeviter prev-linkage, gpu-lab SCOUT-23 → RC-4).
+
+### B.4 The day's shape (notes for the next sweep)
+
+- **Receipt infrastructure is consolidating, not forking:** the same day
+  minted receiptd, doubt-ledger's qmr1 export, quilt-mcp-receipts' v3
+  conformance, and the tip-notary — four implementations converging on ONE
+  receipt dialect (qmr1) instead of adding a fifth dialect. The 66-a §3.1
+  boilerplate worry ("re-implemented 12 times in TWO dialects") may be
+  self-resolving: the org is now citing each other's dialects on purpose
+  (doubt-ledger: "one fleet receipt dialect, not three").
+- **The no-receipt room appeared.** wardroom is the first census repo whose
+  DESIGN is the absence of receipts. The fleet noticed its own honesty
+  culture was missing a room and built it — with the same care it gives the
+  chains.
+- **Three competition/deadline surfaces are live at once** (cf-native-backend
+  deadline 2026-10-14; quilt-adjudication as a git-competition entry;
+  open-terminal's ideation → receiptd). The coalesce is now deadline-driven,
+  not just wave-driven.
+- **Census latency shrank again:** 68-D's highlight ("repos wired themselves
+  together on their birthday") continued — quilt-float cites the design doc
+  commit it slices (5e00a5b, same day); erised-fleet-table's hardening plan
+  was BUILT (tip-notary) hours after the campaign played it; the 68-D record
+  and its subject now coexist in one day's window.
+
+### B.5 Method receipt (delta sweep)
+
+- Fetched 2026-10-02T19:07-19:25Z via GitHub API, authenticated, token
+  runtime-only from `.env.keys`, never echoed: 52 list pages (5,143 repos,
+  sort=pushed) + 12 READMEs + 12 commit listings + 5 motion commit listings
+  + 12 README re-fetches (first pass parsed raw text as JSON — caller error,
+  caught, re-fetched; both passes counted) = **93 authenticated calls**.
+- Census membership diff: repo.name vs seed-dna.json `repo` fields (78).
+  24h cutoff derived from run time (24h back from 2026-10-02T19:13Z).
+- New-record rule honored: created-or-first-pushed since ~2026-10-02T00:00Z
+  and not in census; the five 2026-10-01T20:00–24:00Z creations included
+  under the "~" and all pushed inside the 24h window; cap 12 exactly filled.
+- Family assignments are judgment calls stated as guesses; Syzygy-OpenSkyFlight
+  recorded with an explicit no-DNA note rather than forced into a synergy.
+- `seed-dna.json`: 12 records appended by line-splice (existing 78 lines
+  byte-identical), JSON validated, schema shapes identical, ASCII-only new
+  text. Catalog: this addendum appended below Addendum A; nothing above it
+  touched.
