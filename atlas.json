@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-03T16:16:57.387Z",
+  "generated_at_utc": "2026-10-03T21:13:47.491Z",
   "account": "SuperInstance",
-  "total_repos": 5161,
+  "total_repos": 5162,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2715,
+    "other": 2716,
     "fleet": 1588,
     "qthe": 464,
     "quilt": 298,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2715
+      "other": 2716
     },
     "description": {
       "fleet": 1179,
@@ -1722,6 +1722,7 @@
       "Mycelium",
       "mycelium-ai",
       "mycelium-route",
+      "naDir",
       "nanochat",
       "negative-knowledge",
       "negative-space-core",
@@ -23039,6 +23040,12 @@
       "agent",
       "C"
     ],
+    "naDir": [
+      "other",
+      "none",
+      "",
+      "Shell"
+    ],
     "nanochat": [
       "other",
       "none",
@@ -28377,7 +28384,7 @@
       "quilt",
       "name",
       "quilt",
-      ""
+      "HTML"
     ],
     "quilt-wiki-2126": [
       "quilt",
@@ -36182,18 +36189,12 @@
   },
   "top_motion": [
     {
-      "repo": "quilt-gpu-lab",
+      "repo": "cocapn",
       "workflows": [
-        "tests.yml"
+        "ci.yml"
       ],
-      "pushed_at": "2026-10-03T16:13:33Z",
-      "size_kb": 376654
-    },
-    {
-      "repo": "fleet-triage",
-      "workflows": [],
-      "pushed_at": "2026-10-03T15:53:46Z",
-      "size_kb": 3573
+      "pushed_at": "2026-10-03T21:10:40Z",
+      "size_kb": 838
     },
     {
       "repo": "pong-quilt",
@@ -36203,22 +36204,154 @@
         "pages.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-03T14:04:39Z",
-      "size_kb": 3190
+      "pushed_at": "2026-10-03T21:04:35Z",
+      "size_kb": 3464
     },
     {
       "repo": "superinstance-advisor",
       "workflows": [],
-      "pushed_at": "2026-10-03T13:30:02Z",
-      "size_kb": 2516
+      "pushed_at": "2026-10-03T21:03:53Z",
+      "size_kb": 2527
+    },
+    {
+      "repo": "quilt-gpu-lab",
+      "workflows": [
+        "tests.yml"
+      ],
+      "pushed_at": "2026-10-03T20:56:47Z",
+      "size_kb": 376742
+    },
+    {
+      "repo": "quilt-studios",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-03T20:55:36Z",
+      "size_kb": 131
+    },
+    {
+      "repo": "quilt-dba",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-03T20:55:34Z",
+      "size_kb": 303
+    },
+    {
+      "repo": "exoj",
+      "workflows": [
+        "forge.yml",
+        "smoke.yml"
+      ],
+      "pushed_at": "2026-10-03T20:55:13Z",
+      "size_kb": 167
+    },
+    {
+      "repo": "micrograd-quilt",
+      "workflows": [],
+      "pushed_at": "2026-10-03T20:48:10Z",
+      "size_kb": 5420
+    },
+    {
+      "repo": "naDir",
+      "workflows": [],
+      "pushed_at": "2026-10-03T20:46:24Z",
+      "size_kb": 4
+    },
+    {
+      "repo": "fleet-triage",
+      "workflows": [],
+      "pushed_at": "2026-10-03T20:14:15Z",
+      "size_kb": 3632
     },
     {
       "repo": "quilt-research-canons",
       "workflows": [
         "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-03T13:25:36Z",
-      "size_kb": 29851
+      "pushed_at": "2026-10-03T19:22:49Z",
+      "size_kb": 29877
+    },
+    {
+      "repo": "purpose-loops",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-03T18:12:22Z",
+      "size_kb": 100
+    },
+    {
+      "repo": "oracle1-workspace",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-03T18:08:07Z",
+      "size_kb": 51286
+    },
+    {
+      "repo": "othismos",
+      "workflows": [],
+      "pushed_at": "2026-10-03T18:02:12Z",
+      "size_kb": 315
+    },
+    {
+      "repo": "quilt-whitepapers",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-03T18:02:02Z",
+      "size_kb": 33
+    },
+    {
+      "repo": "madlibs-jev",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-03T17:57:54Z",
+      "size_kb": 104
+    },
+    {
+      "repo": "unspoken-resonance",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-03T17:50:31Z",
+      "size_kb": 50
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "ci.yml",
+        "corpus.yml",
+        "landing-page.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml"
+      ],
+      "pushed_at": "2026-10-03T17:00:54Z",
+      "size_kb": 3675469
+    },
+    {
+      "repo": "fleet-seeds",
+      "workflows": [
+        "forge.yml"
+      ],
+      "pushed_at": "2026-10-03T16:54:54Z",
+      "size_kb": 3958
+    },
+    {
+      "repo": "fleet-kit",
+      "workflows": [],
+      "pushed_at": "2026-10-03T16:42:07Z",
+      "size_kb": 221
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-03T16:16:58Z",
+      "size_kb": 957
     },
     {
       "repo": "jev-quilt",
@@ -36228,14 +36361,6 @@
       ],
       "pushed_at": "2026-10-03T13:04:19Z",
       "size_kb": 9580
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-03T11:38:23Z",
-      "size_kb": 869
     },
     {
       "repo": "SuperInstance",
@@ -36251,12 +36376,6 @@
       "size_kb": 54978
     },
     {
-      "repo": "micrograd-quilt",
-      "workflows": [],
-      "pushed_at": "2026-10-03T10:15:30Z",
-      "size_kb": 5420
-    },
-    {
       "repo": "plato-portal",
       "workflows": [
         "auto-index.yml",
@@ -36266,102 +36385,6 @@
       ],
       "pushed_at": "2026-10-03T10:12:23Z",
       "size_kb": 9365
-    },
-    {
-      "repo": "madlibs-jev",
-      "workflows": [],
-      "pushed_at": "2026-10-03T08:25:43Z",
-      "size_kb": 60
-    },
-    {
-      "repo": "workspace-rescue",
-      "workflows": [],
-      "pushed_at": "2026-10-03T08:24:15Z",
-      "size_kb": 4499
-    },
-    {
-      "repo": "AI-Writings",
-      "workflows": [
-        "ci.yml",
-        "corpus.yml",
-        "landing-page.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml"
-      ],
-      "pushed_at": "2026-10-03T08:22:01Z",
-      "size_kb": 3670895
-    },
-    {
-      "repo": "unspoken-resonance",
-      "workflows": [],
-      "pushed_at": "2026-10-03T08:18:09Z",
-      "size_kb": 27
-    },
-    {
-      "repo": "doubt-ledger",
-      "workflows": [],
-      "pushed_at": "2026-10-03T08:14:59Z",
-      "size_kb": 118
-    },
-    {
-      "repo": "quilt-whitepapers",
-      "workflows": [],
-      "pushed_at": "2026-10-03T08:14:36Z",
-      "size_kb": 21
-    },
-    {
-      "repo": "purpose-loops",
-      "workflows": [],
-      "pushed_at": "2026-10-03T07:55:13Z",
-      "size_kb": 49
-    },
-    {
-      "repo": "fleet-seeds",
-      "workflows": [
-        "forge.yml"
-      ],
-      "pushed_at": "2026-10-03T07:37:16Z",
-      "size_kb": 3937
-    },
-    {
-      "repo": "constraint-theory-math",
-      "workflows": [
-        "ci.yml",
-        "python-ci.yml"
-      ],
-      "pushed_at": "2026-10-03T07:29:38Z",
-      "size_kb": 212
-    },
-    {
-      "repo": "quilt-gpu-lab-witness",
-      "workflows": [],
-      "pushed_at": "2026-10-03T07:25:33Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "mavis-workspace",
-      "workflows": [],
-      "pushed_at": "2026-10-03T07:23:23Z",
-      "size_kb": 306
-    },
-    {
-      "repo": "sigtest",
-      "workflows": [],
-      "pushed_at": "2026-10-03T07:21:21Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "research",
-      "workflows": [],
-      "pushed_at": "2026-10-03T07:20:51Z",
-      "size_kb": 123941
-    },
-    {
-      "repo": "witness-is-prediction",
-      "workflows": [],
-      "pushed_at": "2026-10-03T07:20:15Z",
-      "size_kb": 5
     }
   ],
   "notes": [
