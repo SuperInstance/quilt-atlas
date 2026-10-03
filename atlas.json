@@ -1,36 +1,36 @@
 {
-  "generated_at_utc": "2026-10-03T05:17:35.356Z",
+  "generated_at_utc": "2026-10-03T11:38:21.989Z",
   "account": "SuperInstance",
-  "total_repos": 5152,
+  "total_repos": 5161,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2714,
-    "fleet": 1585,
+    "other": 2715,
+    "fleet": 1588,
     "qthe": 464,
-    "quilt": 295,
-    "jev": 52,
+    "quilt": 298,
+    "jev": 54,
     "latent": 18,
     "moth": 24
   },
   "families_by_stage": {
     "none": {
-      "other": 2714
+      "other": 2715
     },
     "description": {
-      "fleet": 1176,
+      "fleet": 1179,
       "qthe": 429,
       "quilt": 47,
-      "jev": 27,
+      "jev": 28,
       "latent": 5,
       "moth": 2
     },
     "name": {
-      "quilt": 248,
+      "quilt": 251,
       "qthe": 35,
       "fleet": 409,
-      "jev": 25,
+      "jev": 26,
       "moth": 22,
       "latent": 13
     }
@@ -784,6 +784,7 @@
       "ergodic-transport-c",
       "erised",
       "erised-cli",
+      "erised-exocortex",
       "error-forest",
       "error-forest-hub",
       "escalation-engine",
@@ -4067,6 +4068,7 @@
       "purplepincher-org",
       "purplepincher-shell-library",
       "purplepincher.org",
+      "purpose-loops",
       "python-agent-shell",
       "quill-isa-architect",
       "random-walk-agent",
@@ -4150,6 +4152,7 @@
       "si-wasserstein-fleet",
       "sia",
       "signal-chain-integration",
+      "sigtest",
       "simd-perception-loop",
       "simplicial-agent",
       "site-repair",
@@ -4285,6 +4288,7 @@
       "tripartite-rs-archive",
       "trust-agent",
       "trust-graph",
+      "unspoken-resonance",
       "VaaS",
       "vector-novelty",
       "vessel-agent",
@@ -4900,6 +4904,7 @@
       "quilt-conversation",
       "quilt-cordis",
       "quilt-core-os",
+      "quilt-corpus",
       "quilt-cortex",
       "quilt-Countroller",
       "quilt-cowboy",
@@ -4955,6 +4960,7 @@
       "quilt-geometry",
       "quilt-go",
       "quilt-gpu-lab",
+      "quilt-gpu-lab-witness",
       "quilt-haskell",
       "quilt-i2i",
       "quilt-id",
@@ -5066,6 +5072,7 @@
       "quilt-vm-wasm",
       "quilt-voice-agent",
       "quilt-wave-canvas",
+      "quilt-whitepapers",
       "quilt-wiki-2126",
       "quilt-zai-writer",
       "quilt-zig",
@@ -5136,6 +5143,7 @@
       "jev-ultrafast-quilt",
       "jeviter",
       "kev-substrate",
+      "madlibs-jev",
       "moth-jev-adapters",
       "moth-jev-lab",
       "murmuration",
@@ -5154,7 +5162,8 @@
       "substrate-llm-client",
       "substrate-trainer",
       "substrate-walker",
-      "terminal-entropy-harness"
+      "terminal-entropy-harness",
+      "workspace-rescue"
     ],
     "latent": [
       "cuda-world-model",
@@ -12434,6 +12443,12 @@
       "",
       "Python"
     ],
+    "erised-exocortex": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "erised-fleet-table": [
       "fleet",
       "name",
@@ -17106,7 +17121,7 @@
       "other",
       "none",
       "",
-      "Python"
+      "C"
     ],
     "galois-field": [
       "other",
@@ -22082,6 +22097,12 @@
       "",
       "Python"
     ],
+    "madlibs-jev": [
+      "jev",
+      "name",
+      "jev",
+      "JavaScript"
+    ],
     "magda-core-study": [
       "other",
       "none",
@@ -26726,6 +26747,12 @@
       "fleet|agent",
       "HTML"
     ],
+    "purpose-loops": [
+      "fleet",
+      "description",
+      "fleet",
+      "JavaScript"
+    ],
     "PX4-Autopilot": [
       "other",
       "none",
@@ -27222,7 +27249,7 @@
       "quilt",
       "name",
       "quilt",
-      "Shell"
+      "JavaScript"
     ],
     "quilt-codespace-lab": [
       "quilt",
@@ -27253,6 +27280,12 @@
       "name",
       "quilt",
       "TypeScript"
+    ],
+    "quilt-corpus": [
+      "quilt",
+      "name",
+      "quilt",
+      "Python"
     ],
     "quilt-cortex": [
       "quilt",
@@ -27589,6 +27622,12 @@
       "name",
       "quilt",
       "Python"
+    ],
+    "quilt-gpu-lab-witness": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
     ],
     "quilt-haskell": [
       "quilt",
@@ -28333,6 +28372,12 @@
       "name",
       "quilt",
       "Python"
+    ],
+    "quilt-whitepapers": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
     ],
     "quilt-wiki-2126": [
       "quilt",
@@ -30272,6 +30317,12 @@
       "",
       "Python"
     ],
+    "sigtest": [
+      "fleet",
+      "description",
+      "lane",
+      ""
+    ],
     "silence-map": [
       "other",
       "none",
@@ -31212,7 +31263,7 @@
       "other",
       "none",
       "",
-      "Makefile"
+      "Rust"
     ],
     "substrate-bench": [
       "other",
@@ -35270,6 +35321,12 @@
       "",
       "Python"
     ],
+    "unspoken-resonance": [
+      "fleet",
+      "description",
+      "fleet",
+      "JavaScript"
+    ],
     "urban-transportation-system": [
       "quilt",
       "description",
@@ -35846,6 +35903,12 @@
       "fleet",
       ""
     ],
+    "workspace-rescue": [
+      "jev",
+      "description",
+      "jev",
+      "Python"
+    ],
     "ws-fabric": [
       "other",
       "none",
@@ -36119,16 +36182,71 @@
   },
   "top_motion": [
     {
-      "repo": "doubt-ledger",
-      "workflows": [],
-      "pushed_at": "2026-10-03T05:16:23Z",
-      "size_kb": 114
+      "repo": "quilt-gpu-lab",
+      "workflows": [
+        "tests.yml"
+      ],
+      "pushed_at": "2026-10-03T11:14:14Z",
+      "size_kb": 376040
     },
     {
-      "repo": "quilt-gpu-lab",
+      "repo": "jev-quilt",
+      "workflows": [
+        "kat.yml",
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-03T11:04:49Z",
+      "size_kb": 9565
+    },
+    {
+      "repo": "fleet-triage",
       "workflows": [],
-      "pushed_at": "2026-10-03T05:14:06Z",
-      "size_kb": 373297
+      "pushed_at": "2026-10-03T11:01:38Z",
+      "size_kb": 3565
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-03T10:25:53Z",
+      "size_kb": 29840
+    },
+    {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-03T10:19:53Z",
+      "size_kb": 54978
+    },
+    {
+      "repo": "micrograd-quilt",
+      "workflows": [],
+      "pushed_at": "2026-10-03T10:15:30Z",
+      "size_kb": 5420
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-03T10:12:23Z",
+      "size_kb": 9365
+    },
+    {
+      "repo": "superinstance-advisor",
+      "workflows": [],
+      "pushed_at": "2026-10-03T10:04:07Z",
+      "size_kb": 2502
     },
     {
       "repo": "pong-quilt",
@@ -36138,98 +36256,20 @@
         "pages.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-03T05:08:56Z",
-      "size_kb": 2681
+      "pushed_at": "2026-10-03T09:27:18Z",
+      "size_kb": 3183
     },
     {
-      "repo": "quilt-pincher",
-      "workflows": [
-        "ci.yml",
-        "publish.yml"
-      ],
-      "pushed_at": "2026-10-03T05:07:49Z",
-      "size_kb": 2620
-    },
-    {
-      "repo": "quilt-jepa",
+      "repo": "madlibs-jev",
       "workflows": [],
-      "pushed_at": "2026-10-03T04:54:57Z",
-      "size_kb": 1198
+      "pushed_at": "2026-10-03T08:25:43Z",
+      "size_kb": 60
     },
     {
-      "repo": "fleet-seeds",
-      "workflows": [
-        "forge.yml"
-      ],
-      "pushed_at": "2026-10-03T04:41:05Z",
-      "size_kb": 4473
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-03T04:27:54Z",
-      "size_kb": 29804
-    },
-    {
-      "repo": "wardroom",
+      "repo": "workspace-rescue",
       "workflows": [],
-      "pushed_at": "2026-10-03T04:12:45Z",
-      "size_kb": 63
-    },
-    {
-      "repo": "jev-quilt",
-      "workflows": [
-        "kat.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-03T04:04:19Z",
-      "size_kb": 9546
-    },
-    {
-      "repo": "quilt-mcp-receipts",
-      "workflows": [],
-      "pushed_at": "2026-10-03T04:02:25Z",
-      "size_kb": 78
-    },
-    {
-      "repo": "micrograd-quilt",
-      "workflows": [],
-      "pushed_at": "2026-10-03T03:57:20Z",
-      "size_kb": 5257
-    },
-    {
-      "repo": "mavis-workspace",
-      "workflows": [],
-      "pushed_at": "2026-10-03T03:57:03Z",
-      "size_kb": 289
-    },
-    {
-      "repo": "dicebear-quilt",
-      "workflows": [
-        "codeql.yml",
-        "deploy-editor.yml",
-        "deploy-website.yml",
-        "publish.yml",
-        "split-go-core.yml",
-        "split-php-core.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-03T03:26:02Z",
-      "size_kb": 27332
-    },
-    {
-      "repo": "fleet-triage",
-      "workflows": [],
-      "pushed_at": "2026-10-03T03:14:38Z",
-      "size_kb": 3546
-    },
-    {
-      "repo": "superinstance-advisor",
-      "workflows": [],
-      "pushed_at": "2026-10-03T03:10:08Z",
-      "size_kb": 2474
+      "pushed_at": "2026-10-03T08:24:15Z",
+      "size_kb": 4499
     },
     {
       "repo": "AI-Writings",
@@ -36241,56 +36281,85 @@
         "publish-jev-core.yml",
         "publish-jev-decide.yml"
       ],
-      "pushed_at": "2026-10-03T02:13:37Z",
-      "size_kb": 3653636
+      "pushed_at": "2026-10-03T08:22:01Z",
+      "size_kb": 3670895
     },
     {
-      "repo": "quilt-studios",
+      "repo": "unspoken-resonance",
       "workflows": [],
-      "pushed_at": "2026-10-03T02:05:18Z",
-      "size_kb": 131
+      "pushed_at": "2026-10-03T08:18:09Z",
+      "size_kb": 27
     },
     {
-      "repo": "Syzygy-OpenSkyFlight",
+      "repo": "doubt-ledger",
       "workflows": [],
-      "pushed_at": "2026-10-03T01:22:29Z",
-      "size_kb": 150174
+      "pushed_at": "2026-10-03T08:14:59Z",
+      "size_kb": 118
     },
     {
-      "repo": "erised-cli",
+      "repo": "quilt-whitepapers",
       "workflows": [],
-      "pushed_at": "2026-10-03T01:04:30Z",
-      "size_kb": 64
+      "pushed_at": "2026-10-03T08:14:36Z",
+      "size_kb": 21
     },
     {
-      "repo": "receiptd",
+      "repo": "purpose-loops",
       "workflows": [],
-      "pushed_at": "2026-10-03T00:53:02Z",
-      "size_kb": 24
+      "pushed_at": "2026-10-03T07:55:13Z",
+      "size_kb": 49
     },
     {
-      "repo": "quilt-in-git",
-      "workflows": [],
-      "pushed_at": "2026-10-03T00:16:32Z",
-      "size_kb": 109
+      "repo": "fleet-seeds",
+      "workflows": [
+        "forge.yml"
+      ],
+      "pushed_at": "2026-10-03T07:37:16Z",
+      "size_kb": 3937
     },
     {
-      "repo": "dungeon-jev",
-      "workflows": [],
-      "pushed_at": "2026-10-02T23:17:52Z",
-      "size_kb": 73
+      "repo": "constraint-theory-math",
+      "workflows": [
+        "ci.yml",
+        "python-ci.yml"
+      ],
+      "pushed_at": "2026-10-03T07:29:38Z",
+      "size_kb": 212
     },
     {
-      "repo": "quilt-dungeons",
+      "repo": "quilt-gpu-lab-witness",
       "workflows": [],
-      "pushed_at": "2026-10-02T23:01:51Z",
-      "size_kb": 40
+      "pushed_at": "2026-10-03T07:25:33Z",
+      "size_kb": 0
     },
     {
-      "repo": "dungeon-ml-zoo",
+      "repo": "mavis-workspace",
       "workflows": [],
-      "pushed_at": "2026-10-02T22:41:23Z",
-      "size_kb": 87
+      "pushed_at": "2026-10-03T07:23:23Z",
+      "size_kb": 306
+    },
+    {
+      "repo": "sigtest",
+      "workflows": [],
+      "pushed_at": "2026-10-03T07:21:21Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "research",
+      "workflows": [],
+      "pushed_at": "2026-10-03T07:20:51Z",
+      "size_kb": 123941
+    },
+    {
+      "repo": "witness-is-prediction",
+      "workflows": [],
+      "pushed_at": "2026-10-03T07:20:15Z",
+      "size_kb": 5
+    },
+    {
+      "repo": "substrate-membership",
+      "workflows": [],
+      "pushed_at": "2026-10-03T07:20:13Z",
+      "size_kb": 6
     }
   ],
   "notes": [
