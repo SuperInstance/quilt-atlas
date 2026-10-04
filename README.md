@@ -79,3 +79,18 @@ Missing rows in the table are below the motion cut — see atlas.json for the fu
   account's recurring boilerplate distilled into a named to-do list, and a machine-usable
   `seed-dna.json` (49 entries incl. the two context repos). Append-only chapter; the
   catalog's §4 documents the method and its receipts.
+
+## Documentation (wave-69)
+
+Full-knowledge package — route by audience:
+
+- New agent, zero context: [`docs/ONBOARDING.md`](./docs/ONBOARDING.md) — identity,
+  verify-it-works commands, reading order, gotchas, open frontier.
+- End user of the map: [`docs/USER-GUIDE.md`](./docs/USER-GUIDE.md) — queries against
+  `atlas.json`, regeneration, audits, troubleshooting, FAQ.
+- Developer extending the pipeline or studies: [`docs/DEVELOPER-GUIDE.md`](./docs/DEVELOPER-GUIDE.md)
+  — code layout, classifier concepts, extension recipes, conventions.
+- Engineer operating/trusting it: [`docs/ENGINEERING-NOTES.md`](./docs/ENGINEERING-NOTES.md)
+  — architecture diagram, invariants, failure modes, cost envelope, design decisions.
+- Executive: [`docs/CTO-BRIEF.md`](./docs/CTO-BRIEF.md) — value, maturity, risks, options.
+- Index of all deeper knowledge: [`docs/KNOWLEDGE-MAP.md`](./docs/KNOWLEDGE-MAP.md).
