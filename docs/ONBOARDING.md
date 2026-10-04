@@ -38,6 +38,8 @@ jq '.families' atlas.json
 #    read; in CI this is the workflow's own secrets.GITHUB_TOKEN). Without a token the
 #    GitHub API returns 401 and the run fails by design — there is no offline mode:
 GITHUB_TOKEN="$(gh auth token)" node scripts/build_atlas.mjs
+#    No gh CLI? Use any PAT: GITHUB_TOKEN=ghp_xxx node scripts/build_atlas.mjs (token
+#    used transiently, never written to disk; without a token you get the documented 401).
 #    Expected console output:
 #    pagination: <N> pages, <M> repos, hard-cap-hit=false
 #    atlas built: <M> repos across <N> pages, 24 CI-probed, families other=... · fleet=... · ...
@@ -68,7 +70,7 @@ HEAD is itself the receipt of the most recent scheduled run.
    JSONs).
 5. `seed-dna/seed-dna-catalog.md` — 47 study repos distilled to an 8-primitive genetic code
    (cell, edge, tick, receipt, chain, projection, seal, fold); `seed-dna.json` is the
-   machine-usable 49-entry companion.
+   machine-usable companion — 90 records (78 + 12 added by the wave-70 addendum).
 6. `NIGHT-SHIFT-REPORT.md` and `RELEASES-STATUS.md` — wave-66/67 operational snapshots
    (what shipped, what is released, where-ready gating).
 

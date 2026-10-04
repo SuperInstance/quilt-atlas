@@ -56,8 +56,8 @@ The index of indexes for this repo. Everything deeper than the README routes fro
   `{hash, manifestHash, seq}`); §1 functional families (substrates, time organs, witness
   instruments, models-in-the-joint, swarm, organs, polyglot, creative skins); §2 synergy
   map; §3 missing-boilerplate distill list; §4 method receipt.
-- `seed-dna/seed-dna.json` — 49 machine-usable DNA entries (essence, primitives, soft
-  joints, time flows, synergies, distill_next per repo).
+- `seed-dna/seed-dna.json` — 90 machine-usable DNA records (78 + 12 added by the wave-70
+  addendum: essence, primitives, soft joints, time flows, synergies, distill_next per repo).
 - `NIGHT-SHIFT-REPORT.md` — wave-67 night shift (2026-09-30): 8 repos shipped v0.1.0
   test-green, cross-lane PR events, organ/key status, dawn queue.
 - `RELEASES-STATUS.md` — wave-66 publishing census (5,106 repos then): releases/packages/
@@ -72,7 +72,7 @@ The index of indexes for this repo. Everything deeper than the README routes fro
   block, and the seed-dna chapter pointer.
 - `NIGHT-SHIFT-REPORT.md` — wave-67 operational snapshot (see above).
 - `RELEASES-STATUS.md` — wave-66 publishing deep-dive (see above).
-- `studies/*.md` (16 files) — every study is itself documentation of the account's
+- `studies/*.md` (15 files) — every study is itself documentation of the account's
   research record (see above for the per-file one-liners).
 - `seed-dna/seed-dna-catalog.md` — the DNA catalog with its own method receipt (§4).
 - `ORACLE.md`-style manifests do not exist here; there is no other prose doc. (No
@@ -142,6 +142,8 @@ jq -r '.classification["<repo-name>"]' atlas.json
 
 # All repos matching a keyword at classification time
 jq -r '.classification | to_entries[] | select(.value[2] | test("canon")) | .key' atlas.json
+# Scope note: this returns 59 repos across all stages, while the audit text's "25
+# canon-surface" figure (55-c) is description-stage only at audit time.
 
 # Study claims about a topic (e.g. entropy gates, judges, decay)
 grep -rn "entropy" studies/ | head -20

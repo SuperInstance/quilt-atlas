@@ -19,7 +19,8 @@ the studies and the SEED DNA catalog. No fleet background assumed.
 - **`studies/`** — the account's research layer: pre-registered, receipt-backed studies
   (waves 71–78) with their data files under `studies/data/`.
 - **`seed-dna/`** — the SEED DNA catalog: 47 study repos distilled to a language-free
-  genetic code, with a machine-usable `seed-dna.json` (49 entries).
+  genetic code, with a machine-usable `seed-dna.json` (90 records — 78 + 12 added by the
+  wave-70 addendum).
 - **`NIGHT-SHIFT-REPORT.md`, `RELEASES-STATUS.md`** — two operational snapshots of the
   account (what shipped in the wave-67 night shift; the wave-66 publishing census).
 

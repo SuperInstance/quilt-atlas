@@ -16,7 +16,7 @@ quilt-atlas/
 │                                #   commits atlas.json + README.md as "quilt-atlas bot"
 ├── atlas.json                   # generated map (36k+ lines): the machine-readable truth
 ├── README.md                    # prose + generated block between ATLAS:BEGIN/END markers
-├── studies/                     # append-only research layer (16 studies + data/)
+├── studies/                     # append-only research layer (15 studies + data/)
 │   ├── MECHANICAL-M1-74.md … MECHANICAL-M5-78.md   # the mechanical-learning program
 │   ├── REHYDRATION-72.md · PROMISE-CENSUS-72.md · JEV-CALIBRATION-74.md
 │   ├── REFLEX-ROUTER-75.md · ANIMAL-AI-LATTICE-72.md · GRAPH-R2-72.md
@@ -30,7 +30,7 @@ quilt-atlas/
 │   ├── seed-dna-catalog.md      # 1,068 lines: §0 genetic code, §1 families, §2 synergy
 │   │                            #   map, §3 boilerplate, §4 method receipt, + wave-68/70
 │   │                            #   addenda
-│   └── seed-dna.json            # 49 machine-usable DNA entries
+│   └── seed-dna.json            # 90 machine-usable DNA records (78 + 12 wave-70 addendum)
 ├── NIGHT-SHIFT-REPORT.md        # wave-67 operational snapshot
 └── RELEASES-STATUS.md           # wave-66 publishing census + where-ready queue
 ```
