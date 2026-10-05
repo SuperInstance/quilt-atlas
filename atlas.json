@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-04T21:23:19.692Z",
+  "generated_at_utc": "2026-10-05T05:37:52.192Z",
   "account": "SuperInstance",
-  "total_repos": 5170,
+  "total_repos": 5174,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2718,
-    "fleet": 1592,
+    "other": 2721,
+    "fleet": 1593,
     "qthe": 464,
     "quilt": 299,
     "jev": 54,
@@ -16,10 +16,10 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2718
+      "other": 2721
     },
     "description": {
-      "fleet": 1181,
+      "fleet": 1182,
       "qthe": 429,
       "quilt": 47,
       "jev": 28,
@@ -1709,6 +1709,7 @@
       "multi-model-adversarial-testing",
       "multi-provider-router",
       "multibot",
+      "murex",
       "murmur-plato-bridge",
       "murmur-protocol",
       "murmur-protocol-v2",
@@ -2367,6 +2368,7 @@
       "slackwater-orchestrator",
       "slackwater-rust",
       "slackwater-substrate",
+      "slackwater-tools",
       "slam-core",
       "smart-404",
       "SmartCRDT",
@@ -2747,6 +2749,7 @@
       "xruntime-conformance",
       "young-tableau-rs",
       "zero-knowledge",
+      "zero-msg-test",
       "zero-shot-auditor",
       "zeroclaw-agent-early-version",
       "zeroclaw-dissertation",
@@ -4338,6 +4341,7 @@
       "zc-weaver-shell",
       "zeitgeist-protocol",
       "zero-knowledge-fleet",
+      "zero-poc",
       "zero-trust-fleet",
       "zeroclaw-arena",
       "zeroclaw-crew",
@@ -7194,7 +7198,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "Python"
     ],
     "businesslog-app": [
       "other",
@@ -7386,7 +7390,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "capitaineai-com-pages": [
       "other",
@@ -8070,7 +8074,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "cocapn-ai-web": [
       "fleet",
@@ -11226,7 +11230,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "deckboss-app": [
       "other",
@@ -11616,7 +11620,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "DMLogn8n": [
       "fleet",
@@ -13110,7 +13114,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "fishinglog-ai-site": [
       "other",
@@ -21960,7 +21964,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "luciddreamer-content": [
       "other",
@@ -22170,7 +22174,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "mapper-agent": [
       "fleet",
@@ -22957,6 +22961,12 @@
       "description",
       "fleet",
       "HTML"
+    ],
+    "murex": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "Murmur": [
       "fleet",
@@ -24516,7 +24526,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "personlog-ai": [
       "other",
@@ -26352,7 +26362,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "playtest-journals": [
       "other",
@@ -28602,7 +28612,7 @@
       "other",
       "none",
       "",
-      ""
+      "Python"
     ],
     "rd": [
       "other",
@@ -28644,7 +28654,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "realm-ml": [
       "other",
@@ -30590,6 +30600,12 @@
       "agent",
       "Python"
     ],
+    "slackwater-tools": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "slam-core": [
       "other",
       "none",
@@ -31278,7 +31294,7 @@
       "other",
       "none",
       "",
-      "HTML"
+      "JavaScript"
     ],
     "stunt-double": [
       "other",
@@ -36128,6 +36144,18 @@
       "fleet",
       "TypeScript"
     ],
+    "zero-msg-test": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "zero-poc": [
+      "fleet",
+      "description",
+      "agent",
+      ""
+    ],
     "zero-shot-auditor": [
       "other",
       "none",
@@ -36245,20 +36273,13 @@
   },
   "top_motion": [
     {
-      "repo": "quilt-tools",
+      "repo": "MicroMoth-quilt",
       "workflows": [
-        "ci.yml"
+        "build.yml",
+        "seal.yml"
       ],
-      "pushed_at": "2026-10-04T21:17:46Z",
-      "size_kb": 647
-    },
-    {
-      "repo": "quilt-gpu-lab",
-      "workflows": [
-        "tests.yml"
-      ],
-      "pushed_at": "2026-10-04T21:10:37Z",
-      "size_kb": 384242
+      "pushed_at": "2026-10-05T05:36:42Z",
+      "size_kb": 10656
     },
     {
       "repo": "pong-quilt",
@@ -36268,165 +36289,165 @@
         "pages.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-04T21:04:18Z",
-      "size_kb": 4629
+      "pushed_at": "2026-10-05T05:21:10Z",
+      "size_kb": 5218
     },
     {
-      "repo": "MicroMoth-quilt",
+      "repo": "quilt-gpu-lab",
       "workflows": [
-        "build.yml",
-        "seal.yml"
+        "tests.yml"
       ],
-      "pushed_at": "2026-10-04T21:00:56Z",
-      "size_kb": 10511
+      "pushed_at": "2026-10-05T05:13:35Z",
+      "size_kb": 397898
     },
     {
-      "repo": "superinstance-lab",
-      "workflows": [],
-      "pushed_at": "2026-10-04T21:00:10Z",
-      "size_kb": 35343
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-04T20:59:59Z",
-      "size_kb": 29897
-    },
-    {
-      "repo": "quilt-qcells",
-      "workflows": [],
-      "pushed_at": "2026-10-04T20:59:56Z",
-      "size_kb": 67
-    },
-    {
-      "repo": "quilt-playtest",
-      "workflows": [],
-      "pushed_at": "2026-10-04T20:59:54Z",
-      "size_kb": 59347
-    },
-    {
-      "repo": "quilt-pincher",
-      "workflows": [
-        "ci.yml",
-        "publish.yml"
-      ],
-      "pushed_at": "2026-10-04T20:59:51Z",
-      "size_kb": 2674
-    },
-    {
-      "repo": "quilt-organ-workers",
-      "workflows": [],
-      "pushed_at": "2026-10-04T20:59:49Z",
-      "size_kb": 151
-    },
-    {
-      "repo": "quilt-mcp-receipts",
-      "workflows": [],
-      "pushed_at": "2026-10-04T20:59:46Z",
-      "size_kb": 78
-    },
-    {
-      "repo": "quilt-jev-toolkit",
-      "workflows": [],
-      "pushed_at": "2026-10-04T20:59:44Z",
-      "size_kb": 182
-    },
-    {
-      "repo": "quilt-jepa",
-      "workflows": [],
-      "pushed_at": "2026-10-04T20:59:41Z",
-      "size_kb": 1198
-    },
-    {
-      "repo": "quilt-codespace",
+      "repo": "rc-20260824-11",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-04T20:59:39Z",
-      "size_kb": 5046
+      "pushed_at": "2026-10-05T05:02:31Z",
+      "size_kb": 360
     },
     {
-      "repo": "quilt-atlas",
+      "repo": "zero-msg-test",
       "workflows": [
-        "atlas.yml"
+        "message.yml"
       ],
-      "pushed_at": "2026-10-04T20:59:36Z",
-      "size_kb": 401
+      "pushed_at": "2026-10-05T04:31:34Z",
+      "size_kb": 19
     },
     {
-      "repo": "qthe",
-      "workflows": [],
-      "pushed_at": "2026-10-04T20:59:34Z",
-      "size_kb": 2190
-    },
-    {
-      "repo": "jeviter",
+      "repo": "quilt-swarm",
       "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-05T04:26:42Z",
+      "size_kb": 3162
+    },
+    {
+      "repo": "quilt-tools",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-05T04:03:23Z",
+      "size_kb": 878
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-05T03:54:28Z",
+      "size_kb": 41
+    },
+    {
+      "repo": "polln",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-05T00:18:47Z",
+      "size_kb": 35330
+    },
+    {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
         "ci.yml",
-        "npm-publish-github-packages.yml",
-        "npm-publish.yml"
+        "deploy-docs.yml",
+        "pages.yml"
       ],
-      "pushed_at": "2026-10-04T20:59:29Z",
-      "size_kb": 137
+      "pushed_at": "2026-10-05T00:10:14Z",
+      "size_kb": 55570
     },
     {
-      "repo": "jev-quilt",
-      "workflows": [
-        "kat.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-04T20:59:26Z",
-      "size_kb": 9618
-    },
-    {
-      "repo": "jev-garden",
-      "workflows": [
-        "forge.yml",
-        "garden.yml"
-      ],
-      "pushed_at": "2026-10-04T20:59:24Z",
-      "size_kb": 294
-    },
-    {
-      "repo": "fleet-seeds",
-      "workflows": [
-        "forge.yml"
-      ],
-      "pushed_at": "2026-10-04T20:59:21Z",
-      "size_kb": 3958
-    },
-    {
-      "repo": "exoj",
-      "workflows": [
-        "forge.yml",
-        "smoke.yml"
-      ],
-      "pushed_at": "2026-10-04T20:59:19Z",
-      "size_kb": 651
-    },
-    {
-      "repo": "crab-traps",
-      "workflows": [
-        "ci.yml",
-        "review-lure.yml",
-        "vectorize-lures.yml"
-      ],
-      "pushed_at": "2026-10-04T20:59:11Z",
-      "size_kb": 4387
-    },
-    {
-      "repo": "cot-quilt",
+      "repo": "fleet-witness",
       "workflows": [],
-      "pushed_at": "2026-10-04T20:59:09Z",
-      "size_kb": 406
+      "pushed_at": "2026-10-04T23:57:31Z",
+      "size_kb": 53
     },
     {
-      "repo": "codespace-worker",
+      "repo": "superinstance-api",
       "workflows": [],
-      "pushed_at": "2026-10-04T20:59:06Z",
-      "size_kb": 3
+      "pushed_at": "2026-10-04T23:38:04Z",
+      "size_kb": 99
+    },
+    {
+      "repo": "quilt-i2i",
+      "workflows": [],
+      "pushed_at": "2026-10-04T23:28:20Z",
+      "size_kb": 297
+    },
+    {
+      "repo": "studylog-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T23:08:35Z",
+      "size_kb": 155
+    },
+    {
+      "repo": "capitaine-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T23:07:35Z",
+      "size_kb": 177
+    },
+    {
+      "repo": "luciddreamer-ai-pages",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-04T23:07:20Z",
+      "size_kb": 756
+    },
+    {
+      "repo": "deckboss-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T23:07:07Z",
+      "size_kb": 178
+    },
+    {
+      "repo": "cocapn-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T23:06:35Z",
+      "size_kb": 51
+    },
+    {
+      "repo": "reallog-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T23:06:23Z",
+      "size_kb": 145
+    },
+    {
+      "repo": "dmlog-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T23:06:05Z",
+      "size_kb": 25
+    },
+    {
+      "repo": "fishinglog-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T23:05:28Z",
+      "size_kb": 169
+    },
+    {
+      "repo": "playerlog-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T23:04:57Z",
+      "size_kb": 25
+    },
+    {
+      "repo": "makerlog-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T22:59:48Z",
+      "size_kb": 170
+    },
+    {
+      "repo": "personallog-ai-pages",
+      "workflows": [],
+      "pushed_at": "2026-10-04T22:58:56Z",
+      "size_kb": 25
     }
   ],
   "notes": [
