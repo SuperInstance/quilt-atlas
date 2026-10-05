@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-05T05:37:52.192Z",
+  "generated_at_utc": "2026-10-05T14:35:44.004Z",
   "account": "SuperInstance",
   "total_repos": 5174,
   "pages_fetched": 52,
@@ -36273,13 +36273,26 @@
   },
   "top_motion": [
     {
-      "repo": "MicroMoth-quilt",
+      "repo": "quilt-gpu-lab",
       "workflows": [
-        "build.yml",
-        "seal.yml"
+        "tests.yml"
       ],
-      "pushed_at": "2026-10-05T05:36:42Z",
-      "size_kb": 10656
+      "pushed_at": "2026-10-05T14:28:19Z",
+      "size_kb": 395367
+    },
+    {
+      "repo": "quilt-tools",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-05T14:07:40Z",
+      "size_kb": 801
+    },
+    {
+      "repo": "fleet-witness",
+      "workflows": [],
+      "pushed_at": "2026-10-05T13:46:51Z",
+      "size_kb": 59
     },
     {
       "repo": "pong-quilt",
@@ -36289,48 +36302,53 @@
         "pages.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-05T05:21:10Z",
-      "size_kb": 5218
+      "pushed_at": "2026-10-05T12:58:42Z",
+      "size_kb": 1820
     },
     {
-      "repo": "quilt-gpu-lab",
+      "repo": "quilt-cloudflare",
       "workflows": [
-        "tests.yml"
+        "ci.yml"
       ],
-      "pushed_at": "2026-10-05T05:13:35Z",
-      "size_kb": 397898
+      "pushed_at": "2026-10-05T12:45:58Z",
+      "size_kb": 3423
     },
     {
       "repo": "rc-20260824-11",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-05T05:02:31Z",
-      "size_kb": 360
+      "pushed_at": "2026-10-05T12:25:37Z",
+      "size_kb": 440
     },
     {
-      "repo": "zero-msg-test",
+      "repo": "jev-quilt",
       "workflows": [
-        "message.yml"
+        "kat.yml",
+        "test.yml"
       ],
-      "pushed_at": "2026-10-05T04:31:34Z",
-      "size_kb": 19
+      "pushed_at": "2026-10-05T12:14:15Z",
+      "size_kb": 9697
     },
     {
-      "repo": "quilt-swarm",
+      "repo": "plato-portal",
       "workflows": [
-        "ci.yml"
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
       ],
-      "pushed_at": "2026-10-05T04:26:42Z",
-      "size_kb": 3162
+      "pushed_at": "2026-10-05T12:02:10Z",
+      "size_kb": 9651
     },
     {
-      "repo": "quilt-tools",
+      "repo": "quilt",
       "workflows": [
-        "ci.yml"
+        "ci.yml",
+        "publish-rubygems.yml"
       ],
-      "pushed_at": "2026-10-05T04:03:23Z",
-      "size_kb": 878
+      "pushed_at": "2026-10-05T09:55:48Z",
+      "size_kb": 15476
     },
     {
       "repo": "zero-poc",
@@ -36339,8 +36357,70 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-05T03:54:28Z",
-      "size_kb": 41
+      "pushed_at": "2026-10-05T09:39:30Z",
+      "size_kb": 42
+    },
+    {
+      "repo": "SmartCRDT",
+      "workflows": [
+        "benchmark-regression.yml",
+        "benchmark.yml",
+        "benchmarks-ci.yml",
+        "cd-enhanced.yml",
+        "ci.yml",
+        "codeql.yml",
+        "deploy.yml",
+        "docker.yml",
+        "pr-validation.yml",
+        "release.yml",
+        "security-scan.yml",
+        "smoke-tests.yml"
+      ],
+      "pushed_at": "2026-10-05T09:11:14Z",
+      "size_kb": 7679
+    },
+    {
+      "repo": "webgpu-profiler",
+      "workflows": [
+        "ci-node.yml",
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-05T09:10:08Z",
+      "size_kb": 348
+    },
+    {
+      "repo": "zero-msg-test",
+      "workflows": [
+        "message.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-05T07:33:36Z",
+      "size_kb": 125
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-05T05:37:53Z",
+      "size_kb": 525
+    },
+    {
+      "repo": "MicroMoth-quilt",
+      "workflows": [
+        "build.yml",
+        "seal.yml"
+      ],
+      "pushed_at": "2026-10-05T05:36:42Z",
+      "size_kb": 10656
+    },
+    {
+      "repo": "quilt-swarm",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-05T04:26:42Z",
+      "size_kb": 3162
     },
     {
       "repo": "polln",
@@ -36362,12 +36442,6 @@
       ],
       "pushed_at": "2026-10-05T00:10:14Z",
       "size_kb": 55570
-    },
-    {
-      "repo": "fleet-witness",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:57:31Z",
-      "size_kb": 53
     },
     {
       "repo": "superinstance-api",
@@ -36406,48 +36480,6 @@
       "workflows": [],
       "pushed_at": "2026-10-04T23:07:07Z",
       "size_kb": 178
-    },
-    {
-      "repo": "cocapn-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:06:35Z",
-      "size_kb": 51
-    },
-    {
-      "repo": "reallog-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:06:23Z",
-      "size_kb": 145
-    },
-    {
-      "repo": "dmlog-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:06:05Z",
-      "size_kb": 25
-    },
-    {
-      "repo": "fishinglog-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:05:28Z",
-      "size_kb": 169
-    },
-    {
-      "repo": "playerlog-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:04:57Z",
-      "size_kb": 25
-    },
-    {
-      "repo": "makerlog-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T22:59:48Z",
-      "size_kb": 170
-    },
-    {
-      "repo": "personallog-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T22:58:56Z",
-      "size_kb": 25
     }
   ],
   "notes": [
