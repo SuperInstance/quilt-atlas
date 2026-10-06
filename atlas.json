@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-06T06:19:11.976Z",
+  "generated_at_utc": "2026-10-06T18:22:20.914Z",
   "account": "SuperInstance",
-  "total_repos": 5178,
+  "total_repos": 5179,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
     "other": 2724,
-    "fleet": 1594,
+    "fleet": 1595,
     "qthe": 464,
     "quilt": 299,
     "jev": 54,
@@ -19,7 +19,7 @@
       "other": 2724
     },
     "description": {
-      "fleet": 1183,
+      "fleet": 1184,
       "qthe": 429,
       "quilt": 47,
       "jev": 28,
@@ -4117,6 +4117,7 @@
       "scummvm-prototype",
       "secret-scanner",
       "seed-tick-audit",
+      "self-assembly",
       "self-evolve-ai",
       "semble",
       "sensor-fusion",
@@ -7142,7 +7143,7 @@
       "other",
       "none",
       "",
-      ""
+      "Python"
     ],
     "brothers-keeper": [
       "fleet",
@@ -21530,7 +21531,7 @@
       "fleet",
       "description",
       "agent",
-      ""
+      "Python"
     ],
     "legacy-ai": [
       "other",
@@ -29758,6 +29759,12 @@
       "",
       "Python"
     ],
+    "self-assembly": [
+      "fleet",
+      "description",
+      "agent",
+      "Shell"
+    ],
     "self-evolve-ai": [
       "fleet",
       "description",
@@ -31268,7 +31275,7 @@
       "other",
       "none",
       "",
-      ""
+      "Python"
     ],
     "streamer": [
       "other",
@@ -36305,34 +36312,40 @@
       "workflows": [
         "tests.yml"
       ],
-      "pushed_at": "2026-10-06T06:12:54Z",
-      "size_kb": 414502
+      "pushed_at": "2026-10-06T18:16:05Z",
+      "size_kb": 412904
     },
     {
       "repo": "rc-20260824-11",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-06T04:25:00Z",
-      "size_kb": 457
+      "pushed_at": "2026-10-06T16:23:57Z",
+      "size_kb": 473
     },
     {
-      "repo": "stream-curator",
+      "repo": "self-assembly",
       "workflows": [],
-      "pushed_at": "2026-10-06T01:18:51Z",
-      "size_kb": 0
+      "pushed_at": "2026-10-06T16:16:33Z",
+      "size_kb": 350
     },
     {
       "repo": "ledger-continuity",
       "workflows": [],
-      "pushed_at": "2026-10-06T01:18:47Z",
-      "size_kb": 0
+      "pushed_at": "2026-10-06T16:16:26Z",
+      "size_kb": 7
+    },
+    {
+      "repo": "stream-curator",
+      "workflows": [],
+      "pushed_at": "2026-10-06T16:16:24Z",
+      "size_kb": 10
     },
     {
       "repo": "brief-assembler",
       "workflows": [],
-      "pushed_at": "2026-10-06T01:18:43Z",
-      "size_kb": 0
+      "pushed_at": "2026-10-06T16:16:23Z",
+      "size_kb": 11
     },
     {
       "repo": "zero-poc",
@@ -36341,8 +36354,40 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-06T00:45:30Z",
-      "size_kb": 44
+      "pushed_at": "2026-10-06T14:07:46Z",
+      "size_kb": 46
+    },
+    {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-06T11:56:05Z",
+      "size_kb": 56079
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-06T11:46:18Z",
+      "size_kb": 9793
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-06T06:19:13Z",
+      "size_kb": 623
     },
     {
       "repo": "model-registry-archive",
@@ -36351,14 +36396,6 @@
       ],
       "pushed_at": "2026-10-06T00:14:57Z",
       "size_kb": 36
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-06T00:03:05Z",
-      "size_kb": 623
     },
     {
       "repo": "AI-Writings",
@@ -36467,29 +36504,6 @@
       ],
       "pushed_at": "2026-10-05T21:05:05Z",
       "size_kb": 15231
-    },
-    {
-      "repo": "jev-quilt",
-      "workflows": [
-        "kat.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-05T21:04:57Z",
-      "size_kb": 9781
-    },
-    {
-      "repo": "fleet-seeds",
-      "workflows": [
-        "forge.yml"
-      ],
-      "pushed_at": "2026-10-05T19:12:21Z",
-      "size_kb": 4067
-    },
-    {
-      "repo": "micrograd-quilt",
-      "workflows": [],
-      "pushed_at": "2026-10-05T18:57:58Z",
-      "size_kb": 4934
     }
   ],
   "notes": [
