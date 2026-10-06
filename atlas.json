@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-05T14:35:44.004Z",
+  "generated_at_utc": "2026-10-06T00:03:03.915Z",
   "account": "SuperInstance",
-  "total_repos": 5174,
+  "total_repos": 5175,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2721,
+    "other": 2722,
     "fleet": 1593,
     "qthe": 464,
     "quilt": 299,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2721
+      "other": 2722
     },
     "description": {
       "fleet": 1182,
@@ -796,6 +796,7 @@
       "event-sourcing",
       "eventstream",
       "evo-rs",
+      "Evolver",
       "evolving-sheaf-c",
       "examples",
       "exception-handler",
@@ -12587,6 +12588,12 @@
       "description",
       "agent",
       "Rust"
+    ],
+    "Evolver": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "evolving-sheaf-c": [
       "other",
@@ -36277,22 +36284,46 @@
       "workflows": [
         "tests.yml"
       ],
-      "pushed_at": "2026-10-05T14:28:19Z",
-      "size_kb": 395367
+      "pushed_at": "2026-10-05T23:12:07Z",
+      "size_kb": 396920
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "ci.yml",
+        "corpus.yml",
+        "landing-page.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml"
+      ],
+      "pushed_at": "2026-10-05T22:39:58Z",
+      "size_kb": 3675132
+    },
+    {
+      "repo": "zero-msg-test",
+      "workflows": [
+        "message.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-05T22:04:10Z",
+      "size_kb": 126
+    },
+    {
+      "repo": "quilt-swarm",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-05T21:31:33Z",
+      "size_kb": 3131
     },
     {
       "repo": "quilt-tools",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-05T14:07:40Z",
-      "size_kb": 801
-    },
-    {
-      "repo": "fleet-witness",
-      "workflows": [],
-      "pushed_at": "2026-10-05T13:46:51Z",
-      "size_kb": 59
+      "pushed_at": "2026-10-05T21:17:10Z",
+      "size_kb": 502
     },
     {
       "repo": "pong-quilt",
@@ -36302,44 +36333,58 @@
         "pages.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-05T12:58:42Z",
-      "size_kb": 1820
+      "pushed_at": "2026-10-05T21:10:27Z",
+      "size_kb": 1886
+    },
+    {
+      "repo": "fleet-witness",
+      "workflows": [],
+      "pushed_at": "2026-10-05T21:09:35Z",
+      "size_kb": 72
+    },
+    {
+      "repo": "MicroMoth-quilt",
+      "workflows": [
+        "build.yml",
+        "seal.yml"
+      ],
+      "pushed_at": "2026-10-05T21:09:07Z",
+      "size_kb": 10471
+    },
+    {
+      "repo": "constraint-theory-math",
+      "workflows": [
+        "ci.yml",
+        "python-ci.yml"
+      ],
+      "pushed_at": "2026-10-05T21:06:52Z",
+      "size_kb": 222
+    },
+    {
+      "repo": "doubt-ledger",
+      "workflows": [],
+      "pushed_at": "2026-10-05T21:06:13Z",
+      "size_kb": 107
+    },
+    {
+      "repo": "quilt-jev-toolkit",
+      "workflows": [],
+      "pushed_at": "2026-10-05T21:05:40Z",
+      "size_kb": 240
+    },
+    {
+      "repo": "quilt-in-git",
+      "workflows": [],
+      "pushed_at": "2026-10-05T21:05:24Z",
+      "size_kb": 118
     },
     {
       "repo": "quilt-cloudflare",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-05T12:45:58Z",
-      "size_kb": 3423
-    },
-    {
-      "repo": "rc-20260824-11",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-05T12:25:37Z",
-      "size_kb": 440
-    },
-    {
-      "repo": "jev-quilt",
-      "workflows": [
-        "kat.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-05T12:14:15Z",
-      "size_kb": 9697
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-05T12:02:10Z",
-      "size_kb": 9651
+      "pushed_at": "2026-10-05T21:05:17Z",
+      "size_kb": 3395
     },
     {
       "repo": "quilt",
@@ -36347,8 +36392,39 @@
         "ci.yml",
         "publish-rubygems.yml"
       ],
-      "pushed_at": "2026-10-05T09:55:48Z",
-      "size_kb": 15476
+      "pushed_at": "2026-10-05T21:05:05Z",
+      "size_kb": 15231
+    },
+    {
+      "repo": "jev-quilt",
+      "workflows": [
+        "kat.yml",
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-05T21:04:57Z",
+      "size_kb": 9781
+    },
+    {
+      "repo": "rc-20260824-11",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-05T20:23:46Z",
+      "size_kb": 447
+    },
+    {
+      "repo": "fleet-seeds",
+      "workflows": [
+        "forge.yml"
+      ],
+      "pushed_at": "2026-10-05T19:12:21Z",
+      "size_kb": 4067
+    },
+    {
+      "repo": "micrograd-quilt",
+      "workflows": [],
+      "pushed_at": "2026-10-05T18:57:58Z",
+      "size_kb": 4934
     },
     {
       "repo": "zero-poc",
@@ -36357,27 +36433,8 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-05T09:39:30Z",
+      "pushed_at": "2026-10-05T18:53:29Z",
       "size_kb": 42
-    },
-    {
-      "repo": "SmartCRDT",
-      "workflows": [
-        "benchmark-regression.yml",
-        "benchmark.yml",
-        "benchmarks-ci.yml",
-        "cd-enhanced.yml",
-        "ci.yml",
-        "codeql.yml",
-        "deploy.yml",
-        "docker.yml",
-        "pr-validation.yml",
-        "release.yml",
-        "security-scan.yml",
-        "smoke-tests.yml"
-      ],
-      "pushed_at": "2026-10-05T09:11:14Z",
-      "size_kb": 7679
     },
     {
       "repo": "webgpu-profiler",
@@ -36385,50 +36442,20 @@
         "ci-node.yml",
         "ci.yml"
       ],
-      "pushed_at": "2026-10-05T09:10:08Z",
-      "size_kb": 348
+      "pushed_at": "2026-10-05T18:46:22Z",
+      "size_kb": 339
     },
     {
-      "repo": "zero-msg-test",
-      "workflows": [
-        "message.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-05T07:33:36Z",
-      "size_kb": 125
+      "repo": "lucineer-system",
+      "workflows": [],
+      "pushed_at": "2026-10-05T16:34:25Z",
+      "size_kb": 594285
     },
     {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-05T05:37:53Z",
-      "size_kb": 525
-    },
-    {
-      "repo": "MicroMoth-quilt",
-      "workflows": [
-        "build.yml",
-        "seal.yml"
-      ],
-      "pushed_at": "2026-10-05T05:36:42Z",
-      "size_kb": 10656
-    },
-    {
-      "repo": "quilt-swarm",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-05T04:26:42Z",
-      "size_kb": 3162
-    },
-    {
-      "repo": "polln",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-05T00:18:47Z",
-      "size_kb": 35330
+      "repo": "chiaroscuro",
+      "workflows": [],
+      "pushed_at": "2026-10-05T16:31:26Z",
+      "size_kb": 305
     },
     {
       "repo": "SuperInstance",
@@ -36440,46 +36467,14 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-10-05T00:10:14Z",
+      "pushed_at": "2026-10-05T16:31:24Z",
       "size_kb": 55570
     },
     {
-      "repo": "superinstance-api",
+      "repo": "selectlib",
       "workflows": [],
-      "pushed_at": "2026-10-04T23:38:04Z",
-      "size_kb": 99
-    },
-    {
-      "repo": "quilt-i2i",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:28:20Z",
-      "size_kb": 297
-    },
-    {
-      "repo": "studylog-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:08:35Z",
-      "size_kb": 155
-    },
-    {
-      "repo": "capitaine-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:07:35Z",
-      "size_kb": 177
-    },
-    {
-      "repo": "luciddreamer-ai-pages",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-04T23:07:20Z",
-      "size_kb": 756
-    },
-    {
-      "repo": "deckboss-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-04T23:07:07Z",
-      "size_kb": 178
+      "pushed_at": "2026-10-05T16:30:49Z",
+      "size_kb": 54
     }
   ],
   "notes": [
