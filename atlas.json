@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-06T18:22:20.914Z",
+  "generated_at_utc": "2026-10-07T05:57:50.880Z",
   "account": "SuperInstance",
-  "total_repos": 5179,
+  "total_repos": 5184,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2724,
-    "fleet": 1595,
+    "other": 2726,
+    "fleet": 1598,
     "qthe": 464,
     "quilt": 299,
     "jev": 54,
@@ -16,10 +16,10 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2724
+      "other": 2726
     },
     "description": {
-      "fleet": 1184,
+      "fleet": 1187,
       "qthe": 429,
       "quilt": 47,
       "jev": 28,
@@ -1622,6 +1622,7 @@
       "Lucineer-Stem-quest",
       "lucineer-system",
       "lucineer-vector",
+      "lucineer-workspace",
       "lumina-lang",
       "mac-digest",
       "madlibs-gan",
@@ -2675,6 +2676,7 @@
       "UniRL",
       "universal-import-export",
       "universe-chain",
+      "unoq-node",
       "usemeter",
       "usemeter-archive",
       "uv",
@@ -2808,6 +2810,7 @@
       "agent-homeostasis-rs",
       "agent-identity",
       "agent-identity-rs",
+      "agent-inbox",
       "agent-intonation",
       "agent-knowledge",
       "Agent-Lifecycle-Registry",
@@ -2846,6 +2849,7 @@
       "agent-template",
       "agent-ternary-gate",
       "agent-therapy",
+      "agent-tiles",
       "agent-to-agent",
       "agent-transcription",
       "agent-venue",
@@ -4083,6 +4087,7 @@
       "purplepincher.org",
       "purpose-loops",
       "python-agent-shell",
+      "question-tree",
       "quill-isa-architect",
       "random-walk-agent",
       "receiptd",
@@ -5753,6 +5758,12 @@
       "agent",
       "Rust"
     ],
+    "agent-inbox": [
+      "fleet",
+      "description",
+      "agent",
+      "Shell"
+    ],
     "agent-intonation": [
       "fleet",
       "description",
@@ -6046,6 +6057,12 @@
       "description",
       "fleet|agent",
       "Python"
+    ],
+    "agent-tiles": [
+      "fleet",
+      "description",
+      "agent",
+      ""
     ],
     "agent-to-agent": [
       "fleet",
@@ -22109,6 +22126,12 @@
       "",
       "TypeScript"
     ],
+    "lucineer-workspace": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "Luma": [
       "fleet",
       "description",
@@ -26932,6 +26955,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "question-tree": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
     ],
     "queueing-theory": [
       "other",
@@ -35429,6 +35458,12 @@
       "",
       "Python"
     ],
+    "unoq-node": [
+      "other",
+      "none",
+      "",
+      "Shell"
+    ],
     "unspoken-resonance": [
       "fleet",
       "description",
@@ -36308,20 +36343,95 @@
   },
   "top_motion": [
     {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-10-07T05:52:59Z",
+      "size_kb": 25
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "ci.yml",
+        "corpus.yml",
+        "landing-page.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml"
+      ],
+      "pushed_at": "2026-10-07T05:45:58Z",
+      "size_kb": 3683938
+    },
+    {
       "repo": "quilt-gpu-lab",
       "workflows": [
         "tests.yml"
       ],
-      "pushed_at": "2026-10-06T18:16:05Z",
-      "size_kb": 412904
+      "pushed_at": "2026-10-07T05:44:30Z",
+      "size_kb": 415535
     },
     {
       "repo": "rc-20260824-11",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-06T16:23:57Z",
-      "size_kb": 473
+      "pushed_at": "2026-10-07T05:05:29Z",
+      "size_kb": 484
+    },
+    {
+      "repo": "unoq-node",
+      "workflows": [],
+      "pushed_at": "2026-10-07T05:02:28Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-07T04:24:30Z",
+      "size_kb": 29938
+    },
+    {
+      "repo": "question-tree",
+      "workflows": [],
+      "pushed_at": "2026-10-07T03:50:44Z",
+      "size_kb": 18
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-07T02:41:07Z",
+      "size_kb": 56
+    },
+    {
+      "repo": "lucineer-system",
+      "workflows": [],
+      "pushed_at": "2026-10-07T01:38:29Z",
+      "size_kb": 599414
+    },
+    {
+      "repo": "lucineer-workspace",
+      "workflows": [],
+      "pushed_at": "2026-10-06T22:02:31Z",
+      "size_kb": 23
+    },
+    {
+      "repo": "agent-tiles",
+      "workflows": [],
+      "pushed_at": "2026-10-06T19:41:42Z",
+      "size_kb": 3
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-06T18:22:22Z",
+      "size_kb": 720
     },
     {
       "repo": "self-assembly",
@@ -36348,16 +36458,6 @@
       "size_kb": 11
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-06T14:07:46Z",
-      "size_kb": 46
-    },
-    {
       "repo": "SuperInstance",
       "workflows": [
         "auto-index.yml",
@@ -36382,33 +36482,12 @@
       "size_kb": 9793
     },
     {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-06T06:19:13Z",
-      "size_kb": 623
-    },
-    {
       "repo": "model-registry-archive",
       "workflows": [
         "ci.yml"
       ],
       "pushed_at": "2026-10-06T00:14:57Z",
       "size_kb": 36
-    },
-    {
-      "repo": "AI-Writings",
-      "workflows": [
-        "ci.yml",
-        "corpus.yml",
-        "landing-page.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml"
-      ],
-      "pushed_at": "2026-10-05T22:39:58Z",
-      "size_kb": 3675132
     },
     {
       "repo": "zero-msg-test",
@@ -36451,59 +36530,6 @@
       "workflows": [],
       "pushed_at": "2026-10-05T21:09:35Z",
       "size_kb": 72
-    },
-    {
-      "repo": "MicroMoth-quilt",
-      "workflows": [
-        "build.yml",
-        "seal.yml"
-      ],
-      "pushed_at": "2026-10-05T21:09:07Z",
-      "size_kb": 10471
-    },
-    {
-      "repo": "constraint-theory-math",
-      "workflows": [
-        "ci.yml",
-        "python-ci.yml"
-      ],
-      "pushed_at": "2026-10-05T21:06:52Z",
-      "size_kb": 222
-    },
-    {
-      "repo": "doubt-ledger",
-      "workflows": [],
-      "pushed_at": "2026-10-05T21:06:13Z",
-      "size_kb": 107
-    },
-    {
-      "repo": "quilt-jev-toolkit",
-      "workflows": [],
-      "pushed_at": "2026-10-05T21:05:40Z",
-      "size_kb": 240
-    },
-    {
-      "repo": "quilt-in-git",
-      "workflows": [],
-      "pushed_at": "2026-10-05T21:05:24Z",
-      "size_kb": 118
-    },
-    {
-      "repo": "quilt-cloudflare",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-05T21:05:17Z",
-      "size_kb": 3395
-    },
-    {
-      "repo": "quilt",
-      "workflows": [
-        "ci.yml",
-        "publish-rubygems.yml"
-      ],
-      "pushed_at": "2026-10-05T21:05:05Z",
-      "size_kb": 15231
     }
   ],
   "notes": [
