@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-10-07T05:57:50.880Z",
+  "generated_at_utc": "2026-10-07T13:21:19.294Z",
   "account": "SuperInstance",
-  "total_repos": 5184,
+  "total_repos": 5186,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
     "other": 2726,
-    "fleet": 1598,
+    "fleet": 1599,
     "qthe": 464,
     "quilt": 299,
-    "jev": 54,
+    "jev": 55,
     "latent": 18,
     "moth": 25
   },
@@ -19,7 +19,7 @@
       "other": 2726
     },
     "description": {
-      "fleet": 1187,
+      "fleet": 1188,
       "qthe": 429,
       "quilt": 47,
       "jev": 28,
@@ -30,7 +30,7 @@
       "quilt": 252,
       "qthe": 35,
       "fleet": 411,
-      "jev": 26,
+      "jev": 27,
       "moth": 22,
       "latent": 13
     }
@@ -3635,6 +3635,7 @@
       "git-graph-rs",
       "git-native-agents",
       "git-remote-agent",
+      "git.pp",
       "glyph-language",
       "glyphcast",
       "governance-equipment",
@@ -5156,6 +5157,7 @@
       "jev-gan-cli",
       "jev-garden",
       "jev-harness",
+      "jev-ideation",
       "jev-net",
       "jev-net-worker",
       "jev-paint-quilt",
@@ -17476,6 +17478,12 @@
       "",
       "TypeScript"
     ],
+    "git.pp": [
+      "fleet",
+      "description",
+      "agent",
+      "Shell"
+    ],
     "glyph-language": [
       "fleet",
       "description",
@@ -19221,6 +19229,12 @@
       "name",
       "jev",
       "Python"
+    ],
+    "jev-ideation": [
+      "jev",
+      "name",
+      "jev",
+      ""
     ],
     "jev-net": [
       "jev",
@@ -36343,10 +36357,88 @@
   },
   "top_motion": [
     {
+      "repo": "quilt-gpu-lab",
+      "workflows": [
+        "tests.yml"
+      ],
+      "pushed_at": "2026-10-07T13:20:33Z",
+      "size_kb": 413821
+    },
+    {
+      "repo": "rc-20260824-11",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-07T13:05:52Z",
+      "size_kb": 496
+    },
+    {
       "repo": "agent-inbox",
       "workflows": [],
-      "pushed_at": "2026-10-07T05:52:59Z",
-      "size_kb": 25
+      "pushed_at": "2026-10-07T13:03:45Z",
+      "size_kb": 24684
+    },
+    {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-07T11:39:45Z",
+      "size_kb": 56607
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-07T11:31:08Z",
+      "size_kb": 9938
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-07T10:24:29Z",
+      "size_kb": 29963
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-07T09:22:17Z",
+      "size_kb": 57
+    },
+    {
+      "repo": "jev-ideation",
+      "workflows": [],
+      "pushed_at": "2026-10-07T08:22:49Z",
+      "size_kb": 6
+    },
+    {
+      "repo": "git.pp",
+      "workflows": [],
+      "pushed_at": "2026-10-07T07:49:09Z",
+      "size_kb": 26
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-07T05:57:51Z",
+      "size_kb": 721
     },
     {
       "repo": "AI-Writings",
@@ -36359,53 +36451,19 @@
         "publish-jev-decide.yml"
       ],
       "pushed_at": "2026-10-07T05:45:58Z",
-      "size_kb": 3683938
-    },
-    {
-      "repo": "quilt-gpu-lab",
-      "workflows": [
-        "tests.yml"
-      ],
-      "pushed_at": "2026-10-07T05:44:30Z",
-      "size_kb": 415535
-    },
-    {
-      "repo": "rc-20260824-11",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-07T05:05:29Z",
-      "size_kb": 484
+      "size_kb": 3688298
     },
     {
       "repo": "unoq-node",
       "workflows": [],
       "pushed_at": "2026-10-07T05:02:28Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-07T04:24:30Z",
-      "size_kb": 29938
+      "size_kb": 8
     },
     {
       "repo": "question-tree",
       "workflows": [],
       "pushed_at": "2026-10-07T03:50:44Z",
       "size_kb": 18
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-07T02:41:07Z",
-      "size_kb": 56
     },
     {
       "repo": "lucineer-system",
@@ -36424,14 +36482,6 @@
       "workflows": [],
       "pushed_at": "2026-10-06T19:41:42Z",
       "size_kb": 3
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-06T18:22:22Z",
-      "size_kb": 720
     },
     {
       "repo": "self-assembly",
@@ -36456,30 +36506,6 @@
       "workflows": [],
       "pushed_at": "2026-10-06T16:16:23Z",
       "size_kb": 11
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-06T11:56:05Z",
-      "size_kb": 56079
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-06T11:46:18Z",
-      "size_kb": 9793
     },
     {
       "repo": "model-registry-archive",
@@ -36513,23 +36539,6 @@
       ],
       "pushed_at": "2026-10-05T21:17:10Z",
       "size_kb": 502
-    },
-    {
-      "repo": "pong-quilt",
-      "workflows": [
-        "forge.yml",
-        "merge-gate.yml",
-        "pages.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-05T21:10:27Z",
-      "size_kb": 1886
-    },
-    {
-      "repo": "fleet-witness",
-      "workflows": [],
-      "pushed_at": "2026-10-05T21:09:35Z",
-      "size_kb": 72
     }
   ],
   "notes": [
