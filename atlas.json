@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-07T23:05:02.448Z",
+  "generated_at_utc": "2026-10-08T06:02:04.589Z",
   "account": "SuperInstance",
-  "total_repos": 5187,
+  "total_repos": 5195,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2726,
-    "fleet": 1599,
+    "other": 2732,
+    "fleet": 1601,
     "qthe": 464,
     "quilt": 299,
     "jev": 56,
@@ -16,10 +16,10 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2726
+      "other": 2732
     },
     "description": {
-      "fleet": 1188,
+      "fleet": 1190,
       "qthe": 429,
       "quilt": 47,
       "jev": 28,
@@ -112,6 +112,7 @@
       "anomaly-atlas",
       "anomaly-detect",
       "ant-colony",
+      "anti-gan-test",
       "api-doc-generator",
       "api-gateway",
       "api-versioner",
@@ -197,6 +198,7 @@
       "booklog-ai",
       "boot-camp",
       "bootcamp-engine",
+      "bottle-seed",
       "bounded-model",
       "bplus-tree",
       "braid-group-rs",
@@ -1064,6 +1066,7 @@
       "FORGE-FLUX-ECOSYSTEM",
       "forge-meta",
       "forge-pipeline",
+      "forge-seed",
       "forge-subtitle",
       "forgecode",
       "forgemaster-chess-eval",
@@ -1103,6 +1106,7 @@
       "galois_retrieval",
       "game-chain",
       "garden-path",
+      "garden-seed",
       "gardenlog-ai",
       "gatekeeper-as-flux-early-version",
       "gauge",
@@ -1223,6 +1227,7 @@
       "guardc-v3",
       "h1-emergence",
       "handy-marine-voice",
+      "harbor-seed",
       "hardware-adapter",
       "Hardware-Aware-Flagging",
       "hardware-capability-profiler",
@@ -1559,6 +1564,7 @@
       "license-compliance",
       "lie-algebra",
       "lighthouse-cli-early-version",
+      "lighthouse-seed",
       "limits-colimits",
       "line-sweep-rs",
       "lineage-tracker",
@@ -3927,6 +3933,7 @@
       "nexus-simulation",
       "nexus-swarm",
       "noether-bridge",
+      "nursery",
       "observatory",
       "open-agents",
       "open-fleet-safety",
@@ -4122,6 +4129,7 @@
       "schema-evolution",
       "scummvm-prototype",
       "secret-scanner",
+      "seed",
       "seed-tick-audit",
       "self-assembly",
       "self-evolve-ai",
@@ -6331,6 +6339,12 @@
       "",
       "Rust"
     ],
+    "anti-gan-test": [
+      "other",
+      "none",
+      "",
+      "Shell"
+    ],
     "ap-compiler": [
       "fleet",
       "description",
@@ -7098,6 +7112,12 @@
       "description",
       "agent",
       "Python"
+    ],
+    "bottle-seed": [
+      "other",
+      "none",
+      "",
+      "Shell"
     ],
     "bounded-model": [
       "other",
@@ -16897,6 +16917,12 @@
       "quilt",
       "Python"
     ],
+    "forge-seed": [
+      "other",
+      "none",
+      "",
+      "Shell"
+    ],
     "forge-sensor": [
       "fleet",
       "description",
@@ -17232,6 +17258,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "garden-seed": [
+      "other",
+      "none",
+      "",
+      "Shell"
     ],
     "gardenlog-ai": [
       "other",
@@ -18204,6 +18236,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "harbor-seed": [
+      "other",
+      "none",
+      "",
+      "Shell"
     ],
     "hardware-adapter": [
       "other",
@@ -21667,6 +21705,12 @@
       "fleet|agent",
       "Python"
     ],
+    "lighthouse-seed": [
+      "other",
+      "none",
+      "",
+      "Shell"
+    ],
     "limits-colimits": [
       "other",
       "none",
@@ -23502,6 +23546,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "nursery": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
     ],
     "observation-primitive": [
       "qthe",
@@ -29754,6 +29804,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "seed": [
+      "fleet",
+      "description",
+      "agent",
+      "Shell"
     ],
     "seed-creative-swarm": [
       "other",
@@ -36364,20 +36420,90 @@
   },
   "top_motion": [
     {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-07T22:34:18Z",
-      "size_kb": 29999
+      "repo": "nursery",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:52:21Z",
+      "size_kb": 0
     },
     {
       "repo": "quilt-gpu-lab",
       "workflows": [
         "tests.yml"
       ],
-      "pushed_at": "2026-10-07T22:27:44Z",
-      "size_kb": 415523
+      "pushed_at": "2026-10-08T05:44:10Z",
+      "size_kb": 417580
+    },
+    {
+      "repo": "anti-gan-test",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:36:01Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "garden-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:32:05Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "forge-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:58Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "lighthouse-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:50Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "bottle-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:44Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "harbor-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:38Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:24Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "rc-20260824-11",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-08T05:05:25Z",
+      "size_kb": 520
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-08T04:40:49Z",
+      "size_kb": 30039
+    },
+    {
+      "repo": "quilt-elf",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-08T04:34:23Z",
+      "size_kb": 2868
+    },
+    {
+      "repo": "jev-ideation",
+      "workflows": [],
+      "pushed_at": "2026-10-08T03:08:09Z",
+      "size_kb": 20
     },
     {
       "repo": "zero-poc",
@@ -36386,16 +36512,25 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-07T21:55:11Z",
-      "size_kb": 59
+      "pushed_at": "2026-10-08T01:46:21Z",
+      "size_kb": 62
     },
     {
-      "repo": "rc-20260824-11",
+      "repo": "quilt-pincher",
       "workflows": [
-        "ci.yml"
+        "ci.yml",
+        "publish.yml"
       ],
-      "pushed_at": "2026-10-07T21:06:22Z",
-      "size_kb": 514
+      "pushed_at": "2026-10-08T01:34:49Z",
+      "size_kb": 2803
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-07T23:05:03Z",
+      "size_kb": 819
     },
     {
       "repo": "agent-inbox",
@@ -36408,14 +36543,6 @@
       "workflows": [],
       "pushed_at": "2026-10-07T16:51:37Z",
       "size_kb": 13
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-07T13:21:21Z",
-      "size_kb": 818
     },
     {
       "repo": "SuperInstance",
@@ -36440,12 +36567,6 @@
       ],
       "pushed_at": "2026-10-07T11:31:08Z",
       "size_kb": 9938
-    },
-    {
-      "repo": "jev-ideation",
-      "workflows": [],
-      "pushed_at": "2026-10-07T08:22:49Z",
-      "size_kb": 6
     },
     {
       "repo": "git.pp",
@@ -36477,73 +36598,6 @@
       "workflows": [],
       "pushed_at": "2026-10-07T03:50:44Z",
       "size_kb": 18
-    },
-    {
-      "repo": "lucineer-system",
-      "workflows": [],
-      "pushed_at": "2026-10-07T01:38:29Z",
-      "size_kb": 599414
-    },
-    {
-      "repo": "lucineer-workspace",
-      "workflows": [],
-      "pushed_at": "2026-10-06T22:02:31Z",
-      "size_kb": 23
-    },
-    {
-      "repo": "agent-tiles",
-      "workflows": [],
-      "pushed_at": "2026-10-06T19:41:42Z",
-      "size_kb": 3
-    },
-    {
-      "repo": "self-assembly",
-      "workflows": [],
-      "pushed_at": "2026-10-06T16:16:33Z",
-      "size_kb": 350
-    },
-    {
-      "repo": "ledger-continuity",
-      "workflows": [],
-      "pushed_at": "2026-10-06T16:16:26Z",
-      "size_kb": 7
-    },
-    {
-      "repo": "stream-curator",
-      "workflows": [],
-      "pushed_at": "2026-10-06T16:16:24Z",
-      "size_kb": 10
-    },
-    {
-      "repo": "brief-assembler",
-      "workflows": [],
-      "pushed_at": "2026-10-06T16:16:23Z",
-      "size_kb": 11
-    },
-    {
-      "repo": "model-registry-archive",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-06T00:14:57Z",
-      "size_kb": 36
-    },
-    {
-      "repo": "zero-msg-test",
-      "workflows": [
-        "message.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-05T22:04:10Z",
-      "size_kb": 126
-    },
-    {
-      "repo": "quilt-swarm",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-05T21:31:33Z",
-      "size_kb": 3131
     }
   ],
   "notes": [
