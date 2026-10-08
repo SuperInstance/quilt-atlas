@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-08T06:02:04.589Z",
+  "generated_at_utc": "2026-10-08T13:27:43.043Z",
   "account": "SuperInstance",
-  "total_repos": 5195,
+  "total_repos": 5198,
   "pages_fetched": 52,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2732,
-    "fleet": 1601,
+    "other": 2734,
+    "fleet": 1602,
     "qthe": 464,
     "quilt": 299,
     "jev": 56,
@@ -16,10 +16,10 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2732
+      "other": 2734
     },
     "description": {
-      "fleet": 1190,
+      "fleet": 1191,
       "qthe": 429,
       "quilt": 47,
       "jev": 28,
@@ -268,6 +268,7 @@
       "chaos-rs",
       "character-library",
       "character-skill-trees",
+      "character-tensor",
       "chart-room",
       "chart-system",
       "cheetahclaws",
@@ -624,6 +625,7 @@
       "current-sync",
       "cv-fundamentals",
       "cyclotomic-field",
+      "dad-son-channel",
       "dag-runner",
       "dashai-flux-model-package",
       "dashboard-render",
@@ -4359,6 +4361,7 @@
       "zc-tinker-shell",
       "zc-weaver-shell",
       "zeitgeist-protocol",
+      "zero-innate",
       "zero-knowledge-fleet",
       "zero-poc",
       "zero-trust-fleet",
@@ -7827,6 +7830,12 @@
       "",
       "Python"
     ],
+    "character-tensor": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "chart-room": [
       "other",
       "none",
@@ -11144,6 +11153,12 @@
       "none",
       "",
       "Python"
+    ],
+    "dad-son-channel": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "dag-runner": [
       "other",
@@ -36279,6 +36294,12 @@
       "fleet",
       ""
     ],
+    "zero-innate": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
     "zero-knowledge": [
       "other",
       "none",
@@ -36420,76 +36441,158 @@
   },
   "top_motion": [
     {
-      "repo": "nursery",
-      "workflows": [],
-      "pushed_at": "2026-10-08T05:52:21Z",
-      "size_kb": 0
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-08T13:25:49Z",
+      "size_kb": 30039
     },
     {
       "repo": "quilt-gpu-lab",
       "workflows": [
         "tests.yml"
       ],
-      "pushed_at": "2026-10-08T05:44:10Z",
-      "size_kb": 417580
-    },
-    {
-      "repo": "anti-gan-test",
-      "workflows": [],
-      "pushed_at": "2026-10-08T05:36:01Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "garden-seed",
-      "workflows": [],
-      "pushed_at": "2026-10-08T05:32:05Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "forge-seed",
-      "workflows": [],
-      "pushed_at": "2026-10-08T05:31:58Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "lighthouse-seed",
-      "workflows": [],
-      "pushed_at": "2026-10-08T05:31:50Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "bottle-seed",
-      "workflows": [],
-      "pushed_at": "2026-10-08T05:31:44Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "harbor-seed",
-      "workflows": [],
-      "pushed_at": "2026-10-08T05:31:38Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "seed",
-      "workflows": [],
-      "pushed_at": "2026-10-08T05:31:24Z",
-      "size_kb": 0
+      "pushed_at": "2026-10-08T13:13:11Z",
+      "size_kb": 412233
     },
     {
       "repo": "rc-20260824-11",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-08T05:05:25Z",
-      "size_kb": 520
+      "pushed_at": "2026-10-08T13:07:43Z",
+      "size_kb": 532
     },
     {
-      "repo": "quilt-research-canons",
+      "repo": "SuperInstance",
       "workflows": [
-        "bitlaw-conformance.yml"
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
       ],
-      "pushed_at": "2026-10-08T04:40:49Z",
-      "size_kb": 30039
+      "pushed_at": "2026-10-08T11:55:23Z",
+      "size_kb": 57133
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-08T11:46:31Z",
+      "size_kb": 10083
+    },
+    {
+      "repo": "quilt-fleet",
+      "workflows": [
+        "ci.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-10-08T11:34:53Z",
+      "size_kb": 3010
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-08T08:48:07Z",
+      "size_kb": 62
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "ci.yml",
+        "corpus.yml",
+        "landing-page.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml"
+      ],
+      "pushed_at": "2026-10-08T06:56:30Z",
+      "size_kb": 3693145
+    },
+    {
+      "repo": "character-tensor",
+      "workflows": [],
+      "pushed_at": "2026-10-08T06:47:48Z",
+      "size_kb": 8
+    },
+    {
+      "repo": "dad-son-channel",
+      "workflows": [],
+      "pushed_at": "2026-10-08T06:47:44Z",
+      "size_kb": 2
+    },
+    {
+      "repo": "zero-innate",
+      "workflows": [],
+      "pushed_at": "2026-10-08T06:47:40Z",
+      "size_kb": 10
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-08T06:02:05Z",
+      "size_kb": 916
+    },
+    {
+      "repo": "nursery",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:52:21Z",
+      "size_kb": 16
+    },
+    {
+      "repo": "anti-gan-test",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:36:01Z",
+      "size_kb": 6
+    },
+    {
+      "repo": "garden-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:32:05Z",
+      "size_kb": 1
+    },
+    {
+      "repo": "forge-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:58Z",
+      "size_kb": 1
+    },
+    {
+      "repo": "lighthouse-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:50Z",
+      "size_kb": 1
+    },
+    {
+      "repo": "bottle-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:44Z",
+      "size_kb": 1
+    },
+    {
+      "repo": "harbor-seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:38Z",
+      "size_kb": 1
+    },
+    {
+      "repo": "seed",
+      "workflows": [],
+      "pushed_at": "2026-10-08T05:31:24Z",
+      "size_kb": 2
     },
     {
       "repo": "quilt-elf",
@@ -36506,16 +36609,6 @@
       "size_kb": 20
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-08T01:46:21Z",
-      "size_kb": 62
-    },
-    {
       "repo": "quilt-pincher",
       "workflows": [
         "ci.yml",
@@ -36525,79 +36618,10 @@
       "size_kb": 2803
     },
     {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-07T23:05:03Z",
-      "size_kb": 819
-    },
-    {
       "repo": "agent-inbox",
       "workflows": [],
       "pushed_at": "2026-10-07T17:54:24Z",
       "size_kb": 24702
-    },
-    {
-      "repo": "jev-semantic",
-      "workflows": [],
-      "pushed_at": "2026-10-07T16:51:37Z",
-      "size_kb": 13
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-07T11:39:45Z",
-      "size_kb": 56607
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-07T11:31:08Z",
-      "size_kb": 9938
-    },
-    {
-      "repo": "git.pp",
-      "workflows": [],
-      "pushed_at": "2026-10-07T07:49:09Z",
-      "size_kb": 26
-    },
-    {
-      "repo": "AI-Writings",
-      "workflows": [
-        "ci.yml",
-        "corpus.yml",
-        "landing-page.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml"
-      ],
-      "pushed_at": "2026-10-07T05:45:58Z",
-      "size_kb": 3688298
-    },
-    {
-      "repo": "unoq-node",
-      "workflows": [],
-      "pushed_at": "2026-10-07T05:02:28Z",
-      "size_kb": 8
-    },
-    {
-      "repo": "question-tree",
-      "workflows": [],
-      "pushed_at": "2026-10-07T03:50:44Z",
-      "size_kb": 18
     }
   ],
   "notes": [
