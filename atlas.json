@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-09T13:16:17.173Z",
+  "generated_at_utc": "2026-10-09T22:38:27.475Z",
   "account": "SuperInstance",
-  "total_repos": 5208,
+  "total_repos": 5209,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
@@ -9,7 +9,7 @@
     "other": 2740,
     "fleet": 1605,
     "qthe": 464,
-    "quilt": 300,
+    "quilt": 301,
     "jev": 56,
     "latent": 18,
     "moth": 25
@@ -27,7 +27,7 @@
       "moth": 3
     },
     "name": {
-      "quilt": 253,
+      "quilt": 254,
       "qthe": 35,
       "fleet": 412,
       "jev": 28,
@@ -5038,6 +5038,7 @@
       "quilt-multi-oracle",
       "quilt-murmur",
       "quilt-neighbourhood",
+      "quilt-neudecide",
       "quilt-nn",
       "quilt-nomad",
       "Quilt-ollama-rag-reranker",
@@ -28108,6 +28109,12 @@
       "quilt",
       "JavaScript"
     ],
+    "quilt-neudecide": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
+    ],
     "quilt-nn": [
       "quilt",
       "name",
@@ -36511,20 +36518,72 @@
   },
   "top_motion": [
     {
-      "repo": "rc-20260824-11",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-09T13:06:16Z",
-      "size_kb": 506
-    },
-    {
       "repo": "quilt-gpu-lab",
       "workflows": [
         "tests.yml"
       ],
-      "pushed_at": "2026-10-09T12:46:32Z",
-      "size_kb": 415991
+      "pushed_at": "2026-10-09T21:48:50Z",
+      "size_kb": 413251
+    },
+    {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-10-09T21:36:59Z",
+      "size_kb": 114798
+    },
+    {
+      "repo": "rc-20260824-11",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-09T21:07:21Z",
+      "size_kb": 528
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-09T20:09:32Z",
+      "size_kb": 67
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-09T19:38:44Z",
+      "size_kb": 30157
+    },
+    {
+      "repo": "dropbox",
+      "workflows": [],
+      "pushed_at": "2026-10-09T18:35:40Z",
+      "size_kb": 125
+    },
+    {
+      "repo": "quilt-neudecide",
+      "workflows": [],
+      "pushed_at": "2026-10-09T17:43:00Z",
+      "size_kb": 6
+    },
+    {
+      "repo": "git.pp",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-09T16:26:31Z",
+      "size_kb": 393
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-09T13:16:18Z",
+      "size_kb": 1112
     },
     {
       "repo": "plato-portal",
@@ -36536,14 +36595,6 @@
       ],
       "pushed_at": "2026-10-09T11:39:14Z",
       "size_kb": 10227
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-09T10:38:41Z",
-      "size_kb": 30131
     },
     {
       "repo": "redshirt",
@@ -36560,16 +36611,6 @@
       "size_kb": 11097
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-09T07:57:25Z",
-      "size_kb": 66
-    },
-    {
       "repo": "CognitiveEngine",
       "workflows": [
         "ci.yml",
@@ -36580,30 +36621,10 @@
       "size_kb": 609
     },
     {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-10-09T07:22:27Z",
-      "size_kb": 114767
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-09T06:07:24Z",
-      "size_kb": 1015
-    },
-    {
       "repo": "conversation-archive",
       "workflows": [],
       "pushed_at": "2026-10-09T05:06:40Z",
       "size_kb": 56
-    },
-    {
-      "repo": "dropbox",
-      "workflows": [],
-      "pushed_at": "2026-10-09T05:03:42Z",
-      "size_kb": 77
     },
     {
       "repo": "constraint-theory-py",
@@ -36675,18 +36696,6 @@
       "workflows": [],
       "pushed_at": "2026-10-08T15:36:24Z",
       "size_kb": 10
-    },
-    {
-      "repo": "zai-worker",
-      "workflows": [],
-      "pushed_at": "2026-10-08T15:36:11Z",
-      "size_kb": 3
-    },
-    {
-      "repo": "minimax-worker",
-      "workflows": [],
-      "pushed_at": "2026-10-08T15:36:01Z",
-      "size_kb": 3
     }
   ],
   "notes": [
