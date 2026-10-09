@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-09T06:07:23.969Z",
+  "generated_at_utc": "2026-10-09T13:16:17.173Z",
   "account": "SuperInstance",
   "total_repos": 5208,
   "pages_fetched": 53,
@@ -36511,18 +36511,87 @@
   },
   "top_motion": [
     {
-      "repo": "redshirt",
-      "workflows": [],
-      "pushed_at": "2026-10-09T06:06:27Z",
-      "size_kb": 78
+      "repo": "rc-20260824-11",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-09T13:06:16Z",
+      "size_kb": 506
     },
     {
       "repo": "quilt-gpu-lab",
       "workflows": [
         "tests.yml"
       ],
-      "pushed_at": "2026-10-09T05:45:19Z",
-      "size_kb": 414759
+      "pushed_at": "2026-10-09T12:46:32Z",
+      "size_kb": 415991
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-09T11:39:14Z",
+      "size_kb": 10227
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-09T10:38:41Z",
+      "size_kb": 30131
+    },
+    {
+      "repo": "redshirt",
+      "workflows": [],
+      "pushed_at": "2026-10-09T10:17:44Z",
+      "size_kb": 186
+    },
+    {
+      "repo": "PersonalLog",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-09T08:57:39Z",
+      "size_kb": 11097
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-09T07:57:25Z",
+      "size_kb": 66
+    },
+    {
+      "repo": "CognitiveEngine",
+      "workflows": [
+        "ci.yml",
+        "docker.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-10-09T07:34:31Z",
+      "size_kb": 609
+    },
+    {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-10-09T07:22:27Z",
+      "size_kb": 114767
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-09T06:07:24Z",
+      "size_kb": 1015
     },
     {
       "repo": "conversation-archive",
@@ -36531,32 +36600,10 @@
       "size_kb": 56
     },
     {
-      "repo": "rc-20260824-11",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-09T05:06:09Z",
-      "size_kb": 500
-    },
-    {
       "repo": "dropbox",
       "workflows": [],
       "pushed_at": "2026-10-09T05:03:42Z",
       "size_kb": 77
-    },
-    {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-10-09T04:44:15Z",
-      "size_kb": 114761
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-09T04:33:40Z",
-      "size_kb": 30102
     },
     {
       "repo": "constraint-theory-py",
@@ -36567,28 +36614,10 @@
       "size_kb": 132
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-09T01:23:05Z",
-      "size_kb": 65
-    },
-    {
       "repo": "fleet-session",
       "workflows": [],
       "pushed_at": "2026-10-09T00:58:40Z",
       "size_kb": 19
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-08T23:20:42Z",
-      "size_kb": 1014
     },
     {
       "repo": "AI-Writings",
@@ -36658,36 +36687,6 @@
       "workflows": [],
       "pushed_at": "2026-10-08T15:36:01Z",
       "size_kb": 3
-    },
-    {
-      "repo": "nursery-v2",
-      "workflows": [],
-      "pushed_at": "2026-10-08T15:06:36Z",
-      "size_kb": 31
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-08T11:55:23Z",
-      "size_kb": 57133
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-08T11:46:31Z",
-      "size_kb": 10083
     }
   ],
   "notes": [
