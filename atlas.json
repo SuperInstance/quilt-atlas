@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-10T05:51:18.459Z",
+  "generated_at_utc": "2026-10-10T12:30:21.885Z",
   "account": "SuperInstance",
-  "total_repos": 5214,
+  "total_repos": 5215,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
@@ -9,7 +9,7 @@
     "other": 2741,
     "fleet": 1606,
     "qthe": 464,
-    "quilt": 304,
+    "quilt": 305,
     "jev": 56,
     "latent": 18,
     "moth": 25
@@ -27,7 +27,7 @@
       "moth": 3
     },
     "name": {
-      "quilt": 256,
+      "quilt": 257,
       "qthe": 35,
       "fleet": 412,
       "jev": 28,
@@ -5147,6 +5147,7 @@
       "spreadsheet-plr-bridge",
       "spreadsheet-projection",
       "stock-screener",
+      "sunset-quilt-page",
       "SuperInstance-papers",
       "SuperInstance-Starter-Agent",
       "svelte-quilt",
@@ -31780,6 +31781,12 @@
       "agent",
       "Python"
     ],
+    "sunset-quilt-page": [
+      "quilt",
+      "name",
+      "quilt",
+      "HTML"
+    ],
     "supabase": [
       "other",
       "none",
@@ -36553,6 +36560,62 @@
   },
   "top_motion": [
     {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-10T12:22:39Z",
+      "size_kb": 68
+    },
+    {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-10T11:03:58Z",
+      "size_kb": 57663
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-10T10:57:04Z",
+      "size_kb": 10372
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-10T10:33:53Z",
+      "size_kb": 30016
+    },
+    {
+      "repo": "sunset-quilt-page",
+      "workflows": [],
+      "pushed_at": "2026-10-10T06:10:10Z",
+      "size_kb": 454
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-10T05:51:19Z",
+      "size_kb": 1210
+    },
+    {
       "repo": "quilt-gpu-lab",
       "workflows": [
         "tests.yml"
@@ -36585,14 +36648,6 @@
       "size_kb": 5
     },
     {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-10T01:30:30Z",
-      "size_kb": 29988
-    },
-    {
       "repo": "quilt-neudecide-demo",
       "workflows": [],
       "pushed_at": "2026-10-10T01:23:50Z",
@@ -36605,24 +36660,6 @@
       ],
       "pushed_at": "2026-10-10T01:11:07Z",
       "size_kb": 536
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-10T00:04:33Z",
-      "size_kb": 67
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-09T22:38:28Z",
-      "size_kb": 1113
     },
     {
       "repo": "agent-inbox",
@@ -36649,17 +36686,6 @@
       ],
       "pushed_at": "2026-10-09T16:26:31Z",
       "size_kb": 393
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-09T11:39:14Z",
-      "size_kb": 10227
     },
     {
       "repo": "redshirt",
@@ -36717,18 +36743,6 @@
       ],
       "pushed_at": "2026-10-08T23:20:14Z",
       "size_kb": 3702177
-    },
-    {
-      "repo": "self-assembly",
-      "workflows": [],
-      "pushed_at": "2026-10-08T23:03:37Z",
-      "size_kb": 470
-    },
-    {
-      "repo": "self-assembly-distilled",
-      "workflows": [],
-      "pushed_at": "2026-10-08T23:03:07Z",
-      "size_kb": 259
     }
   ],
   "notes": [
