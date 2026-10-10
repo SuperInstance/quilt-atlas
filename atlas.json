@@ -1,33 +1,33 @@
 {
-  "generated_at_utc": "2026-10-09T22:38:27.475Z",
+  "generated_at_utc": "2026-10-10T05:51:18.459Z",
   "account": "SuperInstance",
-  "total_repos": 5209,
+  "total_repos": 5214,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2740,
-    "fleet": 1605,
+    "other": 2741,
+    "fleet": 1606,
     "qthe": 464,
-    "quilt": 301,
+    "quilt": 304,
     "jev": 56,
     "latent": 18,
     "moth": 25
   },
   "families_by_stage": {
     "none": {
-      "other": 2740
+      "other": 2741
     },
     "description": {
-      "fleet": 1193,
+      "fleet": 1194,
       "qthe": 429,
-      "quilt": 47,
+      "quilt": 48,
       "jev": 28,
       "latent": 5,
       "moth": 3
     },
     "name": {
-      "quilt": 254,
+      "quilt": 256,
       "qthe": 35,
       "fleet": 412,
       "jev": 28,
@@ -1678,6 +1678,7 @@
       "micro-onnx",
       "midden",
       "midi-flux-bridge",
+      "midi-temporal",
       "migrations",
       "migrator-rs",
       "MineWright",
@@ -4370,6 +4371,7 @@
       "zc-tinker-shell",
       "zc-weaver-shell",
       "zeitgeist-protocol",
+      "zero-bootcamp",
       "zero-innate",
       "zero-knowledge-fleet",
       "zero-poc",
@@ -4930,6 +4932,7 @@
       "quilt-cell-bridges",
       "quilt-cell-harness",
       "quilt-cell-router",
+      "quilt-cells",
       "quilt-cellular-arch",
       "quilt-chapel",
       "quilt-chrono",
@@ -5039,6 +5042,7 @@
       "quilt-murmur",
       "quilt-neighbourhood",
       "quilt-neudecide",
+      "quilt-neudecide-demo",
       "quilt-nn",
       "quilt-nomad",
       "Quilt-ollama-rag-reranker",
@@ -5131,6 +5135,7 @@
       "scrap-quilt",
       "seed-ui",
       "slackwater-quilt",
+      "sleep-cycle",
       "sonar-vision-demo",
       "spectral-spreadsheet",
       "spread",
@@ -22721,6 +22726,12 @@
       "",
       "Rust"
     ],
+    "midi-temporal": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "migrations": [
       "other",
       "none",
@@ -27413,6 +27424,12 @@
       "quilt",
       "Python"
     ],
+    "quilt-cells": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
+    ],
     "quilt-cellular-arch": [
       "quilt",
       "name",
@@ -28114,6 +28131,12 @@
       "name",
       "quilt",
       ""
+    ],
+    "quilt-neudecide-demo": [
+      "quilt",
+      "name",
+      "quilt",
+      "HTML"
     ],
     "quilt-nn": [
       "quilt",
@@ -30832,6 +30855,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "sleep-cycle": [
+      "quilt",
+      "description",
+      "quilt",
+      ""
     ],
     "smart-404": [
       "other",
@@ -36371,6 +36400,12 @@
       "fleet",
       ""
     ],
+    "zero-bootcamp": [
+      "fleet",
+      "description",
+      "agent",
+      "Python"
+    ],
     "zero-innate": [
       "fleet",
       "description",
@@ -36522,22 +36557,54 @@
       "workflows": [
         "tests.yml"
       ],
-      "pushed_at": "2026-10-09T21:48:50Z",
-      "size_kb": 413251
+      "pushed_at": "2026-10-10T04:19:29Z",
+      "size_kb": 415628
     },
     {
-      "repo": "agent-inbox",
+      "repo": "sleep-cycle",
       "workflows": [],
-      "pushed_at": "2026-10-09T21:36:59Z",
-      "size_kb": 114798
+      "pushed_at": "2026-10-10T03:49:36Z",
+      "size_kb": 5
+    },
+    {
+      "repo": "midi-temporal",
+      "workflows": [],
+      "pushed_at": "2026-10-10T03:49:33Z",
+      "size_kb": 3
+    },
+    {
+      "repo": "zero-bootcamp",
+      "workflows": [],
+      "pushed_at": "2026-10-10T03:49:30Z",
+      "size_kb": 41
+    },
+    {
+      "repo": "quilt-cells",
+      "workflows": [],
+      "pushed_at": "2026-10-10T03:49:17Z",
+      "size_kb": 5
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-10T01:30:30Z",
+      "size_kb": 29988
+    },
+    {
+      "repo": "quilt-neudecide-demo",
+      "workflows": [],
+      "pushed_at": "2026-10-10T01:23:50Z",
+      "size_kb": 15
     },
     {
       "repo": "rc-20260824-11",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-09T21:07:21Z",
-      "size_kb": 528
+      "pushed_at": "2026-10-10T01:11:07Z",
+      "size_kb": 536
     },
     {
       "repo": "zero-poc",
@@ -36546,16 +36613,22 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-09T20:09:32Z",
+      "pushed_at": "2026-10-10T00:04:33Z",
       "size_kb": 67
     },
     {
-      "repo": "quilt-research-canons",
+      "repo": "quilt-atlas",
       "workflows": [
-        "bitlaw-conformance.yml"
+        "atlas.yml"
       ],
-      "pushed_at": "2026-10-09T19:38:44Z",
-      "size_kb": 30157
+      "pushed_at": "2026-10-09T22:38:28Z",
+      "size_kb": 1113
+    },
+    {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-10-09T21:36:59Z",
+      "size_kb": 114798
     },
     {
       "repo": "dropbox",
@@ -36576,14 +36649,6 @@
       ],
       "pushed_at": "2026-10-09T16:26:31Z",
       "size_kb": 393
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-09T13:16:18Z",
-      "size_kb": 1112
     },
     {
       "repo": "plato-portal",
@@ -36664,38 +36729,6 @@
       "workflows": [],
       "pushed_at": "2026-10-08T23:03:07Z",
       "size_kb": 259
-    },
-    {
-      "repo": "murex-test-repo",
-      "workflows": [],
-      "pushed_at": "2026-10-08T23:03:06Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "jev-semantic",
-      "workflows": [],
-      "pushed_at": "2026-10-08T23:02:12Z",
-      "size_kb": 42
-    },
-    {
-      "repo": "deckboss-ai-pages",
-      "workflows": [],
-      "pushed_at": "2026-10-08T22:10:57Z",
-      "size_kb": 929
-    },
-    {
-      "repo": "quilt-rag",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-08T16:24:56Z",
-      "size_kb": 7147
-    },
-    {
-      "repo": "quilt-rooms",
-      "workflows": [],
-      "pushed_at": "2026-10-08T15:36:24Z",
-      "size_kb": 10
     }
   ],
   "notes": [
