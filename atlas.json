@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-11T12:48:11.211Z",
+  "generated_at_utc": "2026-10-11T21:57:24.239Z",
   "account": "SuperInstance",
   "total_repos": 5220,
   "pages_fetched": 53,
@@ -36597,16 +36597,24 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-11T12:38:35Z",
-      "size_kb": 8600
+      "pushed_at": "2026-10-11T21:37:57Z",
+      "size_kb": 10794
+    },
+    {
+      "repo": "rc-20260824-11",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-11T21:22:50Z",
+      "size_kb": 594
     },
     {
       "repo": "quilt-gpu-lab",
       "workflows": [
         "tests.yml"
       ],
-      "pushed_at": "2026-10-11T12:14:27Z",
-      "size_kb": 415772
+      "pushed_at": "2026-10-11T21:13:44Z",
+      "size_kb": 412358
     },
     {
       "repo": "zero-poc",
@@ -36615,8 +36623,32 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-11T11:37:41Z",
-      "size_kb": 74
+      "pushed_at": "2026-10-11T20:53:30Z",
+      "size_kb": 77
+    },
+    {
+      "repo": "SuperInstance-papers",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-11T19:53:40Z",
+      "size_kb": 30930
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-11T19:30:37Z",
+      "size_kb": 30182
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-11T12:48:12Z",
+      "size_kb": 1407
     },
     {
       "repo": "SuperInstance",
@@ -36641,30 +36673,6 @@
       ],
       "pushed_at": "2026-10-11T11:11:49Z",
       "size_kb": 10516
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-11T10:26:45Z",
-      "size_kb": 30135
-    },
-    {
-      "repo": "rc-20260824-11",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-11T09:22:54Z",
-      "size_kb": 576
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-11T05:45:01Z",
-      "size_kb": 1309
     },
     {
       "repo": "proart-wsl-backup",
@@ -36776,12 +36784,6 @@
       "workflows": [],
       "pushed_at": "2026-10-10T18:35:09Z",
       "size_kb": 99
-    },
-    {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-10-10T18:31:51Z",
-      "size_kb": 114800
     }
   ],
   "notes": [
