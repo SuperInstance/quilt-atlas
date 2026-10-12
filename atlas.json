@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-12T05:55:43.281Z",
+  "generated_at_utc": "2026-10-12T15:21:51.637Z",
   "account": "SuperInstance",
   "total_repos": 5229,
   "pages_fetched": 53,
@@ -36660,46 +36660,16 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-12T05:52:47Z",
-      "size_kb": 16235
-    },
-    {
-      "repo": "syzygy-forge",
-      "workflows": [],
-      "pushed_at": "2026-10-12T05:19:33Z",
-      "size_kb": 1934
-    },
-    {
-      "repo": "syzygy-program",
-      "workflows": [],
-      "pushed_at": "2026-10-12T05:12:48Z",
-      "size_kb": 44
-    },
-    {
-      "repo": "opensky-terrain",
-      "workflows": [],
-      "pushed_at": "2026-10-12T05:09:54Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "syzygy-curriculum",
-      "workflows": [],
-      "pushed_at": "2026-10-12T05:08:37Z",
-      "size_kb": 372
-    },
-    {
-      "repo": "fold-bout",
-      "workflows": [],
-      "pushed_at": "2026-10-12T03:37:26Z",
-      "size_kb": 16
+      "pushed_at": "2026-10-12T15:09:14Z",
+      "size_kb": 17720
     },
     {
       "repo": "quilt-research-canons",
       "workflows": [
         "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-12T01:36:32Z",
-      "size_kb": 30207
+      "pushed_at": "2026-10-12T13:34:14Z",
+      "size_kb": 30254
     },
     {
       "repo": "SuperInstance",
@@ -36711,8 +36681,27 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-10-12T00:43:54Z",
-      "size_kb": 58423
+      "pushed_at": "2026-10-12T12:55:13Z",
+      "size_kb": 58912
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-12T12:44:37Z",
+      "size_kb": 10662
+    },
+    {
+      "repo": "quilt-swarm",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-12T12:18:42Z",
+      "size_kb": 3247
     },
     {
       "repo": "zero-poc",
@@ -36721,8 +36710,46 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-12T00:26:04Z",
-      "size_kb": 77
+      "pushed_at": "2026-10-12T06:25:21Z",
+      "size_kb": 49
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-12T05:55:44Z",
+      "size_kb": 1506
+    },
+    {
+      "repo": "syzygy-forge",
+      "workflows": [],
+      "pushed_at": "2026-10-12T05:19:33Z",
+      "size_kb": 2408
+    },
+    {
+      "repo": "syzygy-program",
+      "workflows": [],
+      "pushed_at": "2026-10-12T05:12:48Z",
+      "size_kb": 433
+    },
+    {
+      "repo": "opensky-terrain",
+      "workflows": [],
+      "pushed_at": "2026-10-12T05:09:54Z",
+      "size_kb": 27
+    },
+    {
+      "repo": "syzygy-curriculum",
+      "workflows": [],
+      "pushed_at": "2026-10-12T05:08:37Z",
+      "size_kb": 527
+    },
+    {
+      "repo": "fold-bout",
+      "workflows": [],
+      "pushed_at": "2026-10-12T03:37:26Z",
+      "size_kb": 16
     },
     {
       "repo": "quilt-gpu-lab",
@@ -36770,14 +36797,6 @@
       "size_kb": 27061
     },
     {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-11T21:57:25Z",
-      "size_kb": 1407
-    },
-    {
       "repo": "rc-20260824-11",
       "workflows": [
         "ci.yml"
@@ -36792,17 +36811,6 @@
       ],
       "pushed_at": "2026-10-11T19:53:40Z",
       "size_kb": 30930
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-11T11:11:49Z",
-      "size_kb": 10516
     },
     {
       "repo": "proart-wsl-backup",
@@ -36832,12 +36840,6 @@
       ],
       "pushed_at": "2026-10-10T19:31:24Z",
       "size_kb": 10436
-    },
-    {
-      "repo": "fleet-witness",
-      "workflows": [],
-      "pushed_at": "2026-10-10T19:31:22Z",
-      "size_kb": 68
     }
   ],
   "notes": [
