@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-11T21:57:24.239Z",
+  "generated_at_utc": "2026-10-12T05:55:43.281Z",
   "account": "SuperInstance",
-  "total_repos": 5220,
+  "total_repos": 5229,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2744,
-    "fleet": 1607,
+    "other": 2752,
+    "fleet": 1608,
     "qthe": 464,
     "quilt": 305,
     "jev": 57,
@@ -16,10 +16,10 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2744
+      "other": 2752
     },
     "description": {
-      "fleet": 1195,
+      "fleet": 1196,
       "qthe": 429,
       "quilt": 48,
       "jev": 29,
@@ -342,6 +342,7 @@
       "collective-unconscious",
       "collision-detect",
       "color-space",
+      "color-squad",
       "columnar-store",
       "combinatorics",
       "commit-predictor",
@@ -1057,6 +1058,7 @@
       "fluxtrust-go",
       "flx-cuda",
       "flywheel-engine",
+      "fold-bout",
       "fold-compression",
       "font-rasterizer",
       "font_atlas_packager",
@@ -1814,6 +1816,7 @@
       "openPlan3D",
       "openshell-compatibility-audit",
       "openshell-pythagorean48",
+      "opensky-terrain",
       "opensmile",
       "operational-fiction",
       "optimal-control",
@@ -2552,8 +2555,13 @@
       "synesis-tools",
       "synthcity",
       "Syzygy",
+      "syzygy-curriculum",
+      "syzygy-demo",
+      "syzygy-forge",
       "syzygy-lattice",
       "Syzygy-OpenSkyFlight",
+      "syzygy-program",
+      "syzygy-video",
       "t-minus-rs",
       "tap-frontend",
       "tap-gamenight",
@@ -4280,6 +4288,7 @@
       "synesis-benches",
       "synesis-prompts",
       "system-prompts-and-models-of-ai-tools",
+      "syzygy-studio",
       "t-minus",
       "taskflow",
       "telepathy-c",
@@ -8775,6 +8784,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "color-squad": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
     ],
     "columnar-store": [
       "other",
@@ -16834,6 +16849,12 @@
       "fleet",
       "Python"
     ],
+    "fold-bout": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "fold-compression": [
       "other",
       "none",
@@ -24081,6 +24102,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "opensky-terrain": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "opensmile": [
       "other",
@@ -32464,6 +32491,24 @@
       "",
       "C"
     ],
+    "syzygy-curriculum": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "syzygy-demo": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "syzygy-forge": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "syzygy-lattice": [
       "other",
       "none",
@@ -32475,6 +32520,24 @@
       "none",
       "",
       "JavaScript"
+    ],
+    "syzygy-program": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "syzygy-studio": [
+      "fleet",
+      "description",
+      "receipt",
+      "HTML"
+    ],
+    "syzygy-video": [
+      "other",
+      "none",
+      "",
+      "C"
     ],
     "t-minus": [
       "fleet",
@@ -36597,58 +36660,46 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-11T21:37:57Z",
-      "size_kb": 10794
+      "pushed_at": "2026-10-12T05:52:47Z",
+      "size_kb": 16235
     },
     {
-      "repo": "rc-20260824-11",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-11T21:22:50Z",
-      "size_kb": 594
+      "repo": "syzygy-forge",
+      "workflows": [],
+      "pushed_at": "2026-10-12T05:19:33Z",
+      "size_kb": 1934
     },
     {
-      "repo": "quilt-gpu-lab",
-      "workflows": [
-        "tests.yml"
-      ],
-      "pushed_at": "2026-10-11T21:13:44Z",
-      "size_kb": 412358
+      "repo": "syzygy-program",
+      "workflows": [],
+      "pushed_at": "2026-10-12T05:12:48Z",
+      "size_kb": 44
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-11T20:53:30Z",
-      "size_kb": 77
+      "repo": "opensky-terrain",
+      "workflows": [],
+      "pushed_at": "2026-10-12T05:09:54Z",
+      "size_kb": 0
     },
     {
-      "repo": "SuperInstance-papers",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-11T19:53:40Z",
-      "size_kb": 30930
+      "repo": "syzygy-curriculum",
+      "workflows": [],
+      "pushed_at": "2026-10-12T05:08:37Z",
+      "size_kb": 372
+    },
+    {
+      "repo": "fold-bout",
+      "workflows": [],
+      "pushed_at": "2026-10-12T03:37:26Z",
+      "size_kb": 16
     },
     {
       "repo": "quilt-research-canons",
       "workflows": [
         "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-11T19:30:37Z",
-      "size_kb": 30182
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-11T12:48:12Z",
-      "size_kb": 1407
+      "pushed_at": "2026-10-12T01:36:32Z",
+      "size_kb": 30207
     },
     {
       "repo": "SuperInstance",
@@ -36660,8 +36711,87 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-10-11T11:20:46Z",
-      "size_kb": 58227
+      "pushed_at": "2026-10-12T00:43:54Z",
+      "size_kb": 58423
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-12T00:26:04Z",
+      "size_kb": 77
+    },
+    {
+      "repo": "quilt-gpu-lab",
+      "workflows": [
+        "tests.yml"
+      ],
+      "pushed_at": "2026-10-11T23:15:16Z",
+      "size_kb": 412745
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "ci.yml",
+        "corpus.yml",
+        "landing-page.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml"
+      ],
+      "pushed_at": "2026-10-11T22:56:37Z",
+      "size_kb": 3686460
+    },
+    {
+      "repo": "syzygy-demo",
+      "workflows": [],
+      "pushed_at": "2026-10-11T22:31:41Z",
+      "size_kb": 735
+    },
+    {
+      "repo": "syzygy-studio",
+      "workflows": [],
+      "pushed_at": "2026-10-11T22:29:23Z",
+      "size_kb": 19564
+    },
+    {
+      "repo": "color-squad",
+      "workflows": [],
+      "pushed_at": "2026-10-11T22:08:28Z",
+      "size_kb": 43
+    },
+    {
+      "repo": "syzygy-video",
+      "workflows": [],
+      "pushed_at": "2026-10-11T22:07:49Z",
+      "size_kb": 27061
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-11T21:57:25Z",
+      "size_kb": 1407
+    },
+    {
+      "repo": "rc-20260824-11",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-11T21:22:50Z",
+      "size_kb": 602
+    },
+    {
+      "repo": "SuperInstance-papers",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-11T19:53:40Z",
+      "size_kb": 30930
     },
     {
       "repo": "plato-portal",
@@ -36689,19 +36819,6 @@
       "size_kb": 35731
     },
     {
-      "repo": "AI-Writings",
-      "workflows": [
-        "ci.yml",
-        "corpus.yml",
-        "landing-page.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml"
-      ],
-      "pushed_at": "2026-10-11T02:27:03Z",
-      "size_kb": 3682069
-    },
-    {
       "repo": "xero",
       "workflows": [],
       "pushed_at": "2026-10-10T19:36:22Z",
@@ -36721,69 +36838,6 @@
       "workflows": [],
       "pushed_at": "2026-10-10T19:31:22Z",
       "size_kb": 68
-    },
-    {
-      "repo": "fleet-liaison-tender",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-10T19:11:17Z",
-      "size_kb": 73
-    },
-    {
-      "repo": "ensign-protocol",
-      "workflows": [
-        "ci-python.yml",
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-10T19:11:14Z",
-      "size_kb": 25
-    },
-    {
-      "repo": "lucineer-system",
-      "workflows": [],
-      "pushed_at": "2026-10-10T19:11:08Z",
-      "size_kb": 599435
-    },
-    {
-      "repo": "zai-router",
-      "workflows": [],
-      "pushed_at": "2026-10-10T18:50:42Z",
-      "size_kb": 4
-    },
-    {
-      "repo": "quilt-dpcpp",
-      "workflows": [],
-      "pushed_at": "2026-10-10T18:43:10Z",
-      "size_kb": 0
-    },
-    {
-      "repo": "spread",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-10T18:40:57Z",
-      "size_kb": 750
-    },
-    {
-      "repo": "intuition",
-      "workflows": [],
-      "pushed_at": "2026-10-10T18:38:31Z",
-      "size_kb": 318984
-    },
-    {
-      "repo": "Spreader-tool",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-10T18:35:11Z",
-      "size_kb": 784
-    },
-    {
-      "repo": "ternary-wiki",
-      "workflows": [],
-      "pushed_at": "2026-10-10T18:35:09Z",
-      "size_kb": 99
     }
   ],
   "notes": [
