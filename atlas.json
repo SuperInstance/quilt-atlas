@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-13T14:10:04.839Z",
+  "generated_at_utc": "2026-10-13T22:44:11.670Z",
   "account": "SuperInstance",
-  "total_repos": 5232,
+  "total_repos": 5235,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2752,
-    "fleet": 1610,
+    "other": 2753,
+    "fleet": 1612,
     "qthe": 464,
     "quilt": 306,
     "jev": 57,
@@ -16,10 +16,10 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2752
+      "other": 2753
     },
     "description": {
-      "fleet": 1198,
+      "fleet": 1200,
       "qthe": 429,
       "quilt": 49,
       "jev": 29,
@@ -1705,6 +1705,7 @@
       "modular-arithmetic",
       "module-registry",
       "moe-sheaf",
+      "moldmaker",
       "monitoring-dashboard",
       "monitoring-system",
       "monte-carlo-rs",
@@ -1816,7 +1817,6 @@
       "openPlan3D",
       "openshell-compatibility-audit",
       "openshell-pythagorean48",
-      "opensky-terrain",
       "opensmile",
       "operational-fiction",
       "optimal-control",
@@ -2341,6 +2341,7 @@
       "ship-log-search",
       "ship-log-sync",
       "shoal",
+      "shoalwater",
       "si",
       "si-cli",
       "si-compaction-poc",
@@ -3664,6 +3665,7 @@
       "git-native-agents",
       "git-remote-agent",
       "git.pp",
+      "git.pp-desk",
       "git.pp-ng",
       "glyph-language",
       "glyphcast",
@@ -3932,6 +3934,7 @@
       "Murmur",
       "murmur-agent",
       "Murmurer",
+      "muse-join",
       "mycorrhizal-relay",
       "narrative-field",
       "nash-finder",
@@ -17596,6 +17599,12 @@
       "agent",
       "Shell"
     ],
+    "git.pp-desk": [
+      "fleet",
+      "description",
+      "agent",
+      "TypeScript"
+    ],
     "git.pp-ng": [
       "fleet",
       "description",
@@ -22930,6 +22939,12 @@
       "",
       "Python"
     ],
+    "moldmaker": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "monad-composition": [
       "fleet",
       "description",
@@ -23229,6 +23244,12 @@
       "description",
       "agent",
       ""
+    ],
+    "muse-join": [
+      "fleet",
+      "description",
+      "agent",
+      "Shell"
     ],
     "music-vibe-experiments": [
       "other",
@@ -24111,12 +24132,6 @@
       "none",
       "",
       "Rust"
-    ],
-    "opensky-terrain": [
-      "other",
-      "none",
-      "",
-      "Python"
     ],
     "opensmile": [
       "other",
@@ -30280,6 +30295,12 @@
       "",
       "TypeScript"
     ],
+    "shoalwater": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "si": [
       "other",
       "none",
@@ -36392,7 +36413,7 @@
       "fleet",
       "description",
       "agent",
-      "HTML"
+      "Python"
     ],
     "xlang": [
       "other",
@@ -36679,24 +36700,78 @@
   },
   "top_motion": [
     {
-      "repo": "voice-games",
-      "workflows": [],
-      "pushed_at": "2026-10-13T13:54:57Z",
-      "size_kb": 23489
-    },
-    {
       "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-13T13:47:35Z",
-      "size_kb": 16
+      "pushed_at": "2026-10-13T22:42:26Z",
+      "size_kb": 24
+    },
+    {
+      "repo": "voice-games",
+      "workflows": [],
+      "pushed_at": "2026-10-13T22:38:02Z",
+      "size_kb": 36134
     },
     {
       "repo": "quilt-research-canons",
       "workflows": [
         "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-13T13:35:41Z",
-      "size_kb": 30345
+      "pushed_at": "2026-10-13T22:24:50Z",
+      "size_kb": 30360
+    },
+    {
+      "repo": "shoalwater",
+      "workflows": [],
+      "pushed_at": "2026-10-13T22:09:29Z",
+      "size_kb": 506
+    },
+    {
+      "repo": "git.pp-ng",
+      "workflows": [],
+      "pushed_at": "2026-10-13T21:59:13Z",
+      "size_kb": 12653
+    },
+    {
+      "repo": "git.pp-desk",
+      "workflows": [],
+      "pushed_at": "2026-10-13T21:51:36Z",
+      "size_kb": 50
+    },
+    {
+      "repo": "xero-lab",
+      "workflows": [],
+      "pushed_at": "2026-10-13T21:11:32Z",
+      "size_kb": 630
+    },
+    {
+      "repo": "moldmaker",
+      "workflows": [],
+      "pushed_at": "2026-10-13T20:41:27Z",
+      "size_kb": 18
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-13T18:21:47Z",
+      "size_kb": 53
+    },
+    {
+      "repo": "muse-join",
+      "workflows": [],
+      "pushed_at": "2026-10-13T17:40:41Z",
+      "size_kb": 5
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-13T14:10:05Z",
+      "size_kb": 1603
     },
     {
       "repo": "SuperInstance",
@@ -36731,16 +36806,6 @@
       "size_kb": 3450
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-13T11:02:41Z",
-      "size_kb": 53
-    },
-    {
       "repo": "zero-msg-test",
       "workflows": [
         "message.yml",
@@ -36765,18 +36830,6 @@
       "size_kb": 114802
     },
     {
-      "repo": "git.pp-ng",
-      "workflows": [],
-      "pushed_at": "2026-10-13T03:08:42Z",
-      "size_kb": 12651
-    },
-    {
-      "repo": "opensky-terrain",
-      "workflows": [],
-      "pushed_at": "2026-10-13T02:52:34Z",
-      "size_kb": 419
-    },
-    {
       "repo": "AI-Writings",
       "workflows": [
         "ci.yml",
@@ -36797,20 +36850,6 @@
       ],
       "pushed_at": "2026-10-13T02:18:40Z",
       "size_kb": 337
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-13T00:38:41Z",
-      "size_kb": 1604
-    },
-    {
-      "repo": "xero-lab",
-      "workflows": [],
-      "pushed_at": "2026-10-13T00:03:48Z",
-      "size_kb": 117
     },
     {
       "repo": "quilt-swarm",
@@ -36843,26 +36882,6 @@
       "workflows": [],
       "pushed_at": "2026-10-12T03:37:26Z",
       "size_kb": 16
-    },
-    {
-      "repo": "quilt-gpu-lab",
-      "workflows": [
-        "tests.yml"
-      ],
-      "pushed_at": "2026-10-11T23:15:16Z",
-      "size_kb": 412745
-    },
-    {
-      "repo": "syzygy-demo",
-      "workflows": [],
-      "pushed_at": "2026-10-11T22:31:41Z",
-      "size_kb": 735
-    },
-    {
-      "repo": "syzygy-studio",
-      "workflows": [],
-      "pushed_at": "2026-10-11T22:29:23Z",
-      "size_kb": 19564
     }
   ],
   "notes": [
