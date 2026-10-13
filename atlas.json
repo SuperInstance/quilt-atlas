@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-13T00:38:37.756Z",
+  "generated_at_utc": "2026-10-13T14:10:04.839Z",
   "account": "SuperInstance",
-  "total_repos": 5231,
+  "total_repos": 5232,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
@@ -9,7 +9,7 @@
     "other": 2752,
     "fleet": 1610,
     "qthe": 464,
-    "quilt": 305,
+    "quilt": 306,
     "jev": 57,
     "latent": 18,
     "moth": 25
@@ -21,7 +21,7 @@
     "description": {
       "fleet": 1198,
       "qthe": 429,
-      "quilt": 48,
+      "quilt": 49,
       "jev": 29,
       "latent": 5,
       "moth": 3
@@ -5166,6 +5166,7 @@
       "SuperInstance-papers",
       "SuperInstance-Starter-Agent",
       "svelte-quilt",
+      "synoptic-sheet",
       "tagseq2tagseq4quilt",
       "the-beyond",
       "tit-quilt",
@@ -32481,6 +32482,12 @@
       "",
       "Rust"
     ],
+    "synoptic-sheet": [
+      "quilt",
+      "description",
+      "sheet",
+      "HTML"
+    ],
     "synthcity": [
       "other",
       "none",
@@ -36672,54 +36679,24 @@
   },
   "top_motion": [
     {
-      "repo": "git.pp-ng",
-      "workflows": [],
-      "pushed_at": "2026-10-13T00:36:51Z",
-      "size_kb": 12590
-    },
-    {
-      "repo": "xero-lab",
-      "workflows": [],
-      "pushed_at": "2026-10-13T00:03:48Z",
-      "size_kb": 74
-    },
-    {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-12T23:39:16Z",
-      "size_kb": 19919
+      "pushed_at": "2026-10-13T13:54:57Z",
+      "size_kb": 23489
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-12T22:54:32Z",
-      "size_kb": 51
+      "repo": "synoptic-sheet",
+      "workflows": [],
+      "pushed_at": "2026-10-13T13:47:35Z",
+      "size_kb": 16
     },
     {
       "repo": "quilt-research-canons",
       "workflows": [
         "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-12T22:36:25Z",
-      "size_kb": 30282
-    },
-    {
-      "repo": "opensky-terrain",
-      "workflows": [],
-      "pushed_at": "2026-10-12T22:34:48Z",
-      "size_kb": 78
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-12T15:21:52Z",
-      "size_kb": 1505
+      "pushed_at": "2026-10-13T13:35:41Z",
+      "size_kb": 30345
     },
     {
       "repo": "SuperInstance",
@@ -36731,8 +36708,8 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-10-12T12:55:13Z",
-      "size_kb": 58912
+      "pushed_at": "2026-10-13T12:36:26Z",
+      "size_kb": 59441
     },
     {
       "repo": "plato-portal",
@@ -36742,8 +36719,98 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-10-12T12:44:37Z",
-      "size_kb": 10662
+      "pushed_at": "2026-10-13T12:27:50Z",
+      "size_kb": 10805
+    },
+    {
+      "repo": "quilt-cloudflare",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-13T11:21:24Z",
+      "size_kb": 3450
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-13T11:02:41Z",
+      "size_kb": 53
+    },
+    {
+      "repo": "zero-msg-test",
+      "workflows": [
+        "message.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-13T08:33:29Z",
+      "size_kb": 127
+    },
+    {
+      "repo": "quilt",
+      "workflows": [
+        "ci.yml",
+        "publish-rubygems.yml"
+      ],
+      "pushed_at": "2026-10-13T04:51:35Z",
+      "size_kb": 15316
+    },
+    {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-10-13T03:19:00Z",
+      "size_kb": 114802
+    },
+    {
+      "repo": "git.pp-ng",
+      "workflows": [],
+      "pushed_at": "2026-10-13T03:08:42Z",
+      "size_kb": 12651
+    },
+    {
+      "repo": "opensky-terrain",
+      "workflows": [],
+      "pushed_at": "2026-10-13T02:52:34Z",
+      "size_kb": 419
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "ci.yml",
+        "corpus.yml",
+        "landing-page.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml"
+      ],
+      "pushed_at": "2026-10-13T02:26:35Z",
+      "size_kb": 3686494
+    },
+    {
+      "repo": "webgpu-profiler",
+      "workflows": [
+        "ci-node.yml",
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-13T02:18:40Z",
+      "size_kb": 337
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-13T00:38:41Z",
+      "size_kb": 1604
+    },
+    {
+      "repo": "xero-lab",
+      "workflows": [],
+      "pushed_at": "2026-10-13T00:03:48Z",
+      "size_kb": 117
     },
     {
       "repo": "quilt-swarm",
@@ -36786,19 +36853,6 @@
       "size_kb": 412745
     },
     {
-      "repo": "AI-Writings",
-      "workflows": [
-        "ci.yml",
-        "corpus.yml",
-        "landing-page.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml"
-      ],
-      "pushed_at": "2026-10-11T22:56:37Z",
-      "size_kb": 3686460
-    },
-    {
       "repo": "syzygy-demo",
       "workflows": [],
       "pushed_at": "2026-10-11T22:31:41Z",
@@ -36809,48 +36863,6 @@
       "workflows": [],
       "pushed_at": "2026-10-11T22:29:23Z",
       "size_kb": 19564
-    },
-    {
-      "repo": "color-squad",
-      "workflows": [],
-      "pushed_at": "2026-10-11T22:08:28Z",
-      "size_kb": 43
-    },
-    {
-      "repo": "syzygy-video",
-      "workflows": [],
-      "pushed_at": "2026-10-11T22:07:49Z",
-      "size_kb": 27061
-    },
-    {
-      "repo": "rc-20260824-11",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-11T21:22:50Z",
-      "size_kb": 602
-    },
-    {
-      "repo": "SuperInstance-papers",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-11T19:53:40Z",
-      "size_kb": 30930
-    },
-    {
-      "repo": "proart-wsl-backup",
-      "workflows": [],
-      "pushed_at": "2026-10-11T03:51:14Z",
-      "size_kb": 46
-    },
-    {
-      "repo": "polln",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-11T03:43:52Z",
-      "size_kb": 35731
     }
   ],
   "notes": [
