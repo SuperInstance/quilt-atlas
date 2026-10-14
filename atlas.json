@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-14T17:09:31.056Z",
+  "generated_at_utc": "2026-10-14T21:40:27.033Z",
   "account": "SuperInstance",
-  "total_repos": 5237,
+  "total_repos": 5238,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2754,
+    "other": 2755,
     "fleet": 1613,
     "qthe": 464,
     "quilt": 306,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2754
+      "other": 2755
     },
     "description": {
       "fleet": 1201,
@@ -301,6 +301,7 @@
       "cmidi-conservation",
       "cns-monitor",
       "cns-substrate",
+      "coach-player",
       "cocapn-ada",
       "cocapn-ai-pages",
       "cocapn-architecture",
@@ -8143,6 +8144,12 @@
       "fleet",
       "description",
       "fleet|agent",
+      "Python"
+    ],
+    "coach-player": [
+      "other",
+      "none",
+      "",
       "Python"
     ],
     "coalition-game": [
@@ -36716,22 +36723,28 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-14T17:08:43Z",
-      "size_kb": 33947
+      "pushed_at": "2026-10-14T21:39:41Z",
+      "size_kb": 42864
     },
     {
       "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-14T16:52:35Z",
-      "size_kb": 31
+      "pushed_at": "2026-10-14T21:17:25Z",
+      "size_kb": 37
+    },
+    {
+      "repo": "coach-player",
+      "workflows": [],
+      "pushed_at": "2026-10-14T20:54:28Z",
+      "size_kb": 205
     },
     {
       "repo": "quilt-research-canons",
       "workflows": [
         "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-14T16:28:27Z",
-      "size_kb": 30412
+      "pushed_at": "2026-10-14T19:44:48Z",
+      "size_kb": 30447
     },
     {
       "repo": "zero-poc",
@@ -36740,16 +36753,16 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-14T13:03:18Z",
-      "size_kb": 56
+      "pushed_at": "2026-10-14T18:03:40Z",
+      "size_kb": 57
     },
     {
       "repo": "quilt-atlas",
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-10-14T11:51:14Z",
-      "size_kb": 1801
+      "pushed_at": "2026-10-14T17:09:32Z",
+      "size_kb": 1800
     },
     {
       "repo": "plato-portal",
@@ -36890,12 +36903,6 @@
       "workflows": [],
       "pushed_at": "2026-10-12T05:19:33Z",
       "size_kb": 2408
-    },
-    {
-      "repo": "syzygy-program",
-      "workflows": [],
-      "pushed_at": "2026-10-12T05:12:48Z",
-      "size_kb": 433
     }
   ],
   "notes": [
