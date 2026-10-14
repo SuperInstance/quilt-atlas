@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-13T22:44:11.670Z",
+  "generated_at_utc": "2026-10-14T04:51:54.531Z",
   "account": "SuperInstance",
-  "total_repos": 5235,
+  "total_repos": 5237,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2753,
-    "fleet": 1612,
+    "other": 2754,
+    "fleet": 1613,
     "qthe": 464,
     "quilt": 306,
     "jev": 57,
@@ -16,10 +16,10 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2753
+      "other": 2754
     },
     "description": {
-      "fleet": 1200,
+      "fleet": 1201,
       "qthe": 429,
       "quilt": 49,
       "jev": 29,
@@ -1137,6 +1137,7 @@
       "git-native-mud",
       "git-pipeline",
       "git-storage",
+      "git.pp-grid",
       "glyphspace",
       "glyphtensor",
       "glyphtensor-bridge",
@@ -2960,6 +2961,7 @@
       "character-class",
       "cicd-agent",
       "clark-agent",
+      "classroom",
       "claude",
       "claude-context",
       "Claude_Baton",
@@ -7968,6 +7970,12 @@
       "description",
       "agent",
       "Rust"
+    ],
+    "classroom": [
+      "fleet",
+      "description",
+      "agent",
+      "HTML"
     ],
     "claude": [
       "fleet",
@@ -17603,6 +17611,12 @@
       "fleet",
       "description",
       "agent",
+      "TypeScript"
+    ],
+    "git.pp-grid": [
+      "other",
+      "none",
+      "",
       "TypeScript"
     ],
     "git.pp-ng": [
@@ -36702,52 +36716,38 @@
     {
       "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-13T22:42:26Z",
-      "size_kb": 24
-    },
-    {
-      "repo": "voice-games",
-      "workflows": [],
-      "pushed_at": "2026-10-13T22:38:02Z",
-      "size_kb": 36134
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-13T22:24:50Z",
-      "size_kb": 30360
-    },
-    {
-      "repo": "shoalwater",
-      "workflows": [],
-      "pushed_at": "2026-10-13T22:09:29Z",
-      "size_kb": 506
-    },
-    {
-      "repo": "git.pp-ng",
-      "workflows": [],
-      "pushed_at": "2026-10-13T21:59:13Z",
-      "size_kb": 12653
-    },
-    {
-      "repo": "git.pp-desk",
-      "workflows": [],
-      "pushed_at": "2026-10-13T21:51:36Z",
-      "size_kb": 50
+      "pushed_at": "2026-10-14T04:42:27Z",
+      "size_kb": 20
     },
     {
       "repo": "xero-lab",
       "workflows": [],
-      "pushed_at": "2026-10-13T21:11:32Z",
-      "size_kb": 630
+      "pushed_at": "2026-10-14T04:39:30Z",
+      "size_kb": 706
     },
     {
-      "repo": "moldmaker",
+      "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-13T20:41:27Z",
-      "size_kb": 18
+      "pushed_at": "2026-10-14T04:38:39Z",
+      "size_kb": 30891
+    },
+    {
+      "repo": "git.pp-grid",
+      "workflows": [],
+      "pushed_at": "2026-10-14T03:51:56Z",
+      "size_kb": 99
+    },
+    {
+      "repo": "shoalwater",
+      "workflows": [],
+      "pushed_at": "2026-10-14T03:43:54Z",
+      "size_kb": 591
+    },
+    {
+      "repo": "git.pp-ng",
+      "workflows": [],
+      "pushed_at": "2026-10-14T03:41:17Z",
+      "size_kb": 12666
     },
     {
       "repo": "zero-poc",
@@ -36756,22 +36756,57 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-13T18:21:47Z",
-      "size_kb": 53
+      "pushed_at": "2026-10-14T01:57:12Z",
+      "size_kb": 55
     },
     {
-      "repo": "muse-join",
+      "repo": "classroom",
       "workflows": [],
-      "pushed_at": "2026-10-13T17:40:41Z",
-      "size_kb": 5
+      "pushed_at": "2026-10-14T01:40:17Z",
+      "size_kb": 9
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-14T01:24:29Z",
+      "size_kb": 30396
+    },
+    {
+      "repo": "zero-msg-test",
+      "workflows": [
+        "message.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-14T00:36:06Z",
+      "size_kb": 128
     },
     {
       "repo": "quilt-atlas",
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-10-13T14:10:05Z",
-      "size_kb": 1603
+      "pushed_at": "2026-10-13T22:44:12Z",
+      "size_kb": 1703
+    },
+    {
+      "repo": "git.pp-desk",
+      "workflows": [],
+      "pushed_at": "2026-10-13T21:51:36Z",
+      "size_kb": 74
+    },
+    {
+      "repo": "moldmaker",
+      "workflows": [],
+      "pushed_at": "2026-10-13T20:41:27Z",
+      "size_kb": 18
+    },
+    {
+      "repo": "muse-join",
+      "workflows": [],
+      "pushed_at": "2026-10-13T17:40:41Z",
+      "size_kb": 5
     },
     {
       "repo": "SuperInstance",
@@ -36804,15 +36839,6 @@
       ],
       "pushed_at": "2026-10-13T11:21:24Z",
       "size_kb": 3450
-    },
-    {
-      "repo": "zero-msg-test",
-      "workflows": [
-        "message.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-13T08:33:29Z",
-      "size_kb": 127
     },
     {
       "repo": "quilt",
@@ -36870,18 +36896,6 @@
       "workflows": [],
       "pushed_at": "2026-10-12T05:12:48Z",
       "size_kb": 433
-    },
-    {
-      "repo": "syzygy-curriculum",
-      "workflows": [],
-      "pushed_at": "2026-10-12T05:08:37Z",
-      "size_kb": 527
-    },
-    {
-      "repo": "fold-bout",
-      "workflows": [],
-      "pushed_at": "2026-10-12T03:37:26Z",
-      "size_kb": 16
     }
   ],
   "notes": [
