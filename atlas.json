@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-14T11:51:13.249Z",
+  "generated_at_utc": "2026-10-14T17:09:31.056Z",
   "account": "SuperInstance",
   "total_repos": 5237,
   "pages_fetched": 53,
@@ -36716,14 +36716,40 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-14T11:40:29Z",
-      "size_kb": 42202
+      "pushed_at": "2026-10-14T17:08:43Z",
+      "size_kb": 33947
     },
     {
       "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-14T11:37:37Z",
-      "size_kb": 27
+      "pushed_at": "2026-10-14T16:52:35Z",
+      "size_kb": 31
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-14T16:28:27Z",
+      "size_kb": 30412
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-14T13:03:18Z",
+      "size_kb": 56
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-14T11:51:14Z",
+      "size_kb": 1801
     },
     {
       "repo": "plato-portal",
@@ -36741,24 +36767,6 @@
       "workflows": [],
       "pushed_at": "2026-10-14T07:33:24Z",
       "size_kb": 1237
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-14T07:28:30Z",
-      "size_kb": 56
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-14T04:51:55Z",
-      "size_kb": 1702
     },
     {
       "repo": "git.pp-grid",
@@ -36783,14 +36791,6 @@
       "workflows": [],
       "pushed_at": "2026-10-14T01:40:17Z",
       "size_kb": 9
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-14T01:24:29Z",
-      "size_kb": 30396
     },
     {
       "repo": "zero-msg-test",
