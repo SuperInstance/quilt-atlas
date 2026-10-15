@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-15T11:27:51.925Z",
+  "generated_at_utc": "2026-10-15T16:59:57.783Z",
   "account": "SuperInstance",
   "total_repos": 5237,
   "pages_fetched": 53,
@@ -36716,14 +36716,36 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-15T11:23:26Z",
-      "size_kb": 50526
+      "pushed_at": "2026-10-15T16:56:59Z",
+      "size_kb": 62238
     },
     {
       "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-15T11:12:24Z",
-      "size_kb": 39
+      "pushed_at": "2026-10-15T16:42:29Z",
+      "size_kb": 45
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-15T16:28:31Z",
+      "size_kb": 30513
+    },
+    {
+      "repo": "quilt-rag",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-15T16:24:44Z",
+      "size_kb": 7147
+    },
+    {
+      "repo": "superinstance-advisor",
+      "workflows": [],
+      "pushed_at": "2026-10-15T15:05:08Z",
+      "size_kb": 2544
     },
     {
       "repo": "zero-poc",
@@ -36732,8 +36754,25 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-15T10:00:11Z",
-      "size_kb": 58
+      "pushed_at": "2026-10-15T14:55:21Z",
+      "size_kb": 61
+    },
+    {
+      "repo": "quilt-fleet",
+      "workflows": [
+        "ci.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-10-15T11:34:57Z",
+      "size_kb": 3103
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-15T11:27:53Z",
+      "size_kb": 1997
     },
     {
       "repo": "plato-portal",
@@ -36756,26 +36795,10 @@
       "size_kb": 72
     },
     {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-15T07:39:02Z",
-      "size_kb": 30513
-    },
-    {
       "repo": "slack-water",
       "workflows": [],
       "pushed_at": "2026-10-15T07:26:48Z",
       "size_kb": 256
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-15T04:36:41Z",
-      "size_kb": 1899
     },
     {
       "repo": "quilt-elf",
@@ -36871,37 +36894,6 @@
       ],
       "pushed_at": "2026-10-13T11:21:24Z",
       "size_kb": 3450
-    },
-    {
-      "repo": "quilt",
-      "workflows": [
-        "ci.yml",
-        "publish-rubygems.yml"
-      ],
-      "pushed_at": "2026-10-13T04:51:35Z",
-      "size_kb": 15316
-    },
-    {
-      "repo": "AI-Writings",
-      "workflows": [
-        "ci.yml",
-        "corpus.yml",
-        "landing-page.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml"
-      ],
-      "pushed_at": "2026-10-13T02:26:35Z",
-      "size_kb": 3686494
-    },
-    {
-      "repo": "webgpu-profiler",
-      "workflows": [
-        "ci-node.yml",
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-13T02:18:40Z",
-      "size_kb": 337
     }
   ],
   "notes": [
