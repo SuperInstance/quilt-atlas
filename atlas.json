@@ -1,33 +1,33 @@
 {
-  "generated_at_utc": "2026-10-15T21:22:36.045Z",
+  "generated_at_utc": "2026-10-16T04:30:33.388Z",
   "account": "SuperInstance",
-  "total_repos": 5237,
+  "total_repos": 5266,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2757,
-    "fleet": 1610,
-    "qthe": 464,
-    "quilt": 306,
-    "jev": 57,
+    "other": 2776,
+    "fleet": 1611,
+    "qthe": 465,
+    "quilt": 313,
+    "jev": 58,
     "latent": 18,
     "moth": 25
   },
   "families_by_stage": {
     "none": {
-      "other": 2757
+      "other": 2776
     },
     "description": {
-      "fleet": 1198,
-      "qthe": 429,
-      "quilt": 49,
-      "jev": 29,
+      "fleet": 1199,
+      "qthe": 430,
+      "quilt": 51,
+      "jev": 30,
       "latent": 5,
       "moth": 3
     },
     "name": {
-      "quilt": 257,
+      "quilt": 262,
       "qthe": 35,
       "fleet": 412,
       "jev": 28,
@@ -1060,6 +1060,7 @@
       "flx-cuda",
       "flywheel-engine",
       "fold-bout",
+      "fold-bout-2",
       "fold-compression",
       "font-rasterizer",
       "font_atlas_packager",
@@ -1138,6 +1139,23 @@
       "git-native-mud",
       "git-pipeline",
       "git-storage",
+      "git.pp-doctor",
+      "gitpp-c",
+      "gitpp-conformance-report",
+      "gitpp-cross-port",
+      "gitpp-examples",
+      "gitpp-fold-conformance",
+      "gitpp-fold-dashboard",
+      "gitpp-fold-edge",
+      "gitpp-hub-api",
+      "gitpp-intent-ledger",
+      "gitpp-js",
+      "gitpp-nudge",
+      "gitpp-oracle",
+      "gitpp-pl",
+      "gitpp-playground",
+      "gitpp-ports",
+      "gitpp-rust",
       "glyphspace",
       "glyphtensor",
       "glyphtensor-bridge",
@@ -2327,6 +2345,7 @@
       "servo-mind-theory",
       "session-miner",
       "session-room",
+      "session-summary-2026-10-15",
       "shadow-cathedral",
       "shadow-pipeline",
       "sheaf-coherence-rs",
@@ -3669,6 +3688,7 @@
       "git-graph-rs",
       "git-native-agents",
       "git-remote-agent",
+      "gitpp-conformance",
       "glyph-language",
       "glyphcast",
       "governance-equipment",
@@ -4448,6 +4468,7 @@
       "flux-isa-authority",
       "flux-realm",
       "gc-pid-bridge",
+      "git.pp-spec",
       "gpu-bench-lab",
       "gpu-ternary-engine",
       "grove-ast",
@@ -4902,6 +4923,8 @@
       "FastGen4quilt",
       "forge-quilt",
       "futhark-lab",
+      "gitpp-bench",
+      "gitpp-cs",
       "gpu_bpe4quilt",
       "kev-receipts",
       "laya4quilt",
@@ -4956,6 +4979,7 @@
       "quilt-cellular-arch",
       "quilt-chapel",
       "quilt-chrono",
+      "quilt-ci",
       "quilt-classroom",
       "quilt-claude-charts",
       "quilt-claw",
@@ -5026,6 +5050,7 @@
       "quilt-go",
       "quilt-gpu-lab",
       "quilt-gpu-lab-witness",
+      "quilt-handbook",
       "quilt-haskell",
       "quilt-i2i",
       "quilt-id",
@@ -5081,6 +5106,7 @@
       "quilt-playtest",
       "quilt-polyformalism-dsl",
       "quilt-port",
+      "quilt-precommit",
       "quilt-pydantic-ai",
       "quilt-qcells",
       "quilt-quant",
@@ -5107,6 +5133,7 @@
       "quilt-spreadsheet",
       "quilt-spreadsheet-inference",
       "quilt-state",
+      "quilt-status",
       "quilt-stone",
       "quilt-storefront",
       "quilt-studio",
@@ -5179,7 +5206,8 @@
       "tmux-quilt",
       "twist-engine",
       "typesafe-quilts",
-      "urban-transportation-system"
+      "urban-transportation-system",
+      "what-is-the-quilt"
     ],
     "jev": [
       "api-orchestra",
@@ -5189,6 +5217,7 @@
       "dungeon-jev",
       "elephant",
       "exoj",
+      "gitpp-gate",
       "grand-pattern-claude",
       "grand-pattern-core",
       "grand-pattern-kimi",
@@ -16875,6 +16904,12 @@
       "",
       "Python"
     ],
+    "fold-bout-2": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "fold-compression": [
       "other",
       "none",
@@ -17606,6 +17641,138 @@
       "none",
       "",
       "TypeScript"
+    ],
+    "git.pp-doctor": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "git.pp-spec": [
+      "qthe",
+      "description",
+      "canon",
+      ""
+    ],
+    "gitpp-bench": [
+      "quilt",
+      "description",
+      "quilt",
+      "JavaScript"
+    ],
+    "gitpp-c": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "gitpp-conformance": [
+      "fleet",
+      "description",
+      "receipt",
+      "JavaScript"
+    ],
+    "gitpp-conformance-report": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "gitpp-cross-port": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "gitpp-cs": [
+      "quilt",
+      "description",
+      "quilt",
+      "C#"
+    ],
+    "gitpp-examples": [
+      "other",
+      "none",
+      "",
+      "Shell"
+    ],
+    "gitpp-fold-conformance": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "gitpp-fold-dashboard": [
+      "other",
+      "none",
+      "",
+      "HTML"
+    ],
+    "gitpp-fold-edge": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "gitpp-gate": [
+      "jev",
+      "description",
+      "jev",
+      "JavaScript"
+    ],
+    "gitpp-hub-api": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "gitpp-intent-ledger": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "gitpp-js": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "gitpp-nudge": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "gitpp-oracle": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "gitpp-pl": [
+      "other",
+      "none",
+      "",
+      "Perl"
+    ],
+    "gitpp-playground": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "gitpp-ports": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "gitpp-rust": [
+      "other",
+      "none",
+      "",
+      "Rust"
     ],
     "glyph-language": [
       "fleet",
@@ -27513,6 +27680,12 @@
       "quilt",
       "JavaScript"
     ],
+    "quilt-ci": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
+    ],
     "quilt-classroom": [
       "quilt",
       "name",
@@ -27939,6 +28112,12 @@
       "quilt",
       ""
     ],
+    "quilt-handbook": [
+      "quilt",
+      "name",
+      "quilt",
+      "HTML"
+    ],
     "quilt-haskell": [
       "quilt",
       "name",
@@ -28311,6 +28490,12 @@
       "quilt",
       "Python"
     ],
+    "quilt-precommit": [
+      "quilt",
+      "name",
+      "quilt",
+      "Shell"
+    ],
     "quilt-pydantic-ai": [
       "quilt",
       "name",
@@ -28502,6 +28687,12 @@
       "name",
       "quilt",
       "Python"
+    ],
+    "quilt-status": [
+      "quilt",
+      "name",
+      "quilt",
+      "HTML"
     ],
     "quilt-stone": [
       "quilt",
@@ -30134,6 +30325,12 @@
       "none",
       "",
       "TypeScript"
+    ],
+    "session-summary-2026-10-15": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "shadow-cathedral": [
       "other",
@@ -36303,6 +36500,12 @@
       "",
       "Rust"
     ],
+    "what-is-the-quilt": [
+      "quilt",
+      "name",
+      "quilt",
+      ""
+    ],
     "wheelhouse-game": [
       "other",
       "none",
@@ -36595,7 +36798,7 @@
       "fleet",
       "description",
       "agent",
-      ""
+      "Python"
     ],
     "zero-shot-auditor": [
       "other",
@@ -36714,56 +36917,86 @@
   },
   "top_motion": [
     {
-      "repo": "slack-water",
-      "workflows": [],
-      "pushed_at": "2026-10-15T21:19:03Z",
-      "size_kb": 256
-    },
-    {
-      "repo": "quilt-pincher",
-      "workflows": [
-        "ci.yml",
-        "publish.yml"
-      ],
-      "pushed_at": "2026-10-15T21:08:21Z",
-      "size_kb": 2803
-    },
-    {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-15T21:08:02Z",
-      "size_kb": 44213
+      "pushed_at": "2026-10-16T04:23:50Z",
+      "size_kb": 63203
     },
     {
-      "repo": "quilt-cloudflare",
+      "repo": "gitpp-oracle",
       "workflows": [
-        "ci.yml"
+        "oracle.yml"
       ],
-      "pushed_at": "2026-10-15T21:06:51Z",
-      "size_kb": 3450
+      "pushed_at": "2026-10-16T04:22:47Z",
+      "size_kb": 0
     },
     {
-      "repo": "quilt",
+      "repo": "gitpp-fold-conformance",
       "workflows": [
-        "ci.yml",
-        "publish-rubygems.yml"
+        "conformance.yml"
       ],
-      "pushed_at": "2026-10-15T21:06:50Z",
-      "size_kb": 15316
+      "pushed_at": "2026-10-16T04:20:07Z",
+      "size_kb": 100
+    },
+    {
+      "repo": "gitpp-intent-ledger",
+      "workflows": [],
+      "pushed_at": "2026-10-16T04:05:39Z",
+      "size_kb": 0
     },
     {
       "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-15T20:57:25Z",
-      "size_kb": 49
+      "pushed_at": "2026-10-16T04:02:46Z",
+      "size_kb": 56
     },
     {
-      "repo": "quilt-research-canons",
+      "repo": "git.pp-spec",
+      "workflows": [],
+      "pushed_at": "2026-10-16T03:59:54Z",
+      "size_kb": 79
+    },
+    {
+      "repo": "gitpp-gate",
+      "workflows": [],
+      "pushed_at": "2026-10-16T03:59:45Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "gitpp-c",
+      "workflows": [],
+      "pushed_at": "2026-10-16T03:53:57Z",
+      "size_kb": 33
+    },
+    {
+      "repo": "gitpp-pl",
       "workflows": [
-        "bitlaw-conformance.yml"
+        "conformance.yml"
       ],
-      "pushed_at": "2026-10-15T19:24:52Z",
-      "size_kb": 30545
+      "pushed_at": "2026-10-16T03:53:56Z",
+      "size_kb": 16
+    },
+    {
+      "repo": "gitpp-cs",
+      "workflows": [],
+      "pushed_at": "2026-10-16T03:53:55Z",
+      "size_kb": 19
+    },
+    {
+      "repo": "gitpp-js",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-16T03:53:54Z",
+      "size_kb": 15
+    },
+    {
+      "repo": "git.pp-doctor",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-16T03:53:33Z",
+      "size_kb": 45
     },
     {
       "repo": "zero-poc",
@@ -36772,127 +37005,76 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-15T19:01:23Z",
-      "size_kb": 62
+      "pushed_at": "2026-10-16T03:25:01Z",
+      "size_kb": 122
     },
     {
-      "repo": "quilt-atlas",
+      "repo": "gitpp-nudge",
+      "workflows": [],
+      "pushed_at": "2026-10-16T03:24:40Z",
+      "size_kb": 6
+    },
+    {
+      "repo": "gitpp-cross-port",
+      "workflows": [],
+      "pushed_at": "2026-10-16T03:09:18Z",
+      "size_kb": 125
+    },
+    {
+      "repo": "slack-water",
+      "workflows": [],
+      "pushed_at": "2026-10-16T02:35:08Z",
+      "size_kb": 6631
+    },
+    {
+      "repo": "quilt-research-canons",
       "workflows": [
-        "atlas.yml"
+        "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-15T16:59:58Z",
-      "size_kb": 1997
+      "pushed_at": "2026-10-16T01:25:31Z",
+      "size_kb": 30631
     },
     {
-      "repo": "quilt-rag",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-15T16:24:44Z",
-      "size_kb": 7147
-    },
-    {
-      "repo": "superinstance-advisor",
+      "repo": "gitpp-conformance-report",
       "workflows": [],
-      "pushed_at": "2026-10-15T15:05:08Z",
-      "size_kb": 2544
+      "pushed_at": "2026-10-16T01:11:02Z",
+      "size_kb": 4
     },
     {
-      "repo": "quilt-fleet",
-      "workflows": [
-        "ci.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-10-15T11:34:57Z",
-      "size_kb": 3103
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-15T09:36:27Z",
-      "size_kb": 11095
-    },
-    {
-      "repo": "moldmaker",
-      "workflows": [
-        "moldmaker-telegram.yml",
-        "moldmaker-think.yml"
-      ],
-      "pushed_at": "2026-10-15T08:11:55Z",
-      "size_kb": 72
-    },
-    {
-      "repo": "quilt-elf",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-15T04:34:21Z",
-      "size_kb": 2868
-    },
-    {
-      "repo": "shoalwater",
+      "repo": "gitpp-hub-api",
       "workflows": [],
-      "pushed_at": "2026-10-15T03:50:27Z",
-      "size_kb": 10971
+      "pushed_at": "2026-10-16T01:10:26Z",
+      "size_kb": 11
     },
     {
-      "repo": "coach-player",
+      "repo": "gitpp-fold-edge",
       "workflows": [],
-      "pushed_at": "2026-10-15T03:36:20Z",
-      "size_kb": 344
+      "pushed_at": "2026-10-16T01:09:52Z",
+      "size_kb": 10
     },
     {
-      "repo": "Scrapcraft",
-      "workflows": [
-        "ci.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-15T02:51:48Z",
-      "size_kb": 2504
-    },
-    {
-      "repo": "shoalwater-full",
+      "repo": "gitpp-fold-dashboard",
       "workflows": [],
-      "pushed_at": "2026-10-15T01:22:48Z",
-      "size_kb": 13251
-    },
-    {
-      "repo": "shoalwater-survey",
-      "workflows": [],
-      "pushed_at": "2026-10-14T23:50:09Z",
-      "size_kb": 2075
-    },
-    {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-10-14T22:00:33Z",
-      "size_kb": 114805
-    },
-    {
-      "repo": "xero-lab",
-      "workflows": [],
-      "pushed_at": "2026-10-14T07:33:24Z",
-      "size_kb": 1237
-    },
-    {
-      "repo": "classroom",
-      "workflows": [],
-      "pushed_at": "2026-10-14T01:40:17Z",
+      "pushed_at": "2026-10-16T01:09:36Z",
       "size_kb": 9
     },
     {
-      "repo": "zero-msg-test",
-      "workflows": [
-        "message.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-14T00:36:06Z",
-      "size_kb": 128
+      "repo": "quilt-handbook",
+      "workflows": [],
+      "pushed_at": "2026-10-16T01:06:37Z",
+      "size_kb": 9
+    },
+    {
+      "repo": "gitpp-ports",
+      "workflows": [],
+      "pushed_at": "2026-10-16T00:56:58Z",
+      "size_kb": 2
+    },
+    {
+      "repo": "what-is-the-quilt",
+      "workflows": [],
+      "pushed_at": "2026-10-16T00:56:49Z",
+      "size_kb": 6
     }
   ],
   "notes": [
