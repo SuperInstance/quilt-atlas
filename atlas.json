@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-16T16:39:08.740Z",
+  "generated_at_utc": "2026-10-16T21:07:35.335Z",
   "account": "SuperInstance",
   "total_repos": 5268,
   "pages_fetched": 53,
@@ -36931,16 +36931,16 @@
   },
   "top_motion": [
     {
-      "repo": "synoptic-sheet",
-      "workflows": [],
-      "pushed_at": "2026-10-16T16:32:50Z",
-      "size_kb": 57
-    },
-    {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-16T16:22:58Z",
-      "size_kb": 65285
+      "pushed_at": "2026-10-16T20:53:14Z",
+      "size_kb": 52182
+    },
+    {
+      "repo": "synoptic-sheet",
+      "workflows": [],
+      "pushed_at": "2026-10-16T20:42:21Z",
+      "size_kb": 61
     },
     {
       "repo": "zero-poc",
@@ -36949,8 +36949,16 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-16T14:43:48Z",
-      "size_kb": 125
+      "pushed_at": "2026-10-16T18:26:54Z",
+      "size_kb": 126
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-16T16:39:09Z",
+      "size_kb": 2196
     },
     {
       "repo": "quilt-research-canons",
@@ -36959,14 +36967,6 @@
       ],
       "pushed_at": "2026-10-16T13:25:53Z",
       "size_kb": 30666
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-16T11:23:08Z",
-      "size_kb": 2195
     },
     {
       "repo": "superinstance-advisor",
