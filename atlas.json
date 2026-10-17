@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-16T21:07:35.335Z",
+  "generated_at_utc": "2026-10-17T04:24:05.185Z",
   "account": "SuperInstance",
-  "total_repos": 5268,
+  "total_repos": 5272,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2778,
+    "other": 2782,
     "fleet": 1611,
     "qthe": 465,
     "quilt": 313,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2778
+      "other": 2782
     },
     "description": {
       "fleet": 1199,
@@ -1104,6 +1104,7 @@
       "fundamental-group",
       "fuzz-engine",
       "fuzzy-logic",
+      "g1-ble-backend",
       "ga-core",
       "ga-core-rs",
       "ga4444",
@@ -1156,6 +1157,9 @@
       "gitpp-pl",
       "gitpp-playground",
       "gitpp-ports",
+      "gitpp-reading-room",
+      "gitpp-rr-reader3",
+      "gitpp-rr-reader4",
       "gitpp-rust",
       "glyphspace",
       "glyphtensor",
@@ -17332,6 +17336,12 @@
       "",
       "Rust"
     ],
+    "g1-ble-backend": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "ga-core": [
       "other",
       "none",
@@ -17684,7 +17694,7 @@
       "other",
       "none",
       "",
-      "C"
+      "JavaScript"
     ],
     "gitpp-cs": [
       "quilt",
@@ -17775,6 +17785,24 @@
       "none",
       "",
       ""
+    ],
+    "gitpp-reading-room": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
+    "gitpp-rr-reader3": [
+      "other",
+      "none",
+      "",
+      "C"
+    ],
+    "gitpp-rr-reader4": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "gitpp-rust": [
       "other",
@@ -36931,16 +36959,12 @@
   },
   "top_motion": [
     {
-      "repo": "voice-games",
-      "workflows": [],
-      "pushed_at": "2026-10-16T20:53:14Z",
-      "size_kb": 52182
-    },
-    {
-      "repo": "synoptic-sheet",
-      "workflows": [],
-      "pushed_at": "2026-10-16T20:42:21Z",
-      "size_kb": 61
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-17T04:22:48Z",
+      "size_kb": 30687
     },
     {
       "repo": "zero-poc",
@@ -36949,30 +36973,146 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-16T18:26:54Z",
-      "size_kb": 126
+      "pushed_at": "2026-10-17T04:10:44Z",
+      "size_kb": 127
+    },
+    {
+      "repo": "voice-games",
+      "workflows": [],
+      "pushed_at": "2026-10-17T04:09:33Z",
+      "size_kb": 71290
+    },
+    {
+      "repo": "synoptic-sheet",
+      "workflows": [],
+      "pushed_at": "2026-10-17T04:02:23Z",
+      "size_kb": 68
+    },
+    {
+      "repo": "gitpp-reading-room",
+      "workflows": [],
+      "pushed_at": "2026-10-17T03:57:01Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "gitpp-rr-reader3",
+      "workflows": [],
+      "pushed_at": "2026-10-17T03:54:34Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "gitpp-rr-reader4",
+      "workflows": [],
+      "pushed_at": "2026-10-17T03:48:32Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "g1-ble-backend",
+      "workflows": [],
+      "pushed_at": "2026-10-17T02:52:53Z",
+      "size_kb": 475
+    },
+    {
+      "repo": "slack-water",
+      "workflows": [],
+      "pushed_at": "2026-10-17T02:52:39Z",
+      "size_kb": 6692
+    },
+    {
+      "repo": "gitpp-cross-port",
+      "workflows": [],
+      "pushed_at": "2026-10-17T02:48:30Z",
+      "size_kb": 151
+    },
+    {
+      "repo": "PersonalLog",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-17T02:39:41Z",
+      "size_kb": 11098
+    },
+    {
+      "repo": "quilt-swarm",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-17T02:39:11Z",
+      "size_kb": 3248
+    },
+    {
+      "repo": "constraint-theory-py",
+      "workflows": [
+        "clean.yml"
+      ],
+      "pushed_at": "2026-10-17T02:37:38Z",
+      "size_kb": 132
+    },
+    {
+      "repo": "git.pp-spec",
+      "workflows": [],
+      "pushed_at": "2026-10-17T00:47:09Z",
+      "size_kb": 109
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-17T00:44:23Z",
+      "size_kb": 20
+    },
+    {
+      "repo": "gitpp-pl",
+      "workflows": [
+        "conformance.yml"
+      ],
+      "pushed_at": "2026-10-17T00:18:28Z",
+      "size_kb": 20
+    },
+    {
+      "repo": "git.pp-doctor",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-17T00:05:53Z",
+      "size_kb": 51
+    },
+    {
+      "repo": "gitpp-fold-conformance",
+      "workflows": [
+        "conformance.yml"
+      ],
+      "pushed_at": "2026-10-17T00:00:22Z",
+      "size_kb": 115
+    },
+    {
+      "repo": "gitpp-hub-api",
+      "workflows": [],
+      "pushed_at": "2026-10-16T23:19:13Z",
+      "size_kb": 18
+    },
+    {
+      "repo": "gitpp-js",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-16T22:37:09Z",
+      "size_kb": 20
+    },
+    {
+      "repo": "superinstance-advisor",
+      "workflows": [],
+      "pushed_at": "2026-10-16T22:05:03Z",
+      "size_kb": 2564
     },
     {
       "repo": "quilt-atlas",
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-10-16T16:39:09Z",
-      "size_kb": 2196
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-16T13:25:53Z",
-      "size_kb": 30666
-    },
-    {
-      "repo": "superinstance-advisor",
-      "workflows": [],
-      "pushed_at": "2026-10-16T11:11:16Z",
-      "size_kb": 2555
+      "pushed_at": "2026-10-16T21:07:36Z",
+      "size_kb": 2293
     },
     {
       "repo": "SuperInstance",
@@ -36997,118 +37137,6 @@
       ],
       "pushed_at": "2026-10-16T09:29:30Z",
       "size_kb": 11250
-    },
-    {
-      "repo": "CognitiveEngine",
-      "workflows": [
-        "ci.yml",
-        "docker.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-10-16T07:33:43Z",
-      "size_kb": 748
-    },
-    {
-      "repo": "git.pp-spec",
-      "workflows": [],
-      "pushed_at": "2026-10-16T04:46:30Z",
-      "size_kb": 81
-    },
-    {
-      "repo": "gitpp-decision-parent",
-      "workflows": [],
-      "pushed_at": "2026-10-16T04:46:12Z",
-      "size_kb": 7
-    },
-    {
-      "repo": "gitpp-nudge",
-      "workflows": [],
-      "pushed_at": "2026-10-16T04:36:17Z",
-      "size_kb": 11
-    },
-    {
-      "repo": "gitpp-fold-conformance",
-      "workflows": [
-        "conformance.yml"
-      ],
-      "pushed_at": "2026-10-16T04:35:54Z",
-      "size_kb": 104
-    },
-    {
-      "repo": "gitpp-gate",
-      "workflows": [],
-      "pushed_at": "2026-10-16T04:35:35Z",
-      "size_kb": 12
-    },
-    {
-      "repo": "negctl",
-      "workflows": [
-        "negative-control.yml"
-      ],
-      "pushed_at": "2026-10-16T04:33:36Z",
-      "size_kb": 6
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-16T04:22:47Z",
-      "size_kb": 10
-    },
-    {
-      "repo": "gitpp-intent-ledger",
-      "workflows": [],
-      "pushed_at": "2026-10-16T04:05:39Z",
-      "size_kb": 34
-    },
-    {
-      "repo": "gitpp-c",
-      "workflows": [],
-      "pushed_at": "2026-10-16T03:53:57Z",
-      "size_kb": 36
-    },
-    {
-      "repo": "gitpp-pl",
-      "workflows": [
-        "conformance.yml"
-      ],
-      "pushed_at": "2026-10-16T03:53:56Z",
-      "size_kb": 18
-    },
-    {
-      "repo": "gitpp-cs",
-      "workflows": [],
-      "pushed_at": "2026-10-16T03:53:55Z",
-      "size_kb": 20
-    },
-    {
-      "repo": "gitpp-js",
-      "workflows": [
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-16T03:53:54Z",
-      "size_kb": 17
-    },
-    {
-      "repo": "git.pp-doctor",
-      "workflows": [
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-16T03:53:33Z",
-      "size_kb": 45
-    },
-    {
-      "repo": "gitpp-cross-port",
-      "workflows": [],
-      "pushed_at": "2026-10-16T03:09:18Z",
-      "size_kb": 125
-    },
-    {
-      "repo": "slack-water",
-      "workflows": [],
-      "pushed_at": "2026-10-16T02:35:08Z",
-      "size_kb": 6631
     }
   ],
   "notes": [
