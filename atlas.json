@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-18T04:30:43.818Z",
+  "generated_at_utc": "2026-10-18T11:02:51.457Z",
   "account": "SuperInstance",
-  "total_repos": 5279,
+  "total_repos": 5290,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2786,
+    "other": 2797,
     "fleet": 1612,
     "qthe": 465,
     "quilt": 314,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2786
+      "other": 2797
     },
     "description": {
       "fleet": 1200,
@@ -350,6 +350,7 @@
       "commitment-scheme",
       "commodore-protocol",
       "comms-experiment",
+      "communicator",
       "compaction-teacher",
       "compass-rose",
       "competitive-intel",
@@ -627,6 +628,7 @@
       "cudaclaw-bridge",
       "current-sync",
       "cv-fundamentals",
+      "cycle-judge",
       "cyclotomic-field",
       "dad-son-channel",
       "dag-runner",
@@ -643,6 +645,7 @@
       "deadband-snr",
       "debug-dwarf",
       "decentralized-uav-grid",
+      "decision-ledger",
       "decision-tree-rs",
       "deckboss-1",
       "deckboss-agent",
@@ -710,6 +713,7 @@
       "dream-engine",
       "dreamlog-ai",
       "drift-analyzer",
+      "drift-probe",
       "ds4",
       "dscode",
       "dsh-assessment",
@@ -1116,6 +1120,7 @@
       "garden-path",
       "garden-seed",
       "gardenlog-ai",
+      "gate-replay",
       "gatekeeper-as-flux-early-version",
       "gauge",
       "gauss-markov",
@@ -1345,6 +1350,7 @@
       "intent-directed-compilation",
       "intent-flux-bridge",
       "intention-field-rs",
+      "intercontext-map",
       "interp-spline",
       "interval-tree-rs",
       "ipc-equipment",
@@ -1646,6 +1652,7 @@
       "luciddreamer-content",
       "luciddreamer-os",
       "luciddreamer-prototype",
+      "luciddreamer-py",
       "luciddreamer-research",
       "Lucineer",
       "lucineer-brain",
@@ -1710,6 +1717,7 @@
       "migrations",
       "migrator-rs",
       "MineWright",
+      "minigate",
       "minimax-code",
       "minimax-worker",
       "mirror-recorder",
@@ -1863,6 +1871,7 @@
       "oxide-constructs",
       "oxide-pipeline",
       "paced-seam",
+      "pacemaker",
       "packet-capture",
       "page-replace",
       "palaver-math",
@@ -2716,6 +2725,7 @@
       "tropical-harmony-rs",
       "tropical-neural",
       "tropical-synth",
+      "trust-ledger",
       "tui-rs",
       "turbovec",
       "turbovec-integration-ccc",
@@ -2760,6 +2770,7 @@
       "vibe-core",
       "vibe-protocol",
       "vibe-world",
+      "vision",
       "vite",
       "vm-estate",
       "vocabularies",
@@ -8901,6 +8912,12 @@
       "",
       ""
     ],
+    "communicator": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "compaction-teacher": [
       "other",
       "none",
@@ -11253,6 +11270,12 @@
       "",
       "Rust"
     ],
+    "cycle-judge": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "cyclotomic-field": [
       "other",
       "none",
@@ -11366,6 +11389,12 @@
       "none",
       "",
       ""
+    ],
+    "decision-ledger": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "decision-tree-rs": [
       "other",
@@ -11942,6 +11971,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "drift-probe": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "drone-fleet-ternary": [
       "fleet",
@@ -17421,6 +17456,12 @@
       "",
       "TypeScript"
     ],
+    "gate-replay": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "gatekeeper-as-flux-early-version": [
       "other",
       "none",
@@ -19382,6 +19423,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "intercontext-map": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "interp-spline": [
       "other",
@@ -22419,6 +22466,12 @@
       "",
       "Python"
     ],
+    "luciddreamer-py": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "luciddreamer-research": [
       "other",
       "none",
@@ -23031,6 +23084,12 @@
       "",
       "Java"
     ],
+    "minigate": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "minimax-code": [
       "other",
       "none",
@@ -23293,7 +23352,7 @@
       "quilt",
       "name",
       "quilt",
-      ""
+      "TypeScript"
     ],
     "motion-planning": [
       "other",
@@ -24493,7 +24552,7 @@
       "other",
       "none",
       "",
-      ""
+      "TypeScript"
     ],
     "othismos": [
       "other",
@@ -24706,6 +24765,12 @@
       "Rust"
     ],
     "paced-seam": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
+    "pacemaker": [
       "other",
       "none",
       "",
@@ -35961,6 +36026,12 @@
       "fleet",
       "TypeScript"
     ],
+    "trust-ledger": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "tui-rs": [
       "other",
       "none",
@@ -36313,6 +36384,12 @@
       "fleet",
       "description",
       "agent",
+      ""
+    ],
+    "vision": [
+      "other",
+      "none",
+      "",
       ""
     ],
     "vite": [
@@ -37008,58 +37085,49 @@
   },
   "top_motion": [
     {
-      "repo": "slack-water",
+      "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-18T04:25:02Z",
-      "size_kb": 6809
+      "pushed_at": "2026-10-18T10:57:41Z",
+      "size_kb": 77
     },
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-18T04:24:09Z",
-      "size_kb": 83256
+      "pushed_at": "2026-10-18T10:55:18Z",
+      "size_kb": 68181
     },
     {
-      "repo": "synoptic-sheet",
-      "workflows": [],
-      "pushed_at": "2026-10-18T04:02:29Z",
-      "size_kb": 81
-    },
-    {
-      "repo": "polln",
+      "repo": "quilt-research-canons",
       "workflows": [
-        "ci.yml"
+        "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-18T03:42:46Z",
-      "size_kb": 35731
+      "pushed_at": "2026-10-18T10:35:09Z",
+      "size_kb": 30559
     },
     {
-      "repo": "qthe",
+      "repo": "jev-quilt",
       "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T03:20:55Z",
-      "size_kb": 3831
-    },
-    {
-      "repo": "canon-claim",
-      "workflows": [],
-      "pushed_at": "2026-10-18T03:05:11Z",
-      "size_kb": 10
-    },
-    {
-      "repo": "canon-graph",
-      "workflows": [],
-      "pushed_at": "2026-10-18T02:59:29Z",
-      "size_kb": 9
-    },
-    {
-      "repo": "sdk",
-      "workflows": [
+        "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-18T02:50:03Z",
-      "size_kb": 137
+      "pushed_at": "2026-10-18T10:06:52Z",
+      "size_kb": 9781
+    },
+    {
+      "repo": "superinstance-advisor",
+      "workflows": [],
+      "pushed_at": "2026-10-18T10:06:30Z",
+      "size_kb": 2572
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-18T09:56:19Z",
+      "size_kb": 168
     },
     {
       "repo": "AI-Writings",
@@ -37071,123 +37139,149 @@
         "publish-jev-core.yml",
         "publish-jev-decide.yml"
       ],
-      "pushed_at": "2026-10-18T02:40:11Z",
-      "size_kb": 3691065
+      "pushed_at": "2026-10-18T09:55:14Z",
+      "size_kb": 3687490
     },
     {
-      "repo": "peanut-gallery-npm",
+      "repo": "qthe",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-18T09:44:17Z",
+      "size_kb": 4894
+    },
+    {
+      "repo": "communicator",
       "workflows": [],
-      "pushed_at": "2026-10-18T02:39:05Z",
-      "size_kb": 18
+      "pushed_at": "2026-10-18T09:36:41Z",
+      "size_kb": 396
     },
     {
-      "repo": "madlibs-gan-npm",
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-18T09:26:22Z",
+      "size_kb": 61054
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-18T09:19:43Z",
+      "size_kb": 5523
+    },
+    {
+      "repo": "gitpp-reading-room",
       "workflows": [],
-      "pushed_at": "2026-10-18T02:38:58Z",
-      "size_kb": 21
+      "pushed_at": "2026-10-18T08:05:21Z",
+      "size_kb": 22910
     },
     {
-      "repo": "Equipment-CellLogic-Distiller",
+      "repo": "gitpp-sheet",
       "workflows": [
-        "ci.yml"
+        "test.yml"
       ],
-      "pushed_at": "2026-10-18T02:38:46Z",
-      "size_kb": 17402
+      "pushed_at": "2026-10-18T07:57:56Z",
+      "size_kb": 160
     },
     {
-      "repo": "SuperInstance-Starter-Agent",
+      "repo": "quilt",
       "workflows": [
-        "ci.yml"
+        "ci.yml",
+        "publish-rubygems.yml"
       ],
-      "pushed_at": "2026-10-18T02:38:40Z",
-      "size_kb": 11587
+      "pushed_at": "2026-10-18T07:56:09Z",
+      "size_kb": 15275
     },
     {
-      "repo": "webgpu-profiler",
-      "workflows": [
-        "ci-node.yml",
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T02:38:34Z",
-      "size_kb": 338
-    },
-    {
-      "repo": "symmetry-math-npm",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T02:38:32Z",
-      "size_kb": 10
-    },
-    {
-      "repo": "palaver-math",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T02:38:30Z",
-      "size_kb": 14
-    },
-    {
-      "repo": "adinkra-math-npm",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T02:38:27Z",
-      "size_kb": 19
-    },
-    {
-      "repo": "griot-math-v2",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T02:38:25Z",
-      "size_kb": 13
-    },
-    {
-      "repo": "songline-math",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T02:38:23Z",
-      "size_kb": 3807
-    },
-    {
-      "repo": "openconstruct-ts",
+      "repo": "intercontext-map",
       "workflows": [],
-      "pushed_at": "2026-10-18T02:38:21Z",
-      "size_kb": 39
+      "pushed_at": "2026-10-18T07:55:28Z",
+      "size_kb": 29
     },
     {
-      "repo": "swarm-rooms",
+      "repo": "quilt-claw",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-18T07:46:55Z",
+      "size_kb": 235
+    },
+    {
+      "repo": "Motifcode4quilt",
+      "workflows": [
+        "ci.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-10-18T07:46:45Z",
+      "size_kb": 1862
+    },
+    {
+      "repo": "quilt-core-os",
+      "workflows": [
+        "build.yml"
+      ],
+      "pushed_at": "2026-10-18T06:53:28Z",
+      "size_kb": 6848
+    },
+    {
+      "repo": "quilt-rag",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-18T02:38:18Z",
-      "size_kb": 26
+      "pushed_at": "2026-10-18T06:53:27Z",
+      "size_kb": 7149
     },
     {
-      "repo": "intent-inference",
+      "repo": "quilt-nomad",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-18T02:38:15Z",
-      "size_kb": 5376
+      "pushed_at": "2026-10-18T06:53:26Z",
+      "size_kb": 2902
     },
     {
-      "repo": "agent-field",
+      "repo": "quilt-k3s",
+      "workflows": [
+        "chaos-ci.yml"
+      ],
+      "pushed_at": "2026-10-18T06:53:25Z",
+      "size_kb": 2360
+    },
+    {
+      "repo": "quilt-elf",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-18T02:38:13Z",
-      "size_kb": 50
+      "pushed_at": "2026-10-18T06:53:24Z",
+      "size_kb": 2870
     },
     {
-      "repo": "commit-predictor",
+      "repo": "quilt-fleet",
+      "workflows": [
+        "ci.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-10-18T06:53:23Z",
+      "size_kb": 3104
+    },
+    {
+      "repo": "quilt-evolve",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-18T02:38:10Z",
-      "size_kb": 36
+      "pushed_at": "2026-10-18T06:49:44Z",
+      "size_kb": 6171
     }
   ],
   "notes": [
