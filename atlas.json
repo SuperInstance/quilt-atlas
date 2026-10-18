@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-10-18T11:02:51.457Z",
+  "generated_at_utc": "2026-10-18T15:51:24.430Z",
   "account": "SuperInstance",
-  "total_repos": 5290,
+  "total_repos": 5292,
   "pages_fetched": 53,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
     "other": 2797,
-    "fleet": 1612,
+    "fleet": 1613,
     "qthe": 465,
     "quilt": 314,
-    "jev": 59,
+    "jev": 60,
     "latent": 18,
     "moth": 25
   },
@@ -19,7 +19,7 @@
       "other": 2797
     },
     "description": {
-      "fleet": 1200,
+      "fleet": 1201,
       "qthe": 430,
       "quilt": 52,
       "jev": 30,
@@ -30,7 +30,7 @@
       "quilt": 262,
       "qthe": 35,
       "fleet": 412,
-      "jev": 29,
+      "jev": 30,
       "moth": 22,
       "latent": 13
     }
@@ -4197,6 +4197,7 @@
       "scheduler-agent",
       "scheduling-rs",
       "schema-evolution",
+      "score-table",
       "scummvm-prototype",
       "sdk",
       "secret-scanner",
@@ -5260,6 +5261,7 @@
       "jev-garden",
       "jev-harness",
       "jev-ideation",
+      "jev-lab",
       "jev-lattice",
       "jev-net",
       "jev-net-worker",
@@ -19646,6 +19648,12 @@
       "jev",
       ""
     ],
+    "jev-lab": [
+      "jev",
+      "name",
+      "jev",
+      "JavaScript"
+    ],
     "jev-lattice": [
       "jev",
       "name",
@@ -30182,6 +30190,12 @@
       "",
       "TypeScript"
     ],
+    "score-table": [
+      "fleet",
+      "description",
+      "fleet|receipt",
+      "JavaScript"
+    ],
     "scrap-quilt": [
       "quilt",
       "name",
@@ -37085,24 +37099,127 @@
   },
   "top_motion": [
     {
+      "repo": "quilt-nomad",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-18T15:50:49Z",
+      "size_kb": 2902
+    },
+    {
+      "repo": "Otherhere",
+      "workflows": [
+        "ci.yml",
+        "deploy.yml"
+      ],
+      "pushed_at": "2026-10-18T15:50:39Z",
+      "size_kb": 4010
+    },
+    {
+      "repo": "quilt-k3s",
+      "workflows": [
+        "chaos-ci.yml"
+      ],
+      "pushed_at": "2026-10-18T15:50:27Z",
+      "size_kb": 2360
+    },
+    {
+      "repo": "jev-lab",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-18T15:48:56Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "communicator",
+      "workflows": [],
+      "pushed_at": "2026-10-18T15:46:34Z",
+      "size_kb": 396
+    },
+    {
+      "repo": "qthe",
+      "workflows": [
+        "ci.yml",
+        "groq-seat.yml"
+      ],
+      "pushed_at": "2026-10-18T15:45:16Z",
+      "size_kb": 4894
+    },
+    {
       "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-18T10:57:41Z",
-      "size_kb": 77
+      "pushed_at": "2026-10-18T15:42:27Z",
+      "size_kb": 81
     },
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-18T10:55:18Z",
-      "size_kb": 68181
+      "pushed_at": "2026-10-18T15:38:35Z",
+      "size_kb": 83818
     },
     {
-      "repo": "quilt-research-canons",
+      "repo": "gitpp-reading-room",
+      "workflows": [],
+      "pushed_at": "2026-10-18T15:37:14Z",
+      "size_kb": 22910
+    },
+    {
+      "repo": "quilt",
       "workflows": [
-        "bitlaw-conformance.yml"
+        "ci.yml",
+        "publish-rubygems.yml"
       ],
-      "pushed_at": "2026-10-18T10:35:09Z",
-      "size_kb": 30559
+      "pushed_at": "2026-10-18T15:35:55Z",
+      "size_kb": 15275
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-18T15:35:13Z",
+      "size_kb": 32
+    },
+    {
+      "repo": "quilt-ai",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-18T15:34:46Z",
+      "size_kb": 98
+    },
+    {
+      "repo": "score-table",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-18T15:32:55Z",
+      "size_kb": 0
+    },
+    {
+      "repo": "quilt-evolve",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-18T15:24:04Z",
+      "size_kb": 6171
+    },
+    {
+      "repo": "jev-lattice",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-18T15:14:03Z",
+      "size_kb": 787
+    },
+    {
+      "repo": "gitpp-sheet",
+      "workflows": [
+        "test.yml"
+      ],
+      "pushed_at": "2026-10-18T15:11:20Z",
+      "size_kb": 160
     },
     {
       "repo": "jev-quilt",
@@ -37110,14 +37227,14 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-18T10:06:52Z",
-      "size_kb": 9781
+      "pushed_at": "2026-10-18T15:03:55Z",
+      "size_kb": 9682
     },
     {
       "repo": "superinstance-advisor",
       "workflows": [],
-      "pushed_at": "2026-10-18T10:06:30Z",
-      "size_kb": 2572
+      "pushed_at": "2026-10-18T14:04:41Z",
+      "size_kb": 2591
     },
     {
       "repo": "zero-poc",
@@ -37126,8 +37243,24 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-18T09:56:19Z",
-      "size_kb": 168
+      "pushed_at": "2026-10-18T13:55:40Z",
+      "size_kb": 170
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-18T13:27:53Z",
+      "size_kb": 30599
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-18T11:02:52Z",
+      "size_kb": 2593
     },
     {
       "repo": "AI-Writings",
@@ -37141,20 +37274,6 @@
       ],
       "pushed_at": "2026-10-18T09:55:14Z",
       "size_kb": 3687490
-    },
-    {
-      "repo": "qthe",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T09:44:17Z",
-      "size_kb": 4894
-    },
-    {
-      "repo": "communicator",
-      "workflows": [],
-      "pushed_at": "2026-10-18T09:36:41Z",
-      "size_kb": 396
     },
     {
       "repo": "SuperInstance",
@@ -37179,109 +37298,6 @@
       ],
       "pushed_at": "2026-10-18T09:19:43Z",
       "size_kb": 5523
-    },
-    {
-      "repo": "gitpp-reading-room",
-      "workflows": [],
-      "pushed_at": "2026-10-18T08:05:21Z",
-      "size_kb": 22910
-    },
-    {
-      "repo": "gitpp-sheet",
-      "workflows": [
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-18T07:57:56Z",
-      "size_kb": 160
-    },
-    {
-      "repo": "quilt",
-      "workflows": [
-        "ci.yml",
-        "publish-rubygems.yml"
-      ],
-      "pushed_at": "2026-10-18T07:56:09Z",
-      "size_kb": 15275
-    },
-    {
-      "repo": "intercontext-map",
-      "workflows": [],
-      "pushed_at": "2026-10-18T07:55:28Z",
-      "size_kb": 29
-    },
-    {
-      "repo": "quilt-claw",
-      "workflows": [
-        "test.yml"
-      ],
-      "pushed_at": "2026-10-18T07:46:55Z",
-      "size_kb": 235
-    },
-    {
-      "repo": "Motifcode4quilt",
-      "workflows": [
-        "ci.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-10-18T07:46:45Z",
-      "size_kb": 1862
-    },
-    {
-      "repo": "quilt-core-os",
-      "workflows": [
-        "build.yml"
-      ],
-      "pushed_at": "2026-10-18T06:53:28Z",
-      "size_kb": 6848
-    },
-    {
-      "repo": "quilt-rag",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T06:53:27Z",
-      "size_kb": 7149
-    },
-    {
-      "repo": "quilt-nomad",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T06:53:26Z",
-      "size_kb": 2902
-    },
-    {
-      "repo": "quilt-k3s",
-      "workflows": [
-        "chaos-ci.yml"
-      ],
-      "pushed_at": "2026-10-18T06:53:25Z",
-      "size_kb": 2360
-    },
-    {
-      "repo": "quilt-elf",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T06:53:24Z",
-      "size_kb": 2870
-    },
-    {
-      "repo": "quilt-fleet",
-      "workflows": [
-        "ci.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-10-18T06:53:23Z",
-      "size_kb": 3104
-    },
-    {
-      "repo": "quilt-evolve",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-18T06:49:44Z",
-      "size_kb": 6171
     }
   ],
   "notes": [
