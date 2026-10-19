@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-19T13:12:04.170Z",
+  "generated_at_utc": "2026-10-19T22:22:26.366Z",
   "account": "SuperInstance",
   "total_repos": 5296,
   "pages_fetched": 53,
@@ -37127,30 +37127,16 @@
   },
   "top_motion": [
     {
-      "repo": "voice-games",
-      "workflows": [],
-      "pushed_at": "2026-10-19T13:09:52Z",
-      "size_kb": 87036
-    },
-    {
-      "repo": "superinstance-advisor",
-      "workflows": [],
-      "pushed_at": "2026-10-19T13:03:22Z",
-      "size_kb": 2668
-    },
-    {
       "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-19T13:02:41Z",
-      "size_kb": 92
+      "pushed_at": "2026-10-19T22:17:21Z",
+      "size_kb": 101
     },
     {
-      "repo": "quilt-cloudflare",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-19T12:45:45Z",
-      "size_kb": 3421
+      "repo": "voice-games",
+      "workflows": [],
+      "pushed_at": "2026-10-19T22:07:46Z",
+      "size_kb": 112930
     },
     {
       "repo": "jev-quilt",
@@ -37158,16 +37144,14 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-19T12:06:28Z",
-      "size_kb": 9972
+      "pushed_at": "2026-10-19T22:05:29Z",
+      "size_kb": 10012
     },
     {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-19T10:47:29Z",
-      "size_kb": 30920
+      "repo": "superinstance-advisor",
+      "workflows": [],
+      "pushed_at": "2026-10-19T22:03:35Z",
+      "size_kb": 2616
     },
     {
       "repo": "zero-poc",
@@ -37176,8 +37160,55 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-19T10:40:25Z",
+      "pushed_at": "2026-10-19T21:35:38Z",
       "size_kb": 153
+    },
+    {
+      "repo": "communicator",
+      "workflows": [],
+      "pushed_at": "2026-10-19T16:20:45Z",
+      "size_kb": 55426
+    },
+    {
+      "repo": "quilt-jetson",
+      "workflows": [
+        "ci.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-10-19T14:26:25Z",
+      "size_kb": 2918
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-19T13:35:14Z",
+      "size_kb": 54
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-19T13:12:05Z",
+      "size_kb": 479
+    },
+    {
+      "repo": "quilt-cloudflare",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-19T12:45:45Z",
+      "size_kb": 3476
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-19T10:47:29Z",
+      "size_kb": 30920
     },
     {
       "repo": "SuperInstance",
@@ -37264,27 +37295,12 @@
       "size_kb": 23087
     },
     {
-      "repo": "quilt-jetson",
-      "workflows": [
-        "ci.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-10-19T07:09:40Z",
-      "size_kb": 2902
-    },
-    {
       "repo": "guardc",
       "workflows": [
         "ci.yml"
       ],
       "pushed_at": "2026-10-19T05:26:55Z",
       "size_kb": 69
-    },
-    {
-      "repo": "communicator",
-      "workflows": [],
-      "pushed_at": "2026-10-19T05:25:12Z",
-      "size_kb": 55376
     },
     {
       "repo": "AI-Writings",
@@ -37311,14 +37327,6 @@
       "size_kb": 1030
     },
     {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-19T04:53:12Z",
-      "size_kb": 54
-    },
-    {
       "repo": "qthe",
       "workflows": [
         "ci.yml",
@@ -37326,14 +37334,6 @@
       ],
       "pushed_at": "2026-10-19T04:42:39Z",
       "size_kb": 6107
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-19T04:38:49Z",
-      "size_kb": 477
     },
     {
       "repo": "quilt-rust",
