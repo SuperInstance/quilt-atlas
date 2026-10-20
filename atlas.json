@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-19T22:22:26.366Z",
+  "generated_at_utc": "2026-10-20T04:50:01.076Z",
   "account": "SuperInstance",
   "total_repos": 5296,
   "pages_fetched": 53,
@@ -37127,16 +37127,37 @@
   },
   "top_motion": [
     {
-      "repo": "synoptic-sheet",
-      "workflows": [],
-      "pushed_at": "2026-10-19T22:17:21Z",
-      "size_kb": 101
+      "repo": "Otherhere",
+      "workflows": [
+        "ci.yml",
+        "deploy.yml"
+      ],
+      "pushed_at": "2026-10-20T04:46:42Z",
+      "size_kb": 4195
     },
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-19T22:07:46Z",
-      "size_kb": 112930
+      "pushed_at": "2026-10-20T04:38:51Z",
+      "size_kb": 93353
+    },
+    {
+      "repo": "synoptic-sheet",
+      "workflows": [],
+      "pushed_at": "2026-10-20T04:32:39Z",
+      "size_kb": 108
+    },
+    {
+      "repo": "communicator",
+      "workflows": [],
+      "pushed_at": "2026-10-20T04:28:39Z",
+      "size_kb": 55513
+    },
+    {
+      "repo": "superinstance-advisor",
+      "workflows": [],
+      "pushed_at": "2026-10-20T04:03:56Z",
+      "size_kb": 2676
     },
     {
       "repo": "jev-quilt",
@@ -37144,14 +37165,23 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-19T22:05:29Z",
-      "size_kb": 10012
+      "pushed_at": "2026-10-20T03:05:47Z",
+      "size_kb": 10091
     },
     {
-      "repo": "superinstance-advisor",
+      "repo": "qthe",
+      "workflows": [
+        "ci.yml",
+        "groq-seat.yml"
+      ],
+      "pushed_at": "2026-10-20T01:16:36Z",
+      "size_kb": 6110
+    },
+    {
+      "repo": "erised-cli",
       "workflows": [],
-      "pushed_at": "2026-10-19T22:03:35Z",
-      "size_kb": 2616
+      "pushed_at": "2026-10-20T01:03:59Z",
+      "size_kb": 67
     },
     {
       "repo": "zero-poc",
@@ -37160,14 +37190,8 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-19T21:35:38Z",
-      "size_kb": 153
-    },
-    {
-      "repo": "communicator",
-      "workflows": [],
-      "pushed_at": "2026-10-19T16:20:45Z",
-      "size_kb": 55426
+      "pushed_at": "2026-10-20T00:43:14Z",
+      "size_kb": 155
     },
     {
       "repo": "quilt-jetson",
@@ -37175,15 +37199,15 @@
         "ci.yml",
         "release.yml"
       ],
-      "pushed_at": "2026-10-19T14:26:25Z",
-      "size_kb": 2918
+      "pushed_at": "2026-10-20T00:37:46Z",
+      "size_kb": 2926
     },
     {
       "repo": "gitpp-oracle",
       "workflows": [
         "oracle.yml"
       ],
-      "pushed_at": "2026-10-19T13:35:14Z",
+      "pushed_at": "2026-10-19T22:28:50Z",
       "size_kb": 54
     },
     {
@@ -37191,8 +37215,8 @@
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-10-19T13:12:05Z",
-      "size_kb": 479
+      "pushed_at": "2026-10-19T22:22:27Z",
+      "size_kb": 577
     },
     {
       "repo": "quilt-cloudflare",
@@ -37250,15 +37274,6 @@
       ],
       "pushed_at": "2026-10-19T09:22:54Z",
       "size_kb": 2437
-    },
-    {
-      "repo": "Otherhere",
-      "workflows": [
-        "ci.yml",
-        "deploy.yml"
-      ],
-      "pushed_at": "2026-10-19T09:15:24Z",
-      "size_kb": 4121
     },
     {
       "repo": "webgpu-profiler",
@@ -37325,23 +37340,6 @@
       ],
       "pushed_at": "2026-10-19T05:12:17Z",
       "size_kb": 1030
-    },
-    {
-      "repo": "qthe",
-      "workflows": [
-        "ci.yml",
-        "groq-seat.yml"
-      ],
-      "pushed_at": "2026-10-19T04:42:39Z",
-      "size_kb": 6107
-    },
-    {
-      "repo": "quilt-rust",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-19T04:30:51Z",
-      "size_kb": 1312
     }
   ],
   "notes": [
