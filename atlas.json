@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-20T21:37:17.252Z",
+  "generated_at_utc": "2026-10-21T04:44:26.024Z",
   "account": "SuperInstance",
   "total_repos": 5296,
   "pages_fetched": 53,
@@ -37127,22 +37127,45 @@
   },
   "top_motion": [
     {
-      "repo": "synoptic-sheet",
-      "workflows": [],
-      "pushed_at": "2026-10-20T21:27:32Z",
-      "size_kb": 113
-    },
-    {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-20T21:24:54Z",
-      "size_kb": 124038
+      "pushed_at": "2026-10-21T04:37:39Z",
+      "size_kb": 122417
+    },
+    {
+      "repo": "synoptic-sheet",
+      "workflows": [],
+      "pushed_at": "2026-10-21T04:37:24Z",
+      "size_kb": 120
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-21T04:32:55Z",
+      "size_kb": 31106
+    },
+    {
+      "repo": "communicator",
+      "workflows": [],
+      "pushed_at": "2026-10-21T04:18:47Z",
+      "size_kb": 65012
+    },
+    {
+      "repo": "Otherhere",
+      "workflows": [
+        "ci.yml",
+        "deploy.yml"
+      ],
+      "pushed_at": "2026-10-21T04:11:13Z",
+      "size_kb": 4665
     },
     {
       "repo": "superinstance-advisor",
       "workflows": [],
-      "pushed_at": "2026-10-20T21:03:47Z",
-      "size_kb": 2809
+      "pushed_at": "2026-10-21T04:08:09Z",
+      "size_kb": 2852
     },
     {
       "repo": "jev-quilt",
@@ -37150,16 +37173,8 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-20T20:02:21Z",
-      "size_kb": 10368
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-20T19:34:17Z",
-      "size_kb": 31022
+      "pushed_at": "2026-10-21T03:06:41Z",
+      "size_kb": 10443
     },
     {
       "repo": "zero-poc",
@@ -37168,24 +37183,36 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-20T19:33:18Z",
-      "size_kb": 157
+      "pushed_at": "2026-10-21T01:04:17Z",
+      "size_kb": 160
     },
     {
-      "repo": "Otherhere",
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-10-20T22:51:02Z",
+      "size_kb": 114809
+    },
+    {
+      "repo": "zero-msg-test",
       "workflows": [
-        "ci.yml",
-        "deploy.yml"
+        "message.yml",
+        "think.yml"
       ],
-      "pushed_at": "2026-10-20T18:15:49Z",
-      "size_kb": 4442
+      "pushed_at": "2026-10-20T22:43:34Z",
+      "size_kb": 130
+    },
+    {
+      "repo": "g1-ble-backend",
+      "workflows": [],
+      "pushed_at": "2026-10-20T22:13:35Z",
+      "size_kb": 1415
     },
     {
       "repo": "gitpp-oracle",
       "workflows": [
         "oracle.yml"
       ],
-      "pushed_at": "2026-10-20T17:19:14Z",
+      "pushed_at": "2026-10-20T21:43:38Z",
       "size_kb": 55
     },
     {
@@ -37193,14 +37220,8 @@
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-10-20T17:02:24Z",
-      "size_kb": 678
-    },
-    {
-      "repo": "communicator",
-      "workflows": [],
-      "pushed_at": "2026-10-20T16:53:59Z",
-      "size_kb": 58003
+      "pushed_at": "2026-10-20T21:37:18Z",
+      "size_kb": 776
     },
     {
       "repo": "quilt-jetson",
@@ -37298,39 +37319,6 @@
       ],
       "pushed_at": "2026-10-19T09:12:24Z",
       "size_kb": 355
-    },
-    {
-      "repo": "SmartCRDT",
-      "workflows": [
-        "benchmark-regression.yml",
-        "benchmark.yml",
-        "benchmarks-ci.yml",
-        "cd-enhanced.yml",
-        "ci.yml",
-        "codeql.yml",
-        "deploy.yml",
-        "docker.yml",
-        "pr-validation.yml",
-        "release.yml",
-        "security-scan.yml",
-        "smoke-tests.yml"
-      ],
-      "pushed_at": "2026-10-19T09:10:54Z",
-      "size_kb": 7747
-    },
-    {
-      "repo": "gitpp-reading-room",
-      "workflows": [],
-      "pushed_at": "2026-10-19T07:11:02Z",
-      "size_kb": 23087
-    },
-    {
-      "repo": "guardc",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-19T05:26:55Z",
-      "size_kb": 69
     }
   ],
   "notes": [
