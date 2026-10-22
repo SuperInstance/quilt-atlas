@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-22T11:51:36.663Z",
+  "generated_at_utc": "2026-10-22T17:09:56.528Z",
   "account": "SuperInstance",
   "total_repos": 5306,
   "pages_fetched": 54,
@@ -37199,14 +37199,58 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-22T11:37:32Z",
-      "size_kb": 142023
+      "pushed_at": "2026-10-22T17:08:02Z",
+      "size_kb": 120270
+    },
+    {
+      "repo": "room-lens",
+      "workflows": [],
+      "pushed_at": "2026-10-22T17:03:30Z",
+      "size_kb": 61
+    },
+    {
+      "repo": "communicator",
+      "workflows": [],
+      "pushed_at": "2026-10-22T17:03:25Z",
+      "size_kb": 67292
+    },
+    {
+      "repo": "superinstance-advisor",
+      "workflows": [],
+      "pushed_at": "2026-10-22T17:03:22Z",
+      "size_kb": 3241
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-22T16:29:52Z",
+      "size_kb": 31356
     },
     {
       "repo": "synoptic-sheet",
       "workflows": [],
-      "pushed_at": "2026-10-22T11:32:21Z",
-      "size_kb": 129
+      "pushed_at": "2026-10-22T16:27:29Z",
+      "size_kb": 134
+    },
+    {
+      "repo": "quilt-rag",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-22T16:24:52Z",
+      "size_kb": 7149
+    },
+    {
+      "repo": "quilt-jetson",
+      "workflows": [
+        "ci-trigger-guard.yml",
+        "ci.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-10-22T14:24:02Z",
+      "size_kb": 3158
     },
     {
       "repo": "jev-quilt",
@@ -37214,14 +37258,50 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-22T11:06:40Z",
-      "size_kb": 10803
+      "pushed_at": "2026-10-22T14:04:05Z",
+      "size_kb": 10811
     },
     {
-      "repo": "superinstance-advisor",
+      "repo": "moldmaker",
+      "workflows": [
+        "moldmaker-harness.yml",
+        "moldmaker-telegram.yml",
+        "moldmaker-think.yml"
+      ],
+      "pushed_at": "2026-10-22T13:36:56Z",
+      "size_kb": 174
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-22T13:10:41Z",
+      "size_kb": 167
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-22T12:04:30Z",
+      "size_kb": 57
+    },
+    {
+      "repo": "quilt-engine",
       "workflows": [],
-      "pushed_at": "2026-10-22T11:05:45Z",
-      "size_kb": 3135
+      "pushed_at": "2026-10-22T11:51:54Z",
+      "size_kb": 80
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-22T11:51:37Z",
+      "size_kb": 1076
     },
     {
       "repo": "AI-Writings",
@@ -37235,21 +37315,7 @@
         "recorder-selftest.yml"
       ],
       "pushed_at": "2026-10-22T10:53:43Z",
-      "size_kb": 3686261
-    },
-    {
-      "repo": "communicator",
-      "workflows": [],
-      "pushed_at": "2026-10-22T10:35:50Z",
-      "size_kb": 67292
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-22T10:31:53Z",
-      "size_kb": 31335
+      "size_kb": 3686263
     },
     {
       "repo": "splat-room",
@@ -37288,12 +37354,6 @@
       "size_kb": 45
     },
     {
-      "repo": "quilt-engine",
-      "workflows": [],
-      "pushed_at": "2026-10-22T09:09:26Z",
-      "size_kb": 53
-    },
-    {
       "repo": "Otherhere",
       "workflows": [
         "ci.yml",
@@ -37303,36 +37363,12 @@
       "size_kb": 7398
     },
     {
-      "repo": "room-lens",
-      "workflows": [],
-      "pushed_at": "2026-10-22T08:14:31Z",
-      "size_kb": 61
-    },
-    {
       "repo": "SuperInstance-papers",
       "workflows": [
         "ci.yml"
       ],
       "pushed_at": "2026-10-22T07:54:59Z",
       "size_kb": 30958
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-22T07:29:03Z",
-      "size_kb": 167
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-22T05:01:43Z",
-      "size_kb": 57
     },
     {
       "repo": "OpenMAIC",
@@ -37348,14 +37384,6 @@
       "size_kb": 110311
     },
     {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-22T04:42:17Z",
-      "size_kb": 977
-    },
-    {
       "repo": "quilt-pincher",
       "workflows": [
         "ci.yml",
@@ -37369,28 +37397,6 @@
       "workflows": [],
       "pushed_at": "2026-10-22T00:48:42Z",
       "size_kb": 548
-    },
-    {
-      "repo": "continuum-runtime",
-      "workflows": [],
-      "pushed_at": "2026-10-22T00:19:05Z",
-      "size_kb": 18
-    },
-    {
-      "repo": "chrono-tensor",
-      "workflows": [],
-      "pushed_at": "2026-10-22T00:01:21Z",
-      "size_kb": 70
-    },
-    {
-      "repo": "moldmaker",
-      "workflows": [
-        "moldmaker-harness.yml",
-        "moldmaker-telegram.yml",
-        "moldmaker-think.yml"
-      ],
-      "pushed_at": "2026-10-21T23:41:38Z",
-      "size_kb": 173
     }
   ],
   "notes": [
