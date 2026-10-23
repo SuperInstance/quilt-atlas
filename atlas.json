@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T17:05:47.822Z",
+  "generated_at_utc": "2026-10-23T21:23:50.627Z",
   "account": "SuperInstance",
   "total_repos": 5307,
   "pages_fetched": 54,
@@ -32351,7 +32351,7 @@
       "qthe",
       "description",
       "canon",
-      "HTML"
+      "Python"
     ],
     "superinstance-agent": [
       "fleet",
@@ -37079,7 +37079,7 @@
       "other",
       "none",
       "",
-      ""
+      "Python"
     ],
     "zero-poc": [
       "fleet",
@@ -37204,6 +37204,12 @@
   },
   "top_motion": [
     {
+      "repo": "voice-games",
+      "workflows": [],
+      "pushed_at": "2026-10-23T21:22:21Z",
+      "size_kb": 144511
+    },
+    {
       "repo": "AI-Writings",
       "workflows": [
         "ci.yml",
@@ -37212,24 +37218,17 @@
         "publish-jev-client.yml",
         "publish-jev-core.yml",
         "publish-jev-decide.yml",
-        "recorder-selftest.yml"
+        "recorder-selftest.yml",
+        "snowball-rsi-gan.yml"
       ],
-      "pushed_at": "2026-10-23T17:00:13Z",
-      "size_kb": 3691071
+      "pushed_at": "2026-10-23T21:19:22Z",
+      "size_kb": 3696278
     },
     {
-      "repo": "voice-games",
+      "repo": "superinstance-advisor",
       "workflows": [],
-      "pushed_at": "2026-10-23T16:52:39Z",
-      "size_kb": 117818
-    },
-    {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-23T16:49:50Z",
-      "size_kb": 31017
+      "pushed_at": "2026-10-23T21:07:43Z",
+      "size_kb": 3342
     },
     {
       "repo": "jev-quilt",
@@ -37237,14 +37236,28 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-23T16:04:42Z",
-      "size_kb": 10516
+      "pushed_at": "2026-10-23T21:04:34Z",
+      "size_kb": 10596
     },
     {
-      "repo": "superinstance-advisor",
-      "workflows": [],
-      "pushed_at": "2026-10-23T16:04:34Z",
-      "size_kb": 3182
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-23T20:28:13Z",
+      "size_kb": 31038
+    },
+    {
+      "repo": "zero-msg-test",
+      "workflows": [
+        "llm-proxy.yml",
+        "message.yml",
+        "snowball-rsi-gan.yml",
+        "think.yml",
+        "vault-probe.yml"
+      ],
+      "pushed_at": "2026-10-23T19:42:43Z",
+      "size_kb": 145
     },
     {
       "repo": "zero-poc",
@@ -37253,8 +37266,24 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-23T15:10:39Z",
-      "size_kb": 241
+      "pushed_at": "2026-10-23T19:20:09Z",
+      "size_kb": 245
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-23T17:16:51Z",
+      "size_kb": 59
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-23T17:05:48Z",
+      "size_kb": 1276
     },
     {
       "repo": "moldmaker",
@@ -37265,22 +37294,6 @@
       ],
       "pushed_at": "2026-10-23T13:12:44Z",
       "size_kb": 182
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-23T11:50:09Z",
-      "size_kb": 59
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-23T11:37:17Z",
-      "size_kb": 1275
     },
     {
       "repo": "SuperInstance",
@@ -37390,12 +37403,6 @@
       "workflows": [],
       "pushed_at": "2026-10-22T21:35:04Z",
       "size_kb": 66694
-    },
-    {
-      "repo": "synoptic-sheet",
-      "workflows": [],
-      "pushed_at": "2026-10-22T18:42:29Z",
-      "size_kb": 136
     }
   ],
   "notes": [
