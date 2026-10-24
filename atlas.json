@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-23T21:23:50.627Z",
+  "generated_at_utc": "2026-10-24T04:34:43.047Z",
   "account": "SuperInstance",
-  "total_repos": 5307,
+  "total_repos": 5308,
   "pages_fetched": 54,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2802,
+    "other": 2803,
     "fleet": 1617,
     "qthe": 466,
     "quilt": 319,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2802
+      "other": 2803
     },
     "description": {
       "fleet": 1205,
@@ -171,6 +171,7 @@
       "bayesian-inference",
       "Bayesian-Multi-Armed-Bandits",
       "bayesian-update",
+      "bc-thor",
       "bch-code",
       "bech32-encode",
       "bench-compare",
@@ -6984,6 +6985,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "bc-thor": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "bch-code": [
       "other",
@@ -37204,12 +37211,6 @@
   },
   "top_motion": [
     {
-      "repo": "voice-games",
-      "workflows": [],
-      "pushed_at": "2026-10-23T21:22:21Z",
-      "size_kb": 144511
-    },
-    {
       "repo": "AI-Writings",
       "workflows": [
         "ci.yml",
@@ -37221,14 +37222,14 @@
         "recorder-selftest.yml",
         "snowball-rsi-gan.yml"
       ],
-      "pushed_at": "2026-10-23T21:19:22Z",
-      "size_kb": 3696278
+      "pushed_at": "2026-10-24T04:30:27Z",
+      "size_kb": 3699744
     },
     {
-      "repo": "superinstance-advisor",
+      "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-23T21:07:43Z",
-      "size_kb": 3342
+      "pushed_at": "2026-10-24T04:22:25Z",
+      "size_kb": 143306
     },
     {
       "repo": "jev-quilt",
@@ -37236,16 +37237,20 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-23T21:04:34Z",
-      "size_kb": 10596
+      "pushed_at": "2026-10-24T04:08:06Z",
+      "size_kb": 10743
     },
     {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-23T20:28:13Z",
-      "size_kb": 31038
+      "repo": "superinstance-advisor",
+      "workflows": [],
+      "pushed_at": "2026-10-24T04:05:54Z",
+      "size_kb": 3500
+    },
+    {
+      "repo": "lane-sheets",
+      "workflows": [],
+      "pushed_at": "2026-10-24T03:33:27Z",
+      "size_kb": 106
     },
     {
       "repo": "zero-msg-test",
@@ -37256,8 +37261,14 @@
         "think.yml",
         "vault-probe.yml"
       ],
-      "pushed_at": "2026-10-23T19:42:43Z",
-      "size_kb": 145
+      "pushed_at": "2026-10-24T03:18:20Z",
+      "size_kb": 148
+    },
+    {
+      "repo": "quilt-engine",
+      "workflows": [],
+      "pushed_at": "2026-10-24T03:04:27Z",
+      "size_kb": 146
     },
     {
       "repo": "zero-poc",
@@ -37266,15 +37277,23 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-23T19:20:09Z",
-      "size_kb": 245
+      "pushed_at": "2026-10-24T01:56:57Z",
+      "size_kb": 256
+    },
+    {
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-24T01:32:54Z",
+      "size_kb": 31104
     },
     {
       "repo": "gitpp-oracle",
       "workflows": [
         "oracle.yml"
       ],
-      "pushed_at": "2026-10-23T17:16:51Z",
+      "pushed_at": "2026-10-23T21:31:28Z",
       "size_kb": 59
     },
     {
@@ -37282,8 +37301,8 @@
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-10-23T17:05:48Z",
-      "size_kb": 1276
+      "pushed_at": "2026-10-23T21:23:51Z",
+      "size_kb": 1375
     },
     {
       "repo": "moldmaker",
@@ -37328,12 +37347,6 @@
       "size_kb": 11504
     },
     {
-      "repo": "lane-sheets",
-      "workflows": [],
-      "pushed_at": "2026-10-23T07:55:39Z",
-      "size_kb": 53
-    },
-    {
       "repo": "CognitiveEngine",
       "workflows": [
         "ci.yml",
@@ -37374,12 +37387,6 @@
       "workflows": [],
       "pushed_at": "2026-10-23T01:04:03Z",
       "size_kb": 79
-    },
-    {
-      "repo": "quilt-engine",
-      "workflows": [],
-      "pushed_at": "2026-10-23T01:04:00Z",
-      "size_kb": 139
     },
     {
       "repo": "Otherhere",
