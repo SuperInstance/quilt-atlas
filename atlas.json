@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-24T15:56:25.679Z",
+  "generated_at_utc": "2026-10-24T20:47:41.276Z",
   "account": "SuperInstance",
   "total_repos": 5308,
   "pages_fetched": 54,
@@ -37213,20 +37213,20 @@
     {
       "repo": "AI-Writings",
       "workflows": [],
-      "pushed_at": "2026-10-24T15:55:23Z",
-      "size_kb": 3693461
+      "pushed_at": "2026-10-24T20:44:56Z",
+      "size_kb": 3700307
     },
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-24T15:52:32Z",
-      "size_kb": 125200
+      "pushed_at": "2026-10-24T20:37:19Z",
+      "size_kb": 152509
     },
     {
       "repo": "superinstance-advisor",
       "workflows": [],
-      "pushed_at": "2026-10-24T15:07:52Z",
-      "size_kb": 3810
+      "pushed_at": "2026-10-24T20:06:46Z",
+      "size_kb": 3401
     },
     {
       "repo": "jev-quilt",
@@ -37234,8 +37234,8 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-24T15:02:56Z",
-      "size_kb": 10938
+      "pushed_at": "2026-10-24T20:03:41Z",
+      "size_kb": 11050
     },
     {
       "repo": "zero-poc",
@@ -37244,16 +37244,38 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-24T14:26:06Z",
-      "size_kb": 262
+      "pushed_at": "2026-10-24T19:52:47Z",
+      "size_kb": 263
     },
     {
       "repo": "quilt-research-canons",
       "workflows": [
         "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-24T13:52:29Z",
-      "size_kb": 31216
+      "pushed_at": "2026-10-24T19:34:15Z",
+      "size_kb": 31272
+    },
+    {
+      "repo": "research",
+      "workflows": [],
+      "pushed_at": "2026-10-24T19:06:02Z",
+      "size_kb": 124071
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-24T16:04:40Z",
+      "size_kb": 60
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-24T15:56:26Z",
+      "size_kb": 1476
     },
     {
       "repo": "moldmaker",
@@ -37264,22 +37286,6 @@
       ],
       "pushed_at": "2026-10-24T12:30:46Z",
       "size_kb": 185
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-24T11:14:58Z",
-      "size_kb": 60
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-24T10:57:23Z",
-      "size_kb": 1475
     },
     {
       "repo": "SuperInstance",
@@ -37304,12 +37310,6 @@
       ],
       "pushed_at": "2026-10-24T09:17:52Z",
       "size_kb": 6397
-    },
-    {
-      "repo": "research",
-      "workflows": [],
-      "pushed_at": "2026-10-24T09:05:43Z",
-      "size_kb": 124004
     },
     {
       "repo": "zero-msg-test",
