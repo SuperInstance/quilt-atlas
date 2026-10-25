@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-24T20:47:41.276Z",
+  "generated_at_utc": "2026-10-25T04:39:16.906Z",
   "account": "SuperInstance",
   "total_repos": 5308,
   "pages_fetched": 54,
@@ -37211,22 +37211,30 @@
   },
   "top_motion": [
     {
-      "repo": "AI-Writings",
-      "workflows": [],
-      "pushed_at": "2026-10-24T20:44:56Z",
-      "size_kb": 3700307
+      "repo": "quilt-research-canons",
+      "workflows": [
+        "bitlaw-conformance.yml"
+      ],
+      "pushed_at": "2026-10-25T04:37:51Z",
+      "size_kb": 31347
     },
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-24T20:37:19Z",
-      "size_kb": 152509
+      "pushed_at": "2026-10-25T04:37:29Z",
+      "size_kb": 161849
     },
     {
-      "repo": "superinstance-advisor",
+      "repo": "AI-Writings",
       "workflows": [],
-      "pushed_at": "2026-10-24T20:06:46Z",
-      "size_kb": 3401
+      "pushed_at": "2026-10-25T04:37:17Z",
+      "size_kb": 3718627
+    },
+    {
+      "repo": "research",
+      "workflows": [],
+      "pushed_at": "2026-10-25T04:04:04Z",
+      "size_kb": 124131
     },
     {
       "repo": "jev-quilt",
@@ -37234,8 +37242,28 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-24T20:03:41Z",
-      "size_kb": 11050
+      "pushed_at": "2026-10-25T04:04:02Z",
+      "size_kb": 11270
+    },
+    {
+      "repo": "superinstance-advisor",
+      "workflows": [],
+      "pushed_at": "2026-10-25T04:03:48Z",
+      "size_kb": 3614
+    },
+    {
+      "repo": "polln",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-25T03:43:12Z",
+      "size_kb": 35862
+    },
+    {
+      "repo": "erised-cli",
+      "workflows": [],
+      "pushed_at": "2026-10-25T01:15:59Z",
+      "size_kb": 87
     },
     {
       "repo": "zero-poc",
@@ -37244,38 +37272,40 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-24T19:52:47Z",
-      "size_kb": 263
+      "pushed_at": "2026-10-25T00:31:25Z",
+      "size_kb": 272
     },
     {
-      "repo": "quilt-research-canons",
-      "workflows": [
-        "bitlaw-conformance.yml"
-      ],
-      "pushed_at": "2026-10-24T19:34:15Z",
-      "size_kb": 31272
-    },
-    {
-      "repo": "research",
+      "repo": "lane-sheets",
       "workflows": [],
-      "pushed_at": "2026-10-24T19:06:02Z",
-      "size_kb": 124071
+      "pushed_at": "2026-10-24T23:38:49Z",
+      "size_kb": 184
+    },
+    {
+      "repo": "Otherhere",
+      "workflows": [
+        "ci.yml",
+        "deploy.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-24T23:29:15Z",
+      "size_kb": 8218
     },
     {
       "repo": "gitpp-oracle",
       "workflows": [
         "oracle.yml"
       ],
-      "pushed_at": "2026-10-24T16:04:40Z",
-      "size_kb": 60
+      "pushed_at": "2026-10-24T20:58:18Z",
+      "size_kb": 40
     },
     {
       "repo": "quilt-atlas",
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-10-24T15:56:26Z",
-      "size_kb": 1476
+      "pushed_at": "2026-10-24T20:47:42Z",
+      "size_kb": 1575
     },
     {
       "repo": "moldmaker",
@@ -37322,12 +37352,6 @@
       ],
       "pushed_at": "2026-10-24T08:18:03Z",
       "size_kb": 151
-    },
-    {
-      "repo": "lane-sheets",
-      "workflows": [],
-      "pushed_at": "2026-10-24T03:33:27Z",
-      "size_kb": 106
     },
     {
       "repo": "quilt-engine",
@@ -37378,29 +37402,6 @@
       ],
       "pushed_at": "2026-10-23T03:34:06Z",
       "size_kb": 134
-    },
-    {
-      "repo": "chrono-tensor",
-      "workflows": [],
-      "pushed_at": "2026-10-23T01:04:03Z",
-      "size_kb": 79
-    },
-    {
-      "repo": "Otherhere",
-      "workflows": [
-        "ci.yml",
-        "deploy.yml"
-      ],
-      "pushed_at": "2026-10-23T00:16:23Z",
-      "size_kb": 8093
-    },
-    {
-      "repo": "sheaf-cohomology",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-22T22:54:40Z",
-      "size_kb": 60
     }
   ],
   "notes": [
