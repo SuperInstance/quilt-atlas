@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-25T04:39:16.906Z",
+  "generated_at_utc": "2026-10-25T11:25:15.179Z",
   "account": "SuperInstance",
   "total_repos": 5308,
   "pages_fetched": 54,
@@ -37211,30 +37211,46 @@
   },
   "top_motion": [
     {
-      "repo": "quilt-research-canons",
+      "repo": "zero-msg-test",
       "workflows": [
-        "bitlaw-conformance.yml"
+        "llm-proxy.yml",
+        "message.yml",
+        "probe-vault-gh.yml",
+        "probe-vault-gh2.yml",
+        "probe-vault-llm.yml",
+        "probe-vault-services.yml",
+        "snowball-rsi-gan.yml",
+        "think.yml",
+        "vault-probe.yml"
       ],
-      "pushed_at": "2026-10-25T04:37:51Z",
-      "size_kb": 31347
+      "pushed_at": "2026-10-25T11:23:33Z",
+      "size_kb": 151
     },
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-25T04:37:29Z",
-      "size_kb": 161849
+      "pushed_at": "2026-10-25T11:22:20Z",
+      "size_kb": 163840
     },
     {
       "repo": "AI-Writings",
+      "workflows": [
+        "probe-aiw-vault.yml"
+      ],
+      "pushed_at": "2026-10-25T11:19:05Z",
+      "size_kb": 3737745
+    },
+    {
+      "repo": "superinstance-advisor",
       "workflows": [],
-      "pushed_at": "2026-10-25T04:37:17Z",
-      "size_kb": 3718627
+      "pushed_at": "2026-10-25T11:10:55Z",
+      "size_kb": 3912
     },
     {
       "repo": "research",
       "workflows": [],
-      "pushed_at": "2026-10-25T04:04:04Z",
-      "size_kb": 124131
+      "pushed_at": "2026-10-25T11:06:20Z",
+      "size_kb": 124237
     },
     {
       "repo": "jev-quilt",
@@ -37242,28 +37258,16 @@
         "kat.yml",
         "test.yml"
       ],
-      "pushed_at": "2026-10-25T04:04:02Z",
-      "size_kb": 11270
+      "pushed_at": "2026-10-25T11:06:17Z",
+      "size_kb": 11574
     },
     {
-      "repo": "superinstance-advisor",
-      "workflows": [],
-      "pushed_at": "2026-10-25T04:03:48Z",
-      "size_kb": 3614
-    },
-    {
-      "repo": "polln",
+      "repo": "quilt-research-canons",
       "workflows": [
-        "ci.yml"
+        "bitlaw-conformance.yml"
       ],
-      "pushed_at": "2026-10-25T03:43:12Z",
-      "size_kb": 35862
-    },
-    {
-      "repo": "erised-cli",
-      "workflows": [],
-      "pushed_at": "2026-10-25T01:15:59Z",
-      "size_kb": 87
+      "pushed_at": "2026-10-25T10:50:30Z",
+      "size_kb": 31502
     },
     {
       "repo": "zero-poc",
@@ -37272,8 +37276,71 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-25T00:31:25Z",
-      "size_kb": 272
+      "pushed_at": "2026-10-25T09:56:09Z",
+      "size_kb": 276
+    },
+    {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-25T09:41:05Z",
+      "size_kb": 52759
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-25T09:34:07Z",
+      "size_kb": 6541
+    },
+    {
+      "repo": "fleet-mechanic",
+      "workflows": [
+        "ci.yml",
+        "mechanic-auto.yml"
+      ],
+      "pushed_at": "2026-10-25T07:55:43Z",
+      "size_kb": 114
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-25T04:54:59Z",
+      "size_kb": 40
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-25T04:39:18Z",
+      "size_kb": 1576
+    },
+    {
+      "repo": "polln",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-25T03:43:12Z",
+      "size_kb": 36126
+    },
+    {
+      "repo": "erised-cli",
+      "workflows": [],
+      "pushed_at": "2026-10-25T01:15:59Z",
+      "size_kb": 87
     },
     {
       "repo": "lane-sheets",
@@ -37292,22 +37359,6 @@
       "size_kb": 8218
     },
     {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-24T20:58:18Z",
-      "size_kb": 40
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-24T20:47:42Z",
-      "size_kb": 1575
-    },
-    {
       "repo": "moldmaker",
       "workflows": [
         "moldmaker-harness.yml",
@@ -37316,42 +37367,6 @@
       ],
       "pushed_at": "2026-10-24T12:30:46Z",
       "size_kb": 185
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-24T09:24:29Z",
-      "size_kb": 52206
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-24T09:17:52Z",
-      "size_kb": 6397
-    },
-    {
-      "repo": "zero-msg-test",
-      "workflows": [
-        "llm-proxy.yml",
-        "message.yml",
-        "snowball-rsi-gan.yml",
-        "think.yml",
-        "vault-probe.yml"
-      ],
-      "pushed_at": "2026-10-24T08:18:03Z",
-      "size_kb": 151
     },
     {
       "repo": "quilt-engine",
@@ -37394,14 +37409,6 @@
       "workflows": [],
       "pushed_at": "2026-10-23T04:21:04Z",
       "size_kb": 62
-    },
-    {
-      "repo": "constraint-theory-py",
-      "workflows": [
-        "clean.yml"
-      ],
-      "pushed_at": "2026-10-23T03:34:06Z",
-      "size_kb": 134
     }
   ],
   "notes": [
