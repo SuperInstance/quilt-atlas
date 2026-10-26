@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-26T04:45:11.013Z",
+  "generated_at_utc": "2026-10-26T13:01:02.566Z",
   "account": "SuperInstance",
   "total_repos": 5308,
   "pages_fetched": 54,
@@ -37213,16 +37213,16 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-26T04:37:30Z",
-      "size_kb": 154500
+      "pushed_at": "2026-10-26T12:52:27Z",
+      "size_kb": 172873
     },
     {
-      "repo": "quilt-swarm",
+      "repo": "quilt-cloudflare",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-10-26T04:15:17Z",
-      "size_kb": 3362
+      "pushed_at": "2026-10-26T12:46:47Z",
+      "size_kb": 3476
     },
     {
       "repo": "zero-poc",
@@ -37231,8 +37231,8 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-26T00:46:16Z",
-      "size_kb": 285
+      "pushed_at": "2026-10-26T11:30:53Z",
+      "size_kb": 288
     },
     {
       "repo": "SuperInstance",
@@ -37244,8 +37244,70 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-10-25T23:32:55Z",
-      "size_kb": 52775
+      "pushed_at": "2026-10-26T10:53:05Z",
+      "size_kb": 53308
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-26T10:45:45Z",
+      "size_kb": 6686
+    },
+    {
+      "repo": "quilt-rust",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-26T10:25:31Z",
+      "size_kb": 1322
+    },
+    {
+      "repo": "webgpu-profiler",
+      "workflows": [
+        "ci-node.yml",
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-26T09:14:01Z",
+      "size_kb": 357
+    },
+    {
+      "repo": "Otherhere",
+      "workflows": [
+        "ci.yml",
+        "deploy.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-26T05:59:17Z",
+      "size_kb": 8672
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-26T04:58:37Z",
+      "size_kb": 41
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-26T04:45:11Z",
+      "size_kb": 1776
+    },
+    {
+      "repo": "quilt-swarm",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-26T04:15:17Z",
+      "size_kb": 2956
     },
     {
       "repo": "AI-Writings",
@@ -37279,22 +37341,6 @@
       ],
       "pushed_at": "2026-10-25T21:11:49Z",
       "size_kb": 10841
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-25T20:58:21Z",
-      "size_kb": 41
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-25T20:49:55Z",
-      "size_kb": 1775
     },
     {
       "repo": "superinstance-advisor",
@@ -37341,17 +37387,6 @@
       "size_kb": 102
     },
     {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-25T09:34:07Z",
-      "size_kb": 6541
-    },
-    {
       "repo": "fleet-mechanic",
       "workflows": [
         "ci.yml",
@@ -37381,44 +37416,10 @@
       "size_kb": 184
     },
     {
-      "repo": "Otherhere",
-      "workflows": [
-        "ci.yml",
-        "deploy.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-24T23:29:15Z",
-      "size_kb": 8218
-    },
-    {
       "repo": "quilt-engine",
       "workflows": [],
       "pushed_at": "2026-10-24T03:04:27Z",
       "size_kb": 146
-    },
-    {
-      "repo": "PersonalLog",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-23T08:54:52Z",
-      "size_kb": 11504
-    },
-    {
-      "repo": "CognitiveEngine",
-      "workflows": [
-        "ci.yml",
-        "docker.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-10-23T07:33:51Z",
-      "size_kb": 837
-    },
-    {
-      "repo": "beam-quilt",
-      "workflows": [],
-      "pushed_at": "2026-10-23T04:21:53Z",
-      "size_kb": 571
     }
   ],
   "notes": [
