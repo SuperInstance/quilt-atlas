@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-27T12:11:05.075Z",
+  "generated_at_utc": "2026-10-27T17:59:55.130Z",
   "account": "SuperInstance",
   "total_repos": 5309,
   "pages_fetched": 54,
@@ -37220,8 +37220,71 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-27T12:07:29Z",
-      "size_kb": 159406
+      "pushed_at": "2026-10-27T17:52:36Z",
+      "size_kb": 157177
+    },
+    {
+      "repo": "casting-call",
+      "workflows": [
+        "ci.yml",
+        "tests.yml"
+      ],
+      "pushed_at": "2026-10-27T16:37:17Z",
+      "size_kb": 513
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "bruno-adr.yml",
+        "ci.yml",
+        "corpus-guard.yml",
+        "corpus.yml",
+        "landing-page.yml",
+        "probe-aiw-vault.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml",
+        "recorder-selftest.yml",
+        "snowball-rsi-gan.yml"
+      ],
+      "pushed_at": "2026-10-27T15:48:08Z",
+      "size_kb": 3800920
+    },
+    {
+      "repo": "moldmaker",
+      "workflows": [
+        "moldmaker-harness.yml",
+        "moldmaker-telegram.yml",
+        "moldmaker-think.yml"
+      ],
+      "pushed_at": "2026-10-27T14:10:03Z",
+      "size_kb": 191
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-27T13:09:44Z",
+      "size_kb": 299
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-27T12:25:05Z",
+      "size_kb": 43
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-27T12:11:06Z",
+      "size_kb": 1975
     },
     {
       "repo": "SuperInstance",
@@ -37248,61 +37311,16 @@
       "size_kb": 6831
     },
     {
-      "repo": "casting-call",
-      "workflows": [
-        "ci.yml",
-        "tests.yml"
-      ],
-      "pushed_at": "2026-10-27T07:01:47Z",
-      "size_kb": 497
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-27T06:47:23Z",
-      "size_kb": 297
-    },
-    {
       "repo": "stitch",
       "workflows": [],
       "pushed_at": "2026-10-27T05:39:17Z",
       "size_kb": 182
     },
     {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-27T05:15:58Z",
-      "size_kb": 42
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-27T05:03:26Z",
-      "size_kb": 1975
-    },
-    {
       "repo": "lane-sheets",
       "workflows": [],
       "pushed_at": "2026-10-26T20:04:05Z",
       "size_kb": 253
-    },
-    {
-      "repo": "moldmaker",
-      "workflows": [
-        "moldmaker-harness.yml",
-        "moldmaker-telegram.yml",
-        "moldmaker-think.yml"
-      ],
-      "pushed_at": "2026-10-26T14:58:04Z",
-      "size_kb": 190
     },
     {
       "repo": "quilt-cloudflare",
@@ -37346,24 +37364,6 @@
       ],
       "pushed_at": "2026-10-26T04:15:17Z",
       "size_kb": 2956
-    },
-    {
-      "repo": "AI-Writings",
-      "workflows": [
-        "bruno-adr.yml",
-        "ci.yml",
-        "corpus-guard.yml",
-        "corpus.yml",
-        "landing-page.yml",
-        "probe-aiw-vault.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml",
-        "recorder-selftest.yml",
-        "snowball-rsi-gan.yml"
-      ],
-      "pushed_at": "2026-10-25T23:20:20Z",
-      "size_kb": 3800911
     },
     {
       "repo": "research",
