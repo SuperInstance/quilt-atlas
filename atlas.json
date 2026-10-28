@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-28T12:54:15.406Z",
+  "generated_at_utc": "2026-10-28T22:35:25.346Z",
   "account": "SuperInstance",
-  "total_repos": 5311,
+  "total_repos": 5315,
   "pages_fetched": 54,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2804,
+    "other": 2808,
     "fleet": 1618,
     "qthe": 466,
     "quilt": 320,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2804
+      "other": 2808
     },
     "description": {
       "fleet": 1206,
@@ -133,6 +133,7 @@
       "astro",
       "async-gpu-dispatch",
       "async-rs",
+      "AtariST-MIDIMaze-Source",
       "atlas-forge",
       "attention-daemon-early-version",
       "auction-theory",
@@ -1718,7 +1719,9 @@
       "micro-onnx",
       "midden",
       "midi-flux-bridge",
+      "midi-maze-js",
       "midi-temporal",
+      "MidiMaze2",
       "migrations",
       "migrator-rs",
       "MineWright",
@@ -2515,6 +2518,7 @@
       "StudyLog",
       "studylog-ai-1",
       "studylog-ai-pages",
+      "stunt-car-racer-opengl",
       "stunt-double",
       "style-dna",
       "SubForge",
@@ -6612,6 +6616,12 @@
       "Rust"
     ],
     "async-rs": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
+    "AtariST-MIDIMaze-Source": [
       "other",
       "none",
       "",
@@ -23147,11 +23157,23 @@
       "",
       "Rust"
     ],
+    "midi-maze-js": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "midi-temporal": [
       "other",
       "none",
       "",
       "Python"
+    ],
+    "MidiMaze2": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "migrations": [
       "other",
@@ -32111,6 +32133,12 @@
       "",
       "JavaScript"
     ],
+    "stunt-car-racer-opengl": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "stunt-double": [
       "other",
       "none",
@@ -37234,8 +37262,58 @@
     {
       "repo": "voice-games",
       "workflows": [],
-      "pushed_at": "2026-10-28T12:52:27Z",
-      "size_kb": 169718
+      "pushed_at": "2026-10-28T22:22:39Z",
+      "size_kb": 190493
+    },
+    {
+      "repo": "SuperInstance-papers",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-28T21:52:48Z",
+      "size_kb": 32826
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-28T20:30:09Z",
+      "size_kb": 426
+    },
+    {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-10-28T19:48:22Z",
+      "size_kb": 114867
+    },
+    {
+      "repo": "moldmaker",
+      "workflows": [
+        "moldmaker-harness.yml",
+        "moldmaker-telegram.yml",
+        "moldmaker-think.yml"
+      ],
+      "pushed_at": "2026-10-28T14:56:38Z",
+      "size_kb": 194
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-28T13:12:00Z",
+      "size_kb": 44
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-28T12:54:16Z",
+      "size_kb": 2175
     },
     {
       "repo": "SuperInstance",
@@ -37260,38 +37338,6 @@
       ],
       "pushed_at": "2026-10-28T10:58:04Z",
       "size_kb": 6976
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-28T08:18:49Z",
-      "size_kb": 423
-    },
-    {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-10-28T07:30:22Z",
-      "size_kb": 114858
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-28T05:55:04Z",
-      "size_kb": 44
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-28T05:41:36Z",
-      "size_kb": 2174
     },
     {
       "repo": "casting-call",
@@ -37349,14 +37395,6 @@
       "size_kb": 3801161
     },
     {
-      "repo": "SuperInstance-papers",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-27T22:04:31Z",
-      "size_kb": 31109
-    },
-    {
       "repo": "knowledge-vault-rs",
       "workflows": [
         "ci.yml",
@@ -37364,16 +37402,6 @@
       ],
       "pushed_at": "2026-10-27T19:05:52Z",
       "size_kb": 101
-    },
-    {
-      "repo": "moldmaker",
-      "workflows": [
-        "moldmaker-harness.yml",
-        "moldmaker-telegram.yml",
-        "moldmaker-think.yml"
-      ],
-      "pushed_at": "2026-10-27T14:10:03Z",
-      "size_kb": 191
     },
     {
       "repo": "lane-sheets",
