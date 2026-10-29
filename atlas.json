@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-29T05:47:18.724Z",
+  "generated_at_utc": "2026-10-29T13:00:36.449Z",
   "account": "SuperInstance",
-  "total_repos": 5315,
+  "total_repos": 5316,
   "pages_fetched": 54,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2808,
+    "other": 2809,
     "fleet": 1618,
     "qthe": 466,
     "quilt": 320,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2808
+      "other": 2809
     },
     "description": {
       "fleet": 1206,
@@ -1398,6 +1398,7 @@
       "ladder",
       "landauer",
       "lapce-coverage-gap",
+      "last-mile",
       "lattice-climate",
       "lattice-crypto",
       "lattice-crypto-rs",
@@ -20043,6 +20044,12 @@
       "",
       "Rust"
     ],
+    "last-mile": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "lattice-climate": [
       "other",
       "none",
@@ -37260,24 +37267,10 @@
   },
   "top_motion": [
     {
-      "repo": "agent-inbox",
+      "repo": "last-mile",
       "workflows": [],
-      "pushed_at": "2026-10-29T05:39:22Z",
-      "size_kb": 114876
-    },
-    {
-      "repo": "voice-games",
-      "workflows": [],
-      "pushed_at": "2026-10-29T05:37:49Z",
-      "size_kb": 200899
-    },
-    {
-      "repo": "stitch",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-29T05:37:13Z",
-      "size_kb": 447
+      "pushed_at": "2026-10-29T12:39:21Z",
+      "size_kb": 1508
     },
     {
       "repo": "Otherhere",
@@ -37286,8 +37279,78 @@
         "deploy.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-10-29T05:27:47Z",
-      "size_kb": 46456
+      "pushed_at": "2026-10-29T11:50:17Z",
+      "size_kb": 46620
+    },
+    {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-29T11:26:25Z",
+      "size_kb": 54926
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-29T11:17:54Z",
+      "size_kb": 7121
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-10-29T06:22:37Z",
+      "size_kb": 431
+    },
+    {
+      "repo": "voice-games",
+      "workflows": [],
+      "pushed_at": "2026-10-29T06:16:37Z",
+      "size_kb": 169184
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-10-29T05:59:37Z",
+      "size_kb": 45
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-10-29T05:47:19Z",
+      "size_kb": 2275
+    },
+    {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-10-29T05:39:22Z",
+      "size_kb": 114879
+    },
+    {
+      "repo": "stitch",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-29T05:37:13Z",
+      "size_kb": 513
     },
     {
       "repo": "quilt-pincher",
@@ -37297,16 +37360,6 @@
       ],
       "pushed_at": "2026-10-29T01:35:12Z",
       "size_kb": 2907
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-10-29T00:21:57Z",
-      "size_kb": 427
     },
     {
       "repo": "chrono-tensor",
@@ -37333,22 +37386,6 @@
       "size_kb": 209
     },
     {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-10-28T22:42:23Z",
-      "size_kb": 44
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-10-28T22:35:26Z",
-      "size_kb": 2274
-    },
-    {
       "repo": "SuperInstance-papers",
       "workflows": [
         "ci.yml"
@@ -37365,30 +37402,6 @@
       ],
       "pushed_at": "2026-10-28T14:56:38Z",
       "size_kb": 194
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-28T11:07:55Z",
-      "size_kb": 54387
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-28T10:58:04Z",
-      "size_kb": 6976
     },
     {
       "repo": "casting-call",
@@ -37451,14 +37464,6 @@
       "workflows": [],
       "pushed_at": "2026-10-26T20:04:05Z",
       "size_kb": 253
-    },
-    {
-      "repo": "quilt-cloudflare",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-26T12:46:47Z",
-      "size_kb": 3476
     }
   ],
   "notes": [
