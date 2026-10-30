@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-30T05:46:35.010Z",
+  "generated_at_utc": "2026-10-30T12:54:42.416Z",
   "account": "SuperInstance",
   "total_repos": 5316,
   "pages_fetched": 54,
@@ -37269,16 +37269,32 @@
     {
       "repo": "last-mile",
       "workflows": [],
-      "pushed_at": "2026-10-30T05:36:47Z",
-      "size_kb": 8570
+      "pushed_at": "2026-10-30T12:39:48Z",
+      "size_kb": 15698
     },
     {
-      "repo": "constraint-theory-py",
+      "repo": "SuperInstance",
       "workflows": [
-        "clean.yml"
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
       ],
-      "pushed_at": "2026-10-30T03:34:51Z",
-      "size_kb": 134
+      "pushed_at": "2026-10-30T11:18:33Z",
+      "size_kb": 55464
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-10-30T11:10:42Z",
+      "size_kb": 7265
     },
     {
       "repo": "zero-poc",
@@ -37287,24 +37303,40 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-30T02:59:51Z",
-      "size_kb": 439
+      "pushed_at": "2026-10-30T09:55:00Z",
+      "size_kb": 438
+    },
+    {
+      "repo": "PersonalLog",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-30T08:55:13Z",
+      "size_kb": 10325
     },
     {
       "repo": "gitpp-oracle",
       "workflows": [
         "oracle.yml"
       ],
-      "pushed_at": "2026-10-29T22:51:29Z",
-      "size_kb": 45
+      "pushed_at": "2026-10-30T06:00:16Z",
+      "size_kb": 46
     },
     {
       "repo": "quilt-atlas",
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-10-29T22:45:23Z",
-      "size_kb": 2375
+      "pushed_at": "2026-10-30T05:46:36Z",
+      "size_kb": 2474
+    },
+    {
+      "repo": "constraint-theory-py",
+      "workflows": [
+        "clean.yml"
+      ],
+      "pushed_at": "2026-10-30T03:34:51Z",
+      "size_kb": 134
     },
     {
       "repo": "Otherhere",
@@ -37333,30 +37365,6 @@
       ],
       "pushed_at": "2026-10-29T15:02:30Z",
       "size_kb": 198
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-29T11:26:25Z",
-      "size_kb": 54926
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-10-29T11:17:54Z",
-      "size_kb": 7121
     },
     {
       "repo": "voice-games",
@@ -37447,24 +37455,6 @@
       "workflows": [],
       "pushed_at": "2026-10-28T02:09:28Z",
       "size_kb": 110
-    },
-    {
-      "repo": "AI-Writings",
-      "workflows": [
-        "bruno-adr.yml",
-        "ci.yml",
-        "corpus-guard.yml",
-        "corpus.yml",
-        "landing-page.yml",
-        "probe-aiw-vault.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml",
-        "recorder-selftest.yml",
-        "snowball-rsi-gan.yml"
-      ],
-      "pushed_at": "2026-10-28T01:02:55Z",
-      "size_kb": 3801161
     }
   ],
   "notes": [
