@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-30T22:17:41.648Z",
+  "generated_at_utc": "2026-10-31T05:38:25.299Z",
   "account": "SuperInstance",
-  "total_repos": 5316,
+  "total_repos": 5318,
   "pages_fetched": 54,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2809,
+    "other": 2811,
     "fleet": 1618,
     "qthe": 466,
     "quilt": 320,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2809
+      "other": 2811
     },
     "description": {
       "fleet": 1206,
@@ -339,6 +339,7 @@
       "codex-budget-guard",
       "coding-3d",
       "coff-parser",
+      "cognitive-ecology",
       "CognitiveEngine",
       "cohomology-ring",
       "coinlog-ai",
@@ -2822,6 +2823,7 @@
       "west-african-math-rs",
       "wheelhouse-game",
       "whistle",
+      "why",
       "wiki",
       "wire-harmony",
       "witness-complex",
@@ -8847,6 +8849,12 @@
       "description",
       "agent",
       "Rust"
+    ],
+    "cognitive-ecology": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "CognitiveEngine": [
       "other",
@@ -36862,6 +36870,12 @@
       "quilt",
       "Python"
     ],
+    "why": [
+      "other",
+      "none",
+      "",
+      "Rust"
+    ],
     "wiki": [
       "other",
       "none",
@@ -37267,10 +37281,44 @@
   },
   "top_motion": [
     {
+      "repo": "cognitive-ecology",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-31T04:33:45Z",
+      "size_kb": 147
+    },
+    {
       "repo": "last-mile",
       "workflows": [],
-      "pushed_at": "2026-10-30T22:05:28Z",
-      "size_kb": 15865
+      "pushed_at": "2026-10-31T04:10:47Z",
+      "size_kb": 19104
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "bruno-adr.yml",
+        "ci.yml",
+        "corpus-guard.yml",
+        "corpus.yml",
+        "landing-page.yml",
+        "probe-aiw-vault.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml",
+        "recorder-selftest.yml",
+        "snowball-rsi-gan.yml"
+      ],
+      "pushed_at": "2026-10-31T02:03:47Z",
+      "size_kb": 3801310
+    },
+    {
+      "repo": "why",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-10-31T01:36:47Z",
+      "size_kb": 70
     },
     {
       "repo": "zero-poc",
@@ -37279,15 +37327,15 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-10-30T21:07:25Z",
-      "size_kb": 442
+      "pushed_at": "2026-10-31T00:51:01Z",
+      "size_kb": 443
     },
     {
       "repo": "gitpp-oracle",
       "workflows": [
         "oracle.yml"
       ],
-      "pushed_at": "2026-10-30T13:10:08Z",
+      "pushed_at": "2026-10-30T22:28:54Z",
       "size_kb": 47
     },
     {
@@ -37295,8 +37343,8 @@
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-10-30T12:54:43Z",
-      "size_kb": 2475
+      "pushed_at": "2026-10-30T22:17:42Z",
+      "size_kb": 2574
     },
     {
       "repo": "SuperInstance",
@@ -37435,26 +37483,6 @@
       ],
       "pushed_at": "2026-10-28T05:33:59Z",
       "size_kb": 535
-    },
-    {
-      "repo": "xero-lab",
-      "workflows": [],
-      "pushed_at": "2026-10-28T04:49:18Z",
-      "size_kb": 1241
-    },
-    {
-      "repo": "BasicC2",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-28T04:18:01Z",
-      "size_kb": 165
-    },
-    {
-      "repo": "whole-house-quilt",
-      "workflows": [],
-      "pushed_at": "2026-10-28T02:09:28Z",
-      "size_kb": 110
     }
   ],
   "notes": [
