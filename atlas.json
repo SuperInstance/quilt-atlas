@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-11-01T13:20:52.404Z",
+  "generated_at_utc": "2026-11-01T22:00:29.330Z",
   "account": "SuperInstance",
-  "total_repos": 5318,
+  "total_repos": 5320,
   "pages_fetched": 54,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2811,
-    "fleet": 1618,
+    "other": 2812,
+    "fleet": 1619,
     "qthe": 466,
     "quilt": 320,
     "jev": 60,
@@ -16,10 +16,10 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2811
+      "other": 2812
     },
     "description": {
-      "fleet": 1206,
+      "fleet": 1207,
       "qthe": 431,
       "quilt": 55,
       "jev": 30,
@@ -1821,6 +1821,7 @@
       "numerics-interp",
       "numerics-ode",
       "nursery-v2",
+      "nv-uefi-unlocker",
       "observation-primitive-rs",
       "octomap",
       "octomap-conservation-poc",
@@ -2942,6 +2943,7 @@
       "agent-voice-leading",
       "agent-whisper",
       "agent-workspace-template",
+      "agent-world",
       "AgentGossip",
       "agentic-compiler",
       "agentkernel",
@@ -6239,6 +6241,12 @@
       "description",
       "agent",
       "Shell"
+    ],
+    "agent-world": [
+      "fleet",
+      "description",
+      "agent",
+      "JavaScript"
     ],
     "agent-writings-archive": [
       "other",
@@ -24108,6 +24116,12 @@
       "",
       "Python"
     ],
+    "nv-uefi-unlocker": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "observation-primitive": [
       "qthe",
       "description",
@@ -37281,6 +37295,52 @@
   },
   "top_motion": [
     {
+      "repo": "SuperInstance-papers",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-01T20:42:30Z",
+      "size_kb": 33227
+    },
+    {
+      "repo": "nv-uefi-unlocker",
+      "workflows": [],
+      "pushed_at": "2026-11-01T19:58:39Z",
+      "size_kb": 3607
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-01T18:51:22Z",
+      "size_kb": 409
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-01T17:58:50Z",
+      "size_kb": 49
+    },
+    {
+      "repo": "agent-world",
+      "workflows": [],
+      "pushed_at": "2026-11-01T17:18:01Z",
+      "size_kb": 197
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-01T13:20:53Z",
+      "size_kb": 2774
+    },
+    {
       "repo": "SuperInstance",
       "workflows": [
         "auto-index.yml",
@@ -37303,32 +37363,6 @@
       ],
       "pushed_at": "2026-11-01T11:39:50Z",
       "size_kb": 7555
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-01T06:43:07Z",
-      "size_kb": 455
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-01T06:22:50Z",
-      "size_kb": 48
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-01T06:00:04Z",
-      "size_kb": 2773
     },
     {
       "repo": "polln",
@@ -37462,26 +37496,6 @@
       "workflows": [],
       "pushed_at": "2026-10-28T23:13:23Z",
       "size_kb": 72
-    },
-    {
-      "repo": "continuum-runtime",
-      "workflows": [],
-      "pushed_at": "2026-10-28T23:13:21Z",
-      "size_kb": 72
-    },
-    {
-      "repo": "quilt-engine",
-      "workflows": [],
-      "pushed_at": "2026-10-28T23:13:18Z",
-      "size_kb": 209
-    },
-    {
-      "repo": "SuperInstance-papers",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-10-28T21:52:48Z",
-      "size_kb": 32980
     }
   ],
   "notes": [
