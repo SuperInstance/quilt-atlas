@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-11-01T22:00:29.330Z",
+  "generated_at_utc": "2026-11-02T05:59:32.686Z",
   "account": "SuperInstance",
-  "total_repos": 5320,
+  "total_repos": 5321,
   "pages_fetched": 54,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2812,
+    "other": 2813,
     "fleet": 1619,
     "qthe": 466,
     "quilt": 320,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2812
+      "other": 2813
     },
     "description": {
       "fleet": 1207,
@@ -212,6 +212,7 @@
       "breakthrough-prospector",
       "breed-registry",
       "bregman-divergence",
+      "bridgekeeper-bakeoff",
       "brief-assembler",
       "brownian-motion",
       "bsp-tree",
@@ -7345,6 +7346,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "bridgekeeper-bakeoff": [
+      "other",
+      "none",
+      "",
+      "Elixir"
     ],
     "brief-assembler": [
       "other",
@@ -37295,18 +37302,26 @@
   },
   "top_motion": [
     {
-      "repo": "SuperInstance-papers",
+      "repo": "quilt-ai",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-11-01T20:42:30Z",
-      "size_kb": 33227
+      "pushed_at": "2026-11-02T04:43:56Z",
+      "size_kb": 114
     },
     {
-      "repo": "nv-uefi-unlocker",
+      "repo": "quilt-swarm",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-02T04:19:23Z",
+      "size_kb": 3065
+    },
+    {
+      "repo": "bridgekeeper-bakeoff",
       "workflows": [],
-      "pushed_at": "2026-11-01T19:58:39Z",
-      "size_kb": 3607
+      "pushed_at": "2026-11-02T03:18:00Z",
+      "size_kb": 56
     },
     {
       "repo": "zero-poc",
@@ -37315,30 +37330,8 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-01T18:51:22Z",
-      "size_kb": 409
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-01T17:58:50Z",
-      "size_kb": 49
-    },
-    {
-      "repo": "agent-world",
-      "workflows": [],
-      "pushed_at": "2026-11-01T17:18:01Z",
-      "size_kb": 197
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-01T13:20:53Z",
-      "size_kb": 2774
+      "pushed_at": "2026-11-02T01:55:42Z",
+      "size_kb": 413
     },
     {
       "repo": "SuperInstance",
@@ -37350,8 +37343,44 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-01T11:47:48Z",
-      "size_kb": 56541
+      "pushed_at": "2026-11-02T01:01:45Z",
+      "size_kb": 56782
+    },
+    {
+      "repo": "agent-world",
+      "workflows": [],
+      "pushed_at": "2026-11-02T00:07:41Z",
+      "size_kb": 280
+    },
+    {
+      "repo": "nv-uefi-unlocker",
+      "workflows": [],
+      "pushed_at": "2026-11-01T22:34:57Z",
+      "size_kb": 3623
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-01T22:10:42Z",
+      "size_kb": 49
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-01T22:00:30Z",
+      "size_kb": 2873
+    },
+    {
+      "repo": "SuperInstance-papers",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-01T20:42:30Z",
+      "size_kb": 33227
     },
     {
       "repo": "plato-portal",
@@ -37475,27 +37504,6 @@
       ],
       "pushed_at": "2026-10-29T05:37:13Z",
       "size_kb": 513
-    },
-    {
-      "repo": "quilt-pincher",
-      "workflows": [
-        "ci.yml",
-        "publish.yml"
-      ],
-      "pushed_at": "2026-10-29T01:35:12Z",
-      "size_kb": 2907
-    },
-    {
-      "repo": "chrono-tensor",
-      "workflows": [],
-      "pushed_at": "2026-10-28T23:13:47Z",
-      "size_kb": 89
-    },
-    {
-      "repo": "chrono-flight",
-      "workflows": [],
-      "pushed_at": "2026-10-28T23:13:23Z",
-      "size_kb": 72
     }
   ],
   "notes": [
