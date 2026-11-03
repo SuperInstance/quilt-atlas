@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-03T14:12:34.839Z",
+  "generated_at_utc": "2026-11-03T23:21:59.125Z",
   "account": "SuperInstance",
   "total_repos": 5331,
   "pages_fetched": 54,
@@ -37372,6 +37372,71 @@
   },
   "top_motion": [
     {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-11-03T23:05:56Z",
+      "size_kb": 114974
+    },
+    {
+      "repo": "jacquard",
+      "workflows": [
+        "ci.yml",
+        "publish-crate.yml",
+        "publish-npm.yml",
+        "publish-pypi.yml"
+      ],
+      "pushed_at": "2026-11-03T23:05:19Z",
+      "size_kb": 3955
+    },
+    {
+      "repo": "telltape",
+      "workflows": [],
+      "pushed_at": "2026-11-03T23:03:35Z",
+      "size_kb": 4402
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-03T22:29:20Z",
+      "size_kb": 423
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-03T19:37:19Z",
+      "size_kb": 52
+    },
+    {
+      "repo": "gitpp-demo-contested",
+      "workflows": [],
+      "pushed_at": "2026-11-03T16:16:06Z",
+      "size_kb": 2
+    },
+    {
+      "repo": "moldmaker",
+      "workflows": [
+        "moldmaker-harness.yml",
+        "moldmaker-telegram.yml",
+        "moldmaker-think.yml"
+      ],
+      "pushed_at": "2026-11-03T15:58:31Z",
+      "size_kb": 202
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-03T14:12:36Z",
+      "size_kb": 3074
+    },
+    {
       "repo": "plato-portal",
       "workflows": [
         "auto-index.yml",
@@ -37383,24 +37448,6 @@
       "size_kb": 7851
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-03T09:24:05Z",
-      "size_kb": 422
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-03T06:58:10Z",
-      "size_kb": 51
-    },
-    {
       "repo": "qthe",
       "workflows": [
         "ci.yml",
@@ -37410,47 +37457,10 @@
       "size_kb": 6434
     },
     {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-11-03T03:05:33Z",
-      "size_kb": 114926
-    },
-    {
-      "repo": "jacquard",
-      "workflows": [
-        "ci.yml",
-        "publish-crate.yml",
-        "publish-npm.yml",
-        "publish-pypi.yml"
-      ],
-      "pushed_at": "2026-11-03T03:05:16Z",
-      "size_kb": 3508
-    },
-    {
       "repo": "jacquard-anchors",
       "workflows": [],
       "pushed_at": "2026-11-03T02:27:36Z",
       "size_kb": 14
-    },
-    {
-      "repo": "telltape",
-      "workflows": [],
-      "pushed_at": "2026-11-03T01:33:18Z",
-      "size_kb": 4304
-    },
-    {
-      "repo": "gitpp-demo-contested",
-      "workflows": [],
-      "pushed_at": "2026-11-03T01:14:16Z",
-      "size_kb": 2
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-03T00:57:21Z",
-      "size_kb": 2976
     },
     {
       "repo": "gitpp-demo-quilt",
@@ -37545,16 +37555,6 @@
       ],
       "pushed_at": "2026-11-02T18:34:36Z",
       "size_kb": 1605
-    },
-    {
-      "repo": "moldmaker",
-      "workflows": [
-        "moldmaker-harness.yml",
-        "moldmaker-telegram.yml",
-        "moldmaker-think.yml"
-      ],
-      "pushed_at": "2026-11-02T17:59:43Z",
-      "size_kb": 199
     },
     {
       "repo": "quilt-evolve",
