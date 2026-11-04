@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-03T23:21:59.125Z",
+  "generated_at_utc": "2026-11-04T06:18:26.567Z",
   "account": "SuperInstance",
   "total_repos": 5331,
   "pages_fetched": 54,
@@ -37372,12 +37372,6 @@
   },
   "top_motion": [
     {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-11-03T23:05:56Z",
-      "size_kb": 114974
-    },
-    {
       "repo": "jacquard",
       "workflows": [
         "ci.yml",
@@ -37385,14 +37379,14 @@
         "publish-npm.yml",
         "publish-pypi.yml"
       ],
-      "pushed_at": "2026-11-03T23:05:19Z",
-      "size_kb": 3955
+      "pushed_at": "2026-11-04T04:52:07Z",
+      "size_kb": 5138
     },
     {
-      "repo": "telltape",
+      "repo": "agent-inbox",
       "workflows": [],
-      "pushed_at": "2026-11-03T23:03:35Z",
-      "size_kb": 4402
+      "pushed_at": "2026-11-04T03:48:21Z",
+      "size_kb": 115024
     },
     {
       "repo": "zero-poc",
@@ -37401,8 +37395,28 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-03T22:29:20Z",
-      "size_kb": 423
+      "pushed_at": "2026-11-04T02:41:52Z",
+      "size_kb": 426
+    },
+    {
+      "repo": "gitpp-demo-quilt",
+      "workflows": [],
+      "pushed_at": "2026-11-04T02:39:35Z",
+      "size_kb": 6
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-03T23:22:00Z",
+      "size_kb": 3076
+    },
+    {
+      "repo": "telltape",
+      "workflows": [],
+      "pushed_at": "2026-11-03T23:03:35Z",
+      "size_kb": 4414
     },
     {
       "repo": "gitpp-oracle",
@@ -37429,14 +37443,6 @@
       "size_kb": 202
     },
     {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-03T14:12:36Z",
-      "size_kb": 3074
-    },
-    {
       "repo": "plato-portal",
       "workflows": [
         "auto-index.yml",
@@ -37461,12 +37467,6 @@
       "workflows": [],
       "pushed_at": "2026-11-03T02:27:36Z",
       "size_kb": 14
-    },
-    {
-      "repo": "gitpp-demo-quilt",
-      "workflows": [],
-      "pushed_at": "2026-11-02T23:53:21Z",
-      "size_kb": 5
     },
     {
       "repo": "zero-msg-test",
