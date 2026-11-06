@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-06T06:41:25.728Z",
+  "generated_at_utc": "2026-11-06T19:25:36.132Z",
   "account": "SuperInstance",
   "total_repos": 5331,
   "pages_fetched": 54,
@@ -37372,22 +37372,14 @@
   },
   "top_motion": [
     {
-      "repo": "constraint-theory-py",
-      "workflows": [
-        "clean.yml"
-      ],
-      "pushed_at": "2026-11-06T03:34:32Z",
-      "size_kb": 139
-    },
-    {
       "repo": "zero-poc",
       "workflows": [
         "react.yml",
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-06T00:58:10Z",
-      "size_kb": 431
+      "pushed_at": "2026-11-06T15:51:13Z",
+      "size_kb": 432
     },
     {
       "repo": "SuperInstance",
@@ -37399,32 +37391,8 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-05T23:04:56Z",
-      "size_kb": 57873
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-05T20:05:55Z",
-      "size_kb": 55
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-05T19:58:36Z",
-      "size_kb": 3277
-    },
-    {
-      "repo": "quilt-rag",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-05T16:25:25Z",
-      "size_kb": 7149
+      "pushed_at": "2026-11-06T12:50:53Z",
+      "size_kb": 58407
     },
     {
       "repo": "plato-portal",
@@ -37434,14 +37402,56 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-05T12:56:24Z",
-      "size_kb": 8139
+      "pushed_at": "2026-11-06T12:42:54Z",
+      "size_kb": 8284
     },
     {
       "repo": "agent-inbox",
       "workflows": [],
-      "pushed_at": "2026-11-05T09:24:00Z",
-      "size_kb": 115091
+      "pushed_at": "2026-11-06T09:31:58Z",
+      "size_kb": 114893
+    },
+    {
+      "repo": "CognitiveEngine",
+      "workflows": [
+        "ci.yml",
+        "docker.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-11-06T07:34:09Z",
+      "size_kb": 884
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-06T06:58:57Z",
+      "size_kb": 55
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-06T06:41:26Z",
+      "size_kb": 3375
+    },
+    {
+      "repo": "constraint-theory-py",
+      "workflows": [
+        "clean.yml"
+      ],
+      "pushed_at": "2026-11-06T03:34:32Z",
+      "size_kb": 139
+    },
+    {
+      "repo": "quilt-rag",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-05T16:25:25Z",
+      "size_kb": 7149
     },
     {
       "repo": "quilt-elf",
@@ -37578,14 +37588,6 @@
       ],
       "pushed_at": "2026-11-02T22:10:00Z",
       "size_kb": 59
-    },
-    {
-      "repo": "gitpp-dogfood-day1",
-      "workflows": [
-        "tests.yml"
-      ],
-      "pushed_at": "2026-11-02T22:09:58Z",
-      "size_kb": 42
     }
   ],
   "notes": [
