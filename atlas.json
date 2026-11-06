@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-05T19:58:35.733Z",
+  "generated_at_utc": "2026-11-06T06:41:25.728Z",
   "account": "SuperInstance",
   "total_repos": 5331,
   "pages_fetched": 54,
@@ -37372,12 +37372,22 @@
   },
   "top_motion": [
     {
-      "repo": "quilt-rag",
+      "repo": "constraint-theory-py",
       "workflows": [
-        "ci.yml"
+        "clean.yml"
       ],
-      "pushed_at": "2026-11-05T16:25:25Z",
-      "size_kb": 7149
+      "pushed_at": "2026-11-06T03:34:32Z",
+      "size_kb": 139
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-06T00:58:10Z",
+      "size_kb": 431
     },
     {
       "repo": "SuperInstance",
@@ -37389,8 +37399,32 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-05T13:04:16Z",
-      "size_kb": 57862
+      "pushed_at": "2026-11-05T23:04:56Z",
+      "size_kb": 57873
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-05T20:05:55Z",
+      "size_kb": 55
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-05T19:58:36Z",
+      "size_kb": 3277
+    },
+    {
+      "repo": "quilt-rag",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-05T16:25:25Z",
+      "size_kb": 7149
     },
     {
       "repo": "plato-portal",
@@ -37404,36 +37438,10 @@
       "size_kb": 8139
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-05T12:08:03Z",
-      "size_kb": 429
-    },
-    {
       "repo": "agent-inbox",
       "workflows": [],
       "pushed_at": "2026-11-05T09:24:00Z",
       "size_kb": 115091
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-05T07:00:15Z",
-      "size_kb": 54
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-05T06:43:38Z",
-      "size_kb": 3274
     },
     {
       "repo": "quilt-elf",
@@ -37578,14 +37586,6 @@
       ],
       "pushed_at": "2026-11-02T22:09:58Z",
       "size_kb": 42
-    },
-    {
-      "repo": "knowledge-vault",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-02T20:15:00Z",
-      "size_kb": 68
     }
   ],
   "notes": [
