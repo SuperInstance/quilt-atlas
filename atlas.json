@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-06T19:25:36.132Z",
+  "generated_at_utc": "2026-11-07T05:56:40.850Z",
   "account": "SuperInstance",
   "total_repos": 5331,
   "pages_fetched": 54,
@@ -37372,14 +37372,156 @@
   },
   "top_motion": [
     {
+      "repo": "SmartCRDT",
+      "workflows": [
+        "benchmark-regression.yml",
+        "benchmark.yml",
+        "benchmarks-ci.yml",
+        "cd-enhanced.yml",
+        "ci.yml",
+        "codeql.yml",
+        "deploy.yml",
+        "docker.yml",
+        "pr-validation.yml",
+        "release.yml",
+        "security-scan.yml",
+        "smoke-tests.yml"
+      ],
+      "pushed_at": "2026-11-07T05:52:47Z",
+      "size_kb": 7747
+    },
+    {
       "repo": "zero-poc",
       "workflows": [
         "react.yml",
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-06T15:51:13Z",
-      "size_kb": 432
+      "pushed_at": "2026-11-07T02:53:00Z",
+      "size_kb": 434
+    },
+    {
+      "repo": "agent-world",
+      "workflows": [],
+      "pushed_at": "2026-11-07T02:52:43Z",
+      "size_kb": 717
+    },
+    {
+      "repo": "imagegen1",
+      "workflows": [],
+      "pushed_at": "2026-11-07T02:21:08Z",
+      "size_kb": 46
+    },
+    {
+      "repo": "AI-Writings",
+      "workflows": [
+        "bruno-adr.yml",
+        "ci.yml",
+        "corpus-guard.yml",
+        "corpus.yml",
+        "landing-page.yml",
+        "probe-aiw-vault.yml",
+        "publish-jev-client.yml",
+        "publish-jev-core.yml",
+        "publish-jev-decide.yml",
+        "recorder-selftest.yml",
+        "snowball-rsi-gan.yml"
+      ],
+      "pushed_at": "2026-11-07T02:14:40Z",
+      "size_kb": 3801310
+    },
+    {
+      "repo": "makerlog-ai",
+      "workflows": [
+        "ci.yml",
+        "deploy.yml",
+        "test.yml"
+      ],
+      "pushed_at": "2026-11-07T02:13:42Z",
+      "size_kb": 51513
+    },
+    {
+      "repo": "cloudflare-code",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-07T02:13:39Z",
+      "size_kb": 12246
+    },
+    {
+      "repo": "tmux-quilt",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-07T02:09:51Z",
+      "size_kb": 3744
+    },
+    {
+      "repo": "prism",
+      "workflows": [
+        "ci-rust.yml"
+      ],
+      "pushed_at": "2026-11-07T01:55:27Z",
+      "size_kb": 1995
+    },
+    {
+      "repo": "superinstance-ai",
+      "workflows": [],
+      "pushed_at": "2026-11-07T01:44:27Z",
+      "size_kb": 31520
+    },
+    {
+      "repo": "hermes-construct",
+      "workflows": [
+        "ci.yml",
+        "contributor-check.yml",
+        "deploy-site.yml",
+        "docker-lint.yml",
+        "docker-publish.yml",
+        "docker_hub.yml",
+        "docs-site-checks.yml",
+        "history-check.yml",
+        "lint.yml",
+        "nix-lockfile-fix.yml",
+        "nix.yml",
+        "osv-scanner.yml",
+        "skills-index-freshness.yml",
+        "skills-index.yml",
+        "supply-chain-audit.yml",
+        "tests.yml",
+        "upload_to_pypi.yml",
+        "uv-lockfile-check.yml"
+      ],
+      "pushed_at": "2026-11-07T01:40:52Z",
+      "size_kb": 263461
+    },
+    {
+      "repo": "telltape",
+      "workflows": [],
+      "pushed_at": "2026-11-07T01:10:51Z",
+      "size_kb": 4481
+    },
+    {
+      "repo": "last-mile",
+      "workflows": [],
+      "pushed_at": "2026-11-07T01:10:24Z",
+      "size_kb": 21310
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-06T19:31:13Z",
+      "size_kb": 56
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-06T19:25:37Z",
+      "size_kb": 3377
     },
     {
       "repo": "SuperInstance",
@@ -37422,22 +37564,6 @@
       "size_kb": 884
     },
     {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-06T06:58:57Z",
-      "size_kb": 55
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-06T06:41:26Z",
-      "size_kb": 3375
-    },
-    {
       "repo": "constraint-theory-py",
       "workflows": [
         "clean.yml"
@@ -37462,31 +37588,6 @@
       "size_kb": 2870
     },
     {
-      "repo": "hermes-construct",
-      "workflows": [
-        "ci.yml",
-        "contributor-check.yml",
-        "deploy-site.yml",
-        "docker-lint.yml",
-        "docker-publish.yml",
-        "docker_hub.yml",
-        "docs-site-checks.yml",
-        "history-check.yml",
-        "lint.yml",
-        "nix-lockfile-fix.yml",
-        "nix.yml",
-        "osv-scanner.yml",
-        "skills-index-freshness.yml",
-        "skills-index.yml",
-        "supply-chain-audit.yml",
-        "tests.yml",
-        "upload_to_pypi.yml",
-        "uv-lockfile-check.yml"
-      ],
-      "pushed_at": "2026-11-05T01:55:22Z",
-      "size_kb": 187690
-    },
-    {
       "repo": "quilt-pincher",
       "workflows": [
         "ci.yml",
@@ -37502,92 +37603,6 @@
       ],
       "pushed_at": "2026-11-05T01:34:24Z",
       "size_kb": 2924
-    },
-    {
-      "repo": "last-mile",
-      "workflows": [],
-      "pushed_at": "2026-11-05T01:31:57Z",
-      "size_kb": 21277
-    },
-    {
-      "repo": "jacquard",
-      "workflows": [
-        "ci.yml",
-        "publish-crate.yml",
-        "publish-npm.yml",
-        "publish-pypi.yml"
-      ],
-      "pushed_at": "2026-11-04T23:55:22Z",
-      "size_kb": 8753
-    },
-    {
-      "repo": "telltape",
-      "workflows": [],
-      "pushed_at": "2026-11-04T18:50:25Z",
-      "size_kb": 4415
-    },
-    {
-      "repo": "gitpp-demo-quilt",
-      "workflows": [],
-      "pushed_at": "2026-11-04T06:53:21Z",
-      "size_kb": 6
-    },
-    {
-      "repo": "gitpp-demo-contested",
-      "workflows": [],
-      "pushed_at": "2026-11-03T16:16:06Z",
-      "size_kb": 2
-    },
-    {
-      "repo": "moldmaker",
-      "workflows": [
-        "moldmaker-harness.yml",
-        "moldmaker-telegram.yml",
-        "moldmaker-think.yml"
-      ],
-      "pushed_at": "2026-11-03T15:58:31Z",
-      "size_kb": 202
-    },
-    {
-      "repo": "qthe",
-      "workflows": [
-        "ci.yml",
-        "groq-seat.yml"
-      ],
-      "pushed_at": "2026-11-03T05:29:19Z",
-      "size_kb": 6434
-    },
-    {
-      "repo": "jacquard-anchors",
-      "workflows": [],
-      "pushed_at": "2026-11-03T02:27:36Z",
-      "size_kb": 14
-    },
-    {
-      "repo": "zero-msg-test",
-      "workflows": [
-        "llm-proxy.yml",
-        "message.yml",
-        "snowball-rsi-gan.yml",
-        "think.yml",
-        "vault-probe.yml"
-      ],
-      "pushed_at": "2026-11-02T23:42:49Z",
-      "size_kb": 102
-    },
-    {
-      "repo": "agent-world",
-      "workflows": [],
-      "pushed_at": "2026-11-02T22:12:37Z",
-      "size_kb": 734
-    },
-    {
-      "repo": "gitpp-dogfood-b1",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-02T22:10:00Z",
-      "size_kb": 59
     }
   ],
   "notes": [
