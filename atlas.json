@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-08T13:22:41.963Z",
+  "generated_at_utc": "2026-11-08T22:02:15.596Z",
   "account": "SuperInstance",
   "total_repos": 5331,
   "pages_fetched": 54,
@@ -37372,6 +37372,47 @@
   },
   "top_motion": [
     {
+      "repo": "falcon-hash",
+      "workflows": [
+        "ci.yml",
+        "publish.yml"
+      ],
+      "pushed_at": "2026-11-08T21:35:05Z",
+      "size_kb": 7
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-08T20:22:20Z",
+      "size_kb": 440
+    },
+    {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-11-08T20:10:41Z",
+      "size_kb": 114893
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-08T13:41:26Z",
+      "size_kb": 59
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-08T13:22:42Z",
+      "size_kb": 610
+    },
+    {
       "repo": "SuperInstance",
       "workflows": [
         "auto-index.yml",
@@ -37394,32 +37435,6 @@
       ],
       "pushed_at": "2026-11-08T11:41:10Z",
       "size_kb": 8574
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-08T08:51:53Z",
-      "size_kb": 438
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-08T06:17:26Z",
-      "size_kb": 58
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-08T05:58:53Z",
-      "size_kb": 3578
     },
     {
       "repo": "polln",
@@ -37556,12 +37571,6 @@
       "size_kb": 21310
     },
     {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-11-06T09:31:58Z",
-      "size_kb": 114893
-    },
-    {
       "repo": "CognitiveEngine",
       "workflows": [
         "ci.yml",
@@ -37594,15 +37603,6 @@
       ],
       "pushed_at": "2026-11-05T04:34:51Z",
       "size_kb": 2870
-    },
-    {
-      "repo": "quilt-pincher",
-      "workflows": [
-        "ci.yml",
-        "publish.yml"
-      ],
-      "pushed_at": "2026-11-05T01:35:26Z",
-      "size_kb": 2933
     }
   ],
   "notes": [
