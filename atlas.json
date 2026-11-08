@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-08T05:58:52.514Z",
+  "generated_at_utc": "2026-11-08T13:22:41.963Z",
   "account": "SuperInstance",
   "total_repos": 5331,
   "pages_fetched": 54,
@@ -37372,40 +37372,6 @@
   },
   "top_motion": [
     {
-      "repo": "polln",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-08T03:43:05Z",
-      "size_kb": 36520
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-08T01:52:27Z",
-      "size_kb": 438
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-07T21:59:23Z",
-      "size_kb": 58
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-07T21:50:54Z",
-      "size_kb": 3576
-    },
-    {
       "repo": "SuperInstance",
       "workflows": [
         "auto-index.yml",
@@ -37415,8 +37381,8 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-07T11:37:32Z",
-      "size_kb": 58950
+      "pushed_at": "2026-11-08T11:50:17Z",
+      "size_kb": 59490
     },
     {
       "repo": "plato-portal",
@@ -37426,8 +37392,42 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-07T11:29:32Z",
-      "size_kb": 8430
+      "pushed_at": "2026-11-08T11:41:10Z",
+      "size_kb": 8574
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-08T08:51:53Z",
+      "size_kb": 438
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-08T06:17:26Z",
+      "size_kb": 58
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-08T05:58:53Z",
+      "size_kb": 3578
+    },
+    {
+      "repo": "polln",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-08T03:43:05Z",
+      "size_kb": 36520
     },
     {
       "repo": "SmartCRDT",
