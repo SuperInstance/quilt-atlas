@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-08T22:02:15.596Z",
+  "generated_at_utc": "2026-11-09T06:24:37.107Z",
   "account": "SuperInstance",
   "total_repos": 5331,
   "pages_fetched": 54,
@@ -37372,13 +37372,10 @@
   },
   "top_motion": [
     {
-      "repo": "falcon-hash",
-      "workflows": [
-        "ci.yml",
-        "publish.yml"
-      ],
-      "pushed_at": "2026-11-08T21:35:05Z",
-      "size_kb": 7
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-11-09T06:08:43Z",
+      "size_kb": 115004
     },
     {
       "repo": "zero-poc",
@@ -37387,30 +37384,16 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-08T20:22:20Z",
-      "size_kb": 440
+      "pushed_at": "2026-11-09T06:00:49Z",
+      "size_kb": 441
     },
     {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-11-08T20:10:41Z",
-      "size_kb": 114893
-    },
-    {
-      "repo": "gitpp-oracle",
+      "repo": "quilt-swarm",
       "workflows": [
-        "oracle.yml"
+        "ci.yml"
       ],
-      "pushed_at": "2026-11-08T13:41:26Z",
-      "size_kb": 59
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-08T13:22:42Z",
-      "size_kb": 610
+      "pushed_at": "2026-11-09T04:13:33Z",
+      "size_kb": 3148
     },
     {
       "repo": "SuperInstance",
@@ -37422,8 +37405,33 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-08T11:50:17Z",
-      "size_kb": 59490
+      "pushed_at": "2026-11-09T01:13:35Z",
+      "size_kb": 59496
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-08T22:15:34Z",
+      "size_kb": 44
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-08T22:02:16Z",
+      "size_kb": 710
+    },
+    {
+      "repo": "falcon-hash",
+      "workflows": [
+        "ci.yml",
+        "publish.yml"
+      ],
+      "pushed_at": "2026-11-08T21:35:05Z",
+      "size_kb": 10
     },
     {
       "repo": "plato-portal",
@@ -37595,14 +37603,6 @@
       ],
       "pushed_at": "2026-11-05T16:25:25Z",
       "size_kb": 7149
-    },
-    {
-      "repo": "quilt-elf",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-05T04:34:51Z",
-      "size_kb": 2870
     }
   ],
   "notes": [
