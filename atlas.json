@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-11-09T22:20:17.595Z",
+  "generated_at_utc": "2026-11-10T07:16:09.967Z",
   "account": "SuperInstance",
-  "total_repos": 5331,
+  "total_repos": 5338,
   "pages_fetched": 54,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2819,
+    "other": 2826,
     "fleet": 1621,
     "qthe": 466,
     "quilt": 321,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2819
+      "other": 2826
     },
     "description": {
       "fleet": 1209,
@@ -98,6 +98,7 @@
       "ai-writings-vectorizer",
       "aider",
       "AIR",
+      "air-architecture",
       "albanese-variety",
       "algebra-explorer",
       "algebraic-geometry",
@@ -294,6 +295,7 @@
       "claude-code-vessel",
       "Claude-PRISM-CF",
       "Claude-prism-local-json",
+      "claudeflare-archive",
       "claw-extensions",
       "clawcanvas",
       "clawcraft",
@@ -340,8 +342,10 @@
       "codex-budget-guard",
       "coding-3d",
       "coff-parser",
+      "cognitemill",
       "cognitive-ecology",
       "CognitiveEngine",
+      "cognitivemell",
       "cohomology-ring",
       "coinlog-ai",
       "collective-ai",
@@ -687,6 +691,7 @@
       "diff-myers",
       "diff-patch",
       "diff-patience",
+      "diff-shepherd",
       "diff-three-way",
       "differential-regression",
       "diffie-hellman-rs",
@@ -1674,6 +1679,7 @@
       "lucineer-com-site",
       "lucineer-creative",
       "lucineer-memory",
+      "lucineer-minecraft",
       "lucineer-relay",
       "lucineer-roblox",
       "Lucineer-Stem-quest",
@@ -2573,6 +2579,7 @@
       "superinstance-lab",
       "superinstance-live",
       "superinstance-math",
+      "superinstance-planning",
       "superinstance-runtime",
       "SuperInstance-SDK1",
       "superinstance-spreadsheet",
@@ -6391,6 +6398,12 @@
       "",
       "Python"
     ],
+    "air-architecture": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "albanese-variety": [
       "other",
       "none",
@@ -8173,6 +8186,12 @@
       "",
       "TypeScript"
     ],
+    "claudeflare-archive": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "Claude_Baton": [
       "fleet",
       "description",
@@ -8869,6 +8888,12 @@
       "quilt",
       "JavaScript"
     ],
+    "cognitemill": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
+    ],
     "cognitive-archaeology": [
       "fleet",
       "description",
@@ -8886,6 +8911,12 @@
       "none",
       "",
       "Python"
+    ],
+    "cognitivemell": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
     ],
     "cohomology-ring": [
       "other",
@@ -11790,6 +11821,12 @@
       "none",
       "",
       "Rust"
+    ],
+    "diff-shepherd": [
+      "other",
+      "none",
+      "",
+      "TypeScript"
     ],
     "diff-three-way": [
       "other",
@@ -22729,6 +22766,12 @@
       "",
       "TypeScript"
     ],
+    "lucineer-minecraft": [
+      "other",
+      "none",
+      "",
+      "Java"
+    ],
     "lucineer-relay": [
       "other",
       "none",
@@ -32677,6 +32720,12 @@
       "sheet",
       "TypeScript"
     ],
+    "superinstance-planning": [
+      "other",
+      "none",
+      "",
+      ""
+    ],
     "superinstance-polyformalism-harness": [
       "fleet",
       "description",
@@ -37372,14 +37421,127 @@
   },
   "top_motion": [
     {
+      "repo": "Lucineer",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-10T03:14:08Z",
+      "size_kb": 88690
+    },
+    {
+      "repo": "cognitivemell",
+      "workflows": [],
+      "pushed_at": "2026-11-10T03:05:04Z",
+      "size_kb": 25
+    },
+    {
+      "repo": "diff-shepherd",
+      "workflows": [],
+      "pushed_at": "2026-11-10T03:04:09Z",
+      "size_kb": 77
+    },
+    {
+      "repo": "ec2mud",
+      "workflows": [
+        "ci-node.yml",
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-10T03:04:07Z",
+      "size_kb": 293
+    },
+    {
+      "repo": "constraint-theory-research",
+      "workflows": [
+        "python-ci.yml"
+      ],
+      "pushed_at": "2026-11-10T03:04:05Z",
+      "size_kb": 2197
+    },
+    {
+      "repo": "SuperInstance-papers",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-10T03:04:02Z",
+      "size_kb": 33247
+    },
+    {
+      "repo": "tmux-quilt",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-10T03:01:24Z",
+      "size_kb": 3744
+    },
+    {
+      "repo": "cloudflare-code",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-10T03:01:21Z",
+      "size_kb": 12245
+    },
+    {
+      "repo": "SuperInstance-archive",
+      "workflows": [],
+      "pushed_at": "2026-11-10T03:01:17Z",
+      "size_kb": 22033
+    },
+    {
+      "repo": "superinstance-planning",
+      "workflows": [],
+      "pushed_at": "2026-11-10T03:00:32Z",
+      "size_kb": 9
+    },
+    {
+      "repo": "cognitemill",
+      "workflows": [],
+      "pushed_at": "2026-11-10T03:00:19Z",
+      "size_kb": 30
+    },
+    {
+      "repo": "air-architecture",
+      "workflows": [],
+      "pushed_at": "2026-11-10T03:00:09Z",
+      "size_kb": 266
+    },
+    {
+      "repo": "claudeflare-archive",
+      "workflows": [],
+      "pushed_at": "2026-11-10T03:00:02Z",
+      "size_kb": 665
+    },
+    {
+      "repo": "lucineer-minecraft",
+      "workflows": [],
+      "pushed_at": "2026-11-10T02:59:54Z",
+      "size_kb": 179
+    },
+    {
       "repo": "zero-poc",
       "workflows": [
         "react.yml",
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-09T16:29:07Z",
+      "pushed_at": "2026-11-10T00:24:00Z",
       "size_kb": 442
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-09T22:30:19Z",
+      "size_kb": 45
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-09T22:20:18Z",
+      "size_kb": 811
     },
     {
       "repo": "SuperInstance",
@@ -37421,22 +37583,6 @@
       "size_kb": 115017
     },
     {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-09T06:50:15Z",
-      "size_kb": 44
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-09T06:24:38Z",
-      "size_kb": 711
-    },
-    {
       "repo": "quilt-swarm",
       "workflows": [
         "ci.yml"
@@ -37460,150 +37606,6 @@
       ],
       "pushed_at": "2026-11-08T03:43:05Z",
       "size_kb": 36520
-    },
-    {
-      "repo": "SmartCRDT",
-      "workflows": [
-        "benchmark-regression.yml",
-        "benchmark.yml",
-        "benchmarks-ci.yml",
-        "cd-enhanced.yml",
-        "ci.yml",
-        "codeql.yml",
-        "deploy.yml",
-        "docker.yml",
-        "pr-validation.yml",
-        "release.yml",
-        "security-scan.yml",
-        "smoke-tests.yml"
-      ],
-      "pushed_at": "2026-11-07T05:52:47Z",
-      "size_kb": 7753
-    },
-    {
-      "repo": "agent-world",
-      "workflows": [],
-      "pushed_at": "2026-11-07T02:52:43Z",
-      "size_kb": 717
-    },
-    {
-      "repo": "imagegen1",
-      "workflows": [],
-      "pushed_at": "2026-11-07T02:21:08Z",
-      "size_kb": 46
-    },
-    {
-      "repo": "AI-Writings",
-      "workflows": [
-        "bruno-adr.yml",
-        "ci.yml",
-        "corpus-guard.yml",
-        "corpus.yml",
-        "landing-page.yml",
-        "probe-aiw-vault.yml",
-        "publish-jev-client.yml",
-        "publish-jev-core.yml",
-        "publish-jev-decide.yml",
-        "recorder-selftest.yml",
-        "snowball-rsi-gan.yml"
-      ],
-      "pushed_at": "2026-11-07T02:14:40Z",
-      "size_kb": 3801310
-    },
-    {
-      "repo": "makerlog-ai",
-      "workflows": [
-        "ci.yml",
-        "deploy.yml",
-        "test.yml"
-      ],
-      "pushed_at": "2026-11-07T02:13:42Z",
-      "size_kb": 51513
-    },
-    {
-      "repo": "cloudflare-code",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-07T02:13:39Z",
-      "size_kb": 12246
-    },
-    {
-      "repo": "tmux-quilt",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-07T02:09:51Z",
-      "size_kb": 3744
-    },
-    {
-      "repo": "prism",
-      "workflows": [
-        "ci-rust.yml"
-      ],
-      "pushed_at": "2026-11-07T01:55:27Z",
-      "size_kb": 1995
-    },
-    {
-      "repo": "superinstance-ai",
-      "workflows": [],
-      "pushed_at": "2026-11-07T01:44:27Z",
-      "size_kb": 31520
-    },
-    {
-      "repo": "hermes-construct",
-      "workflows": [
-        "ci.yml",
-        "contributor-check.yml",
-        "deploy-site.yml",
-        "docker-lint.yml",
-        "docker-publish.yml",
-        "docker_hub.yml",
-        "docs-site-checks.yml",
-        "history-check.yml",
-        "lint.yml",
-        "nix-lockfile-fix.yml",
-        "nix.yml",
-        "osv-scanner.yml",
-        "skills-index-freshness.yml",
-        "skills-index.yml",
-        "supply-chain-audit.yml",
-        "tests.yml",
-        "upload_to_pypi.yml",
-        "uv-lockfile-check.yml"
-      ],
-      "pushed_at": "2026-11-07T01:40:52Z",
-      "size_kb": 263461
-    },
-    {
-      "repo": "telltape",
-      "workflows": [],
-      "pushed_at": "2026-11-07T01:10:51Z",
-      "size_kb": 4481
-    },
-    {
-      "repo": "last-mile",
-      "workflows": [],
-      "pushed_at": "2026-11-07T01:10:24Z",
-      "size_kb": 21310
-    },
-    {
-      "repo": "CognitiveEngine",
-      "workflows": [
-        "ci.yml",
-        "docker.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-11-06T07:34:09Z",
-      "size_kb": 884
-    },
-    {
-      "repo": "constraint-theory-py",
-      "workflows": [
-        "clean.yml"
-      ],
-      "pushed_at": "2026-11-06T03:34:32Z",
-      "size_kb": 139
     }
   ],
   "notes": [
