@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-10T07:16:09.967Z",
+  "generated_at_utc": "2026-11-10T19:45:14.896Z",
   "account": "SuperInstance",
   "total_repos": 5338,
   "pages_fetched": 54,
@@ -37421,6 +37421,43 @@
   },
   "top_motion": [
     {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-10T15:48:58Z",
+      "size_kb": 444
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-11-10T13:14:35Z",
+      "size_kb": 8867
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-10T07:29:52Z",
+      "size_kb": 46
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-10T07:16:10Z",
+      "size_kb": 812
+    },
+    {
       "repo": "Lucineer",
       "workflows": [
         "ci.yml"
@@ -37518,32 +37555,6 @@
       "size_kb": 179
     },
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-10T00:24:00Z",
-      "size_kb": 442
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-09T22:30:19Z",
-      "size_kb": 45
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-09T22:20:18Z",
-      "size_kb": 811
-    },
-    {
       "repo": "SuperInstance",
       "workflows": [
         "auto-index.yml",
@@ -37555,17 +37566,6 @@
       ],
       "pushed_at": "2026-11-09T13:45:56Z",
       "size_kb": 60030
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-11-09T13:36:24Z",
-      "size_kb": 8720
     },
     {
       "repo": "webgpu-profiler",
