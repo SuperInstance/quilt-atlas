@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-11T06:13:58.750Z",
+  "generated_at_utc": "2026-11-11T14:25:09.269Z",
   "account": "SuperInstance",
   "total_repos": 5338,
   "pages_fetched": 54,
@@ -37421,30 +37421,17 @@
   },
   "top_motion": [
     {
-      "repo": "zero-poc",
+      "repo": "SuperInstance",
       "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
       ],
-      "pushed_at": "2026-11-11T01:49:33Z",
-      "size_kb": 445
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-10T19:51:35Z",
-      "size_kb": 47
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-10T19:45:15Z",
-      "size_kb": 911
+      "pushed_at": "2026-11-11T12:33:51Z",
+      "size_kb": 60575
     },
     {
       "repo": "plato-portal",
@@ -37454,8 +37441,34 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-10T13:14:35Z",
-      "size_kb": 8867
+      "pushed_at": "2026-11-11T12:25:24Z",
+      "size_kb": 9011
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-11T09:12:13Z",
+      "size_kb": 446
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-11T06:43:20Z",
+      "size_kb": 47
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-11T06:13:59Z",
+      "size_kb": 912
     },
     {
       "repo": "Lucineer",
@@ -37553,19 +37566,6 @@
       "workflows": [],
       "pushed_at": "2026-11-10T02:59:54Z",
       "size_kb": 179
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-11-09T13:45:56Z",
-      "size_kb": 60030
     },
     {
       "repo": "webgpu-profiler",
