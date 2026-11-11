@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-10T19:45:14.896Z",
+  "generated_at_utc": "2026-11-11T06:13:58.750Z",
   "account": "SuperInstance",
   "total_repos": 5338,
   "pages_fetched": 54,
@@ -37427,8 +37427,24 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-10T15:48:58Z",
-      "size_kb": 444
+      "pushed_at": "2026-11-11T01:49:33Z",
+      "size_kb": 445
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-10T19:51:35Z",
+      "size_kb": 47
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-10T19:45:15Z",
+      "size_kb": 911
     },
     {
       "repo": "plato-portal",
@@ -37440,22 +37456,6 @@
       ],
       "pushed_at": "2026-11-10T13:14:35Z",
       "size_kb": 8867
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-10T07:29:52Z",
-      "size_kb": 46
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-10T07:16:10Z",
-      "size_kb": 812
     },
     {
       "repo": "Lucineer",
