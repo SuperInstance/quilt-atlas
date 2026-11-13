@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T23:38:07.541Z",
+  "generated_at_utc": "2026-11-13T06:44:39.164Z",
   "account": "SuperInstance",
   "total_repos": 5338,
   "pages_fetched": 54,
@@ -37427,8 +37427,16 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-12T20:51:50Z",
-      "size_kb": 450
+      "pushed_at": "2026-11-13T01:45:01Z",
+      "size_kb": 451
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-12T23:38:08Z",
+      "size_kb": 1112
     },
     {
       "repo": "gitpp-oracle",
@@ -37437,14 +37445,6 @@
       ],
       "pushed_at": "2026-11-12T20:06:07Z",
       "size_kb": 50
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-12T15:13:17Z",
-      "size_kb": 1111
     },
     {
       "repo": "SuperInstance",
