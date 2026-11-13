@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-13T06:44:39.164Z",
+  "generated_at_utc": "2026-11-13T19:43:05.097Z",
   "account": "SuperInstance",
   "total_repos": 5338,
   "pages_fetched": 54,
@@ -37427,24 +37427,14 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-13T01:45:01Z",
-      "size_kb": 451
+      "pushed_at": "2026-11-13T17:07:14Z",
+      "size_kb": 452
     },
     {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-12T23:38:08Z",
-      "size_kb": 1112
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-12T20:06:07Z",
-      "size_kb": 50
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-11-13T13:57:17Z",
+      "size_kb": 115070
     },
     {
       "repo": "SuperInstance",
@@ -37456,8 +37446,8 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-12T13:39:57Z",
-      "size_kb": 61116
+      "pushed_at": "2026-11-13T12:59:21Z",
+      "size_kb": 61656
     },
     {
       "repo": "plato-portal",
@@ -37467,8 +37457,34 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-12T13:31:32Z",
-      "size_kb": 9155
+      "pushed_at": "2026-11-13T12:51:46Z",
+      "size_kb": 9300
+    },
+    {
+      "repo": "CognitiveEngine",
+      "workflows": [
+        "ci.yml",
+        "docker.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-11-13T07:34:06Z",
+      "size_kb": 884
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-13T06:56:20Z",
+      "size_kb": 51
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-13T06:44:41Z",
+      "size_kb": 1210
     },
     {
       "repo": "Lucineer",
@@ -37577,12 +37593,6 @@
       "size_kb": 359
     },
     {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-11-09T07:22:53Z",
-      "size_kb": 115017
-    },
-    {
       "repo": "quilt-swarm",
       "workflows": [
         "ci.yml"
@@ -37598,14 +37608,6 @@
       ],
       "pushed_at": "2026-11-08T21:35:05Z",
       "size_kb": 10
-    },
-    {
-      "repo": "polln",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-08T03:43:05Z",
-      "size_kb": 36520
     }
   ],
   "notes": [
