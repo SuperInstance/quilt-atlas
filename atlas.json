@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-13T19:43:05.097Z",
+  "generated_at_utc": "2026-11-14T06:19:47.215Z",
   "account": "SuperInstance",
   "total_repos": 5338,
   "pages_fetched": 54,
@@ -37427,8 +37427,24 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-13T17:07:14Z",
-      "size_kb": 452
+      "pushed_at": "2026-11-14T02:43:23Z",
+      "size_kb": 453
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-13T19:52:01Z",
+      "size_kb": 52
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-13T19:43:07Z",
+      "size_kb": 1212
     },
     {
       "repo": "agent-inbox",
@@ -37469,22 +37485,6 @@
       ],
       "pushed_at": "2026-11-13T07:34:06Z",
       "size_kb": 884
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-13T06:56:20Z",
-      "size_kb": 51
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-13T06:44:41Z",
-      "size_kb": 1210
     },
     {
       "repo": "Lucineer",
