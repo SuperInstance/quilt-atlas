@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-11-14T18:00:41.130Z",
+  "generated_at_utc": "2026-11-14T22:22:53.324Z",
   "account": "SuperInstance",
-  "total_repos": 5338,
+  "total_repos": 5345,
   "pages_fetched": 54,
   "pagination_cap": 120,
   "pagination_cap_hit": false,
   "families": {
-    "other": 2826,
+    "other": 2833,
     "fleet": 1621,
     "qthe": 466,
     "quilt": 321,
@@ -16,7 +16,7 @@
   },
   "families_by_stage": {
     "none": {
-      "other": 2826
+      "other": 2833
     },
     "description": {
       "fleet": 1209,
@@ -519,10 +519,14 @@
       "craftmind",
       "craftmind-circuits",
       "craftmind-courses",
+      "craftmind-curator",
       "craftmind-discgolf",
       "craftmind-fishing",
+      "craftmind-league",
       "craftmind-ranch",
       "craftmind-researcher",
+      "craftmind-steward",
+      "craftmind-world",
       "CrashPilot",
       "crates-publish-check",
       "crdt-bench",
@@ -1712,6 +1716,7 @@
       "mavis-tfm",
       "mcp-atom-of-thoughts",
       "mcp-room-wrapper",
+      "mcp-verbs",
       "measure-theory",
       "mechanism-design",
       "meilisearch",
@@ -1826,6 +1831,7 @@
       "normal-form",
       "notebooklm-bridge",
       "noteweave",
+      "npc-town",
       "number-theory",
       "number-theory-core",
       "numeric-integration-rs",
@@ -2527,6 +2533,7 @@
       "streamer",
       "streaming-response-handler",
       "string-search-rs",
+      "studies",
       "study-smartcomponent",
       "study-weird-roblox-ai",
       "StudyLog",
@@ -10316,6 +10323,12 @@
       "",
       ""
     ],
+    "craftmind-curator": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "craftmind-discgolf": [
       "other",
       "none",
@@ -10334,6 +10347,12 @@
       "agent",
       ""
     ],
+    "craftmind-league": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "craftmind-ranch": [
       "other",
       "none",
@@ -10346,11 +10365,23 @@
       "",
       ""
     ],
+    "craftmind-steward": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "craftmind-studio": [
       "fleet",
       "description",
       "agent",
       "JavaScript"
+    ],
+    "craftmind-world": [
+      "other",
+      "none",
+      "",
+      ""
     ],
     "CrashPilot": [
       "other",
@@ -23090,6 +23121,12 @@
       "",
       "Rust"
     ],
+    "mcp-verbs": [
+      "other",
+      "none",
+      "",
+      "JavaScript"
+    ],
     "MCPMempool-quilt": [
       "quilt",
       "name",
@@ -24181,6 +24218,12 @@
       "none",
       "",
       ""
+    ],
+    "npc-town": [
+      "other",
+      "none",
+      "",
+      "Python"
     ],
     "number-theory": [
       "other",
@@ -32234,6 +32277,12 @@
       "",
       "Rust"
     ],
+    "studies": [
+      "other",
+      "none",
+      "",
+      "Python"
+    ],
     "study-smartcomponent": [
       "other",
       "none",
@@ -37427,8 +37476,72 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-14T16:08:48Z",
+      "pushed_at": "2026-11-14T20:45:26Z",
       "size_kb": 455
+    },
+    {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-11-14T19:35:47Z",
+      "size_kb": 115088
+    },
+    {
+      "repo": "studies",
+      "workflows": [],
+      "pushed_at": "2026-11-14T19:35:39Z",
+      "size_kb": 79652
+    },
+    {
+      "repo": "craftmind-curator",
+      "workflows": [],
+      "pushed_at": "2026-11-14T19:34:30Z",
+      "size_kb": 154036
+    },
+    {
+      "repo": "npc-town",
+      "workflows": [],
+      "pushed_at": "2026-11-14T19:25:05Z",
+      "size_kb": 4576
+    },
+    {
+      "repo": "craftmind-league",
+      "workflows": [],
+      "pushed_at": "2026-11-14T19:24:33Z",
+      "size_kb": 338259
+    },
+    {
+      "repo": "craftmind-world",
+      "workflows": [],
+      "pushed_at": "2026-11-14T19:00:55Z",
+      "size_kb": 7853
+    },
+    {
+      "repo": "craftmind-steward",
+      "workflows": [],
+      "pushed_at": "2026-11-14T18:59:47Z",
+      "size_kb": 38
+    },
+    {
+      "repo": "mcp-verbs",
+      "workflows": [],
+      "pushed_at": "2026-11-14T18:59:15Z",
+      "size_kb": 25
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-14T18:16:20Z",
+      "size_kb": 54
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-14T18:00:42Z",
+      "size_kb": 1312
     },
     {
       "repo": "SuperInstance",
@@ -37453,28 +37566,6 @@
       ],
       "pushed_at": "2026-11-14T11:56:12Z",
       "size_kb": 9444
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-14T06:42:07Z",
-      "size_kb": 52
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-14T06:19:49Z",
-      "size_kb": 1310
-    },
-    {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-11-13T13:57:17Z",
-      "size_kb": 115070
     },
     {
       "repo": "CognitiveEngine",
@@ -37558,56 +37649,6 @@
       "workflows": [],
       "pushed_at": "2026-11-10T03:00:32Z",
       "size_kb": 9
-    },
-    {
-      "repo": "cognitemill",
-      "workflows": [],
-      "pushed_at": "2026-11-10T03:00:19Z",
-      "size_kb": 30
-    },
-    {
-      "repo": "air-architecture",
-      "workflows": [],
-      "pushed_at": "2026-11-10T03:00:09Z",
-      "size_kb": 266
-    },
-    {
-      "repo": "claudeflare-archive",
-      "workflows": [],
-      "pushed_at": "2026-11-10T03:00:02Z",
-      "size_kb": 665
-    },
-    {
-      "repo": "lucineer-minecraft",
-      "workflows": [],
-      "pushed_at": "2026-11-10T02:59:54Z",
-      "size_kb": 179
-    },
-    {
-      "repo": "webgpu-profiler",
-      "workflows": [
-        "ci-node.yml",
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-09T09:14:09Z",
-      "size_kb": 359
-    },
-    {
-      "repo": "quilt-swarm",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-09T04:13:33Z",
-      "size_kb": 3148
-    },
-    {
-      "repo": "falcon-hash",
-      "workflows": [
-        "ci.yml",
-        "publish.yml"
-      ],
-      "pushed_at": "2026-11-08T21:35:05Z",
-      "size_kb": 10
     }
   ],
   "notes": [
