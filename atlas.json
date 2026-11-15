@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-14T22:22:53.324Z",
+  "generated_at_utc": "2026-11-15T06:28:24.850Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,14 +37470,38 @@
   },
   "top_motion": [
     {
+      "repo": "polln",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-15T03:43:04Z",
+      "size_kb": 36520
+    },
+    {
       "repo": "zero-poc",
       "workflows": [
         "react.yml",
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-14T20:45:26Z",
-      "size_kb": 455
+      "pushed_at": "2026-11-15T00:56:39Z",
+      "size_kb": 456
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-14T22:37:01Z",
+      "size_kb": 54
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-14T22:22:54Z",
+      "size_kb": 1411
     },
     {
       "repo": "agent-inbox",
@@ -37526,22 +37550,6 @@
       "workflows": [],
       "pushed_at": "2026-11-14T18:59:15Z",
       "size_kb": 25
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-14T18:16:20Z",
-      "size_kb": 54
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-14T18:00:42Z",
-      "size_kb": 1312
     },
     {
       "repo": "SuperInstance",
@@ -37643,12 +37651,6 @@
       "workflows": [],
       "pushed_at": "2026-11-10T03:01:17Z",
       "size_kb": 22033
-    },
-    {
-      "repo": "superinstance-planning",
-      "workflows": [],
-      "pushed_at": "2026-11-10T03:00:32Z",
-      "size_kb": 9
     }
   ],
   "notes": [
