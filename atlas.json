@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-16T06:26:05.503Z",
+  "generated_at_utc": "2026-11-16T22:02:22.539Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,12 +37470,46 @@
   },
   "top_motion": [
     {
-      "repo": "quilt-swarm",
+      "repo": "knowledge-vault",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-11-16T04:13:47Z",
-      "size_kb": 3176
+      "pushed_at": "2026-11-16T20:15:26Z",
+      "size_kb": 68
+    },
+    {
+      "repo": "agent-inbox",
+      "workflows": [],
+      "pushed_at": "2026-11-16T17:24:29Z",
+      "size_kb": 115105
+    },
+    {
+      "repo": "craftmind-league",
+      "workflows": [],
+      "pushed_at": "2026-11-16T17:24:13Z",
+      "size_kb": 338721
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-16T17:05:54Z",
+      "size_kb": 432
+    },
+    {
+      "repo": "craftmind-curator",
+      "workflows": [],
+      "pushed_at": "2026-11-16T16:48:05Z",
+      "size_kb": 154037
+    },
+    {
+      "repo": "craftmind-world",
+      "workflows": [],
+      "pushed_at": "2026-11-16T16:38:19Z",
+      "size_kb": 7857
     },
     {
       "repo": "SuperInstance",
@@ -37487,34 +37521,8 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-16T01:23:37Z",
-      "size_kb": 62979
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-16T00:16:29Z",
-      "size_kb": 459
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-15T18:57:57Z",
-      "size_kb": 55
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-15T18:51:37Z",
-      "size_kb": 1511
+      "pushed_at": "2026-11-16T13:29:42Z",
+      "size_kb": 63513
     },
     {
       "repo": "plato-portal",
@@ -37524,8 +37532,68 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-15T12:28:38Z",
-      "size_kb": 9590
+      "pushed_at": "2026-11-16T13:20:47Z",
+      "size_kb": 9734
+    },
+    {
+      "repo": "quilt-k3s",
+      "workflows": [
+        "chaos-ci.yml"
+      ],
+      "pushed_at": "2026-11-16T09:24:25Z",
+      "size_kb": 2437
+    },
+    {
+      "repo": "webgpu-profiler",
+      "workflows": [
+        "ci-node.yml",
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-16T09:13:50Z",
+      "size_kb": 359
+    },
+    {
+      "repo": "SmartCRDT",
+      "workflows": [
+        "benchmark-regression.yml",
+        "benchmark.yml",
+        "benchmarks-ci.yml",
+        "cd-enhanced.yml",
+        "ci.yml",
+        "codeql.yml",
+        "deploy.yml",
+        "docker.yml",
+        "pr-validation.yml",
+        "release.yml",
+        "security-scan.yml",
+        "smoke-tests.yml"
+      ],
+      "pushed_at": "2026-11-16T09:13:10Z",
+      "size_kb": 7753
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-16T06:46:03Z",
+      "size_kb": 56
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-16T06:26:06Z",
+      "size_kb": 1512
+    },
+    {
+      "repo": "quilt-swarm",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-16T04:13:47Z",
+      "size_kb": 3176
     },
     {
       "repo": "polln",
@@ -37536,40 +37604,16 @@
       "size_kb": 36520
     },
     {
-      "repo": "agent-inbox",
-      "workflows": [],
-      "pushed_at": "2026-11-14T19:35:47Z",
-      "size_kb": 115088
-    },
-    {
       "repo": "studies",
       "workflows": [],
       "pushed_at": "2026-11-14T19:35:39Z",
       "size_kb": 79652
     },
     {
-      "repo": "craftmind-curator",
-      "workflows": [],
-      "pushed_at": "2026-11-14T19:34:30Z",
-      "size_kb": 154036
-    },
-    {
       "repo": "npc-town",
       "workflows": [],
       "pushed_at": "2026-11-14T19:25:05Z",
       "size_kb": 4576
-    },
-    {
-      "repo": "craftmind-league",
-      "workflows": [],
-      "pushed_at": "2026-11-14T19:24:33Z",
-      "size_kb": 338259
-    },
-    {
-      "repo": "craftmind-world",
-      "workflows": [],
-      "pushed_at": "2026-11-14T19:00:55Z",
-      "size_kb": 7853
     },
     {
       "repo": "craftmind-steward",
@@ -37621,38 +37665,6 @@
       ],
       "pushed_at": "2026-11-10T03:04:07Z",
       "size_kb": 293
-    },
-    {
-      "repo": "constraint-theory-research",
-      "workflows": [
-        "python-ci.yml"
-      ],
-      "pushed_at": "2026-11-10T03:04:05Z",
-      "size_kb": 2197
-    },
-    {
-      "repo": "SuperInstance-papers",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-10T03:04:02Z",
-      "size_kb": 33247
-    },
-    {
-      "repo": "tmux-quilt",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-10T03:01:24Z",
-      "size_kb": 3744
-    },
-    {
-      "repo": "cloudflare-code",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-10T03:01:21Z",
-      "size_kb": 12245
     }
   ],
   "notes": [
