@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-15T18:51:36.734Z",
+  "generated_at_utc": "2026-11-16T06:26:05.503Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,14 +37470,12 @@
   },
   "top_motion": [
     {
-      "repo": "zero-poc",
+      "repo": "quilt-swarm",
       "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
+        "ci.yml"
       ],
-      "pushed_at": "2026-11-15T15:00:20Z",
-      "size_kb": 458
+      "pushed_at": "2026-11-16T04:13:47Z",
+      "size_kb": 3176
     },
     {
       "repo": "SuperInstance",
@@ -37489,8 +37487,34 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-15T12:37:26Z",
-      "size_kb": 62738
+      "pushed_at": "2026-11-16T01:23:37Z",
+      "size_kb": 62979
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-16T00:16:29Z",
+      "size_kb": 459
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-15T18:57:57Z",
+      "size_kb": 55
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-15T18:51:37Z",
+      "size_kb": 1511
     },
     {
       "repo": "plato-portal",
@@ -37502,22 +37526,6 @@
       ],
       "pushed_at": "2026-11-15T12:28:38Z",
       "size_kb": 9590
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-15T06:47:45Z",
-      "size_kb": 54
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-15T06:28:27Z",
-      "size_kb": 1412
     },
     {
       "repo": "polln",
@@ -37645,12 +37653,6 @@
       ],
       "pushed_at": "2026-11-10T03:01:21Z",
       "size_kb": 12245
-    },
-    {
-      "repo": "SuperInstance-archive",
-      "workflows": [],
-      "pushed_at": "2026-11-10T03:01:17Z",
-      "size_kb": 22033
     }
   ],
   "notes": [
