@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-16T22:02:22.539Z",
+  "generated_at_utc": "2026-11-17T07:53:19.431Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,6 +37470,32 @@
   },
   "top_motion": [
     {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-17T00:50:19Z",
+      "size_kb": 433
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-16T22:18:09Z",
+      "size_kb": 57
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-16T22:02:23Z",
+      "size_kb": 1611
+    },
+    {
       "repo": "knowledge-vault",
       "workflows": [
         "ci.yml"
@@ -37488,16 +37514,6 @@
       "workflows": [],
       "pushed_at": "2026-11-16T17:24:13Z",
       "size_kb": 338721
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-16T17:05:54Z",
-      "size_kb": 432
     },
     {
       "repo": "craftmind-curator",
@@ -37570,22 +37586,6 @@
       ],
       "pushed_at": "2026-11-16T09:13:10Z",
       "size_kb": 7753
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-16T06:46:03Z",
-      "size_kb": 56
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-16T06:26:06Z",
-      "size_kb": 1512
     },
     {
       "repo": "quilt-swarm",
