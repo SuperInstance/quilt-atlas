@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-19T07:24:33.256Z",
+  "generated_at_utc": "2026-11-19T20:36:32.531Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,30 +37470,12 @@
   },
   "top_motion": [
     {
-      "repo": "zero-poc",
+      "repo": "quilt-rag",
       "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
+        "ci.yml"
       ],
-      "pushed_at": "2026-11-19T04:33:56Z",
-      "size_kb": 438
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-18T20:41:24Z",
-      "size_kb": 60
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-18T20:30:02Z",
-      "size_kb": 1812
+      "pushed_at": "2026-11-19T16:24:53Z",
+      "size_kb": 7149
     },
     {
       "repo": "SuperInstance",
@@ -37505,8 +37487,8 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-18T13:47:41Z",
-      "size_kb": 64598
+      "pushed_at": "2026-11-19T14:15:00Z",
+      "size_kb": 65139
     },
     {
       "repo": "plato-portal",
@@ -37516,8 +37498,34 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-18T13:40:24Z",
-      "size_kb": 10022
+      "pushed_at": "2026-11-19T14:06:41Z",
+      "size_kb": 10166
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-19T13:57:28Z",
+      "size_kb": 439
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-19T07:38:13Z",
+      "size_kb": 61
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-19T07:24:34Z",
+      "size_kb": 1812
     },
     {
       "repo": "knowledge-vault-rs",
@@ -37659,12 +37667,6 @@
       "workflows": [],
       "pushed_at": "2026-11-10T03:05:04Z",
       "size_kb": 25
-    },
-    {
-      "repo": "diff-shepherd",
-      "workflows": [],
-      "pushed_at": "2026-11-10T03:04:09Z",
-      "size_kb": 77
     }
   ],
   "notes": [
