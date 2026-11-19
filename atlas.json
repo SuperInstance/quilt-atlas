@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-18T20:30:01.368Z",
+  "generated_at_utc": "2026-11-19T07:24:33.256Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37476,8 +37476,24 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-18T17:36:48Z",
-      "size_kb": 437
+      "pushed_at": "2026-11-19T04:33:56Z",
+      "size_kb": 438
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-18T20:41:24Z",
+      "size_kb": 60
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-18T20:30:02Z",
+      "size_kb": 1812
     },
     {
       "repo": "SuperInstance",
@@ -37502,22 +37518,6 @@
       ],
       "pushed_at": "2026-11-18T13:40:24Z",
       "size_kb": 10022
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-18T07:41:53Z",
-      "size_kb": 59
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-18T07:27:34Z",
-      "size_kb": 1712
     },
     {
       "repo": "knowledge-vault-rs",
