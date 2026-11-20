@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T07:13:56.316Z",
+  "generated_at_utc": "2026-11-20T20:16:20.743Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,40 +37470,6 @@
   },
   "top_motion": [
     {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-20T03:24:22Z",
-      "size_kb": 441
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-19T20:47:50Z",
-      "size_kb": 62
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-19T20:36:33Z",
-      "size_kb": 1912
-    },
-    {
-      "repo": "quilt-rag",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-19T16:24:53Z",
-      "size_kb": 7149
-    },
-    {
       "repo": "SuperInstance",
       "workflows": [
         "auto-index.yml",
@@ -37513,8 +37479,8 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-19T14:15:00Z",
-      "size_kb": 65139
+      "pushed_at": "2026-11-20T13:57:50Z",
+      "size_kb": 65681
     },
     {
       "repo": "plato-portal",
@@ -37524,8 +37490,52 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-19T14:06:41Z",
-      "size_kb": 10166
+      "pushed_at": "2026-11-20T13:49:37Z",
+      "size_kb": 10310
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-20T12:05:17Z",
+      "size_kb": 441
+    },
+    {
+      "repo": "CognitiveEngine",
+      "workflows": [
+        "ci.yml",
+        "docker.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-11-20T07:34:03Z",
+      "size_kb": 884
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-20T07:29:29Z",
+      "size_kb": 63
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-20T07:13:57Z",
+      "size_kb": 1912
+    },
+    {
+      "repo": "quilt-rag",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-19T16:24:53Z",
+      "size_kb": 7149
     },
     {
       "repo": "knowledge-vault-rs",
@@ -37643,16 +37653,6 @@
       "workflows": [],
       "pushed_at": "2026-11-14T18:59:15Z",
       "size_kb": 25
-    },
-    {
-      "repo": "CognitiveEngine",
-      "workflows": [
-        "ci.yml",
-        "docker.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-11-13T07:34:06Z",
-      "size_kb": 884
     },
     {
       "repo": "Lucineer",
