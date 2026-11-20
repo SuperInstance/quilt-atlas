@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-19T20:36:32.531Z",
+  "generated_at_utc": "2026-11-20T07:13:56.316Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,6 +37470,32 @@
   },
   "top_motion": [
     {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-20T03:24:22Z",
+      "size_kb": 441
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-19T20:47:50Z",
+      "size_kb": 62
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-19T20:36:33Z",
+      "size_kb": 1912
+    },
+    {
       "repo": "quilt-rag",
       "workflows": [
         "ci.yml"
@@ -37500,32 +37526,6 @@
       ],
       "pushed_at": "2026-11-19T14:06:41Z",
       "size_kb": 10166
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-19T13:57:28Z",
-      "size_kb": 439
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-19T07:38:13Z",
-      "size_kb": 61
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-19T07:24:34Z",
-      "size_kb": 1812
     },
     {
       "repo": "knowledge-vault-rs",
