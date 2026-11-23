@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-23T07:35:30.731Z",
+  "generated_at_utc": "2026-11-23T23:52:14.374Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,31 +37470,12 @@
   },
   "top_motion": [
     {
-      "repo": "quilt",
-      "workflows": [
-        "ci.yml",
-        "publish-rubygems.yml"
-      ],
-      "pushed_at": "2026-11-23T07:32:42Z",
-      "size_kb": 15337
-    },
-    {
-      "repo": "quilt-swarm",
+      "repo": "knowledge-vault",
       "workflows": [
         "ci.yml"
       ],
-      "pushed_at": "2026-11-23T04:13:39Z",
-      "size_kb": 3178
-    },
-    {
-      "repo": "zero-poc",
-      "workflows": [
-        "react.yml",
-        "telegram.yml",
-        "think.yml"
-      ],
-      "pushed_at": "2026-11-23T03:39:31Z",
-      "size_kb": 448
+      "pushed_at": "2026-11-23T20:14:53Z",
+      "size_kb": 68
     },
     {
       "repo": "SuperInstance",
@@ -37506,24 +37487,8 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-23T01:58:17Z",
-      "size_kb": 66766
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-22T19:50:14Z",
-      "size_kb": 68
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-22T19:37:11Z",
-      "size_kb": 2213
+      "pushed_at": "2026-11-23T15:49:34Z",
+      "size_kb": 67300
     },
     {
       "repo": "plato-portal",
@@ -37533,8 +37498,79 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-22T13:03:43Z",
-      "size_kb": 10598
+      "pushed_at": "2026-11-23T15:40:48Z",
+      "size_kb": 10742
+    },
+    {
+      "repo": "zero-poc",
+      "workflows": [
+        "react.yml",
+        "telegram.yml",
+        "think.yml"
+      ],
+      "pushed_at": "2026-11-23T13:42:44Z",
+      "size_kb": 449
+    },
+    {
+      "repo": "quilt",
+      "workflows": [
+        "ci.yml",
+        "publish-rubygems.yml"
+      ],
+      "pushed_at": "2026-11-23T10:02:18Z",
+      "size_kb": 15409
+    },
+    {
+      "repo": "webgpu-profiler",
+      "workflows": [
+        "ci-node.yml",
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-23T09:13:57Z",
+      "size_kb": 359
+    },
+    {
+      "repo": "SmartCRDT",
+      "workflows": [
+        "benchmark-regression.yml",
+        "benchmark.yml",
+        "benchmarks-ci.yml",
+        "cd-enhanced.yml",
+        "ci.yml",
+        "codeql.yml",
+        "deploy.yml",
+        "docker.yml",
+        "pr-validation.yml",
+        "release.yml",
+        "security-scan.yml",
+        "smoke-tests.yml"
+      ],
+      "pushed_at": "2026-11-23T09:13:31Z",
+      "size_kb": 7753
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-23T07:52:06Z",
+      "size_kb": 68
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-23T07:35:31Z",
+      "size_kb": 2213
+    },
+    {
+      "repo": "quilt-swarm",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-23T04:13:39Z",
+      "size_kb": 3178
     },
     {
       "repo": "polln",
@@ -37572,14 +37608,6 @@
       "size_kb": 101
     },
     {
-      "repo": "knowledge-vault",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-16T20:15:26Z",
-      "size_kb": 68
-    },
-    {
       "repo": "agent-inbox",
       "workflows": [],
       "pushed_at": "2026-11-16T17:24:29Z",
@@ -37610,34 +37638,6 @@
       ],
       "pushed_at": "2026-11-16T09:24:25Z",
       "size_kb": 2437
-    },
-    {
-      "repo": "webgpu-profiler",
-      "workflows": [
-        "ci-node.yml",
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-16T09:13:50Z",
-      "size_kb": 359
-    },
-    {
-      "repo": "SmartCRDT",
-      "workflows": [
-        "benchmark-regression.yml",
-        "benchmark.yml",
-        "benchmarks-ci.yml",
-        "cd-enhanced.yml",
-        "ci.yml",
-        "codeql.yml",
-        "deploy.yml",
-        "docker.yml",
-        "pr-validation.yml",
-        "release.yml",
-        "security-scan.yml",
-        "smoke-tests.yml"
-      ],
-      "pushed_at": "2026-11-16T09:13:10Z",
-      "size_kb": 7753
     },
     {
       "repo": "studies",
