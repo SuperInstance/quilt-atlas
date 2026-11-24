@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-24T09:54:33.558Z",
+  "generated_at_utc": "2026-11-24T22:25:10.884Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37476,23 +37476,43 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-24T01:16:07Z",
-      "size_kb": 450
+      "pushed_at": "2026-11-24T21:33:26Z",
+      "size_kb": 451
+    },
+    {
+      "repo": "knowledge-vault-rs",
+      "workflows": [
+        "ci.yml",
+        "security.yml"
+      ],
+      "pushed_at": "2026-11-24T19:06:09Z",
+      "size_kb": 104
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-11-24T15:30:51Z",
+      "size_kb": 10886
     },
     {
       "repo": "gitpp-oracle",
       "workflows": [
         "oracle.yml"
       ],
-      "pushed_at": "2026-11-24T00:02:35Z",
-      "size_kb": 70
+      "pushed_at": "2026-11-24T10:04:50Z",
+      "size_kb": 72
     },
     {
       "repo": "quilt-atlas",
       "workflows": [
         "atlas.yml"
       ],
-      "pushed_at": "2026-11-23T23:52:15Z",
+      "pushed_at": "2026-11-24T09:54:34Z",
       "size_kb": 2313
     },
     {
@@ -37515,17 +37535,6 @@
       ],
       "pushed_at": "2026-11-23T15:49:34Z",
       "size_kb": 67300
-    },
-    {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-11-23T15:40:48Z",
-      "size_kb": 10742
     },
     {
       "repo": "quilt",
@@ -37597,15 +37606,6 @@
       ],
       "pushed_at": "2026-11-19T16:24:53Z",
       "size_kb": 7149
-    },
-    {
-      "repo": "knowledge-vault-rs",
-      "workflows": [
-        "ci.yml",
-        "security.yml"
-      ],
-      "pushed_at": "2026-11-17T19:06:07Z",
-      "size_kb": 101
     },
     {
       "repo": "agent-inbox",
