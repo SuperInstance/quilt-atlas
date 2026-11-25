@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-24T22:25:10.884Z",
+  "generated_at_utc": "2026-11-25T08:30:15.789Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37476,8 +37476,46 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-24T21:33:26Z",
-      "size_kb": 451
+      "pushed_at": "2026-11-25T04:37:43Z",
+      "size_kb": 452
+    },
+    {
+      "repo": "agent-world",
+      "workflows": [],
+      "pushed_at": "2026-11-24T22:54:43Z",
+      "size_kb": 734
+    },
+    {
+      "repo": "Otherhere",
+      "workflows": [
+        "ci.yml",
+        "deploy.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-11-24T22:54:41Z",
+      "size_kb": 48075
+    },
+    {
+      "repo": "last-mile",
+      "workflows": [],
+      "pushed_at": "2026-11-24T22:54:38Z",
+      "size_kb": 21310
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-24T22:35:50Z",
+      "size_kb": 72
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-24T22:25:11Z",
+      "size_kb": 2413
     },
     {
       "repo": "knowledge-vault-rs",
@@ -37498,22 +37536,6 @@
       ],
       "pushed_at": "2026-11-24T15:30:51Z",
       "size_kb": 10886
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-24T10:04:50Z",
-      "size_kb": 72
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-24T09:54:34Z",
-      "size_kb": 2313
     },
     {
       "repo": "knowledge-vault",
@@ -37650,26 +37672,6 @@
       "workflows": [],
       "pushed_at": "2026-11-14T19:25:05Z",
       "size_kb": 4576
-    },
-    {
-      "repo": "craftmind-steward",
-      "workflows": [],
-      "pushed_at": "2026-11-14T18:59:47Z",
-      "size_kb": 38
-    },
-    {
-      "repo": "mcp-verbs",
-      "workflows": [],
-      "pushed_at": "2026-11-14T18:59:15Z",
-      "size_kb": 25
-    },
-    {
-      "repo": "Lucineer",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-10T03:14:08Z",
-      "size_kb": 88690
     }
   ],
   "notes": [
