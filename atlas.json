@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-25T08:30:15.789Z",
+  "generated_at_utc": "2026-11-25T21:40:41.573Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,14 +37470,54 @@
   },
   "top_motion": [
     {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-11-25T15:26:10Z",
+      "size_kb": 67846
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-11-25T15:17:29Z",
+      "size_kb": 10886
+    },
+    {
       "repo": "zero-poc",
       "workflows": [
         "react.yml",
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-25T04:37:43Z",
+      "pushed_at": "2026-11-25T15:00:44Z",
       "size_kb": 452
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-25T08:49:32Z",
+      "size_kb": 72
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-25T08:30:17Z",
+      "size_kb": 2413
     },
     {
       "repo": "agent-world",
@@ -37502,22 +37542,6 @@
       "size_kb": 21310
     },
     {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-24T22:35:50Z",
-      "size_kb": 72
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-24T22:25:11Z",
-      "size_kb": 2413
-    },
-    {
       "repo": "knowledge-vault-rs",
       "workflows": [
         "ci.yml",
@@ -37527,36 +37551,12 @@
       "size_kb": 104
     },
     {
-      "repo": "plato-portal",
-      "workflows": [
-        "auto-index.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-11-24T15:30:51Z",
-      "size_kb": 10886
-    },
-    {
       "repo": "knowledge-vault",
       "workflows": [
         "ci.yml"
       ],
       "pushed_at": "2026-11-23T20:14:53Z",
       "size_kb": 68
-    },
-    {
-      "repo": "SuperInstance",
-      "workflows": [
-        "auto-index.yml",
-        "canon-generate.yml",
-        "canon-lint.yml",
-        "ci.yml",
-        "deploy-docs.yml",
-        "pages.yml"
-      ],
-      "pushed_at": "2026-11-23T15:49:34Z",
-      "size_kb": 67300
     },
     {
       "repo": "quilt",
