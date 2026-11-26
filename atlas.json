@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-26T08:15:07.152Z",
+  "generated_at_utc": "2026-11-26T21:29:43.475Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,14 +37470,71 @@
   },
   "top_motion": [
     {
+      "repo": "quilt-rag",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-26T16:24:40Z",
+      "size_kb": 7146
+    },
+    {
       "repo": "zero-poc",
       "workflows": [
         "react.yml",
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-26T05:29:37Z",
-      "size_kb": 454
+      "pushed_at": "2026-11-26T15:42:28Z",
+      "size_kb": 455
+    },
+    {
+      "repo": "SuperInstance",
+      "workflows": [
+        "auto-index.yml",
+        "canon-generate.yml",
+        "canon-lint.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-11-26T14:52:18Z",
+      "size_kb": 68384
+    },
+    {
+      "repo": "plato-portal",
+      "workflows": [
+        "auto-index.yml",
+        "ci.yml",
+        "deploy-docs.yml",
+        "pages.yml"
+      ],
+      "pushed_at": "2026-11-26T14:42:57Z",
+      "size_kb": 11174
+    },
+    {
+      "repo": "quilt-fleet",
+      "workflows": [
+        "ci.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-11-26T11:34:47Z",
+      "size_kb": 3107
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-26T08:36:03Z",
+      "size_kb": 74
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-26T08:15:08Z",
+      "size_kb": 2514
     },
     {
       "repo": "quilt-swarm",
@@ -37527,23 +37584,6 @@
       ],
       "pushed_at": "2026-11-26T02:32:24Z",
       "size_kb": 2869
-    },
-    {
-      "repo": "quilt-rag",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-26T02:32:18Z",
-      "size_kb": 7142
-    },
-    {
-      "repo": "quilt-fleet",
-      "workflows": [
-        "ci.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-11-26T02:31:56Z",
-      "size_kb": 2927
     },
     {
       "repo": "quilt-cloudflare",
@@ -37648,38 +37688,6 @@
       ],
       "pushed_at": "2026-11-26T02:24:39Z",
       "size_kb": 99
-    },
-    {
-      "repo": "git.pp",
-      "workflows": [
-        "test.yml"
-      ],
-      "pushed_at": "2026-11-26T02:24:33Z",
-      "size_kb": 117
-    },
-    {
-      "repo": "polln",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-26T02:24:14Z",
-      "size_kb": 35597
-    },
-    {
-      "repo": "guardc",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-26T02:24:14Z",
-      "size_kb": 70
-    },
-    {
-      "repo": "quilt-ai",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-26T02:23:19Z",
-      "size_kb": 114
     }
   ],
   "notes": [
