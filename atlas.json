@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-26T21:29:43.475Z",
+  "generated_at_utc": "2026-11-27T08:27:19.877Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,12 +37470,14 @@
   },
   "top_motion": [
     {
-      "repo": "quilt-rag",
+      "repo": "CognitiveEngine",
       "workflows": [
-        "ci.yml"
+        "ci.yml",
+        "docker.yml",
+        "release.yml"
       ],
-      "pushed_at": "2026-11-26T16:24:40Z",
-      "size_kb": 7146
+      "pushed_at": "2026-11-27T07:33:58Z",
+      "size_kb": 612
     },
     {
       "repo": "zero-poc",
@@ -37484,8 +37486,32 @@
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-26T15:42:28Z",
+      "pushed_at": "2026-11-27T00:04:15Z",
       "size_kb": 455
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-26T21:42:45Z",
+      "size_kb": 76
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-26T21:29:44Z",
+      "size_kb": 2614
+    },
+    {
+      "repo": "quilt-rag",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-26T16:24:40Z",
+      "size_kb": 7146
     },
     {
       "repo": "SuperInstance",
@@ -37519,22 +37545,6 @@
       ],
       "pushed_at": "2026-11-26T11:34:47Z",
       "size_kb": 3107
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-26T08:36:03Z",
-      "size_kb": 74
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-26T08:15:08Z",
-      "size_kb": 2514
     },
     {
       "repo": "quilt-swarm",
@@ -37619,16 +37629,6 @@
       ],
       "pushed_at": "2026-11-26T02:29:29Z",
       "size_kb": 1322
-    },
-    {
-      "repo": "CognitiveEngine",
-      "workflows": [
-        "ci.yml",
-        "docker.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-11-26T02:28:40Z",
-      "size_kb": 612
     },
     {
       "repo": "hwscan",
