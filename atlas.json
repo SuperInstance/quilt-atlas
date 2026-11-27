@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-27T08:27:19.877Z",
+  "generated_at_utc": "2026-11-27T21:15:33.713Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,48 +37470,14 @@
   },
   "top_motion": [
     {
-      "repo": "CognitiveEngine",
-      "workflows": [
-        "ci.yml",
-        "docker.yml",
-        "release.yml"
-      ],
-      "pushed_at": "2026-11-27T07:33:58Z",
-      "size_kb": 612
-    },
-    {
       "repo": "zero-poc",
       "workflows": [
         "react.yml",
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-27T00:04:15Z",
-      "size_kb": 455
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-26T21:42:45Z",
-      "size_kb": 76
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-26T21:29:44Z",
-      "size_kb": 2614
-    },
-    {
-      "repo": "quilt-rag",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-26T16:24:40Z",
-      "size_kb": 7146
+      "pushed_at": "2026-11-27T18:30:25Z",
+      "size_kb": 457
     },
     {
       "repo": "SuperInstance",
@@ -37523,8 +37489,8 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-26T14:52:18Z",
-      "size_kb": 68384
+      "pushed_at": "2026-11-27T14:50:28Z",
+      "size_kb": 68924
     },
     {
       "repo": "plato-portal",
@@ -37534,8 +37500,50 @@
         "deploy-docs.yml",
         "pages.yml"
       ],
-      "pushed_at": "2026-11-26T14:42:57Z",
-      "size_kb": 11174
+      "pushed_at": "2026-11-27T14:40:56Z",
+      "size_kb": 11318
+    },
+    {
+      "repo": "PersonalLog",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-27T08:54:25Z",
+      "size_kb": 10994
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-27T08:46:56Z",
+      "size_kb": 76
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-27T08:27:20Z",
+      "size_kb": 2614
+    },
+    {
+      "repo": "CognitiveEngine",
+      "workflows": [
+        "ci.yml",
+        "docker.yml",
+        "release.yml"
+      ],
+      "pushed_at": "2026-11-27T07:33:58Z",
+      "size_kb": 752
+    },
+    {
+      "repo": "quilt-rag",
+      "workflows": [
+        "ci.yml"
+      ],
+      "pushed_at": "2026-11-26T16:24:40Z",
+      "size_kb": 7146
     },
     {
       "repo": "quilt-fleet",
@@ -37570,14 +37578,6 @@
       ],
       "pushed_at": "2026-11-26T02:36:35Z",
       "size_kb": 139
-    },
-    {
-      "repo": "PersonalLog",
-      "workflows": [
-        "ci.yml"
-      ],
-      "pushed_at": "2026-11-26T02:35:30Z",
-      "size_kb": 10453
     },
     {
       "repo": "knowledge-vault",
