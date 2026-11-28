@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-27T21:15:33.713Z",
+  "generated_at_utc": "2026-11-28T07:46:14.663Z",
   "account": "SuperInstance",
   "total_repos": 5345,
   "pages_fetched": 54,
@@ -37470,14 +37470,49 @@
   },
   "top_motion": [
     {
+      "repo": "SmartCRDT",
+      "workflows": [
+        "benchmark-regression.yml",
+        "benchmark.yml",
+        "benchmarks-ci.yml",
+        "cd-enhanced.yml",
+        "ci.yml",
+        "codeql.yml",
+        "deploy.yml",
+        "docker.yml",
+        "pr-validation.yml",
+        "release.yml",
+        "security-scan.yml",
+        "smoke-tests.yml"
+      ],
+      "pushed_at": "2026-11-28T05:52:39Z",
+      "size_kb": 7579
+    },
+    {
       "repo": "zero-poc",
       "workflows": [
         "react.yml",
         "telegram.yml",
         "think.yml"
       ],
-      "pushed_at": "2026-11-27T18:30:25Z",
-      "size_kb": 457
+      "pushed_at": "2026-11-28T01:41:07Z",
+      "size_kb": 458
+    },
+    {
+      "repo": "gitpp-oracle",
+      "workflows": [
+        "oracle.yml"
+      ],
+      "pushed_at": "2026-11-27T21:27:56Z",
+      "size_kb": 78
+    },
+    {
+      "repo": "quilt-atlas",
+      "workflows": [
+        "atlas.yml"
+      ],
+      "pushed_at": "2026-11-27T21:15:34Z",
+      "size_kb": 2714
     },
     {
       "repo": "SuperInstance",
@@ -37510,22 +37545,6 @@
       ],
       "pushed_at": "2026-11-27T08:54:25Z",
       "size_kb": 10994
-    },
-    {
-      "repo": "gitpp-oracle",
-      "workflows": [
-        "oracle.yml"
-      ],
-      "pushed_at": "2026-11-27T08:46:56Z",
-      "size_kb": 76
-    },
-    {
-      "repo": "quilt-atlas",
-      "workflows": [
-        "atlas.yml"
-      ],
-      "pushed_at": "2026-11-27T08:27:20Z",
-      "size_kb": 2614
     },
     {
       "repo": "CognitiveEngine",
@@ -37602,25 +37621,6 @@
       ],
       "pushed_at": "2026-11-26T02:31:25Z",
       "size_kb": 3447
-    },
-    {
-      "repo": "SmartCRDT",
-      "workflows": [
-        "benchmark-regression.yml",
-        "benchmark.yml",
-        "benchmarks-ci.yml",
-        "cd-enhanced.yml",
-        "ci.yml",
-        "codeql.yml",
-        "deploy.yml",
-        "docker.yml",
-        "pr-validation.yml",
-        "release.yml",
-        "security-scan.yml",
-        "smoke-tests.yml"
-      ],
-      "pushed_at": "2026-11-26T02:30:21Z",
-      "size_kb": 7572
     },
     {
       "repo": "quilt-rust",
